@@ -4,7 +4,34 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇫🇷 法国 (France) 01 - xiaohe
+- name: 🇫🇷 法国 (France) 01 - dwt
+  server: 141.227.172.132
+  port: 17001
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: I6o9NnialYLMEjVt28RF4dpjmr9wMvNL
+- name: 🇫🇷 法国 (France) 02 - dwt
+  server: 54.37.2.245
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: ozon.ru
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 03 - dwt
+  server: 13.36.234.11
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 13.36.234.11
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 04 - dwt
   server: 51.44.167.227
   port: 443
   udp: true
@@ -12,9 +39,9 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: vpn-fr-001.fastervpn.world
   skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 02 - xiaohe
+- name: 🇫🇷 法国 (France) 05 - dwt
   server: 51.77.217.70
-  port: 8445
+  port: 21000
   udp: true
   type: hysteria2
   password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
@@ -22,17 +49,56 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: ChY5QQQT3ZtUdNT8
-- name: 🇫🇷 法国 (France) 03 - xiaohe
-  server: e3k67dwms3-51255166202-direct.tavafog.com
+  ports: 21000-21199,33000-33199
+- name: 🇫🇷 法国 (France) 06 - dwt
+  server: 138.124.70.41
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 138.124.70.41
+- name: 🇫🇷 法国 (France) 07 - dwt
+  server: 137.74.16.237
   port: 443
   udp: true
   type: vless
-  uuid: 593bf46b-8316-5050-9357-d8a41e4db78b
+  uuid: aaec4e42-a095-44b6-a239-f16d234a0798
   flow: xtls-rprx-vision
   tls: true
-  servername: e3k67dwms3-51255166202-direct.tavafog.com
-  skip-cert-verify: false
-- name: 🇫🇷 法国 (France) 04 - xiaohe
+  reality-opts:
+    public-key: 7LSzvilTVKGMtBDuKGeMrLtlhY7tQf5YcG566dEgO0I
+    short-id: b390e0a721d242b0
+  servername: www.icloud.com
+  client-fingerprint: random
+- name: 🇫🇷 法国 (France) 08 - dwt
+  server: 62.210.91.10
+  port: 23576
+  udp: true
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+  servername: fuck.rkn
+  client-fingerprint: random
+- name: 🇫🇷 法国 (France) 09 - dwt
+  server: 54.37.5.203
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: ozon.ru
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 10 - dwt
   server: 51.77.217.70
   port: 8446
   udp: true
@@ -42,14 +108,36 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: ChY5QQQT3ZtUdNT8
-- name: 🇫🇷 法国 (France) 05 - xiaohe
-  server: pl140.vpnbook.com
+- name: 🇫🇷 法国 (France) 11 - dwt
+  server: 45.130.125.160
   port: 443
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: e5c65ph
-- name: 🇫🇷 法国 (France) 06 - xiaohe
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷 法国 (France) 12 - dwt
+  server: 62.210.147.2
+  port: 43115
+  udp: true
+  type: hysteria2
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 13 - dwt
+  server: 51.77.217.70
+  port: 8447
+  udp: true
+  type: hysteria2
+  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
+- name: 🇫🇷 法国 (France) 14 - dwt
   server: 62.210.91.2
   port: 23576
   udp: true
@@ -61,23 +149,10 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   servername: fuck.rkn
-  client-fingerprint: ''
-- name: 🇫🇷 法国 (France) 07 - xiaohe
-  server: 62.210.91.10
-  port: 23576
-  udp: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
   client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 08 - xiaohe
+- name: 🇫🇷 法国 (France) 15 - dwt
   server: 51.77.217.70
-  port: 21000
+  port: 8445
   udp: true
   type: hysteria2
   password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
@@ -85,16 +160,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: ChY5QQQT3ZtUdNT8
-  ports: 21000-21199,33000-33199
-- name: 🇫🇷 法国 (France) 09 - xiaohe
-  server: 62.210.124.146
-  port: 22000
-  udp: true
-  type: hysteria2
-  password: dongtaiwang.com
-  sni: www.microsoft.com
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 10 - xiaohe
+- name: 🇫🇷 法国 (France) 16 - dwt
   server: 51.77.217.70
   port: 2053
   udp: true
@@ -105,45 +171,40 @@ proxies:
     public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
     short-id: bfe58beb41f1d09f
   servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇫🇷 法国 (France) 11 - xiaohe
-  server: 193.70.85.96
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 17 - dwt
+  server: 45.151.71.158
   port: 443
   udp: true
   type: vless
-  uuid: 58756a39-0472-5f8a-89e3-a80fa94af59e
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
   flow: xtls-rprx-vision
   tls: true
-  servername: 7q4eiwcseu-193708596-direct.rahbarii.com
-  skip-cert-verify: false
-  client-fingerprint: firefox
-- name: 🇫🇷 法国 (France) 12 - xiaohe
-  server: 62.210.7.139
-  port: 60111
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: ai.ozon.ru
+  client-fingerprint: ''
+- name: 🇫🇷 法国 (France) 18 - dwt
+  server: 173.212.201.85
+  port: 443
   udp: true
   type: hysteria2
-  password: github.com/Alvin9999-newpac/fanqiang
-  sni: 62.210.7.139
+  password: gf1:gfhysteria2024
+  sni: www.docker.com
   skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 13 - xiaohe
-  server: 51.77.217.70
-  port: 8447
+- name: 🇫🇷 法国 (France) 19 - dwt
+  server: 103.91.147.208
+  port: 443
   udp: true
-  type: hysteria2
-  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: ChY5QQQT3ZtUdNT8
-- name: 🇫🇷 法国 (France) 14 - xiaohe
-  server: 62.210.147.2
-  port: 43115
-  udp: true
-  type: hysteria2
-  password: github.com/Alvin9999-newpac/fanqiang
-  sni: www.microsoft.com
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 15 - xiaohe
+  type: vless
+  uuid: 0b6a937e-5b0e-49ca-b31e-f03f290e97cf
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: gb.ozon.ru
+  client-fingerprint: edge
+- name: 🇫🇷 法国 (France) 20 - dwt
   server: 152.228.139.33
   port: 35108
   udp: true
@@ -158,15 +219,44 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-common3
-- name: 🇫🇷 法国 (France) 16 - xiaohe
-  server: 173.212.201.85
+- name: 🇫🇷 法国 (France) 21 - dwt
+  server: 54.37.136.194
+  port: 2053
+  udp: true
+  type: vless
+  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  tls: true
+  reality-opts:
+    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+    short-id: 50ba05992b05c1c3
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 22 - dwt
+  server: 161.97.66.16
   port: 443
   udp: true
-  type: hysteria2
-  password: gf1:gfhysteria2024
-  sni: 173.212.201.85
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 17 - xiaohe
+  type: vless
+  uuid: 086bf957-9cd0-4e55-8280-bbef10435b41
+  tls: true
+  reality-opts:
+    public-key: R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc
+    short-id: 086bf957
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 23 - dwt
+  server: 45.95.98.135
+  port: 443
+  udp: true
+  type: vless
+  uuid: 2f5cfa10-43e5-4912-800d-557308a26a29
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 8MkHK9vGRtOA97_ag2qUoru4ONKe3W6r7SR1UtIKiWU
+    short-id: c1c6c4326b5b
+  servername: 8g6zbdoai3lb.cloudydigital.net
+  client-fingerprint: ''
+- name: 🇫🇷 法国 (France) 24 - dwt
   server: 152.228.139.33
   port: 51671
   udp: true
@@ -181,34 +271,41 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc_common3
-- name: 🇫🇷 法国 (France) 18 - xiaohe
-  server: 137.74.16.237
+- name: 🇫🇷 法国 (France) 25 - dwt
+  server: 185.225.68.232
+  port: 443
+  udp: true
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷 法国 (France) 26 - dwt
+  server: 62.210.7.139
+  port: 60111
+  udp: true
+  type: hysteria2
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: bing.com
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 27 - dwt
+  server: 145.223.68.58
   port: 443
   udp: true
   type: vless
-  uuid: aaec4e42-a095-44b6-a239-f16d234a0798
+  uuid: edb50d20-2d3e-4c1e-8a75-a17168a89aa5
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 7LSzvilTVKGMtBDuKGeMrLtlhY7tQf5YcG566dEgO0I
-    short-id: b390e0a721d242b0
-  servername: www.icloud.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 19 - xiaohe
-  server: 54.37.136.194
-  port: 2053
-  udp: true
-  type: vless
-  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
-  tls: true
-  reality-opts:
-    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
-    short-id: 50ba05992b05c1c3
+    public-key: qc2DcqT9zPPZr6ePZ7ukxACWrYhRNIBjDIjCK7veyQg
+    short-id: a44ff7d2e80213c2
   servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 20 - xiaohe
-  server: 213.1.145.50
-  port: 443
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 28 - dwt
+  server: 89.150.34.41
+  port: 2053
   udp: true
   type: trojan
   password: humanity
@@ -217,9 +314,9 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
-- name: 🇫🇷 法国 (France) 21 - xiaohe
-  server: 141.193.213.172
-  port: 443
+- name: 🇫🇷 法国 (France) 29 - dwt
+  server: 185.114.72.31
+  port: 2053
   udp: true
   type: trojan
   password: humanity
@@ -228,100 +325,73 @@ proxies:
   network: ws
   ws-opts:
     path: /assignment
-- name: 🇫🇷 法国 (France) 22 - xiaohe
-  server: karta8.api3-max.ru
-  port: 443
-  udp: true
-  type: vless
-  uuid: b8254d35-1cb0-4b74-8f7f-d2bc985196a0
-  flow: xtls-rprx-vision
-  tls: true
-  servername: karta8.api3-max.ru
-  skip-cert-verify: false
-  client-fingerprint: firefox
-- name: 🇫🇷 法国 (France) 23 - xiaohe
-  server: fra.loozerp.wiki
-  port: 443
-  udp: true
-  type: vless
-  uuid: ace33fb8-c593-4b17-8f72-f3359b6e9638
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: ff776ff77be48b88
-  servername: fra.loozerp.wiki
-  client-fingerprint: firefox
-- name: 🇫🇷 法国 (France) 24 - xiaohe
-  server: 145.239.55.210
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 067fcd63-b215-4abd-8529-ae929a9971a9
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇫🇷 法国 (France) 01 - xiaohe
-  - 🇫🇷 法国 (France) 02 - xiaohe
-  - 🇫🇷 法国 (France) 03 - xiaohe
-  - 🇫🇷 法国 (France) 04 - xiaohe
-  - 🇫🇷 法国 (France) 05 - xiaohe
-  - 🇫🇷 法国 (France) 06 - xiaohe
-  - 🇫🇷 法国 (France) 07 - xiaohe
-  - 🇫🇷 法国 (France) 08 - xiaohe
-  - 🇫🇷 法国 (France) 09 - xiaohe
-  - 🇫🇷 法国 (France) 10 - xiaohe
-  - 🇫🇷 法国 (France) 11 - xiaohe
-  - 🇫🇷 法国 (France) 12 - xiaohe
-  - 🇫🇷 法国 (France) 13 - xiaohe
-  - 🇫🇷 法国 (France) 14 - xiaohe
-  - 🇫🇷 法国 (France) 15 - xiaohe
-  - 🇫🇷 法国 (France) 16 - xiaohe
-  - 🇫🇷 法国 (France) 17 - xiaohe
-  - 🇫🇷 法国 (France) 18 - xiaohe
-  - 🇫🇷 法国 (France) 19 - xiaohe
-  - 🇫🇷 法国 (France) 20 - xiaohe
-  - 🇫🇷 法国 (France) 21 - xiaohe
-  - 🇫🇷 法国 (France) 22 - xiaohe
-  - 🇫🇷 法国 (France) 23 - xiaohe
-  - 🇫🇷 法国 (France) 24 - xiaohe
+  - 🇫🇷 法国 (France) 01 - dwt
+  - 🇫🇷 法国 (France) 02 - dwt
+  - 🇫🇷 法国 (France) 03 - dwt
+  - 🇫🇷 法国 (France) 04 - dwt
+  - 🇫🇷 法国 (France) 05 - dwt
+  - 🇫🇷 法国 (France) 06 - dwt
+  - 🇫🇷 法国 (France) 07 - dwt
+  - 🇫🇷 法国 (France) 08 - dwt
+  - 🇫🇷 法国 (France) 09 - dwt
+  - 🇫🇷 法国 (France) 10 - dwt
+  - 🇫🇷 法国 (France) 11 - dwt
+  - 🇫🇷 法国 (France) 12 - dwt
+  - 🇫🇷 法国 (France) 13 - dwt
+  - 🇫🇷 法国 (France) 14 - dwt
+  - 🇫🇷 法国 (France) 15 - dwt
+  - 🇫🇷 法国 (France) 16 - dwt
+  - 🇫🇷 法国 (France) 17 - dwt
+  - 🇫🇷 法国 (France) 18 - dwt
+  - 🇫🇷 法国 (France) 19 - dwt
+  - 🇫🇷 法国 (France) 20 - dwt
+  - 🇫🇷 法国 (France) 21 - dwt
+  - 🇫🇷 法国 (France) 22 - dwt
+  - 🇫🇷 法国 (France) 23 - dwt
+  - 🇫🇷 法国 (France) 24 - dwt
+  - 🇫🇷 法国 (France) 25 - dwt
+  - 🇫🇷 法国 (France) 26 - dwt
+  - 🇫🇷 法国 (France) 27 - dwt
+  - 🇫🇷 法国 (France) 28 - dwt
+  - 🇫🇷 法国 (France) 29 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇫🇷 法国 (France) 01 - xiaohe
-  - 🇫🇷 法国 (France) 02 - xiaohe
-  - 🇫🇷 法国 (France) 03 - xiaohe
-  - 🇫🇷 法国 (France) 04 - xiaohe
-  - 🇫🇷 法国 (France) 05 - xiaohe
-  - 🇫🇷 法国 (France) 06 - xiaohe
-  - 🇫🇷 法国 (France) 07 - xiaohe
-  - 🇫🇷 法国 (France) 08 - xiaohe
-  - 🇫🇷 法国 (France) 09 - xiaohe
-  - 🇫🇷 法国 (France) 10 - xiaohe
-  - 🇫🇷 法国 (France) 11 - xiaohe
-  - 🇫🇷 法国 (France) 12 - xiaohe
-  - 🇫🇷 法国 (France) 13 - xiaohe
-  - 🇫🇷 法国 (France) 14 - xiaohe
-  - 🇫🇷 法国 (France) 15 - xiaohe
-  - 🇫🇷 法国 (France) 16 - xiaohe
-  - 🇫🇷 法国 (France) 17 - xiaohe
-  - 🇫🇷 法国 (France) 18 - xiaohe
-  - 🇫🇷 法国 (France) 19 - xiaohe
-  - 🇫🇷 法国 (France) 20 - xiaohe
-  - 🇫🇷 法国 (France) 21 - xiaohe
-  - 🇫🇷 法国 (France) 22 - xiaohe
-  - 🇫🇷 法国 (France) 23 - xiaohe
-  - 🇫🇷 法国 (France) 24 - xiaohe
+  - 🇫🇷 法国 (France) 01 - dwt
+  - 🇫🇷 法国 (France) 02 - dwt
+  - 🇫🇷 法国 (France) 03 - dwt
+  - 🇫🇷 法国 (France) 04 - dwt
+  - 🇫🇷 法国 (France) 05 - dwt
+  - 🇫🇷 法国 (France) 06 - dwt
+  - 🇫🇷 法国 (France) 07 - dwt
+  - 🇫🇷 法国 (France) 08 - dwt
+  - 🇫🇷 法国 (France) 09 - dwt
+  - 🇫🇷 法国 (France) 10 - dwt
+  - 🇫🇷 法国 (France) 11 - dwt
+  - 🇫🇷 法国 (France) 12 - dwt
+  - 🇫🇷 法国 (France) 13 - dwt
+  - 🇫🇷 法国 (France) 14 - dwt
+  - 🇫🇷 法国 (France) 15 - dwt
+  - 🇫🇷 法国 (France) 16 - dwt
+  - 🇫🇷 法国 (France) 17 - dwt
+  - 🇫🇷 法国 (France) 18 - dwt
+  - 🇫🇷 法国 (France) 19 - dwt
+  - 🇫🇷 法国 (France) 20 - dwt
+  - 🇫🇷 法国 (France) 21 - dwt
+  - 🇫🇷 法国 (France) 22 - dwt
+  - 🇫🇷 法国 (France) 23 - dwt
+  - 🇫🇷 法国 (France) 24 - dwt
+  - 🇫🇷 法国 (France) 25 - dwt
+  - 🇫🇷 法国 (France) 26 - dwt
+  - 🇫🇷 法国 (France) 27 - dwt
+  - 🇫🇷 法国 (France) 28 - dwt
+  - 🇫🇷 法国 (France) 29 - dwt
 rules:
 - MATCH,PROXIES
