@@ -20,11 +20,12 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇺🇸 美国 (United States) 02 (家宽) R50 - dwt",
-      "server": "23.160.56.99",
-      "server_port": 2087,
-      "uuid": "f1e7eafa-0d6f-441e-8565-29f34171aef2"
+      "type": "shadowsocks",
+      "tag": "🇰🇷 韩国 (South Korea) 02 (家宽) - dwt",
+      "server": "49.254.204.133",
+      "server_port": 1774,
+      "method": "aes-256-cfb",
+      "password": "1234!@#$"
     },
     {
       "type": "hysteria2",
@@ -48,7 +49,7 @@
       "outbounds": [
         "auto",
         "🇺🇸 美国 (United States) 01 (家宽) - dwt",
-        "🇺🇸 美国 (United States) 02 (家宽) R50 - dwt",
+        "🇰🇷 韩国 (South Korea) 02 (家宽) - dwt",
         "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - dwt"
       ]
     },
@@ -57,7 +58,7 @@
       "tag": "auto",
       "outbounds": [
         "🇺🇸 美国 (United States) 01 (家宽) - dwt",
-        "🇺🇸 美国 (United States) 02 (家宽) R50 - dwt",
+        "🇰🇷 韩国 (South Korea) 02 (家宽) - dwt",
         "🇹🇷 土耳其 (Turkey) 03 (移动家宽) - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"

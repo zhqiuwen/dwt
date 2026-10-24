@@ -5,6 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - dwt
+  server: 95.216.27.15
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
+  tls: true
+  reality-opts:
+    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
+    short-id: d368b94e275ab080
+  servername: www.google.com
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 02 - dwt
   server: 185.119.81.7
   port: 443
   udp: true
@@ -17,7 +29,28 @@ proxies:
     short-id: 80c4e0bda641d6c9
   servername: ht689zw45oor.cloudydigital.net
   client-fingerprint: firefox
-- name: 🇫🇮 芬兰 (Finland) 02 - dwt
+- name: 🇫🇮 芬兰 (Finland) 03 - dwt
+  server: 31.77.199.147
+  port: 4443
+  udp: true
+  type: vless
+  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A
+    short-id: 7da2eae792187ab9
+  servername: images.unsplash.com
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 04 - dwt
+  server: 2.26.3.75
+  port: 443
+  udp: true
+  type: hysteria2
+  password: d5530551-5e9a-4ac5-8539-cee87e38d9e2
+  sni: fi.67chat.ru
+  skip-cert-verify: false
+- name: 🇫🇮 芬兰 (Finland) 05 - dwt
   server: 45.144.234.157
   port: 14430
   udp: true
@@ -28,16 +61,8 @@ proxies:
     path: /vless
     headers:
       Host: 45.144.234.157
-- name: 🇫🇮 芬兰 (Finland) 03 - dwt
-  server: 2.26.3.75
-  port: 443
-  udp: true
-  type: hysteria2
-  password: d5530551-5e9a-4ac5-8539-cee87e38d9e2
-  sni: fi.67chat.ru
-  skip-cert-verify: false
-- name: 🇫🇮 芬兰 (Finland) 04 - dwt
-  server: hw3.divarkhaghazi.com.
+- name: 🇫🇮 芬兰 (Finland) 06 - dwt
+  server: hw3.divarkhaghazi.com
   port: 465
   udp: true
   type: vless
@@ -51,7 +76,7 @@ proxies:
     path: /
     headers:
       Host: hw3.divarkhaghazi.com.
-- name: 🇫🇮 芬兰 (Finland) 05 - dwt
+- name: 🇫🇮 芬兰 (Finland) 07 - dwt
   server: finlandlanzarotte.live
   port: 443
   udp: true
@@ -73,6 +98,8 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 03 - dwt
   - 🇫🇮 芬兰 (Finland) 04 - dwt
   - 🇫🇮 芬兰 (Finland) 05 - dwt
+  - 🇫🇮 芬兰 (Finland) 06 - dwt
+  - 🇫🇮 芬兰 (Finland) 07 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -83,5 +110,7 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 03 - dwt
   - 🇫🇮 芬兰 (Finland) 04 - dwt
   - 🇫🇮 芬兰 (Finland) 05 - dwt
+  - 🇫🇮 芬兰 (Finland) 06 - dwt
+  - 🇫🇮 芬兰 (Finland) 07 - dwt
 rules:
 - MATCH,PROXIES

@@ -26,12 +26,12 @@ proxies:
   sni: 202.146.222.89
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - dwt
-  server: 202.146.222.174
+  server: 202.146.222.29
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%3a%2f%2ft.me%2fwangcai2%f0%9f%87%a8%f0%9f%87%b3
+  sni: 202.146.222.29
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - dwt
   server: 151.242.85.236
@@ -45,9 +45,17 @@ proxies:
     public-key: gUu1n11Ef_GEoatNQzJJucvIjGTt4qxOWdxMzjoHwDM
     short-id: 9b6fa4047c24629f
   servername: addons.mozilla.org
-  client-fingerprint: safari
+  client-fingerprint: qq
 - name: 🇭🇰 中国香港 (Hong Kong) 05 - dwt
-  server: 50.7.44.28
+  server: 202.146.222.174
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: t.me
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - dwt
+  server: 67.159.49.30
   port: 2091
   udp: true
   type: vless
@@ -59,31 +67,7 @@ proxies:
     short-id: 08a4b1f473932632
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - dwt
-  server: 202.146.222.29
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2ð\x9f\x87¨ð\x9f\x87³
-  skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 07 - dwt
-  server: 47.243.153.153
-  port: 443
-  udp: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: i2psm3knof5qjjix.v.3dns.vip
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: i2psm3knof5qjjix.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - dwt
   server: 526.150333.xyz
   port: 21003
   udp: true
@@ -94,8 +78,8 @@ proxies:
     public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
     short-id: eb9539689690d35c
   servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - dwt
+  client-fingerprint: safari
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - dwt
   server: 526.150333.xyz
   port: 21004
   udp: true
@@ -107,7 +91,7 @@ proxies:
     short-id: 2f34703f16523c80
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 10 - dwt
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - dwt
   server: 526.150333.xyz
   port: 21002
   udp: true
@@ -118,8 +102,8 @@ proxies:
     public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
     short-id: f0e6a8bb98db3efd
   servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 11 - dwt
+  client-fingerprint: ios
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - dwt
   server: 526.150333.xyz
   port: 21001
   udp: true
@@ -130,7 +114,7 @@ proxies:
     public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
     short-id: b6dfd5c750351c57
   servername: www.cloudflare.com
-  client-fingerprint: qq
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -146,7 +130,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 08 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 09 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 10 - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 11 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -162,6 +145,5 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 08 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 09 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 10 - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 11 - dwt
 rules:
 - MATCH,PROXIES

@@ -6,20 +6,13 @@
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 01 - dwt",
-      "server": "5.22.221.127",
-      "server_port": 443,
-      "uuid": "44dfa3a7-f648-4587-819b-e653c0823f28"
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 02 - dwt",
       "server": "site.teslamotor.site",
       "server_port": 20001,
       "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 03 - dwt",
+      "tag": "🇵🇱 波兰 (Poland) 02 - dwt",
       "server": "49.12.249.167",
       "server_port": 147,
       "method": "chacha20-ietf-poly1305",
@@ -27,7 +20,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇵🇱 波兰 (Poland) 04 - dwt",
+      "tag": "🇵🇱 波兰 (Poland) 03 - dwt",
       "server": "54.37.131.126",
       "server_port": 80,
       "uuid": "6deef9ad-1357-443d-f95c-cb18952c20b3",
@@ -47,8 +40,7 @@
         "auto",
         "🇵🇱 波兰 (Poland) 01 - dwt",
         "🇵🇱 波兰 (Poland) 02 - dwt",
-        "🇵🇱 波兰 (Poland) 03 - dwt",
-        "🇵🇱 波兰 (Poland) 04 - dwt"
+        "🇵🇱 波兰 (Poland) 03 - dwt"
       ]
     },
     {
@@ -57,8 +49,7 @@
       "outbounds": [
         "🇵🇱 波兰 (Poland) 01 - dwt",
         "🇵🇱 波兰 (Poland) 02 - dwt",
-        "🇵🇱 波兰 (Poland) 03 - dwt",
-        "🇵🇱 波兰 (Poland) 04 - dwt"
+        "🇵🇱 波兰 (Poland) 03 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
