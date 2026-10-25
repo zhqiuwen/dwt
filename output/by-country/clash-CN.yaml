@@ -5,11 +5,11 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇳 CN 01 - dwt
-  server: 120.48.133.162
+  server: 39.108.113.127
   port: 10086
   udp: true
   type: vmess
-  uuid: a01e5d56-464f-45b9-b600-164db4700162
+  uuid: 2eb25c1e-c3b5-45cf-9afd-dd3ddc00da10
   alterId: 0
   cipher: auto
   network: ws

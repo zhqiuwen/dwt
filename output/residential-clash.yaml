@@ -4,7 +4,13 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 (家宽) - dwt
+- name: 🇺🇸 美国 (United States) 01 (家宽) R50 - dwt
+  server: 23.160.56.99
+  port: 2087
+  udp: true
+  type: vless
+  uuid: f1e7eafa-0d6f-441e-8565-29f34171aef2
+- name: 🇺🇸 美国 (United States) 02 (家宽) - dwt
   server: 155.117.19.17
   port: 443
   udp: true
@@ -14,38 +20,62 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
-- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - dwt
-  server: 49.254.204.133
-  port: 1774
+- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - dwt
+  server: 183.109.131.75
+  port: 20086
   udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 1234!@#$
-- name: 🇹🇷 土耳其 (Turkey) 03 (移动家宽) - dwt
-  server: me17.msjia8844.site
-  port: 7443
+  type: vmess
+  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - dwt
+  server: 61.230.160.34
+  port: 24215
   udp: true
-  type: hysteria2
-  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
-  sni: me17.msjia8844.site
+  type: vless
+  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+  tls: true
+  reality-opts:
+    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+  servername: addons.mozilla.org
+  client-fingerprint: firefox
+- name: 🇸🇬 新加坡 (Singapore) 05 (家宽) - dwt
+  server: 144.24.140.37
+  port: 443
+  udp: true
+  type: vless
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
+  tls: true
+  servername: wzs.echo.net.eu.org
   skip-cert-verify: false
-  obfs: salamander
-  obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HV1ZNVwcHTQsJSgAJVBQUG0dCQEwWAx4AAg4c
+    headers:
+      Host: wzs.echo.net.eu.org
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 (家宽) - dwt
-  - 🇰🇷 韩国 (South Korea) 02 (家宽) - dwt
-  - 🇹🇷 土耳其 (Turkey) 03 (移动家宽) - dwt
+  - 🇺🇸 美国 (United States) 01 (家宽) R50 - dwt
+  - 🇺🇸 美国 (United States) 02 (家宽) - dwt
+  - 🇰🇷 韩国 (South Korea) 03 (家宽) - dwt
+  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - dwt
+  - 🇸🇬 新加坡 (Singapore) 05 (家宽) - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 (家宽) - dwt
-  - 🇰🇷 韩国 (South Korea) 02 (家宽) - dwt
-  - 🇹🇷 土耳其 (Turkey) 03 (移动家宽) - dwt
+  - 🇺🇸 美国 (United States) 01 (家宽) R50 - dwt
+  - 🇺🇸 美国 (United States) 02 (家宽) - dwt
+  - 🇰🇷 韩国 (South Korea) 03 (家宽) - dwt
+  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - dwt
+  - 🇸🇬 新加坡 (Singapore) 05 (家宽) - dwt
 rules:
 - MATCH,PROXIES

@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 瑞典 (Sweden) 01 - dwt
-  server: promo.betust.net
+  server: 50.7.38.243
   port: 443
   udp: true
   type: hysteria2
