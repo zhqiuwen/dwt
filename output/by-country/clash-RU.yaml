@@ -5,31 +5,31 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - dwt
-  server: 147.45.47.83
+  server: 193.160.140.99
   port: 443
   udp: true
   type: vless
-  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   servername: ozon.ru
-  client-fingerprint: ''
+  client-fingerprint: firefox
 - name: 🇷🇺 俄罗斯 (Russia) 02 - dwt
-  server: 193.160.141.2
-  port: 8443
+  server: 193.160.140.119
+  port: 443
   udp: true
   type: vless
-  uuid: d24e0961-dd20-4528-8796-2a974e79348e
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  servername: apple.com
-  client-fingerprint: chrome
+  servername: ozon.ru
+  client-fingerprint: firefox
 - name: 🇷🇺 俄罗斯 (Russia) 03 - dwt
-  server: 193.160.140.120
+  server: 147.45.47.89
   port: 443
   udp: true
   type: vless
@@ -41,18 +41,42 @@ proxies:
   servername: ozon.ru
   client-fingerprint: firefox
 - name: 🇷🇺 俄罗斯 (Russia) 04 - dwt
-  server: 45.9.118.177
+  server: 147.45.47.93
+  port: 443
+  udp: true
+  type: vless
+  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: ozon.ru
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 05 - dwt
+  server: 193.160.141.2
   port: 8443
   udp: true
   type: vless
-  uuid: 88c4ce99-31f1-4329-912d-2a3564b3d58b
+  uuid: d24e0961-dd20-4528-8796-2a974e79348e
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: apple.com
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 06 - dwt
+  server: 103.91.147.203
+  port: 8443
+  udp: true
+  type: vless
+  uuid: a756c39b-da0c-4195-94fd-f2a35e37622a
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   servername: apple.com
   client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 05 - dwt
+- name: 🇷🇺 俄罗斯 (Russia) 07 - dwt
   server: 193.160.140.117
   port: 8443
   udp: true
@@ -64,8 +88,8 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   servername: apple.com
   client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 06 - dwt
-  server: 45.151.71.167
+- name: 🇷🇺 俄罗斯 (Russia) 08 - dwt
+  server: 45.128.78.176
   port: 443
   udp: true
   type: vless
@@ -74,9 +98,9 @@ proxies:
   tls: true
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  servername: abuse.ozon.ru
+  servername: ozon.ru
   client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 07 - dwt
+- name: 🇷🇺 俄罗斯 (Russia) 09 - dwt
   server: 45.151.71.164
   port: 443
   udp: true
@@ -87,34 +111,8 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   servername: abuse.ozon.ru
-  client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 08 - dwt
-  server: 195.133.23.50
-  port: 18443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE
-- name: 🇷🇺 俄罗斯 (Russia) 09 - dwt
-  server: 130.49.189.158
-  port: 43558
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: rWIg16plgZ82V7MTNcw1UTgiYK4ooPUB95qVhKIwIDc=
+  client-fingerprint: ''
 - name: 🇷🇺 俄罗斯 (Russia) 10 - dwt
-  server: 147.45.46.169
-  port: 443
-  udp: true
-  type: vless
-  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  servername: abuse.ozon.ru
-  client-fingerprint: qq
-- name: 🇷🇺 俄罗斯 (Russia) 11 - dwt
   server: 45.151.71.147
   port: 443
   udp: true
@@ -126,15 +124,19 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   servername: abuse.ozon.ru
   client-fingerprint: ''
-- name: 🇷🇺 俄罗斯 (Russia) 12 - dwt
-  server: 194.87.118.184
-  port: 2053
+- name: 🇷🇺 俄罗斯 (Russia) 11 - dwt
+  server: 45.151.71.152
+  port: 443
   udp: true
-  type: hysteria2
-  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  sni: 194.87.118.184
-  skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 13 - dwt
+  type: vless
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: abuse.ozon.ru
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 12 - dwt
   server: 193.233.253.180
   port: 8444
   udp: true
@@ -149,29 +151,56 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: GunService
-- name: 🇷🇺 俄罗斯 (Russia) 14 - dwt
-  server: srv-17e124.21freedom.net
-  port: 11592
-  udp: true
-  type: hysteria2
-  password: 41edb44c8e
-  sni: srv-17e124.21freedom.net
-  skip-cert-verify: false
-- name: 🇷🇺 俄罗斯 (Russia) 15 - dwt
-  server: 46.243.142.104
+- name: 🇷🇺 俄罗斯 (Russia) 13 - dwt
+  server: 193.160.141.27
   port: 443
   udp: true
   type: vless
-  uuid: 9ba53795-4356-40ab-8067-76ec2ae2a3d8
+  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
+  flow: xtls-rprx-vision
   tls: true
-  servername: santehdv.site
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /media/stream/qUWu2oaFgxAw
-    headers:
-      Host: santehdv.site
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: abuse.ozon.ru
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 14 - dwt
+  server: 193.160.140.118
+  port: 443
+  udp: true
+  type: vless
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: ozon.ru
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 15 - dwt
+  server: 195.133.23.50
+  port: 18443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE
 - name: 🇷🇺 俄罗斯 (Russia) 16 - dwt
+  server: 185.147.27.164
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 3a90bf69-1ffe-4ebb-b9a7-ad9ba8e9f66f
+  flow: xtls-rprx-vision
+  tls: true
+  servername: speedtest.net
+  skip-cert-verify: true
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 17 - dwt
+  server: 46.17.43.227
+  port: 18443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
+- name: 🇷🇺 俄罗斯 (Russia) 18 - dwt
   server: 113.30.154.207
   port: 8443
   udp: true
@@ -182,22 +211,42 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   servername: apple.com
-  client-fingerprint: safari
-- name: 🇷🇺 俄罗斯 (Russia) 17 - dwt
-  server: 194.87.143.165
-  port: 8443
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 19 - dwt
+  server: 103.88.243.142
+  port: 11592
+  udp: true
+  type: hysteria2
+  password: 41edb44c8e
+  sni: srv-17e124.21freedom.net
+  skip-cert-verify: false
+- name: 🇷🇺 俄罗斯 (Russia) 20 - dwt
+  server: 201.24.121.243
+  port: 443
   udp: true
   type: vless
-  uuid: f9613819-d2fe-4b3a-a2e6-40c184c6854c
+  uuid: 32b5ca9b-3f81-4031-965d-e8b074216e8d
   tls: true
-  servername: wsru1.wba-pn.ru
+  servername: kk-ru24a1.testkknegr.online
   skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇷🇺 俄罗斯 (Russia) 18 - dwt
-  server: xsru1.ddnsfree.com
+  client-fingerprint: safari
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vlgrpc
+- name: 🇷🇺 俄罗斯 (Russia) 21 - dwt
+  server: 103.91.147.255
+  port: 443
+  udp: true
+  type: vless
+  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: abuse.ozon.ru
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 22 - dwt
+  server: 147.45.175.81
   port: 443
   udp: true
   type: vless
@@ -209,19 +258,13 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-ru
-- name: 🇷🇺 俄罗斯 (Russia) 19 - dwt
-  server: 194.113.235.121
-  port: 443
+- name: 🇷🇺 俄罗斯 (Russia) 23 - dwt
+  server: 130.49.189.158
+  port: 43558
   udp: true
-  type: vless
-  uuid: c5cf36f5-50e9-405b-adb4-b40fdf0d4619
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: f2a5R8ubMtjmFDxUt1VtikDOmgPgVWBPzcZjOOJpYlc
-    short-id: 12f319370b60ec2f
-  servername: fr1-4v.zvcorp24.com
-  client-fingerprint: firefox
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: rWIg16plgZ82V7MTNcw1UTgiYK4ooPUB95qVhKIwIDc=
 proxy-groups:
 - name: PROXIES
   type: select
@@ -246,6 +289,10 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 17 - dwt
   - 🇷🇺 俄罗斯 (Russia) 18 - dwt
   - 🇷🇺 俄罗斯 (Russia) 19 - dwt
+  - 🇷🇺 俄罗斯 (Russia) 20 - dwt
+  - 🇷🇺 俄罗斯 (Russia) 21 - dwt
+  - 🇷🇺 俄罗斯 (Russia) 22 - dwt
+  - 🇷🇺 俄罗斯 (Russia) 23 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -270,5 +317,9 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 17 - dwt
   - 🇷🇺 俄罗斯 (Russia) 18 - dwt
   - 🇷🇺 俄罗斯 (Russia) 19 - dwt
+  - 🇷🇺 俄罗斯 (Russia) 20 - dwt
+  - 🇷🇺 俄罗斯 (Russia) 21 - dwt
+  - 🇷🇺 俄罗斯 (Russia) 22 - dwt
+  - 🇷🇺 俄罗斯 (Russia) 23 - dwt
 rules:
 - MATCH,PROXIES

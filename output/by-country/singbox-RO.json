@@ -4,11 +4,20 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇷🇴 罗马尼亚 (Romania) 01 - dwt",
-      "server": "edge10.cyrionflare.com",
-      "server_port": 2052,
-      "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286"
+      "server": "hy2-new.aspidnet.xyz",
+      "server_port": 443,
+      "password": "QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s",
+      "tls": {
+        "enabled": true,
+        "server_name": "hy2-new.aspidnet.xyz",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "c1b4086fea89914496c7e10967a419216566"
+      }
     },
     {
       "type": "vless",
@@ -34,17 +43,13 @@
     {
       "type": "hysteria2",
       "tag": "🇷🇴 罗马尼亚 (Romania) 03 - dwt",
-      "server": "162.249.125.133",
+      "server": "185.156.44.99",
       "server_port": 443,
-      "password": "QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s",
+      "password": "gf1:gfhysteria2024",
       "tls": {
         "enabled": true,
-        "server_name": "hy2-new.aspidnet.xyz",
-        "insecure": false
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "c1b4086fea89914496c7e10967a419216566"
+        "server_name": "whatsapp.com",
+        "insecure": true
       }
     },
     {
@@ -56,18 +61,6 @@
       "password": "QFWzCw2uX9B9i6qAYeFBIE"
     },
     {
-      "type": "hysteria2",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 05 - dwt",
-      "server": "185.156.44.99",
-      "server_port": 443,
-      "password": "gf1:gfhysteria2024",
-      "tls": {
-        "enabled": true,
-        "server_name": "css.rbxcdn.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -75,8 +68,7 @@
         "🇷🇴 罗马尼亚 (Romania) 01 - dwt",
         "🇷🇴 罗马尼亚 (Romania) 02 - dwt",
         "🇷🇴 罗马尼亚 (Romania) 03 - dwt",
-        "🇷🇴 罗马尼亚 (Romania) 04 - dwt",
-        "🇷🇴 罗马尼亚 (Romania) 05 - dwt"
+        "🇷🇴 罗马尼亚 (Romania) 04 - dwt"
       ]
     },
     {
@@ -86,8 +78,7 @@
         "🇷🇴 罗马尼亚 (Romania) 01 - dwt",
         "🇷🇴 罗马尼亚 (Romania) 02 - dwt",
         "🇷🇴 罗马尼亚 (Romania) 03 - dwt",
-        "🇷🇴 罗马尼亚 (Romania) 04 - dwt",
-        "🇷🇴 罗马尼亚 (Romania) 05 - dwt"
+        "🇷🇴 罗马尼亚 (Romania) 04 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

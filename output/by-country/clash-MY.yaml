@@ -20,13 +20,18 @@ proxies:
   grpc-opts:
     grpc-service-name: ''
 - name: 🇲🇾 马来西亚 (Malaysia) 02 - dwt
-  server: 47.250.135.244
-  port: 10000
+  server: forwarded.frnhk.xyz
+  port: 53002
   udp: true
-  type: vmess
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 3lswNoHV1RqK6yO--0ZWoYh1WqHkfhKQph3onxE_1So
+    short-id: fc04
+  servername: www.ens.psl.eu
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select

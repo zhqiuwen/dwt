@@ -5,32 +5,26 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - dwt
+  server: 185.253.116.33
+  port: 14430
+  udp: true
+  type: vless
+  uuid: aee7ae19-672f-49d8-8a92-aa7cdfc89f89
+  network: ws
+  ws-opts:
+    path: /vless
+- name: 🇦🇪 阿联酋 (UAE) 02 - dwt
   server: 130.49.161.70
   port: 443
   udp: true
   type: hysteria2
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
   sni: hy2.aspidnet.xyz
-  skip-cert-verify: true
+  skip-cert-verify: false
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇦🇪 阿联酋 (UAE) 02 - dwt
-  server: 138.124.90.249
-  port: 7445
-  udp: true
-  type: vless
-  uuid: 76ad3e79-fb8c-4ee2-a8f1-491573daa663
-  tls: true
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
 - name: 🇦🇪 阿联酋 (UAE) 03 - dwt
-  server: 84.235.244.108
+  server: uae.unixzone.us
   port: 22573
   udp: true
   type: vless
@@ -38,8 +32,6 @@ proxies:
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 04 - dwt
   server: 95.174.68.188
   port: 14430
@@ -51,15 +43,6 @@ proxies:
     path: /vless
     headers:
       Host: 95.174.68.188
-- name: 🇦🇪 阿联酋 (UAE) 05 - dwt
-  server: 185.253.116.33
-  port: 14430
-  udp: true
-  type: vless
-  uuid: aee7ae19-672f-49d8-8a92-aa7cdfc89f89
-  network: ws
-  ws-opts:
-    path: /vless
 proxy-groups:
 - name: PROXIES
   type: select
@@ -69,7 +52,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - dwt
   - 🇦🇪 阿联酋 (UAE) 03 - dwt
   - 🇦🇪 阿联酋 (UAE) 04 - dwt
-  - 🇦🇪 阿联酋 (UAE) 05 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -79,6 +61,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - dwt
   - 🇦🇪 阿联酋 (UAE) 03 - dwt
   - 🇦🇪 阿联酋 (UAE) 04 - dwt
-  - 🇦🇪 阿联酋 (UAE) 05 - dwt
 rules:
 - MATCH,PROXIES

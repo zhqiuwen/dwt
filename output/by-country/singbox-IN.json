@@ -4,16 +4,12 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "shadowsocks",
       "tag": "🇮🇳 印度 (India) 01 - dwt",
-      "server": "in.tronsg.com",
-      "server_port": 443,
-      "password": "Trojan@82164024",
-      "tls": {
-        "enabled": true,
-        "server_name": "127.0.0.1",
-        "insecure": true
-      }
+      "server": "139.84.166.47",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "GEdoeeqLZtkJRgSa"
     },
     {
       "type": "vless",
@@ -32,26 +28,6 @@
     {
       "type": "vless",
       "tag": "🇮🇳 印度 (India) 03 - dwt",
-      "server": "in.smrtai.top",
-      "server_port": 443,
-      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
-          "short_id": "6bdc8320"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 04 - dwt",
       "server": "194.61.31.126",
       "server_port": 2053,
       "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
@@ -70,6 +46,34 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇮🇳 印度 (India) 04 - dwt",
+      "server": "in.smrtai.top",
+      "server_port": 443,
+      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
+          "short_id": "6bdc8320"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇳 印度 (India) 05 - dwt",
+      "server": "172.105.39.124",
+      "server_port": 7002,
+      "method": "aes-256-gcm",
+      "password": "RexnBgU7EV5ADxG"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -77,7 +81,8 @@
         "🇮🇳 印度 (India) 01 - dwt",
         "🇮🇳 印度 (India) 02 - dwt",
         "🇮🇳 印度 (India) 03 - dwt",
-        "🇮🇳 印度 (India) 04 - dwt"
+        "🇮🇳 印度 (India) 04 - dwt",
+        "🇮🇳 印度 (India) 05 - dwt"
       ]
     },
     {
@@ -87,7 +92,8 @@
         "🇮🇳 印度 (India) 01 - dwt",
         "🇮🇳 印度 (India) 02 - dwt",
         "🇮🇳 印度 (India) 03 - dwt",
-        "🇮🇳 印度 (India) 04 - dwt"
+        "🇮🇳 印度 (India) 04 - dwt",
+        "🇮🇳 印度 (India) 05 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

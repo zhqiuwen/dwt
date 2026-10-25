@@ -5,11 +5,15 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 罗马尼亚 (Romania) 01 - dwt
-  server: edge10.cyrionflare.com
-  port: 2052
+  server: hy2-new.aspidnet.xyz
+  port: 443
   udp: true
-  type: vless
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  type: hysteria2
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  sni: hy2-new.aspidnet.xyz
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
 - name: 🇷🇴 罗马尼亚 (Romania) 02 - dwt
   server: 46.28.67.55
   port: 443
@@ -24,15 +28,13 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇷🇴 罗马尼亚 (Romania) 03 - dwt
-  server: 162.249.125.133
+  server: 185.156.44.99
   port: 443
   udp: true
   type: hysteria2
-  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
-  sni: hy2-new.aspidnet.xyz
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: c1b4086fea89914496c7e10967a419216566
+  password: gf1:gfhysteria2024
+  sni: whatsapp.com
+  skip-cert-verify: true
 - name: 🇷🇴 罗马尼亚 (Romania) 04 - dwt
   server: bogging-eyeteeth-fly.freesocks.work
   port: 443
@@ -40,14 +42,6 @@ proxies:
   type: ss
   cipher: chacha20-ietf-poly1305
   password: QFWzCw2uX9B9i6qAYeFBIE
-- name: 🇷🇴 罗马尼亚 (Romania) 05 - dwt
-  server: 185.156.44.99
-  port: 443
-  udp: true
-  type: hysteria2
-  password: gf1:gfhysteria2024
-  sni: css.rbxcdn.com
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -57,7 +51,6 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 02 - dwt
   - 🇷🇴 罗马尼亚 (Romania) 03 - dwt
   - 🇷🇴 罗马尼亚 (Romania) 04 - dwt
-  - 🇷🇴 罗马尼亚 (Romania) 05 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -67,6 +60,5 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 02 - dwt
   - 🇷🇴 罗马尼亚 (Romania) 03 - dwt
   - 🇷🇴 罗马尼亚 (Romania) 04 - dwt
-  - 🇷🇴 罗马尼亚 (Romania) 05 - dwt
 rules:
 - MATCH,PROXIES

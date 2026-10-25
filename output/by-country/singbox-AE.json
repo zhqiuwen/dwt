@@ -4,15 +4,26 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 01 - dwt",
+      "server": "185.253.116.33",
+      "server_port": 14430,
+      "uuid": "aee7ae19-672f-49d8-8a92-aa7cdfc89f89",
+      "transport": {
+        "type": "ws",
+        "path": "/vless"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇦🇪 阿联酋 (UAE) 02 - dwt",
       "server": "130.49.161.70",
       "server_port": 443,
       "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
       "tls": {
         "enabled": true,
         "server_name": "hy2.aspidnet.xyz",
-        "insecure": true
+        "insecure": false
       },
       "obfs": {
         "type": "salamander",
@@ -21,39 +32,12 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 02 - dwt",
-      "server": "138.124.90.249",
-      "server_port": 7445,
-      "uuid": "76ad3e79-fb8c-4ee2-a8f1-491573daa663",
-      "tls": {
-        "enabled": true,
-        "server_name": "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 03 - dwt",
-      "server": "84.235.244.108",
+      "server": "uae.unixzone.us",
       "server_port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "uae.unixzone.us"
-        }
+        "type": "ws"
       }
     },
     {
@@ -71,17 +55,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 05 - dwt",
-      "server": "185.253.116.33",
-      "server_port": 14430,
-      "uuid": "aee7ae19-672f-49d8-8a92-aa7cdfc89f89",
-      "transport": {
-        "type": "ws",
-        "path": "/vless"
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -89,8 +62,7 @@
         "🇦🇪 阿联酋 (UAE) 01 - dwt",
         "🇦🇪 阿联酋 (UAE) 02 - dwt",
         "🇦🇪 阿联酋 (UAE) 03 - dwt",
-        "🇦🇪 阿联酋 (UAE) 04 - dwt",
-        "🇦🇪 阿联酋 (UAE) 05 - dwt"
+        "🇦🇪 阿联酋 (UAE) 04 - dwt"
       ]
     },
     {
@@ -100,8 +72,7 @@
         "🇦🇪 阿联酋 (UAE) 01 - dwt",
         "🇦🇪 阿联酋 (UAE) 02 - dwt",
         "🇦🇪 阿联酋 (UAE) 03 - dwt",
-        "🇦🇪 阿联酋 (UAE) 04 - dwt",
-        "🇦🇪 阿联酋 (UAE) 05 - dwt"
+        "🇦🇪 阿联酋 (UAE) 04 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
