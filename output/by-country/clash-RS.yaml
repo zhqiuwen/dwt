@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇿 捷克 (Czech) 01 - dwt
-  server: 195.123.245.241
+- name: 🇷🇸 塞尔维亚 (Serbia) 01 - dwt
+  server: 185.105.108.176
   port: 443
   udp: true
   type: vless
-  uuid: 7c053ca8-38cc-45e2-930c-eda1fd66f903
+  uuid: 689a62e4-37e7-41de-9e6a-f2a56368c9e2
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: hlY5ce1UsVIgE46y5PlEZhUsSaXUnCtoDLLaGrhInjw
-    short-id: 23d0950d60bc0d5b
-  servername: gateway.icloud.com
-  client-fingerprint: chrome
+    public-key: U9O1sbuPwoTowF3Ka7CIgUZlRjokulxSwsYohEGCLA8
+    short-id: 0d87fec579
+  servername: www.google.co.uk
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇿 捷克 (Czech) 01 - dwt
+  - 🇷🇸 塞尔维亚 (Serbia) 01 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇿 捷克 (Czech) 01 - dwt
+  - 🇷🇸 塞尔维亚 (Serbia) 01 - dwt
 rules:
 - MATCH,PROXIES

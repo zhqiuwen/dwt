@@ -26,6 +26,8 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess/
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
 proxy-groups:
 - name: PROXIES
   type: select

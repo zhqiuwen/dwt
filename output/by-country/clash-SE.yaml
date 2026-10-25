@@ -12,17 +12,54 @@ proxies:
   password: d4ca9415f0eac7897472e1e5b86d2e96
   sni: promo.betust.net
   skip-cert-verify: false
+- name: 🇸🇪 瑞典 (Sweden) 02 - dwt
+  server: se1.mycloud1.org
+  port: 443
+  udp: true
+  type: vless
+  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
+    short-id: afee962d
+  servername: se1.mycloud1.org
+  client-fingerprint: chrome
+- name: 🇸🇪 瑞典 (Sweden) 03 - dwt
+  server: 84.21.191.180
+  port: 1081
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: iWhDZY1CQ-7AQYQtmc8Ki4r3H4UYP0SF
+- name: 🇸🇪 瑞典 (Sweden) 04 - dwt
+  server: 5.178.109.174
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 5.178.109.174
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇸🇪 瑞典 (Sweden) 01 - dwt
+  - 🇸🇪 瑞典 (Sweden) 02 - dwt
+  - 🇸🇪 瑞典 (Sweden) 03 - dwt
+  - 🇸🇪 瑞典 (Sweden) 04 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇸🇪 瑞典 (Sweden) 01 - dwt
+  - 🇸🇪 瑞典 (Sweden) 02 - dwt
+  - 🇸🇪 瑞典 (Sweden) 03 - dwt
+  - 🇸🇪 瑞典 (Sweden) 04 - dwt
 rules:
 - MATCH,PROXIES

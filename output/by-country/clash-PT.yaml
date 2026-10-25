@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇸🇬 新加坡 (Singapore) 01 (家宽) - dwt
-  server: 144.24.140.37
-  port: 443
+- name: 🇵🇹 葡萄牙 (Portugal) 01 - dwt
+  server: 31.192.237.186
+  port: 2053
   udp: true
   type: vless
   uuid: d18c6897-2849-456a-8c46-d7ecece47c20
@@ -16,7 +16,7 @@ proxies:
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HV1ZNVwcHTQsJSgAJVBQUG0dCQEwWAx4AAg4c
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlxQSwUEVRwJUx8BQRoaSVhfRhoOChkDDUs=
     headers:
       Host: wzs.echo.net.eu.org
 proxy-groups:
@@ -24,12 +24,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇸🇬 新加坡 (Singapore) 01 (家宽) - dwt
+  - 🇵🇹 葡萄牙 (Portugal) 01 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇸🇬 新加坡 (Singapore) 01 (家宽) - dwt
+  - 🇵🇹 葡萄牙 (Portugal) 01 - dwt
 rules:
 - MATCH,PROXIES
