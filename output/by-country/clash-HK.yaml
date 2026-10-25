@@ -5,25 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - dwt
-  server: 50.7.44.28
-  port: 2091
-  udp: true
-  type: vless
-  uuid: 76b6a658-ce80-4500-b24d-404c94639ac6
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: 08a4b1f473932632
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - dwt
   server: 202.146.222.89
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/clashv8
+  sni: t.me
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - dwt
+  server: 202.146.222.29
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/wangcai2ð¨ð³
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - dwt
   server: 202.146.222.174
@@ -31,17 +26,9 @@ proxies:
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 'off'
+  sni: t.me
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - dwt
-  server: 202.146.222.29
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 'off'
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - dwt
   server: 151.242.85.236
   port: 443
   udp: true
@@ -54,8 +41,21 @@ proxies:
     short-id: 9b6fa4047c24629f
   servername: addons.mozilla.org
   client-fingerprint: safari
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - dwt
+  server: 50.7.44.28
+  port: 2091
+  udp: true
+  type: vless
+  uuid: 76b6a658-ce80-4500-b24d-404c94639ac6
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  servername: www.apple.com
+  client-fingerprint: chrome
 - name: 🇭🇰 中国香港 (Hong Kong) 06 - dwt
-  server: tjxg.m2k699.com
+  server: tjyg.m2k699.com
   port: 24999
   udp: true
   type: trojan
@@ -63,6 +63,18 @@ proxies:
   sni: www.itunes.com
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 07 - dwt
+  server: forwarded.frnhk.xyz
+  port: 53003
+  udp: true
+  type: vless
+  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Ks12iVvH2fkIAN7VmHFocBin8b25K8Bac_ab3k1HmSo
+  servername: www.uni-frankfurt.de
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - dwt
   server: nas.aizhzo.com
   port: 5010
   udp: true
@@ -84,6 +96,7 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 05 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 06 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 07 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 08 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -96,5 +109,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 05 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 06 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 07 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 08 - dwt
 rules:
 - MATCH,PROXIES

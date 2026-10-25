@@ -4,35 +4,26 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 01 - dwt",
-      "server": "50.7.44.28",
-      "server_port": 2091,
-      "uuid": "76b6a658-ce80-4500-b24d-404c94639ac6",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k",
-          "short_id": "08a4b1f473932632"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 - dwt",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 - dwt",
       "server": "202.146.222.89",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "https://t.me/clashv8",
+        "server_name": "t.me",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 02 - dwt",
+      "server": "202.146.222.29",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https://t.me/wangcai2ð¨ð³",
         "insecure": true
       }
     },
@@ -44,25 +35,13 @@
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "off",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - dwt",
-      "server": "202.146.222.29",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "off",
+        "server_name": "t.me",
         "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - dwt",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - dwt",
       "server": "151.242.85.236",
       "server_port": 443,
       "uuid": "7aec627e-a258-4ded-9fd9-fbd7c024f950",
@@ -82,9 +61,30 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - dwt",
+      "server": "50.7.44.28",
+      "server_port": 2091,
+      "uuid": "76b6a658-ce80-4500-b24d-404c94639ac6",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k",
+          "short_id": "08a4b1f473932632"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "🇭🇰 中国香港 (Hong Kong) 06 - dwt",
-      "server": "tjxg.m2k699.com",
+      "server": "tjyg.m2k699.com",
       "server_port": 24999,
       "password": "29086912-33e4-4e06-ba2b-60f1a195864f",
       "tls": {
@@ -94,8 +94,29 @@
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇭🇰 中国香港 (Hong Kong) 07 - dwt",
+      "server": "forwarded.frnhk.xyz",
+      "server_port": 53003,
+      "uuid": "f5f0babe-aea2-4f07-a1fc-3c9820253f49",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.uni-frankfurt.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Ks12iVvH2fkIAN7VmHFocBin8b25K8Bac_ab3k1HmSo",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - dwt",
       "server": "nas.aizhzo.com",
       "server_port": 5010,
       "password": "eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ",
@@ -120,7 +141,8 @@
         "🇭🇰 中国香港 (Hong Kong) 04 - dwt",
         "🇭🇰 中国香港 (Hong Kong) 05 - dwt",
         "🇭🇰 中国香港 (Hong Kong) 06 - dwt",
-        "🇭🇰 中国香港 (Hong Kong) 07 - dwt"
+        "🇭🇰 中国香港 (Hong Kong) 07 - dwt",
+        "🇭🇰 中国香港 (Hong Kong) 08 - dwt"
       ]
     },
     {
@@ -133,7 +155,8 @@
         "🇭🇰 中国香港 (Hong Kong) 04 - dwt",
         "🇭🇰 中国香港 (Hong Kong) 05 - dwt",
         "🇭🇰 中国香港 (Hong Kong) 06 - dwt",
-        "🇭🇰 中国香港 (Hong Kong) 07 - dwt"
+        "🇭🇰 中国香港 (Hong Kong) 07 - dwt",
+        "🇭🇰 中国香港 (Hong Kong) 08 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

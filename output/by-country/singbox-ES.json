@@ -14,7 +14,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -26,6 +26,47 @@
     {
       "type": "vless",
       "tag": "🇪🇸 西班牙 (Spain) 02 - dwt",
+      "server": "156.252.229.11",
+      "server_port": 8443,
+      "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.googleapis.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A",
+          "short_id": "974f7f8f"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇸 西班牙 (Spain) 03 - dwt",
+      "server": "193.238.154.78",
+      "server_port": 443,
+      "uuid": "897d47f8-4dd5-42a1-bcd0-bef19caff55a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway.icloud.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "4eE3K8Eac-ELze-LwRyJolqmhPqgCVqwQM1DKu6i0Ts",
+          "short_id": "e93d46ee3735069e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇸 西班牙 (Spain) 04 - dwt",
       "server": "46.28.71.247",
       "server_port": 443,
       "uuid": "12c53e32-e589-47d6-b857-e4132294f767",
@@ -45,12 +86,32 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇪🇸 西班牙 (Spain) 05 - dwt",
+      "server": "46.28.71.247",
+      "server_port": 443,
+      "uuid": "12c53e32-e589-47d6-b857-e4132294f767",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇪🇸 西班牙 (Spain) 01 - dwt",
-        "🇪🇸 西班牙 (Spain) 02 - dwt"
+        "🇪🇸 西班牙 (Spain) 02 - dwt",
+        "🇪🇸 西班牙 (Spain) 03 - dwt",
+        "🇪🇸 西班牙 (Spain) 04 - dwt",
+        "🇪🇸 西班牙 (Spain) 05 - dwt"
       ]
     },
     {
@@ -58,7 +119,10 @@
       "tag": "auto",
       "outbounds": [
         "🇪🇸 西班牙 (Spain) 01 - dwt",
-        "🇪🇸 西班牙 (Spain) 02 - dwt"
+        "🇪🇸 西班牙 (Spain) 02 - dwt",
+        "🇪🇸 西班牙 (Spain) 03 - dwt",
+        "🇪🇸 西班牙 (Spain) 04 - dwt",
+        "🇪🇸 西班牙 (Spain) 05 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

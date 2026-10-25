@@ -29,30 +29,14 @@ proxies:
     public-key: PQjgf7GxBd2tDXf0zl9Z5rTZo7LdsWj0hGZLH-lJ-Uk
     short-id: 7c
   servername: yahoo.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇮🇱 以色列 (Israel) 03 - dwt
-  server: 177.3.208.65
-  port: 443
+  server: 31.57.185.124
+  port: 47767
   udp: true
-  type: vless
-  uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c
-  tls: true
-  servername: tgmansion.site
-  skip-cert-verify: true
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /vless-il
-    headers:
-      Host: tgmansion.site
-- name: 🇮🇱 以色列 (Israel) 04 - dwt
-  server: 129.159.156.109
-  port: 50160
-  udp: true
-  type: hysteria2
-  password: f25f19f29ce3fb53a35bf1b35b452a43
-  sni: www.bing.com
-  skip-cert-verify: true
+  type: ss
+  cipher: 2022-blake3-aes-256-gcm
+  password: LdovOchXf4THjDMK2Gf0nd2tcnlT28GxdzH+r885CBI=:RbSpX+O+KAA8OuleVMgWtotvRtfhd48TA3kfde5ugp4=
 proxy-groups:
 - name: PROXIES
   type: select
@@ -61,7 +45,6 @@ proxy-groups:
   - 🇮🇱 以色列 (Israel) 01 - dwt
   - 🇮🇱 以色列 (Israel) 02 - dwt
   - 🇮🇱 以色列 (Israel) 03 - dwt
-  - 🇮🇱 以色列 (Israel) 04 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -70,6 +53,5 @@ proxy-groups:
   - 🇮🇱 以色列 (Israel) 01 - dwt
   - 🇮🇱 以色列 (Israel) 02 - dwt
   - 🇮🇱 以色列 (Israel) 03 - dwt
-  - 🇮🇱 以色列 (Israel) 04 - dwt
 rules:
 - MATCH,PROXIES
