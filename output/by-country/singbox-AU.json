@@ -4,24 +4,19 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇦🇺 澳大利亚 (Australia) 01 - dwt",
-      "server": "51.161.204.244",
+      "server": "152.67.115.203",
       "server_port": 443,
-      "uuid": "36e89875-9c53-482b-bc41-d3890e9da176",
-      "flow": "xtls-rprx-vision",
+      "password": "633bc3be486b646190661ac2387c150a",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "gCAazs5uxNuMZIxfDdw8wPE0nwKY4QfBfBkQveKAkEk",
-          "short_id": "0ad08b47f498efd2"
-        }
+        "server_name": "www.bing.com",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "850a3fb1cd33a28f12d837578ae1a2e7"
       }
     },
     {
@@ -56,39 +51,23 @@
       ]
     },
     {
-      "type": "hysteria2",
-      "tag": "🇦🇺 澳大利亚 (Australia) 04 - dwt",
-      "server": "152.67.115.203",
-      "server_port": 443,
-      "password": "633bc3be486b646190661ac2387c150a",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "850a3fb1cd33a28f12d837578ae1a2e7"
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 05 - dwt",
-      "server": "funagfrdfs.alixxplay.com",
-      "server_port": 54528,
-      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "tag": "🇦🇺 澳大利亚 (Australia) 04 - dwt",
+      "server": "51.161.204.244",
+      "server_port": 443,
+      "uuid": "36e89875-9c53-482b-bc41-d3890e9da176",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo",
-          "short_id": "54cca3c1c1c7"
+          "public_key": "gCAazs5uxNuMZIxfDdw8wPE0nwKY4QfBfBkQveKAkEk",
+          "short_id": "0ad08b47f498efd2"
         }
       }
     },
@@ -100,8 +79,7 @@
         "🇦🇺 澳大利亚 (Australia) 01 - dwt",
         "🇦🇺 澳大利亚 (Australia) 02 - dwt",
         "🇦🇺 澳大利亚 (Australia) 03 - dwt",
-        "🇦🇺 澳大利亚 (Australia) 04 - dwt",
-        "🇦🇺 澳大利亚 (Australia) 05 - dwt"
+        "🇦🇺 澳大利亚 (Australia) 04 - dwt"
       ]
     },
     {
@@ -111,8 +89,7 @@
         "🇦🇺 澳大利亚 (Australia) 01 - dwt",
         "🇦🇺 澳大利亚 (Australia) 02 - dwt",
         "🇦🇺 澳大利亚 (Australia) 03 - dwt",
-        "🇦🇺 澳大利亚 (Australia) 04 - dwt",
-        "🇦🇺 澳大利亚 (Australia) 05 - dwt"
+        "🇦🇺 澳大利亚 (Australia) 04 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

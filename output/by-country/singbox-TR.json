@@ -6,16 +6,16 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - dwt",
-      "server": "185.98.63.6",
-      "server_port": 8443,
-      "uuid": "6845a59f-970b-4e1e-8e26-06a34ee663d6",
+      "server": "45.151.71.169",
+      "server_port": 443,
+      "uuid": "0b6a937e-5b0e-49ca-b31e-f03f290e97cf",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "abuse.ozon.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -25,24 +25,19 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇹🇷 土耳其 (Turkey) 02 - dwt",
-      "server": "193.160.141.27",
-      "server_port": 443,
-      "uuid": "fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87",
-      "flow": "xtls-rprx-vision",
+      "server": "153.56.210.134",
+      "server_port": 34121,
+      "password": "c8ed6cd1-6566-4f7a-819e-1c55b2b360c9",
       "tls": {
         "enabled": true,
-        "server_name": "abuse.ozon.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": ""
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "short_id": ""
-        }
+        "server_name": "www.bing.com",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "9a33460c-b037-47aa-a606-d04211f4e0ec"
       }
     },
     {
@@ -94,7 +89,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -106,52 +101,56 @@
     {
       "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 06 - dwt",
-      "server": "78.135.73.47",
-      "server_port": 443,
-      "uuid": "25e16692-d097-4e69-9e2d-8415609c1968",
+      "server": "185.98.63.6",
+      "server_port": 8443,
+      "uuid": "6845a59f-970b-4e1e-8e26-06a34ee663d6",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.datadoghq.com",
+        "server_name": "apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8",
-          "short_id": "f46cd3ea3d1eb72d"
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": ""
         }
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇹🇷 土耳其 (Turkey) 07 - dwt",
-      "server": "153.56.210.134",
-      "server_port": 34121,
-      "password": "c8ed6cd1-6566-4f7a-819e-1c55b2b360c9",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "9a33460c-b037-47aa-a606-d04211f4e0ec"
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇹🇷 土耳其 (Turkey) 08 - dwt",
+      "tag": "🇹🇷 土耳其 (Turkey) 07 - dwt",
       "server": "87.236.166.134",
       "server_port": 56134,
       "method": "chacha20-ietf-poly1305",
       "password": "uvKNudV-N8AUCrykPiyznA"
     },
     {
+      "type": "vless",
+      "tag": "🇹🇷 土耳其 (Turkey) 08 - dwt",
+      "server": "177.3.208.65",
+      "server_port": 443,
+      "uuid": "4f34bc04-479c-49ba-91a8-6bb9ed15031c",
+      "tls": {
+        "enabled": true,
+        "server_name": "tgmansion.site",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless-tr"
+      }
+    },
+    {
       "type": "shadowsocks",
       "tag": "🇹🇷 土耳其 (Turkey) 09 - dwt",
-      "server": "87.236.166.215",
+      "server": "87.236.166.49",
       "server_port": 56134,
       "method": "chacha20-ietf-poly1305",
       "password": "uvKNudV-N8AUCrykPiyznA"
