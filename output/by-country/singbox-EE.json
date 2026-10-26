@@ -5,22 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇻🇳 越南 (Vietnam) 01 - dwt",
-      "server": "154.21.203.106",
-      "server_port": 51279,
-      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - dwt",
+      "server": "79.98.37.106",
+      "server_port": 443,
+      "uuid": "846cedee-2a52-0001-a0b9-11850ead6a8b",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.tesla.com",
+        "server_name": "ee-central.v8x2b.lol",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "f6Tj8-uvWsLv3V-lGLuPciArp5oKqUImBg-U7-WJ-0A",
-          "short_id": "bb82c8"
+          "public_key": "USSepsAbvP9LpByHLV2xD2H8dq8GAJ6G0fINEqD4PAw",
+          "short_id": ""
         }
       }
     },
@@ -29,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇻🇳 越南 (Vietnam) 01 - dwt"
+        "🇪🇪 爱沙尼亚 (Estonia) 01 - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇻🇳 越南 (Vietnam) 01 - dwt"
+        "🇪🇪 爱沙尼亚 (Estonia) 01 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
