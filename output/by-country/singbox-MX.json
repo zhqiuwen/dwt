@@ -4,15 +4,19 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "🇸🇬 新加坡 (Singapore) 01 (家宽) - dwt",
-      "server": "s3.huhiuh.space",
-      "server_port": 18642,
-      "password": "user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2",
+      "type": "vless",
+      "tag": "🇲🇽 墨西哥 (Mexico) 01 - dwt",
+      "server": "mx001.zestapp778.com",
+      "server_port": 19167,
+      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
       "tls": {
         "enabled": true,
-        "server_name": "s3.huhiuh.space",
-        "insecure": true
+        "server_name": "mx001.zestapp778.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -20,14 +24,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇬 新加坡 (Singapore) 01 (家宽) - dwt"
+        "🇲🇽 墨西哥 (Mexico) 01 - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇬 新加坡 (Singapore) 01 (家宽) - dwt"
+        "🇲🇽 墨西哥 (Mexico) 01 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
