@@ -13,10 +13,8 @@ proxies:
   network: ws
   ws-opts:
     path: /vless
-    headers:
-      Host: 185.253.116.33
 - name: 🇦🇪 阿联酋 (UAE) 02 - dwt
-  server: 130.49.161.70
+  server: hy2.aspidnet.xyz
   port: 443
   udp: true
   type: hysteria2
@@ -26,7 +24,7 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 03 - dwt
-  server: 217.60.72.225
+  server: forshynewh.duckdns.org
   port: 443
   udp: true
   type: hysteria2
@@ -44,17 +42,6 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 05 - dwt
-  server: 95.174.68.188
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 95.174.68.188
 proxy-groups:
 - name: PROXIES
   type: select
@@ -64,7 +51,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - dwt
   - 🇦🇪 阿联酋 (UAE) 03 - dwt
   - 🇦🇪 阿联酋 (UAE) 04 - dwt
-  - 🇦🇪 阿联酋 (UAE) 05 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -74,6 +60,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - dwt
   - 🇦🇪 阿联酋 (UAE) 03 - dwt
   - 🇦🇪 阿联酋 (UAE) 04 - dwt
-  - 🇦🇪 阿联酋 (UAE) 05 - dwt
 rules:
 - MATCH,PROXIES

@@ -4,8 +4,35 @@
   },
   "outbounds": [
     {
+      "type": "vless",
+      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - dwt",
+      "server": "112.169.175.199",
+      "server_port": 31157,
+      "uuid": "bd2fb303-b4c7-49af-a8e3-5c6f11b005dd"
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - dwt",
+      "server": "118.167.211.77",
+      "server_port": 24215,
+      "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
+      "tls": {
+        "enabled": true,
+        "server_name": "addons.mozilla.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
+          "short_id": ""
+        }
+      }
+    },
+    {
       "type": "trojan",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - dwt",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - dwt",
       "server": "kw119.zxmm.eu.org",
       "server_port": 20031,
       "password": "00a72bf349e6479b",
@@ -16,26 +43,19 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 02 (家宽) - dwt",
-      "server": "122.176.216.52",
+      "type": "hysteria2",
+      "tag": "🇺🇸 美国 (United States) 04 (家宽) - dwt",
+      "server": "155.117.19.17",
       "server_port": 443,
-      "uuid": "16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
+      "password": "5fa748137b6d822308eea4611f474ad5",
       "tls": {
         "enabled": true,
-        "server_name": "app-6ada5023.deploy.meerasolution.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+        "server_name": "www.bing.com",
+        "insecure": true
       },
-      "transport": {
-        "type": "ws",
-        "path": "/ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
-        "headers": {
-          "Host": "app-6ada5023.deploy.meerasolution.com"
-        }
+      "obfs": {
+        "type": "salamander",
+        "password": "a39ca173b57ac7021b08bf3e3de9f1f6"
       }
     },
     {
@@ -43,16 +63,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - dwt",
-        "🇮🇳 印度 (India) 02 (家宽) - dwt"
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - dwt",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - dwt",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - dwt",
+        "🇺🇸 美国 (United States) 04 (家宽) - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - dwt",
-        "🇮🇳 印度 (India) 02 (家宽) - dwt"
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - dwt",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - dwt",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - dwt",
+        "🇺🇸 美国 (United States) 04 (家宽) - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
