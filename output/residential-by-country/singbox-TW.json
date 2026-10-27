@@ -4,22 +4,22 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇮🇶 IQ 01 - dwt",
-      "server": "178.17.48.78",
+      "type": "trojan",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - dwt",
+      "server": "125.227.86.45",
       "server_port": 443,
-      "uuid": "4138c499-f6fe-48b8-a7cc-56c315e94ff7",
+      "password": "0a9f1f5a397bd427",
       "tls": {
         "enabled": true,
-        "server_name": "jvnsvntui5.dev.onappjet.com",
-        "insecure": false
+        "server_name": "TG.freecodes",
+        "insecure": true,
+        "alpn": [
+          "h2"
+        ]
       },
       "transport": {
-        "type": "ws",
-        "path": "/ws/4138c499-f6fe-48b8-a7cc-56c315e94ff7",
-        "headers": {
-          "Host": "jvnsvntui5.dev.onappjet.com"
-        }
+        "type": "grpc",
+        "service_name": "db"
       }
     },
     {
@@ -27,14 +27,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - dwt"
+        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - dwt"
+        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

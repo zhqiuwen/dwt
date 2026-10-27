@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - dwt
-  server: hy2.aspidnet.xyz
+  server: 130.49.161.70
   port: 443
   udp: true
   type: hysteria2
@@ -15,17 +15,6 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 02 - dwt
-  server: 185.253.116.33
-  port: 14430
-  udp: true
-  type: vless
-  uuid: aee7ae19-672f-49d8-8a92-aa7cdfc89f89
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 185.253.116.33
-- name: 🇦🇪 阿联酋 (UAE) 03 - dwt
   server: forshynewh.duckdns.org
   port: 443
   udp: true
@@ -33,38 +22,8 @@ proxies:
   password: 329e13e4-ee7c-4802-ac72-5fcab79c2402
   sni: forshynewh.duckdns.org
   skip-cert-verify: false
-- name: 🇦🇪 阿联酋 (UAE) 04 - dwt
-  server: 45.77.241.190
-  port: 8441
-  udp: true
-  type: vless
-  uuid: 66b076d4-519d-4b05-872e-d0366d15bace
-  tls: true
-  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 05 - dwt
-  server: 54.179.79.12
-  port: 53646
-  udp: true
-  type: vless
-  uuid: d57b9436-a238-4066-8b11-d23ae57c5982
-  tls: true
-  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 06 - dwt
-  server: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 03 - dwt
+  server: 84.235.244.108
   port: 22573
   udp: true
   type: vless
@@ -72,6 +31,8 @@ proxies:
   network: ws
   ws-opts:
     path: /
+    headers:
+      Host: uae.unixzone.us
 proxy-groups:
 - name: PROXIES
   type: select
@@ -80,9 +41,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - dwt
   - 🇦🇪 阿联酋 (UAE) 02 - dwt
   - 🇦🇪 阿联酋 (UAE) 03 - dwt
-  - 🇦🇪 阿联酋 (UAE) 04 - dwt
-  - 🇦🇪 阿联酋 (UAE) 05 - dwt
-  - 🇦🇪 阿联酋 (UAE) 06 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -91,8 +49,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - dwt
   - 🇦🇪 阿联酋 (UAE) 02 - dwt
   - 🇦🇪 阿联酋 (UAE) 03 - dwt
-  - 🇦🇪 阿联酋 (UAE) 04 - dwt
-  - 🇦🇪 阿联酋 (UAE) 05 - dwt
-  - 🇦🇪 阿联酋 (UAE) 06 - dwt
 rules:
 - MATCH,PROXIES

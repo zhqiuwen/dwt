@@ -14,7 +14,7 @@
     {
       "type": "vless",
       "tag": "🇦🇹 奥地利 (Austria) 02 - dwt",
-      "server": "softice.net",
+      "server": "188.137.158.199",
       "server_port": 443,
       "uuid": "ef328563-cda1-4530-9b0a-988cc5a74d78",
       "flow": "xtls-rprx-vision",
@@ -22,13 +22,9 @@
         "enabled": true,
         "server_name": "softice.net",
         "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       }
     },

@@ -5,6 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - dwt
+  server: tjflb.m2k699.com
+  port: 24999
+  udp: true
+  type: trojan
+  password: 29086912-33e4-4e06-ba2b-60f1a195864f
+  sni: www.itunes.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - dwt
+  server: 202.146.222.89
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/clashv8
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - dwt
   server: 165.154.63.139
   port: 443
   udp: true
@@ -17,22 +33,6 @@ proxies:
     short-id: ca4aedd4
   servername: www.amazon.com
   client-fingerprint: random
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - dwt
-  server: tjmlxy.m2k699.com
-  port: 24999
-  udp: true
-  type: trojan
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  sni: www.itunes.com
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - dwt
-  server: 202.146.222.89
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 202.146.222.89
-  skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - dwt
   server: 202.146.222.174
   port: 443
@@ -42,18 +42,7 @@ proxies:
   sni: https%3a%2f%2ft.me%2foneclickvpnkeys
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 05 - dwt
-  server: 45.133.73.113
-  port: 443
-  udp: true
-  type: vless
-  uuid: ef328563-cda1-4530-9b0a-988cc5a74d78
-  flow: xtls-rprx-vision
-  tls: true
-  servername: loudarch.net
-  skip-cert-verify: false
-  client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - dwt
-  server: 67.159.49.28
+  server: 50.7.44.28
   port: 2091
   udp: true
   type: vless
@@ -65,7 +54,84 @@ proxies:
     short-id: 08a4b1f473932632
   servername: www.apple.com
   client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - dwt
+  server: 45.133.73.114
+  port: 443
+  udp: true
+  type: vless
+  uuid: ef328563-cda1-4530-9b0a-988cc5a74d78
+  flow: xtls-rprx-vision
+  tls: true
+  servername: loudarch.net
+  skip-cert-verify: false
+  client-fingerprint: firefox
 - name: 🇭🇰 中国香港 (Hong Kong) 07 - dwt
+  server: 202.146.222.29
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/wangcai2ð¨ð³
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - dwt
+  server: 152.32.254.68
+  port: 5010
+  udp: true
+  type: hysteria2
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  sni: nas.aizhzo.com
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - dwt
+  server: 526.150333.xyz
+  port: 21003
+  udp: true
+  type: vless
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  tls: true
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+    short-id: eb9539689690d35c
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - dwt
+  server: 526.150333.xyz
+  port: 21001
+  udp: true
+  type: vless
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  tls: true
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+    short-id: b6dfd5c750351c57
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 11 - dwt
+  server: 526.150333.xyz
+  port: 21004
+  udp: true
+  type: vless
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  tls: true
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+    short-id: 2f34703f16523c80
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 12 - dwt
+  server: 526.150333.xyz
+  port: 21002
+  udp: true
+  type: vless
+  uuid: 52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a
+  tls: true
+  reality-opts:
+    public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
+    short-id: f0e6a8bb98db3efd
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 13 - dwt
   server: 43.254.166.147
   port: 443
   udp: true
@@ -80,43 +146,7 @@ proxies:
     path: /trial-gs-relay
     headers:
       Host: usyun.cc
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - dwt
-  server: 501.150333.xyz
-  port: 21002
-  udp: true
-  type: vless
-  uuid: 972be0be-1831-4b5e-b26b-3b6e139a1cd0
-  tls: true
-  reality-opts:
-    public-key: OCs6EIBsSg-f8MW0RE7QDwjZafk09F1aGl7olF7yAW0
-    short-id: 48b41af29b500164
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - dwt
-  server: 501.150333.xyz
-  port: 21001
-  udp: true
-  type: vless
-  uuid: 972be0be-1831-4b5e-b26b-3b6e139a1cd0
-  tls: true
-  reality-opts:
-    public-key: OCs6EIBsSg-f8MW0RE7QDwjZafk09F1aGl7olF7yAW0
-    short-id: 15d7e7f1939e82e5
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 10 - dwt
-  server: 501.150333.xyz
-  port: 21003
-  udp: true
-  type: vless
-  uuid: 972be0be-1831-4b5e-b26b-3b6e139a1cd0
-  tls: true
-  reality-opts:
-    public-key: OCs6EIBsSg-f8MW0RE7QDwjZafk09F1aGl7olF7yAW0
-    short-id: 09acf476305bdc56
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 11 - dwt
+- name: 🇭🇰 中国香港 (Hong Kong) 14 - dwt
   server: 122.10.117.1
   port: 11674
   udp: true
@@ -129,18 +159,6 @@ proxies:
     short-id: d889b977
   servername: apple.com
   client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 12 - dwt
-  server: 501.150333.xyz
-  port: 21004
-  udp: true
-  type: vless
-  uuid: 972be0be-1831-4b5e-b26b-3b6e139a1cd0
-  tls: true
-  reality-opts:
-    public-key: OCs6EIBsSg-f8MW0RE7QDwjZafk09F1aGl7olF7yAW0
-    short-id: 04f9f3b03c9a6d79
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -158,6 +176,8 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 10 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 11 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 12 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 13 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 14 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -175,5 +195,7 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 10 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 11 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 12 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 13 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 14 - dwt
 rules:
 - MATCH,PROXIES

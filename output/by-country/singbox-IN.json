@@ -34,7 +34,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -58,13 +58,29 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇮🇳 印度 (India) 04 - dwt",
+      "server": "152.67.8.205",
+      "server_port": 80,
+      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "152.67.8.205"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇮🇳 印度 (India) 01 - dwt",
         "🇮🇳 印度 (India) 02 - dwt",
-        "🇮🇳 印度 (India) 03 - dwt"
+        "🇮🇳 印度 (India) 03 - dwt",
+        "🇮🇳 印度 (India) 04 - dwt"
       ]
     },
     {
@@ -73,7 +89,8 @@
       "outbounds": [
         "🇮🇳 印度 (India) 01 - dwt",
         "🇮🇳 印度 (India) 02 - dwt",
-        "🇮🇳 印度 (India) 03 - dwt"
+        "🇮🇳 印度 (India) 03 - dwt",
+        "🇮🇳 印度 (India) 04 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
