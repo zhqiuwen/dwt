@@ -1,0 +1,50 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "🇮🇶 IQ 01 - dwt",
+      "server": "178.17.48.78",
+      "server_port": 443,
+      "uuid": "4138c499-f6fe-48b8-a7cc-56c315e94ff7",
+      "tls": {
+        "enabled": true,
+        "server_name": "jvnsvntui5.dev.onappjet.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws/4138c499-f6fe-48b8-a7cc-56c315e94ff7",
+        "headers": {
+          "Host": "jvnsvntui5.dev.onappjet.com"
+        }
+      }
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇮🇶 IQ 01 - dwt"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇮🇶 IQ 01 - dwt"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

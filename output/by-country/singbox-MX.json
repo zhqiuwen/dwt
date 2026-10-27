@@ -24,16 +24,12 @@
       "tls": {
         "enabled": true,
         "server_name": "mx001.zestapp778.com",
-        "insecure": false
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇲🇽 墨西哥 (Mexico) 03 - dwt",
-      "server": "64.177.90.30",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "BWyPPTusFKhGgzKh"
     },
     {
       "type": "selector",
@@ -41,8 +37,7 @@
       "outbounds": [
         "auto",
         "🇲🇽 墨西哥 (Mexico) 01 - dwt",
-        "🇲🇽 墨西哥 (Mexico) 02 - dwt",
-        "🇲🇽 墨西哥 (Mexico) 03 - dwt"
+        "🇲🇽 墨西哥 (Mexico) 02 - dwt"
       ]
     },
     {
@@ -50,8 +45,7 @@
       "tag": "auto",
       "outbounds": [
         "🇲🇽 墨西哥 (Mexico) 01 - dwt",
-        "🇲🇽 墨西哥 (Mexico) 02 - dwt",
-        "🇲🇽 墨西哥 (Mexico) 03 - dwt"
+        "🇲🇽 墨西哥 (Mexico) 02 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
