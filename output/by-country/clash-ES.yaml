@@ -5,6 +5,30 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇪🇸 西班牙 (Spain) 01 - dwt
+  server: 5.188.181.201
+  port: 9029
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: dU3DSNS8wYPXzEKw
+- name: 🇪🇸 西班牙 (Spain) 02 - dwt
+  server: 85.90.217.42
+  port: 443
+  udp: true
+  type: vless
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  tls: true
+  servername: 85.90.217.42
+  skip-cert-verify: true
+- name: 🇪🇸 西班牙 (Spain) 03 - dwt
+  server: xby.mangshe.xyz
+  port: 2060
+  udp: true
+  type: hysteria2
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  sni: xby.mangshe.xyz
+  skip-cert-verify: true
+- name: 🇪🇸 西班牙 (Spain) 04 - dwt
   server: 156.252.229.11
   port: 8443
   udp: true
@@ -16,20 +40,7 @@ proxies:
     short-id: 974f7f8f
   servername: play.googleapis.com
   client-fingerprint: chrome
-- name: 🇪🇸 西班牙 (Spain) 02 - dwt
-  server: 193.238.154.78
-  port: 443
-  udp: true
-  type: vless
-  uuid: 897d47f8-4dd5-42a1-bcd0-bef19caff55a
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 4eE3K8Eac-ELze-LwRyJolqmhPqgCVqwQM1DKu6i0Ts
-    short-id: e93d46ee3735069e
-  servername: gateway.icloud.com
-  client-fingerprint: chrome
-- name: 🇪🇸 西班牙 (Spain) 03 - dwt
+- name: 🇪🇸 西班牙 (Spain) 05 - dwt
   server: 46.28.71.247
   port: 443
   udp: true
@@ -41,7 +52,7 @@ proxies:
     public-key: v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE
     short-id: 0dfc23fe80778c00
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -50,6 +61,8 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 01 - dwt
   - 🇪🇸 西班牙 (Spain) 02 - dwt
   - 🇪🇸 西班牙 (Spain) 03 - dwt
+  - 🇪🇸 西班牙 (Spain) 04 - dwt
+  - 🇪🇸 西班牙 (Spain) 05 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -58,5 +71,7 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 01 - dwt
   - 🇪🇸 西班牙 (Spain) 02 - dwt
   - 🇪🇸 西班牙 (Spain) 03 - dwt
+  - 🇪🇸 西班牙 (Spain) 04 - dwt
+  - 🇪🇸 西班牙 (Spain) 05 - dwt
 rules:
 - MATCH,PROXIES

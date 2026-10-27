@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇵🇪 秘鲁 (Peru) 01 - dwt
-  server: 134.185.81.5
-  port: 47881
+- name: 🇨🇿 捷克 (Czech) 01 - dwt
+  server: 193.124.17.190
+  port: 443
   udp: true
   type: vless
-  uuid: 59b203b2-b1bc-4e9c-a9e5-ccb8f691bf72
+  uuid: 68cf8d29-5aa0-44b3-88a9-f1a576b6e84c
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 6XmXX1QXGodmtqU37Zx9CDHnCnPtonRdq8ieLmt__g4
-    short-id: 38d72071
-  servername: www.tesla.com
-  client-fingerprint: chrome
+    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
+    short-id: 73a9e631a09b
+  servername: www.microsoft.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇵🇪 秘鲁 (Peru) 01 - dwt
+  - 🇨🇿 捷克 (Czech) 01 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇵🇪 秘鲁 (Peru) 01 - dwt
+  - 🇨🇿 捷克 (Czech) 01 - dwt
 rules:
 - MATCH,PROXIES

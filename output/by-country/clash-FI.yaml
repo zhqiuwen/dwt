@@ -5,29 +5,30 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - dwt
-  server: 45.149.147.213
-  port: 4443
+  server: 177.3.214.156
+  port: 443
   udp: true
   type: vless
-  uuid: 9b347a9b-d7a6-4b51-9890-eff62b832834
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  flow: xtls-rprx-vision
   tls: true
-  servername: 45-149-147-213.sslip.io
-  skip-cert-verify: false
+  reality-opts:
+    public-key: 6lZ5dkQN2sH9tYca374W4N1n9eCanD_F2FfghcksKSo
+  servername: finlandlanzarotte.live
   client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: kobedin-server1-vless
 - name: 🇫🇮 芬兰 (Finland) 02 - dwt
-  server: 45.149.147.213
-  port: 4444
+  server: 2.27.13.152
+  port: 8443
   udp: true
-  type: trojan
-  password: 9b347a9b-d7a6-4b51-9890-eff62b832834
-  sni: 45-149-147-213.sslip.io
-  skip-cert-verify: false
-  network: grpc
-  grpc-opts:
-    grpc-service-name: kobedin-server1-trojan
+  type: vless
+  uuid: d1641bc6-3757-43db-815a-9b3f4d9b0d7e
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 14YyFG_j2yPEUu-gO_G9GqCqRiZ0DIUgzReV9CZvOAk
+    short-id: 0f47ff9aa15e3e30
+  servername: www.nokia.com
+  client-fingerprint: firefox
 - name: 🇫🇮 芬兰 (Finland) 03 - dwt
   server: 77.42.12.225
   port: 443
@@ -44,6 +45,17 @@ proxies:
   grpc-opts:
     grpc-service-name: f345a414c040
 - name: 🇫🇮 芬兰 (Finland) 04 - dwt
+  server: 45.149.147.213
+  port: 4444
+  udp: true
+  type: trojan
+  password: 9b347a9b-d7a6-4b51-9890-eff62b832834
+  sni: 45-149-147-213.sslip.io
+  skip-cert-verify: false
+  network: grpc
+  grpc-opts:
+    grpc-service-name: kobedin-server1-trojan
+- name: 🇫🇮 芬兰 (Finland) 05 - dwt
   server: 45.144.234.157
   port: 14430
   udp: true
@@ -52,19 +64,34 @@ proxies:
   network: ws
   ws-opts:
     path: /vless
-- name: 🇫🇮 芬兰 (Finland) 05 - dwt
-  server: 31.76.89.226
-  port: 443
+    headers:
+      Host: 45.144.234.157
+- name: 🇫🇮 芬兰 (Finland) 06 - dwt
+  server: 45.149.147.213
+  port: 4443
   udp: true
   type: vless
-  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
-  flow: xtls-rprx-vision
+  uuid: 9b347a9b-d7a6-4b51-9890-eff62b832834
+  tls: true
+  servername: 45-149-147-213.sslip.io
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: kobedin-server1-vless
+- name: 🇫🇮 芬兰 (Finland) 07 - dwt
+  server: 95.216.27.15
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
   tls: true
   reality-opts:
-    public-key: Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU
-  servername: ai.eosshop.net
+    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
+    short-id: d368b94e275ab080
+  servername: www.google.com
   client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 06 - dwt
+- name: 🇫🇮 芬兰 (Finland) 08 - dwt
   server: 65.109.212.193
   port: 465
   udp: true
@@ -78,46 +105,34 @@ proxies:
     path: /
     headers:
       Host: hw3.divarkhaghazi.com.
-- name: 🇫🇮 芬兰 (Finland) 07 - dwt
-  server: 31.77.199.147
-  port: 4443
+- name: 🇫🇮 芬兰 (Finland) 09 - dwt
+  server: 94.228.167.12
+  port: 443
   udp: true
   type: vless
-  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
+  uuid: 37ca5f34-2531-4fda-a781-20f3845fea88
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A
-    short-id: 7da2eae792187ab9
-  servername: images.unsplash.com
+    public-key: dCaQHVtwEPBeiH3ivVU9ycGJZ8uCO2JaIVjYBnfaTWY
+    short-id: c13c9bd7bd45847d
+  servername: washingphonicseatable.solsticedigest.me
   client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 08 - dwt
-  server: 95.216.27.15
-  port: 2053
+- name: 🇫🇮 芬兰 (Finland) 10 - dwt
+  server: 2.29.101.158
+  port: 443
   udp: true
   type: vless
-  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
+  uuid: 9a0e84f8-4b58-477f-99da-5fac5a2e58e8
   tls: true
   reality-opts:
-    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
-    short-id: d368b94e275ab080
-  servername: www.google.com
-  client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 09 - dwt
-  server: 213.176.17.159
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-  tls: true
-  servername: fin2.pad-sservice.lat
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /fin2-1
-    headers:
-      Host: fin2.pad-service.com
+    public-key: pAgrBKJCmuSJHIzYkEJTqsOBOVBK_DMtEqFPo-PaTkg
+    short-id: b3c9d0c6bdd114a6
+  servername: 36a466g.fi1.h1clayd.click
+  client-fingerprint: random
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 0adb9638509b
 proxy-groups:
 - name: PROXIES
   type: select
@@ -132,6 +147,7 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 07 - dwt
   - 🇫🇮 芬兰 (Finland) 08 - dwt
   - 🇫🇮 芬兰 (Finland) 09 - dwt
+  - 🇫🇮 芬兰 (Finland) 10 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -146,5 +162,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 07 - dwt
   - 🇫🇮 芬兰 (Finland) 08 - dwt
   - 🇫🇮 芬兰 (Finland) 09 - dwt
+  - 🇫🇮 芬兰 (Finland) 10 - dwt
 rules:
 - MATCH,PROXIES
