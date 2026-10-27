@@ -12,24 +12,12 @@
       "tls": {
         "enabled": true,
         "server_name": "connectwithemployerstohireyouridealteam.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇦🇺 澳大利亚 (Australia) 02 - dwt",
-      "server": "au.tronsg.com",
-      "server_port": 443,
-      "password": "Trojan@82164024",
-      "tls": {
-        "enabled": true,
-        "server_name": "au.tronsg.com",
-        "insecure": true
+        "insecure": false
       }
     },
     {
       "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 03 - dwt",
+      "tag": "🇦🇺 澳大利亚 (Australia) 02 - dwt",
       "server": "51.161.204.242",
       "server_port": 443,
       "uuid": "a14b736b-a92a-48d6-a596-5d31f7378ded",
@@ -49,24 +37,20 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇦🇺 澳大利亚 (Australia) 04 - dwt",
-      "server": "152.67.115.203",
+      "type": "trojan",
+      "tag": "🇦🇺 澳大利亚 (Australia) 03 - dwt",
+      "server": "au.tronsg.com",
       "server_port": 443,
-      "password": "633bc3be486b646190661ac2387c150a",
+      "password": "Trojan@82164024",
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
+        "server_name": "au.tronsg.com",
         "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "850a3fb1cd33a28f12d837578ae1a2e7"
       }
     },
     {
       "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 05 - dwt",
+      "tag": "🇦🇺 澳大利亚 (Australia) 04 - dwt",
       "server": "funagfrdfs.alixxplay.com",
       "server_port": 54528,
       "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
@@ -93,8 +77,7 @@
         "🇦🇺 澳大利亚 (Australia) 01 - dwt",
         "🇦🇺 澳大利亚 (Australia) 02 - dwt",
         "🇦🇺 澳大利亚 (Australia) 03 - dwt",
-        "🇦🇺 澳大利亚 (Australia) 04 - dwt",
-        "🇦🇺 澳大利亚 (Australia) 05 - dwt"
+        "🇦🇺 澳大利亚 (Australia) 04 - dwt"
       ]
     },
     {
@@ -104,8 +87,7 @@
         "🇦🇺 澳大利亚 (Australia) 01 - dwt",
         "🇦🇺 澳大利亚 (Australia) 02 - dwt",
         "🇦🇺 澳大利亚 (Australia) 03 - dwt",
-        "🇦🇺 澳大利亚 (Australia) 04 - dwt",
-        "🇦🇺 澳大利亚 (Australia) 05 - dwt"
+        "🇦🇺 澳大利亚 (Australia) 04 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
