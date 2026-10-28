@@ -5,16 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇭 泰国 (Thailand) 01 - dwt
-  server: th001.zestapp778.com
-  port: 22222
-  udp: true
-  type: vless
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  tls: true
-  servername: th001.zestapp778.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-- name: 🇹🇭 泰国 (Thailand) 02 - dwt
   server: 45.154.26.63
   port: 443
   udp: true
@@ -27,19 +17,16 @@ proxies:
     short-id: 3c032a7e
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇹🇭 泰国 (Thailand) 03 - dwt
-  server: 109.237.98.213
-  port: 443
+- name: 🇹🇭 泰国 (Thailand) 02 - dwt
+  server: th001.zestapp778.com
+  port: 22222
   udp: true
   type: vless
-  uuid: 26f751bc-2edc-4338-9c3f-abeb32aba3b7
-  flow: xtls-rprx-vision
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   tls: true
-  reality-opts:
-    public-key: fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA
-    short-id: 6ba85179e30d4fc2
-  servername: xy4l6bpbjk.xeltrona-host26.sbs
-  client-fingerprint: firefox
+  servername: th001.zestapp778.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -47,7 +34,6 @@ proxy-groups:
   - AUTO
   - 🇹🇭 泰国 (Thailand) 01 - dwt
   - 🇹🇭 泰国 (Thailand) 02 - dwt
-  - 🇹🇭 泰国 (Thailand) 03 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -55,6 +41,5 @@ proxy-groups:
   proxies:
   - 🇹🇭 泰国 (Thailand) 01 - dwt
   - 🇹🇭 泰国 (Thailand) 02 - dwt
-  - 🇹🇭 泰国 (Thailand) 03 - dwt
 rules:
 - MATCH,PROXIES

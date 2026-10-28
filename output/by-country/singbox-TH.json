@@ -6,22 +6,6 @@
     {
       "type": "vless",
       "tag": "🇹🇭 泰国 (Thailand) 01 - dwt",
-      "server": "th001.zestapp778.com",
-      "server_port": 22222,
-      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
-      "tls": {
-        "enabled": true,
-        "server_name": "th001.zestapp778.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇭 泰国 (Thailand) 02 - dwt",
       "server": "45.154.26.63",
       "server_port": 443,
       "uuid": "ff85e702-b605-4109-884d-2c1f065d0954",
@@ -42,22 +26,17 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇭 泰国 (Thailand) 03 - dwt",
-      "server": "109.237.98.213",
-      "server_port": 443,
-      "uuid": "26f751bc-2edc-4338-9c3f-abeb32aba3b7",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇹🇭 泰国 (Thailand) 02 - dwt",
+      "server": "th001.zestapp778.com",
+      "server_port": 22222,
+      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
       "tls": {
         "enabled": true,
-        "server_name": "xy4l6bpbjk.xeltrona-host26.sbs",
+        "server_name": "th001.zestapp778.com",
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA",
-          "short_id": "6ba85179e30d4fc2"
+          "fingerprint": "chrome"
         }
       }
     },
@@ -67,8 +46,7 @@
       "outbounds": [
         "auto",
         "🇹🇭 泰国 (Thailand) 01 - dwt",
-        "🇹🇭 泰国 (Thailand) 02 - dwt",
-        "🇹🇭 泰国 (Thailand) 03 - dwt"
+        "🇹🇭 泰国 (Thailand) 02 - dwt"
       ]
     },
     {
@@ -76,8 +54,7 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇭 泰国 (Thailand) 01 - dwt",
-        "🇹🇭 泰国 (Thailand) 02 - dwt",
-        "🇹🇭 泰国 (Thailand) 03 - dwt"
+        "🇹🇭 泰国 (Thailand) 02 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

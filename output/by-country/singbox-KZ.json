@@ -4,8 +4,23 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - dwt",
+      "server": "38.107.234.57",
+      "server_port": 80,
+      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/vmess/",
+        "headers": {
+          "Host": "google.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - dwt",
       "server": "46.8.43.125",
       "server_port": 443,
       "uuid": "846cedee-2a52-4a62-a0b9-11850ead6a8b",
@@ -20,27 +35,6 @@
           "enabled": true,
           "public_key": "ER-T5En54-sn6IXy7jU8vQVcBbOiWvznnezf3qZ273w",
           "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - dwt",
-      "server": "45.136.59.28",
-      "server_port": 43000,
-      "uuid": "a8b8b21e-1f31-4e4d-a639-efb2de0d577e",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "45.136.59.28",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "osqok9aA_NR7WyAxZptD36-_U8BF_9gL8AH84MMzbFs",
-          "short_id": "ced96d59"
         }
       }
     },
@@ -65,13 +59,35 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - dwt",
+      "server": "45.136.59.28",
+      "server_port": 43000,
+      "uuid": "a8b8b21e-1f31-4e4d-a639-efb2de0d577e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "45.136.59.28",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "osqok9aA_NR7WyAxZptD36-_U8BF_9gL8AH84MMzbFs",
+          "short_id": "ced96d59"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - dwt",
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - dwt",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - dwt"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - dwt",
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - dwt"
       ]
     },
     {
@@ -80,7 +96,8 @@
       "outbounds": [
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - dwt",
         "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - dwt",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - dwt"
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - dwt",
+        "🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
