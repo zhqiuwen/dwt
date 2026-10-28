@@ -16,18 +16,27 @@ proxies:
   grpc-opts:
     grpc-service-name: kobedin-server1-trojan
 - name: 🇫🇮 芬兰 (Finland) 02 - dwt
-  server: fi17-node.rumedia-cdn.com
-  port: 8443
+  server: 31.76.8.20
+  port: 4443
+  udp: true
+  type: hysteria2
+  password: 146d567c-6335-4e63-a8aa-7ec068642440
+  sni: nl1.obxodvpn.us
+  skip-cert-verify: false
+- name: 🇫🇮 芬兰 (Finland) 03 - dwt
+  server: 45.149.147.213
+  port: 4443
   udp: true
   type: vless
-  uuid: d1641bc6-3757-43db-815a-9b3f4d9b0d7e
-  flow: xtls-rprx-vision
+  uuid: 9b347a9b-d7a6-4b51-9890-eff62b832834
   tls: true
-  reality-opts:
-    public-key: 14YyFG_j2yPEUu-gO_G9GqCqRiZ0DIUgzReV9CZvOAk
-  servername: www.nokia.com
-  client-fingerprint: firefox
-- name: 🇫🇮 芬兰 (Finland) 03 - dwt
+  servername: 45-149-147-213.sslip.io
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: kobedin-server1-vless
+- name: 🇫🇮 芬兰 (Finland) 04 - dwt
   server: 45.144.234.157
   port: 14430
   udp: true
@@ -38,7 +47,20 @@ proxies:
     path: /vless
     headers:
       Host: 45.144.234.157
-- name: 🇫🇮 芬兰 (Finland) 04 - dwt
+- name: 🇫🇮 芬兰 (Finland) 05 - dwt
+  server: 2.27.13.152
+  port: 8443
+  udp: true
+  type: vless
+  uuid: d1641bc6-3757-43db-815a-9b3f4d9b0d7e
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 14YyFG_j2yPEUu-gO_G9GqCqRiZ0DIUgzReV9CZvOAk
+    short-id: 0f47ff9aa15e3e30
+  servername: www.nokia.com
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 06 - dwt
   server: 95.216.27.15
   port: 2053
   udp: true
@@ -50,48 +72,7 @@ proxies:
     short-id: d368b94e275ab080
   servername: www.google.com
   client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 05 - dwt
-  server: 45.149.147.213
-  port: 4443
-  udp: true
-  type: vless
-  uuid: 9b347a9b-d7a6-4b51-9890-eff62b832834
-  tls: true
-  servername: 45-149-147-213.sslip.io
-  skip-cert-verify: false
-  client-fingerprint: safari
-  network: grpc
-  grpc-opts:
-    grpc-service-name: kobedin-server1-vless
-- name: 🇫🇮 芬兰 (Finland) 06 - dwt
-  server: 196.196.204.174
-  port: 443
-  udp: true
-  type: vless
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  tls: true
-  reality-opts:
-    public-key: GJzag9Wrvz_bO9AQaA-Oq0P1kV9btmxxAdzPV-uQB18
-    short-id: 09d0a94a1c6fc9d5
-  servername: 8fc752g.fi3.h1clayd.click
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: f345a414c040
 - name: 🇫🇮 芬兰 (Finland) 07 - dwt
-  server: 31.77.199.147
-  port: 4443
-  udp: true
-  type: vless
-  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A
-    short-id: 7da2eae792187ab9
-  servername: images.unsplash.com
-  client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 08 - dwt
   server: 65.109.212.193
   port: 465
   udp: true
@@ -106,6 +87,34 @@ proxies:
     path: /
     headers:
       Host: hw3.divarkhaghazi.com.
+- name: 🇫🇮 芬兰 (Finland) 08 - dwt
+  server: 31.77.199.147
+  port: 4443
+  udp: true
+  type: vless
+  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A
+    short-id: 7da2eae792187ab9
+  servername: images.unsplash.com
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 09 - dwt
+  server: 77.42.12.225
+  port: 443
+  udp: true
+  type: vless
+  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+  tls: true
+  reality-opts:
+    public-key: GJzag9Wrvz_bO9AQaA-Oq0P1kV9btmxxAdzPV-uQB18
+    short-id: 09d0a94a1c6fc9d5
+  servername: 8fc752g.fi3.h1clayd.click
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: f345a414c040
 proxy-groups:
 - name: PROXIES
   type: select
@@ -119,6 +128,7 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 06 - dwt
   - 🇫🇮 芬兰 (Finland) 07 - dwt
   - 🇫🇮 芬兰 (Finland) 08 - dwt
+  - 🇫🇮 芬兰 (Finland) 09 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -132,5 +142,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 06 - dwt
   - 🇫🇮 芬兰 (Finland) 07 - dwt
   - 🇫🇮 芬兰 (Finland) 08 - dwt
+  - 🇫🇮 芬兰 (Finland) 09 - dwt
 rules:
 - MATCH,PROXIES

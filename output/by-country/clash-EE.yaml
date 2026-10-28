@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇪🇪 爱沙尼亚 (Estonia) 01 - dwt
-  server: 79.182.39.232
+  server: ee.h1cloud.net
   port: 25895
   udp: true
   type: vless

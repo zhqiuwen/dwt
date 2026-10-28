@@ -7,44 +7,48 @@
       "type": "shadowsocks",
       "tag": "🇪🇸 西班牙 (Spain) 01 - dwt",
       "server": "5.188.181.201",
-      "server_port": 9027,
+      "server_port": 9054,
       "method": "aes-256-cfb",
-      "password": "EXN3S3eQpjE7EJu8"
+      "password": "VcFuyXvND2yQWSFY"
     },
     {
-      "type": "trojan",
+      "type": "shadowsocks",
       "tag": "🇪🇸 西班牙 (Spain) 02 - dwt",
-      "server": "66.163.118.244",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "api.discovergreatjobsandadvanceyourcareer.com",
-        "insecure": false
-      }
+      "server": "5.188.181.201",
+      "server_port": 9025,
+      "method": "aes-256-cfb",
+      "password": "XPtzA9sCug3SPR4c"
     },
     {
       "type": "trojan",
       "tag": "🇪🇸 西班牙 (Spain) 03 - dwt",
-      "server": "66.163.118.251",
+      "server": "66.163.118.131",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "resources.discovergreatjobsandadvanceyourcareer.com",
-        "insecure": false
+        "server_name": "www.discovergreatjobsandadvanceyourcareer.com",
+        "insecure": true
       }
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇪🇸 西班牙 (Spain) 04 - dwt",
-      "server": "66.163.118.166",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "server": "212.227.235.66",
+      "server_port": 2053,
+      "uuid": "ead0dd61-d398-40ad-80d6-a0e1e516d7d3",
       "tls": {
         "enabled": true,
-        "server_name": "learn.discovergreatjobsandadvanceyourcareer.com",
-        "insecure": false
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk",
+          "short_id": "29e8dcd2b37aaa7f"
+        }
       }
     },
     {
@@ -62,26 +66,6 @@
     {
       "type": "vless",
       "tag": "🇪🇸 西班牙 (Spain) 06 - dwt",
-      "server": "212.227.235.66",
-      "server_port": 2053,
-      "uuid": "ead0dd61-d398-40ad-80d6-a0e1e516d7d3",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk",
-          "short_id": "29e8dcd2b37aaa7f"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 07 - dwt",
       "server": "156.252.229.11",
       "server_port": 8443,
       "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
@@ -100,16 +84,8 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 08 - dwt",
-      "server": "dns22.m3hrzd.ir",
-      "server_port": 1354,
-      "method": "chacha20-ietf-poly1305",
-      "password": "LzEeLj2OP0DQmpPDtVTazdGC0cHcT0Kn"
-    },
-    {
       "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 09 - dwt",
+      "tag": "🇪🇸 西班牙 (Spain) 07 - dwt",
       "server": "193.238.154.78",
       "server_port": 443,
       "uuid": "897d47f8-4dd5-42a1-bcd0-bef19caff55a",
@@ -129,6 +105,42 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "🇪🇸 西班牙 (Spain) 08 - dwt",
+      "server": "66.163.118.244",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.discovergreatjobsandadvanceyourcareer.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇪🇸 西班牙 (Spain) 09 - dwt",
+      "server": "66.163.118.166",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "learn.discovergreatjobsandadvanceyourcareer.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇪🇸 西班牙 (Spain) 10 - dwt",
+      "server": "66.163.118.251",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "resources.discovergreatjobsandadvanceyourcareer.com",
+        "insecure": false
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -141,7 +153,8 @@
         "🇪🇸 西班牙 (Spain) 06 - dwt",
         "🇪🇸 西班牙 (Spain) 07 - dwt",
         "🇪🇸 西班牙 (Spain) 08 - dwt",
-        "🇪🇸 西班牙 (Spain) 09 - dwt"
+        "🇪🇸 西班牙 (Spain) 09 - dwt",
+        "🇪🇸 西班牙 (Spain) 10 - dwt"
       ]
     },
     {
@@ -156,7 +169,8 @@
         "🇪🇸 西班牙 (Spain) 06 - dwt",
         "🇪🇸 西班牙 (Spain) 07 - dwt",
         "🇪🇸 西班牙 (Spain) 08 - dwt",
-        "🇪🇸 西班牙 (Spain) 09 - dwt"
+        "🇪🇸 西班牙 (Spain) 09 - dwt",
+        "🇪🇸 西班牙 (Spain) 10 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

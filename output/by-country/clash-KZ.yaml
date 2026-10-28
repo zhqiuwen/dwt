@@ -16,7 +16,7 @@ proxies:
   servername: kz-central.v8x2b.lol
   client-fingerprint: firefox
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - dwt
-  server: 38.107.234.57
+  server: 3h-kazakhstan1.09vpn.com
   port: 80
   udp: true
   type: vmess
