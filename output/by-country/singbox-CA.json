@@ -14,43 +14,6 @@
     {
       "type": "shadowsocks",
       "tag": "🇨🇦 加拿大 (Canada) 02 - dwt",
-      "server": "149.22.95.183",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 03 - dwt",
-      "server": "138.197.141.58",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 04 - dwt",
-      "server": "209.200.246.148",
-      "server_port": 443,
-      "uuid": "ca52e2b6-fb9f-4dac-b6dc-49da9923f251",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk",
-          "short_id": "f98843107912e782"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 05 - dwt",
       "server": "137.184.174.93",
       "server_port": 8080,
       "method": "rc4-md5",
@@ -58,7 +21,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 06 - dwt",
+      "tag": "🇨🇦 加拿大 (Canada) 03 - dwt",
       "server": "51.222.136.236",
       "server_port": 8882,
       "method": "aes-256-gcm",
@@ -66,36 +29,51 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 07 - dwt",
-      "server": "51.222.155.32",
-      "server_port": 5003,
-      "method": "aes-256-gcm",
-      "password": "g5MeD6Ft3CWlJId"
+      "tag": "🇨🇦 加拿大 (Canada) 04 - dwt",
+      "server": "138.197.141.58",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 05 - dwt",
+      "server": "149.22.95.183",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 08 - dwt",
-      "server": "38.145.220.58",
-      "server_port": 2093,
-      "uuid": "0b418782-e023-447e-ba99-e66b84ff118d",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇨🇦 加拿大 (Canada) 06 - dwt",
+      "server": "66.70.179.198",
+      "server_port": 2053,
+      "uuid": "dc620cd6-a9d8-4a0f-8f18-006b895db77e",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM",
-          "short_id": "8a9725533854a7e8"
+          "public_key": "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU",
+          "short_id": "83f8317a948bb769"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "🇨🇦 加拿大 (Canada) 09 - dwt",
+      "tag": "🇨🇦 加拿大 (Canada) 07 - dwt",
+      "server": "23.162.200.198",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇦 加拿大 (Canada) 08 - dwt",
       "server": "www.windowsmsidownloads.com",
       "server_port": 443,
       "uuid": "80be2deb-3b27-4775-9bd1-7f2a2b9c261b",
@@ -112,19 +90,32 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 10 - dwt",
-      "server": "148.113.196.75",
-      "server_port": 8443,
-      "uuid": "08f96221-9b7b-4e6f-8ffe-aee8b9c9b504",
+      "tag": "🇨🇦 加拿大 (Canada) 09 - dwt",
+      "server": "38.145.220.58",
+      "server_port": 2093,
+      "uuid": "0b418782-e023-447e-ba99-e66b84ff118d",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ov-canada1.09vpn.com",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless/"
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM",
+          "short_id": "8a9725533854a7e8"
+        }
       }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 10 - dwt",
+      "server": "51.222.155.32",
+      "server_port": 5003,
+      "method": "aes-256-gcm",
+      "password": "g5MeD6Ft3CWlJId"
     },
     {
       "type": "vless",
@@ -134,45 +125,9 @@
       "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8"
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇨🇦 加拿大 (Canada) 12 - dwt",
-      "server": "23.162.200.198",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 13 - dwt",
-      "server": "51.222.141.125",
-      "server_port": 445,
-      "method": "aes-256-gcm",
-      "password": "zDNVedRFPQexG9v"
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 14 - dwt",
-      "server": "511.150333.xyz",
-      "server_port": 21002,
-      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
-          "short_id": "3ab8d93dd9b1a5be"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 15 - dwt",
-      "server": "511.150333.xyz",
+      "server": "103.106.229.37",
       "server_port": 21004,
       "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
       "tls": {
@@ -191,47 +146,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 16 - dwt",
-      "server": "66.70.179.198",
-      "server_port": 2053,
-      "uuid": "dc620cd6-a9d8-4a0f-8f18-006b895db77e",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU",
-          "short_id": "83f8317a948bb769"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 17 - dwt",
-      "server": "510.150333.xyz",
-      "server_port": 21001,
-      "uuid": "67952583-8572-42e1-943d-0602794f885b",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA",
-          "short_id": "a51c3ccb2320024a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 18 - dwt",
+      "tag": "🇨🇦 加拿大 (Canada) 13 - dwt",
       "server": "511.150333.xyz",
       "server_port": 21003,
       "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
@@ -251,7 +166,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 19 - dwt",
+      "tag": "🇨🇦 加拿大 (Canada) 14 - dwt",
       "server": "510.150333.xyz",
       "server_port": 21004,
       "uuid": "67952583-8572-42e1-943d-0602794f885b",
@@ -271,7 +186,27 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 20 - dwt",
+      "tag": "🇨🇦 加拿大 (Canada) 15 - dwt",
+      "server": "510.150333.xyz",
+      "server_port": 21001,
+      "uuid": "67952583-8572-42e1-943d-0602794f885b",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA",
+          "short_id": "a51c3ccb2320024a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 16 - dwt",
       "server": "510.150333.xyz",
       "server_port": 21003,
       "uuid": "67952583-8572-42e1-943d-0602794f885b",
@@ -280,7 +215,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -291,7 +226,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 21 - dwt",
+      "tag": "🇨🇦 加拿大 (Canada) 17 - dwt",
       "server": "510.150333.xyz",
       "server_port": 21002,
       "uuid": "67952583-8572-42e1-943d-0602794f885b",
@@ -310,16 +245,8 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 22 - dwt",
-      "server": "51.79.49.116",
-      "server_port": 8882,
-      "method": "aes-256-gcm",
-      "password": "kDWvXYZoTBcGkC4"
-    },
-    {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 23 - dwt",
+      "tag": "🇨🇦 加拿大 (Canada) 18 - dwt",
       "server": "511.150333.xyz",
       "server_port": 21001,
       "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
@@ -338,20 +265,69 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 19 - dwt",
+      "server": "51.222.141.125",
+      "server_port": 445,
+      "method": "aes-256-gcm",
+      "password": "zDNVedRFPQexG9v"
+    },
+    {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 24 - dwt",
-      "server": "ca001.zestapp778.com",
-      "server_port": 32355,
-      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
+      "tag": "🇨🇦 加拿大 (Canada) 20 - dwt",
+      "server": "209.200.246.148",
+      "server_port": 443,
+      "uuid": "ca52e2b6-fb9f-4dac-b6dc-49da9923f251",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ca001.zestapp778.com",
-        "insecure": false,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk",
+          "short_id": "f98843107912e782"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 21 - dwt",
+      "server": "511.150333.xyz",
+      "server_port": 21002,
+      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
+          "short_id": "3ab8d93dd9b1a5be"
         }
       }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 22 - dwt",
+      "server": "51.222.155.113",
+      "server_port": 5601,
+      "method": "aes-256-gcm",
+      "password": "Y6R9pAtvxxzmGC"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 23 - dwt",
+      "server": "51.222.12.127",
+      "server_port": 445,
+      "method": "aes-256-gcm",
+      "password": "zDNVedRFPQexG9v"
     },
     {
       "type": "selector",
@@ -380,8 +356,7 @@
         "🇨🇦 加拿大 (Canada) 20 - dwt",
         "🇨🇦 加拿大 (Canada) 21 - dwt",
         "🇨🇦 加拿大 (Canada) 22 - dwt",
-        "🇨🇦 加拿大 (Canada) 23 - dwt",
-        "🇨🇦 加拿大 (Canada) 24 - dwt"
+        "🇨🇦 加拿大 (Canada) 23 - dwt"
       ]
     },
     {
@@ -410,8 +385,7 @@
         "🇨🇦 加拿大 (Canada) 20 - dwt",
         "🇨🇦 加拿大 (Canada) 21 - dwt",
         "🇨🇦 加拿大 (Canada) 22 - dwt",
-        "🇨🇦 加拿大 (Canada) 23 - dwt",
-        "🇨🇦 加拿大 (Canada) 24 - dwt"
+        "🇨🇦 加拿大 (Canada) 23 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

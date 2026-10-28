@@ -18,7 +18,7 @@ proxies:
   servername: gateway.icloud.com
   client-fingerprint: chrome
 - name: 🇨🇿 捷克 (Czech) 02 - dwt
-  server: cz-prg.dontblockmepls.com
+  server: 31.77.13.22
   port: 2063
   udp: true
   type: vless
@@ -30,18 +30,18 @@ proxies:
   servername: rusbid.de
   client-fingerprint: firefox
 - name: 🇨🇿 捷克 (Czech) 03 - dwt
-  server: server.slavkiti.monster
+  server: 193.124.17.190
   port: 443
   udp: true
   type: vless
-  uuid: 4d017db2-7655-4276-9557-e2ec25b04ee7
+  uuid: 13aef2e0-b3fb-4322-a0e9-c10b908ce6b5
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: ee1716767f9b
-  servername: www.tradingview.com
-  client-fingerprint: chrome
+    short-id: 87f895f23064
+  servername: www.techradar.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select

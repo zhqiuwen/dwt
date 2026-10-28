@@ -15,14 +15,6 @@ proxies:
   obfs: salamander
   obfs-password: CyG0RFxMjzs41uQD4OLuHQ==
 - name: 🇧🇷 巴西 (Brazil) 02 - dwt
-  server: 216.238.104.154
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: findtemporaryworkandfreelancerprojectsonlineplatform.com
-  skip-cert-verify: false
-- name: 🇧🇷 巴西 (Brazil) 03 - dwt
   server: br001.zestapp778.com
   port: 15040
   udp: true
@@ -31,7 +23,14 @@ proxies:
   tls: true
   servername: br.zestapp778.com
   skip-cert-verify: false
-  client-fingerprint: chrome
+- name: 🇧🇷 巴西 (Brazil) 03 - dwt
+  server: 216.238.104.154
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: findtemporaryworkandfreelancerprojectsonlineplatform.com
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select

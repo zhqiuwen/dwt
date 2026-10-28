@@ -5,14 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇾 塞浦路斯 (Cyprus) 01 - dwt
-  server: 194.76.147.34
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 4b1be712-774c-4b65-8491-a3339e124a70
-  sni: hys-eu.letsconnectpoint.com
-  skip-cert-verify: false
-- name: 🇨🇾 塞浦路斯 (Cyprus) 02 - dwt
   server: 171.22.119.74
   port: 8446
   udp: true
@@ -23,6 +15,18 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-video-call
+- name: 🇨🇾 塞浦路斯 (Cyprus) 02 - dwt
+  server: 45.12.63.20
+  port: 443
+  udp: true
+  type: vless
+  uuid: 26f751bc-2edc-4338-9c3f-abeb32aba3b7
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA
+  servername: c0qm24de441.staticpool.store
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select

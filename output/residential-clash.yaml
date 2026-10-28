@@ -11,14 +11,7 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: 1234!@#$
-- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - dwt
-  server: p141.panda001.net
-  port: 4652
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-- name: 🇮🇳 印度 (India) 03 (家宽) - dwt
+- name: 🇮🇳 印度 (India) 02 (家宽) - dwt
   server: 122.176.216.52
   port: 443
   udp: true
@@ -27,7 +20,7 @@ proxies:
   tls: true
   servername: app-6ada5023.deploy.meerasolution.com
   skip-cert-verify: false
-  client-fingerprint: chrome
+  client-fingerprint: android
   network: ws
   ws-opts:
     path: /ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
@@ -39,15 +32,13 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - dwt
-  - 🇰🇷 韩国 (South Korea) 02 (家宽) - dwt
-  - 🇮🇳 印度 (India) 03 (家宽) - dwt
+  - 🇮🇳 印度 (India) 02 (家宽) - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - dwt
-  - 🇰🇷 韩国 (South Korea) 02 (家宽) - dwt
-  - 🇮🇳 印度 (India) 03 (家宽) - dwt
+  - 🇮🇳 印度 (India) 02 (家宽) - dwt
 rules:
 - MATCH,PROXIES
