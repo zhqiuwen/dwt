@@ -4,8 +4,53 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 01 - dwt",
+      "server": "128.241.25.72",
+      "server_port": 30021,
+      "uuid": "65f26a08-9a5e-4b28-9004-f98676cc1e49",
+      "tls": {
+        "enabled": true,
+        "server_name": "2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇦🇪 阿联酋 (UAE) 02 - dwt",
+      "server": "ams1.rvpn.app",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "x2A6AsyZ-rAllz0wbKHzWA"
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 (UAE) 03 - dwt",
+      "server": "185.253.116.33",
+      "server_port": 14430,
+      "uuid": "aee7ae19-672f-49d8-8a92-aa7cdfc89f89",
+      "transport": {
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "185.253.116.33"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇦🇪 阿联酋 (UAE) 04 - dwt",
       "server": "130.49.161.70",
       "server_port": 443,
       "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
@@ -21,7 +66,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇦🇪 阿联酋 (UAE) 02 - dwt",
+      "tag": "🇦🇪 阿联酋 (UAE) 05 - dwt",
       "server": "forshynewh.duckdns.org",
       "server_port": 443,
       "password": "329e13e4-ee7c-4802-ac72-5fcab79c2402",
@@ -33,23 +78,16 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 03 - dwt",
-      "server": "uae.unixzone.us",
+      "tag": "🇦🇪 阿联酋 (UAE) 06 - dwt",
+      "server": "84.235.244.108",
       "server_port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "transport": {
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 04 - dwt",
-      "server": "185.253.116.33",
-      "server_port": 14430,
-      "uuid": "aee7ae19-672f-49d8-8a92-aa7cdfc89f89",
-      "transport": {
         "type": "ws",
-        "path": "/vless"
+        "path": "/",
+        "headers": {
+          "Host": "uae.unixzone.us"
+        }
       }
     },
     {
@@ -60,7 +98,9 @@
         "🇦🇪 阿联酋 (UAE) 01 - dwt",
         "🇦🇪 阿联酋 (UAE) 02 - dwt",
         "🇦🇪 阿联酋 (UAE) 03 - dwt",
-        "🇦🇪 阿联酋 (UAE) 04 - dwt"
+        "🇦🇪 阿联酋 (UAE) 04 - dwt",
+        "🇦🇪 阿联酋 (UAE) 05 - dwt",
+        "🇦🇪 阿联酋 (UAE) 06 - dwt"
       ]
     },
     {
@@ -70,7 +110,9 @@
         "🇦🇪 阿联酋 (UAE) 01 - dwt",
         "🇦🇪 阿联酋 (UAE) 02 - dwt",
         "🇦🇪 阿联酋 (UAE) 03 - dwt",
-        "🇦🇪 阿联酋 (UAE) 04 - dwt"
+        "🇦🇪 阿联酋 (UAE) 04 - dwt",
+        "🇦🇪 阿联酋 (UAE) 05 - dwt",
+        "🇦🇪 阿联酋 (UAE) 06 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
