@@ -7,43 +7,27 @@
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 01 - dwt",
       "server": "217.30.10.44",
-      "server_port": 9063,
+      "server_port": 9071,
       "method": "aes-256-cfb",
-      "password": "aQqJbtwFGcCCaeL3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 02 - dwt",
-      "server": "217.30.10.44",
-      "server_port": 9042,
-      "method": "aes-256-cfb",
-      "password": "S7KwUu7yBy58S3Ga"
+      "password": "mENfxTFQpRKKh4As"
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 03 - dwt",
+      "tag": "🇵🇱 波兰 (Poland) 02 - dwt",
       "server": "168.222.43.53",
       "server_port": 2052,
       "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286"
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 04 - dwt",
+      "tag": "🇵🇱 波兰 (Poland) 03 - dwt",
       "server": "155.117.5.208",
       "server_port": 20001,
       "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 05 - dwt",
-      "server": "pol.rvpn.app",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "8z2OB_gvFvpKgjFi8s9Cvw"
-    },
-    {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 06 - dwt",
+      "tag": "🇵🇱 波兰 (Poland) 04 - dwt",
       "server": "45.148.119.127",
       "server_port": 443,
       "uuid": "329e13e4-ee7c-4802-ac72-5fcab79c2402",
@@ -63,6 +47,37 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇵🇱 波兰 (Poland) 05 - dwt",
+      "server": "54.37.131.126",
+      "server_port": 80,
+      "uuid": "6deef9ad-1357-443d-f95c-cb18952c20b3",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 06 - dwt",
+      "server": "2.26.6.1",
+      "server_port": 2087,
+      "uuid": "b9fdc03f-389b-4cda-9be4-155b623bee15",
+      "tls": {
+        "enabled": true,
+        "server_name": "2.26.6.1",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "type": "hysteria2",
       "tag": "🇵🇱 波兰 (Poland) 07 - dwt",
       "server": "scrap.halyvanedorogo.ru",
@@ -75,19 +90,18 @@
       }
     },
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇵🇱 波兰 (Poland) 08 - dwt",
-      "server": "50.7.249.163",
+      "server": "92.118.150.146",
       "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "flow": "xtls-rprx-vision",
+      "password": "Trojan@82164024",
       "tls": {
         "enabled": true,
-        "server_name": "poland-new-new.failspace.top",
+        "server_name": "pl.tronsg.com",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
       }
     },
@@ -113,33 +127,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 10 - dwt",
-      "server": "2.26.6.1",
-      "server_port": 2087,
-      "uuid": "b9fdc03f-389b-4cda-9be4-155b623bee15",
-      "tls": {
-        "enabled": true,
-        "server_name": "2.26.6.1",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇵🇱 波兰 (Poland) 11 - dwt",
-      "server": "54.37.131.126",
-      "server_port": 80,
-      "uuid": "6deef9ad-1357-443d-f95c-cb18952c20b3",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -152,9 +139,7 @@
         "🇵🇱 波兰 (Poland) 06 - dwt",
         "🇵🇱 波兰 (Poland) 07 - dwt",
         "🇵🇱 波兰 (Poland) 08 - dwt",
-        "🇵🇱 波兰 (Poland) 09 - dwt",
-        "🇵🇱 波兰 (Poland) 10 - dwt",
-        "🇵🇱 波兰 (Poland) 11 - dwt"
+        "🇵🇱 波兰 (Poland) 09 - dwt"
       ]
     },
     {
@@ -169,9 +154,7 @@
         "🇵🇱 波兰 (Poland) 06 - dwt",
         "🇵🇱 波兰 (Poland) 07 - dwt",
         "🇵🇱 波兰 (Poland) 08 - dwt",
-        "🇵🇱 波兰 (Poland) 09 - dwt",
-        "🇵🇱 波兰 (Poland) 10 - dwt",
-        "🇵🇱 波兰 (Poland) 11 - dwt"
+        "🇵🇱 波兰 (Poland) 09 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

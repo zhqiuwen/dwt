@@ -4,26 +4,26 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - dwt",
-      "server": "218.237.185.234",
-      "server_port": 4652,
-      "method": "aes-256-cfb",
-      "password": "qwerREWQ@@"
+      "type": "vmess",
+      "tag": "🇲🇾 马来西亚 (Malaysia) 01 - dwt",
+      "server": "47.250.135.244",
+      "server_port": 10000,
+      "uuid": "aedc66b8-99d7-4a21-8310-61870e7f870d",
+      "security": "auto"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - dwt"
+        "🇲🇾 马来西亚 (Malaysia) 01 - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - dwt"
+        "🇲🇾 马来西亚 (Malaysia) 01 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

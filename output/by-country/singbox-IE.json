@@ -4,25 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇮🇪 爱尔兰 (Ireland) 01 - dwt",
-      "server": "50.7.5.188",
-      "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ir-new-ded.failspace.top",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇮🇪 爱尔兰 (Ireland) 02 - dwt",
+      "tag": "🇮🇪 爱尔兰 (Ireland) 01 - dwt",
       "server": "dns22.m3hrzd.ir",
       "server_port": 1347,
       "method": "chacha20-ietf-poly1305",
@@ -33,16 +16,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇪 爱尔兰 (Ireland) 01 - dwt",
-        "🇮🇪 爱尔兰 (Ireland) 02 - dwt"
+        "🇮🇪 爱尔兰 (Ireland) 01 - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 爱尔兰 (Ireland) 01 - dwt",
-        "🇮🇪 爱尔兰 (Ireland) 02 - dwt"
+        "🇮🇪 爱尔兰 (Ireland) 01 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -6,38 +6,24 @@ log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - dwt
   server: 217.30.10.44
-  port: 9063
+  port: 9071
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: aQqJbtwFGcCCaeL3
+  password: mENfxTFQpRKKh4As
 - name: 🇵🇱 波兰 (Poland) 02 - dwt
-  server: 217.30.10.44
-  port: 9042
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: S7KwUu7yBy58S3Ga
-- name: 🇵🇱 波兰 (Poland) 03 - dwt
   server: 168.222.43.53
   port: 2052
   udp: true
   type: vless
   uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
-- name: 🇵🇱 波兰 (Poland) 04 - dwt
+- name: 🇵🇱 波兰 (Poland) 03 - dwt
   server: 155.117.5.208
   port: 20001
   udp: true
   type: vless
   uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
-- name: 🇵🇱 波兰 (Poland) 05 - dwt
-  server: pol.rvpn.app
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 8z2OB_gvFvpKgjFi8s9Cvw
-- name: 🇵🇱 波兰 (Poland) 06 - dwt
+- name: 🇵🇱 波兰 (Poland) 04 - dwt
   server: 45.148.119.127
   port: 443
   udp: true
@@ -50,6 +36,29 @@ proxies:
     short-id: '50'
   servername: cloudflare.com
   client-fingerprint: chrome
+- name: 🇵🇱 波兰 (Poland) 05 - dwt
+  server: 54.37.131.126
+  port: 80
+  udp: true
+  type: vmess
+  uuid: 6deef9ad-1357-443d-f95c-cb18952c20b3
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+- name: 🇵🇱 波兰 (Poland) 06 - dwt
+  server: 2.26.6.1
+  port: 2087
+  udp: true
+  type: vless
+  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  tls: true
+  servername: 2.26.6.1
+  skip-cert-verify: false
+  client-fingerprint: chrome
 - name: 🇵🇱 波兰 (Poland) 07 - dwt
   server: scrap.halyvanedorogo.ru
   port: 35076
@@ -59,16 +68,13 @@ proxies:
   sni: scrap.halyvanedorogo.ru
   skip-cert-verify: true
 - name: 🇵🇱 波兰 (Poland) 08 - dwt
-  server: 50.7.249.163
+  server: 92.118.150.146
   port: 443
   udp: true
-  type: vless
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-  flow: xtls-rprx-vision
-  tls: true
-  servername: poland-new-new.failspace.top
+  type: trojan
+  password: Trojan@82164024
+  sni: pl.tronsg.com
   skip-cert-verify: false
-  client-fingerprint: firefox
 - name: 🇵🇱 波兰 (Poland) 09 - dwt
   server: 82.118.22.161
   port: 443
@@ -82,28 +88,6 @@ proxies:
     short-id: fa3ea655619a3e78
   servername: www.cloudflare.com
   client-fingerprint: safari
-- name: 🇵🇱 波兰 (Poland) 10 - dwt
-  server: 2.26.6.1
-  port: 2087
-  udp: true
-  type: vless
-  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
-  tls: true
-  servername: 2.26.6.1
-  skip-cert-verify: false
-- name: 🇵🇱 波兰 (Poland) 11 - dwt
-  server: 54.37.131.126
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 6deef9ad-1357-443d-f95c-cb18952c20b3
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
 proxy-groups:
 - name: PROXIES
   type: select
@@ -118,8 +102,6 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 07 - dwt
   - 🇵🇱 波兰 (Poland) 08 - dwt
   - 🇵🇱 波兰 (Poland) 09 - dwt
-  - 🇵🇱 波兰 (Poland) 10 - dwt
-  - 🇵🇱 波兰 (Poland) 11 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -134,7 +116,5 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 07 - dwt
   - 🇵🇱 波兰 (Poland) 08 - dwt
   - 🇵🇱 波兰 (Poland) 09 - dwt
-  - 🇵🇱 波兰 (Poland) 10 - dwt
-  - 🇵🇱 波兰 (Poland) 11 - dwt
 rules:
 - MATCH,PROXIES

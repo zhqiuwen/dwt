@@ -4,28 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🌐 其他地区 (Other) 01 - dwt
-  server: 104.19.95.153
-  port: 443
+- name: 🇨🇳 CN 01 - dwt
+  server: 120.48.133.162
+  port: 10086
   udp: true
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: false
+  type: vmess
+  uuid: a8d931b0-6c27-428b-8d86-c20efea3dba7
+  alterId: 0
+  cipher: auto
   network: ws
   ws-opts:
-    path: /assignment
+    path: /
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🌐 其他地区 (Other) 01 - dwt
+  - 🇨🇳 CN 01 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🌐 其他地区 (Other) 01 - dwt
+  - 🇨🇳 CN 01 - dwt
 rules:
 - MATCH,PROXIES
