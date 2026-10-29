@@ -11,7 +11,7 @@ proxies:
   type: hysteria2
   password: d4ca9415f0eac7897472e1e5b86d2e96
   sni: promo.betust.net
-  skip-cert-verify: false
+  skip-cert-verify: true
 - name: 🇸🇪 瑞典 (Sweden) 02 - dwt
   server: 5.178.109.174
   port: 14430
@@ -24,54 +24,18 @@ proxies:
     headers:
       Host: 5.178.109.174
 - name: 🇸🇪 瑞典 (Sweden) 03 - dwt
-  server: 191.44.114.154
-  port: 8443
+  server: 193.188.21.253
+  port: 10444
   udp: true
   type: vless
-  uuid: d1641bc6-3757-43db-815a-9b3f4d9b0d7e
+  uuid: 57f7772d-f5d6-4d8f-992d-5fa5e0d6da55
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: ndQzAcG4g-2OhvFb8EjFnZyxJ2lhawiulTLJOZrK8lY
-    short-id: c4359f3827231250
-  servername: www.wikipedia.org
-  client-fingerprint: firefox
-- name: 🇸🇪 瑞典 (Sweden) 04 - dwt
-  server: 191.44.114.179
-  port: 2096
-  udp: true
-  type: vless
-  uuid: d1641bc6-3757-43db-815a-9b3f4d9b0d7e
-  tls: true
-  servername: st33614.rumedia-cdn.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: st33614.rumedia-cdn.com
-- name: 🇸🇪 瑞典 (Sweden) 05 - dwt
-  server: 191.44.114.154
-  port: 2096
-  udp: true
-  type: vless
-  uuid: d1641bc6-3757-43db-815a-9b3f4d9b0d7e
-  tls: true
-  servername: st5ff8a.rumedia-cdn.com
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: st5ff8a.rumedia-cdn.com
-- name: 🇸🇪 瑞典 (Sweden) 06 - dwt
-  server: 70.34.212.124
-  port: 8388
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: AxIYWtskJWIIaefW
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+  servername: video.yandex.ru
+  client-fingerprint: safari
 proxy-groups:
 - name: PROXIES
   type: select
@@ -80,9 +44,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 01 - dwt
   - 🇸🇪 瑞典 (Sweden) 02 - dwt
   - 🇸🇪 瑞典 (Sweden) 03 - dwt
-  - 🇸🇪 瑞典 (Sweden) 04 - dwt
-  - 🇸🇪 瑞典 (Sweden) 05 - dwt
-  - 🇸🇪 瑞典 (Sweden) 06 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -91,8 +52,5 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 01 - dwt
   - 🇸🇪 瑞典 (Sweden) 02 - dwt
   - 🇸🇪 瑞典 (Sweden) 03 - dwt
-  - 🇸🇪 瑞典 (Sweden) 04 - dwt
-  - 🇸🇪 瑞典 (Sweden) 05 - dwt
-  - 🇸🇪 瑞典 (Sweden) 06 - dwt
 rules:
 - MATCH,PROXIES

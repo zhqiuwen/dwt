@@ -16,21 +16,6 @@ proxies:
     headers:
       Host: 45.144.234.157
 - name: 🇫🇮 芬兰 (Finland) 02 - dwt
-  server: 77.42.12.225
-  port: 443
-  udp: true
-  type: vless
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  tls: true
-  reality-opts:
-    public-key: GJzag9Wrvz_bO9AQaA-Oq0P1kV9btmxxAdzPV-uQB18
-    short-id: 09d0a94a1c6fc9d5
-  servername: 8fc752g.fi3.h1clayd.click
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: f345a414c040
-- name: 🇫🇮 芬兰 (Finland) 03 - dwt
   server: 31.77.199.147
   port: 4443
   udp: true
@@ -43,48 +28,15 @@ proxies:
     short-id: 7da2eae792187ab9
   servername: images.unsplash.com
   client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 04 - dwt
-  server: 95.216.27.15
-  port: 2053
+- name: 🇫🇮 芬兰 (Finland) 03 - dwt
+  server: 91.103.140.6
+  port: 443
   udp: true
-  type: vless
-  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
-  tls: true
-  reality-opts:
-    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
-    short-id: d368b94e275ab080
-  servername: www.google.com
-  client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 05 - dwt
-  server: dns22.m3hrzd.ir
-  port: 1346
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: U5Jk0BhRNKjb5wQBBOXx2wwkWZ_yWU0N
-- name: 🇫🇮 芬兰 (Finland) 06 - dwt
-  server: fn1s.sublinkplas.ir
-  port: 53731
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 1Pey1iumq-W30iHVnTEERD2n1RFUS_pS
-- name: 🇫🇮 芬兰 (Finland) 07 - dwt
-  server: 2.27.13.152
-  port: 2096
-  udp: true
-  type: vless
-  uuid: d1641bc6-3757-43db-815a-9b3f4d9b0d7e
-  tls: true
-  servername: st4834a.rumedia-cdn.com
+  type: hysteria2
+  password: 46c16b68-2553-4e5e-8176-f63d6bf6ec0c
+  sni: fl.solomon-planet.ru
   skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: st4834a.rumedia-cdn.com
-- name: 🇫🇮 芬兰 (Finland) 08 - dwt
+- name: 🇫🇮 芬兰 (Finland) 04 - dwt
   server: hw3.divarkhaghazi.com
   port: 465
   udp: true
@@ -93,24 +45,12 @@ proxies:
   tls: true
   servername: hw3.divarkhaghazi.com.
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /
     headers:
       Host: hw3.divarkhaghazi.com.
-- name: 🇫🇮 芬兰 (Finland) 09 - dwt
-  server: 6.bmi.ir.asopardaz.ir
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 2da85937-93d9-4509-8491-63b1921cf447
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JtA0d5K6Jnmg35oWP9SDOsc1ceuqaxOsNg33fiPHJQs
-    short-id: e915
-  servername: timeline.www.cloudflare.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -120,11 +60,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 02 - dwt
   - 🇫🇮 芬兰 (Finland) 03 - dwt
   - 🇫🇮 芬兰 (Finland) 04 - dwt
-  - 🇫🇮 芬兰 (Finland) 05 - dwt
-  - 🇫🇮 芬兰 (Finland) 06 - dwt
-  - 🇫🇮 芬兰 (Finland) 07 - dwt
-  - 🇫🇮 芬兰 (Finland) 08 - dwt
-  - 🇫🇮 芬兰 (Finland) 09 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -134,10 +69,5 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 02 - dwt
   - 🇫🇮 芬兰 (Finland) 03 - dwt
   - 🇫🇮 芬兰 (Finland) 04 - dwt
-  - 🇫🇮 芬兰 (Finland) 05 - dwt
-  - 🇫🇮 芬兰 (Finland) 06 - dwt
-  - 🇫🇮 芬兰 (Finland) 07 - dwt
-  - 🇫🇮 芬兰 (Finland) 08 - dwt
-  - 🇫🇮 芬兰 (Finland) 09 - dwt
 rules:
 - MATCH,PROXIES

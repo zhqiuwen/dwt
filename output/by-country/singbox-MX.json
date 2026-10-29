@@ -24,29 +24,12 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇲🇽 墨西哥 (Mexico) 03 - dwt",
-      "server": "mx001.zestapp778.com",
-      "server_port": 19167,
-      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
-      "tls": {
-        "enabled": true,
-        "server_name": "mx001.zestapp778.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇲🇽 墨西哥 (Mexico) 01 - dwt",
-        "🇲🇽 墨西哥 (Mexico) 02 - dwt",
-        "🇲🇽 墨西哥 (Mexico) 03 - dwt"
+        "🇲🇽 墨西哥 (Mexico) 02 - dwt"
       ]
     },
     {
@@ -54,8 +37,7 @@
       "tag": "auto",
       "outbounds": [
         "🇲🇽 墨西哥 (Mexico) 01 - dwt",
-        "🇲🇽 墨西哥 (Mexico) 02 - dwt",
-        "🇲🇽 墨西哥 (Mexico) 03 - dwt"
+        "🇲🇽 墨西哥 (Mexico) 02 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

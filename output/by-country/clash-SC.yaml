@@ -4,28 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇳 CN 01 - dwt
-  server: 120.48.133.162
-  port: 10086
+- name: 🇸🇨 塞舌尔 (Seychelles) 01 - dwt
+  server: 45.207.207.25
+  port: 443
   udp: true
-  type: vmess
-  uuid: a8d931b0-6c27-428b-8d86-c20efea3dba7
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /
+  type: ss
+  cipher: aes-256-gcm
+  password: gj1+XKulKV0nmw6IThckOkkJh5DSM7+C
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇳 CN 01 - dwt
+  - 🇸🇨 塞舌尔 (Seychelles) 01 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇳 CN 01 - dwt
+  - 🇸🇨 塞舌尔 (Seychelles) 01 - dwt
 rules:
 - MATCH,PROXIES
