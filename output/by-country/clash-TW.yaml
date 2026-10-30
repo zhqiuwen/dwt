@@ -5,34 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 - dwt
-  server: 103.115.109.49
+  server: 141.11.87.77
   port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%3a%2f%2ft.me%2fwangcai2%f0%9f%87%a8%f0%9f%87%b3
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 02 - dwt
-  server: n04.jinggai.online
-  port: 8443
   udp: true
   type: vless
-  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
+  uuid: 4a270d3e-27b4-497d-8c8c-28f1f54958d9
+  flow: xtls-rprx-vision
   tls: true
-  servername: n04.jinggai.online
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /nvl-n04-ws/e0577fe8fd7c8823
-- name: 🇹🇼 中国台湾 (Taiwan) 03 - dwt
-  server: vpn-tw-002.fastervpn.world
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-tw-002.fastervpn.world%5cu0026insecure%3d1%5cu0026allowinsecure%3d1
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 04 - dwt
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  servername: www.amazon.com
+  client-fingerprint: chrome
+- name: 🇹🇼 中国台湾 (Taiwan) 02 - dwt
   server: 152.32.167.33
   port: 443
   udp: true
@@ -45,7 +30,15 @@ proxies:
     short-id: cff998a4
   servername: www.amazon.com
   client-fingerprint: firefox
-- name: 🇹🇼 中国台湾 (Taiwan) 05 - dwt
+- name: 🇹🇼 中国台湾 (Taiwan) 03 - dwt
+  server: vpn-tw-002.fastervpn.world
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-tw-002.fastervpn.world\u0026insecure=1\u0026allowinsecure=1
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 04 - dwt
   server: 60.248.219.78
   port: 443
   udp: true
@@ -68,7 +61,6 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 02 - dwt
   - 🇹🇼 中国台湾 (Taiwan) 03 - dwt
   - 🇹🇼 中国台湾 (Taiwan) 04 - dwt
-  - 🇹🇼 中国台湾 (Taiwan) 05 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -78,6 +70,5 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 02 - dwt
   - 🇹🇼 中国台湾 (Taiwan) 03 - dwt
   - 🇹🇼 中国台湾 (Taiwan) 04 - dwt
-  - 🇹🇼 中国台湾 (Taiwan) 05 - dwt
 rules:
 - MATCH,PROXIES
