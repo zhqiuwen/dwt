@@ -5,54 +5,28 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - dwt
-  server: 38.22.88.248
-  port: 27509
+  server: 165.154.63.139
+  port: 443
   udp: true
   type: vless
-  uuid: 29d23018-3265-494c-b9fe-e320b619b1e2
+  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: nseaofwmjSciWUI2ZOXft9lUJutKvKEDUc-aSpE3e1M
-    short-id: 6ba85179e30d4fc2
-  servername: www.suffolk.edu
+    public-key: AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ
+    short-id: ca4aedd4
+  servername: www.amazon.com
   client-fingerprint: chrome
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - dwt
-  server: 202.146.222.174
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 202.146.222.174
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - dwt
-  server: 202.146.222.89
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: t.me
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - dwt
-  server: 152.32.254.68
-  port: 5010
-  udp: true
-  type: hysteria2
-  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-  sni: nas.aizhzo.com
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - dwt
   server: 202.146.222.29
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2üáüá
+  sni: https://t.me/wangcai2рҹүҹү
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - dwt
-  server: 103.238.227.211
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - dwt
+  server: 526.150333.xyz
   port: 21004
   udp: true
   type: vless
@@ -63,7 +37,7 @@ proxies:
     short-id: 2f34703f16523c80
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - dwt
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - dwt
   server: 103.238.227.211
   port: 21002
   udp: true
@@ -75,20 +49,7 @@ proxies:
     short-id: f0e6a8bb98db3efd
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - dwt
-  server: 213.152.180.104
-  port: 2091
-  udp: true
-  type: vless
-  uuid: 847a6dbf-c3b7-40c1-841c-2047c6418842
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
-    short-id: 08a4b1f473932632
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - dwt
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - dwt
   server: 103.238.227.211
   port: 21003
   udp: true
@@ -99,8 +60,18 @@ proxies:
     public-key: EXU8eOS1kf_ROqC68NO-zbzRFGx7U5zE6WvjxRzYeTo
     short-id: eb9539689690d35c
   servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - dwt
+  server: 195.58.144.56
+  port: 11907
+  udp: true
+  type: vless
+  uuid: 07cb07b9-0c4d-46c1-a15a-b147511b6b07
+  tls: true
+  servername: 195.58.144.56
+  skip-cert-verify: false
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 10 - dwt
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - dwt
   server: 103.238.227.211
   port: 21001
   udp: true
@@ -112,25 +83,6 @@ proxies:
     short-id: b6dfd5c750351c57
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 11 - dwt
-  server: 47.238.210.5
-  port: 13779
-  udp: true
-  type: vless
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  tls: true
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
-  servername: tesla.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 12 - dwt
-  server: 45.144.174.24
-  port: 8388
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: kDGQHTLfTdgpwUyL
 proxy-groups:
 - name: PROXIES
   type: select
@@ -143,11 +95,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 05 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 06 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 07 - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 08 - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 09 - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 10 - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 11 - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 12 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -160,10 +107,5 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 05 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 06 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 07 - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 08 - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 09 - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 10 - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 11 - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 12 - dwt
 rules:
 - MATCH,PROXIES
