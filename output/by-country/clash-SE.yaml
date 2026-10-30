@@ -13,6 +13,14 @@ proxies:
   sni: promo.betust.net
   skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 02 - dwt
+  server: 70.34.207.14
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
+  skip-cert-verify: false
+- name: 🇸🇪 瑞典 (Sweden) 03 - dwt
   server: 5.178.109.174
   port: 14430
   udp: true
@@ -23,7 +31,15 @@ proxies:
     path: /vless
     headers:
       Host: 5.178.109.174
-- name: 🇸🇪 瑞典 (Sweden) 03 - dwt
+- name: 🇸🇪 瑞典 (Sweden) 04 - dwt
+  server: 192.142.23.46
+  port: 443
+  udp: true
+  type: hysteria2
+  password: a0052f4f-4c63-0002-a16f-ab2d5d718cd3
+  sni: diffoscope.com
+  skip-cert-verify: false
+- name: 🇸🇪 瑞典 (Sweden) 05 - dwt
   server: 31.172.65.4
   port: 8443
   udp: true
@@ -36,14 +52,18 @@ proxies:
     short-id: 0e7741edc378622f
   servername: www.bing.com
   client-fingerprint: qq
-- name: 🇸🇪 瑞典 (Sweden) 04 - dwt
-  server: 192.142.23.46
+- name: 🇸🇪 瑞典 (Sweden) 06 - dwt
+  server: swidenafterlanzerotte.space
   port: 443
   udp: true
-  type: hysteria2
-  password: a0052f4f-4c63-0002-a16f-ab2d5d718cd3
-  sni: diffoscope.com
-  skip-cert-verify: true
+  type: vless
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: MQrvfivvEfLGzDee7h0j5uC-DwaD_38_NXOY9-NhqxM
+  servername: swidenafterlanzerotte.space
+  client-fingerprint: qq
 proxy-groups:
 - name: PROXIES
   type: select
@@ -53,6 +73,8 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 02 - dwt
   - 🇸🇪 瑞典 (Sweden) 03 - dwt
   - 🇸🇪 瑞典 (Sweden) 04 - dwt
+  - 🇸🇪 瑞典 (Sweden) 05 - dwt
+  - 🇸🇪 瑞典 (Sweden) 06 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -62,5 +84,7 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 02 - dwt
   - 🇸🇪 瑞典 (Sweden) 03 - dwt
   - 🇸🇪 瑞典 (Sweden) 04 - dwt
+  - 🇸🇪 瑞典 (Sweden) 05 - dwt
+  - 🇸🇪 瑞典 (Sweden) 06 - dwt
 rules:
 - MATCH,PROXIES

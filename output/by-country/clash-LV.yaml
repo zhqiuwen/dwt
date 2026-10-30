@@ -18,6 +18,22 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇱🇻 拉脱维亚 (Latvia) 02 - dwt
+  server: 104.165.205.142
+  port: 9443
+  udp: true
+  type: hysteria2
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  sni: onecloudstream.com
+  skip-cert-verify: false
+- name: 🇱🇻 拉脱维亚 (Latvia) 03 - dwt
+  server: 104.165.205.23
+  port: 9443
+  udp: true
+  type: hysteria2
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  sni: onecloudstream.com
+  skip-cert-verify: false
+- name: 🇱🇻 拉脱维亚 (Latvia) 04 - dwt
   server: 138.124.180.137
   port: 443
   udp: true
@@ -29,8 +45,29 @@ proxies:
     public-key: GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c
     short-id: 33acba1b
   servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇱🇻 拉脱维亚 (Latvia) 05 - dwt
+  server: 104.165.205.21
+  port: 9443
+  udp: true
+  type: hysteria2
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  sni: onecloudstream.com
+  skip-cert-verify: false
+- name: 🇱🇻 拉脱维亚 (Latvia) 06 - dwt
+  server: 45.43.79.92
+  port: 443
+  udp: true
+  type: vless
+  uuid: 042b12d8-bac4-4b3a-b661-79e333f08e4e
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: M4Y9h339sntl5wEpiCa7f4IKhJ_8JLzPnAz2IzKlngM
+    short-id: af4ca5d16438c938
+  servername: vikt659.isgood.host
   client-fingerprint: chrome
-- name: 🇱🇻 拉脱维亚 (Latvia) 03 - dwt
+- name: 🇱🇻 拉脱维亚 (Latvia) 07 - dwt
   server: 31.58.171.53
   port: 443
   udp: true
@@ -43,15 +80,7 @@ proxies:
     short-id: f77f3068
   servername: dl.google.com
   client-fingerprint: chrome
-- name: 🇱🇻 拉脱维亚 (Latvia) 04 - dwt
-  server: lv02.gotosvo.com
-  port: 9443
-  udp: true
-  type: hysteria2
-  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-  sni: onecloudstream.com
-  skip-cert-verify: false
-- name: 🇱🇻 拉脱维亚 (Latvia) 05 - dwt
+- name: 🇱🇻 拉脱维亚 (Latvia) 08 - dwt
   server: 195.123.208.32
   port: 443
   udp: true
@@ -74,6 +103,9 @@ proxy-groups:
   - 🇱🇻 拉脱维亚 (Latvia) 03 - dwt
   - 🇱🇻 拉脱维亚 (Latvia) 04 - dwt
   - 🇱🇻 拉脱维亚 (Latvia) 05 - dwt
+  - 🇱🇻 拉脱维亚 (Latvia) 06 - dwt
+  - 🇱🇻 拉脱维亚 (Latvia) 07 - dwt
+  - 🇱🇻 拉脱维亚 (Latvia) 08 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -84,5 +116,8 @@ proxy-groups:
   - 🇱🇻 拉脱维亚 (Latvia) 03 - dwt
   - 🇱🇻 拉脱维亚 (Latvia) 04 - dwt
   - 🇱🇻 拉脱维亚 (Latvia) 05 - dwt
+  - 🇱🇻 拉脱维亚 (Latvia) 06 - dwt
+  - 🇱🇻 拉脱维亚 (Latvia) 07 - dwt
+  - 🇱🇻 拉脱维亚 (Latvia) 08 - dwt
 rules:
 - MATCH,PROXIES

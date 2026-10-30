@@ -6,13 +6,34 @@
     {
       "type": "vless",
       "tag": "🇷🇴 罗马尼亚 (Romania) 01 - dwt",
+      "server": "95.133.245.250",
+      "server_port": 2027,
+      "uuid": "6a6ac9b3-b336-44f7-a1c4-a03d6c2fae9e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "deo.skysafe.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": ""
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0",
+          "short_id": "6ba7b8109dad11d1"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 02 - dwt",
       "server": "155.117.5.208",
       "server_port": 2052,
       "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286"
     },
     {
       "type": "hysteria2",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 02 - dwt",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 03 - dwt",
       "server": "162.249.125.133",
       "server_port": 443,
       "password": "QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s",
@@ -28,7 +49,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 03 - dwt",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 04 - dwt",
       "server": "82.117.255.174",
       "server_port": 443,
       "uuid": "679439c5-28f2-485e-af5f-60a5fcd9c36c",
@@ -48,12 +69,16 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 04 - dwt",
-      "server": "154.46.31.106",
+      "type": "hysteria2",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 05 - dwt",
+      "server": "185.156.44.99",
       "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QFWzCw2uX9B9i6qAYeFBIE"
+      "password": "gf1:gfhysteria2024",
+      "tls": {
+        "enabled": true,
+        "server_name": "whatsapp.com",
+        "insecure": true
+      }
     },
     {
       "type": "selector",
@@ -63,7 +88,8 @@
         "🇷🇴 罗马尼亚 (Romania) 01 - dwt",
         "🇷🇴 罗马尼亚 (Romania) 02 - dwt",
         "🇷🇴 罗马尼亚 (Romania) 03 - dwt",
-        "🇷🇴 罗马尼亚 (Romania) 04 - dwt"
+        "🇷🇴 罗马尼亚 (Romania) 04 - dwt",
+        "🇷🇴 罗马尼亚 (Romania) 05 - dwt"
       ]
     },
     {
@@ -73,7 +99,8 @@
         "🇷🇴 罗马尼亚 (Romania) 01 - dwt",
         "🇷🇴 罗马尼亚 (Romania) 02 - dwt",
         "🇷🇴 罗马尼亚 (Romania) 03 - dwt",
-        "🇷🇴 罗马尼亚 (Romania) 04 - dwt"
+        "🇷🇴 罗马尼亚 (Romania) 04 - dwt",
+        "🇷🇴 罗马尼亚 (Romania) 05 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
