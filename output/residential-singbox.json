@@ -4,24 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - dwt",
-      "server": "49.254.204.133",
-      "server_port": 1774,
-      "method": "aes-256-cfb",
-      "password": "1234!@#$"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 02 (家宽) - dwt",
-      "server": "p141.panda001.net",
-      "server_port": 4652,
-      "method": "aes-256-cfb",
-      "password": "qwerREWQ@@"
-    },
-    {
       "type": "vless",
-      "tag": "🇮🇳 印度 (India) 03 (家宽) - dwt",
+      "tag": "🇮🇳 印度 (India) 01 (家宽) - dwt",
       "server": "122.176.216.52",
       "server_port": 443,
       "uuid": "16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
@@ -31,7 +15,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       },
       "transport": {
@@ -47,18 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - dwt",
-        "🇰🇷 韩国 (South Korea) 02 (家宽) - dwt",
-        "🇮🇳 印度 (India) 03 (家宽) - dwt"
+        "🇮🇳 印度 (India) 01 (家宽) - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - dwt",
-        "🇰🇷 韩国 (South Korea) 02 (家宽) - dwt",
-        "🇮🇳 印度 (India) 03 (家宽) - dwt"
+        "🇮🇳 印度 (India) 01 (家宽) - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

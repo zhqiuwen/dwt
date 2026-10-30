@@ -16,29 +16,19 @@ proxies:
     headers:
       Host: 45.144.234.157
 - name: 🇫🇮 芬兰 (Finland) 02 - dwt
-  server: 91.103.140.6
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 46c16b68-2553-4e5e-8176-f63d6bf6ec0c
-  sni: fl.solomon-planet.ru
-  skip-cert-verify: false
-- name: 🇫🇮 芬兰 (Finland) 03 - dwt
-  server: 65.109.210.221
-  port: 465
+  server: 31.77.199.147
+  port: 4443
   udp: true
   type: vless
-  uuid: 924e20da-fcad-4e7e-8113-c62d27a0d01e
+  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
+  flow: xtls-rprx-vision
   tls: true
-  servername: hw3.divarkhaghazi.com.
-  skip-cert-verify: false
+  reality-opts:
+    public-key: GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A
+    short-id: 7da2eae792187ab9
+  servername: images.unsplash.com
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hw3.divarkhaghazi.com.
-- name: 🇫🇮 芬兰 (Finland) 04 - dwt
+- name: 🇫🇮 芬兰 (Finland) 03 - dwt
   server: 78.17.27.137
   port: 8443
   udp: true
@@ -49,17 +39,8 @@ proxies:
     public-key: DZ0BYEIHEe9KmJzM_j5EAN0t3_BTcfO63P7x6SRCeQM
     short-id: a05ccbf2edb5ebd1
   servername: www.aalto.fi
-  client-fingerprint: firefox
-- name: 🇫🇮 芬兰 (Finland) 05 - dwt
-  server: mail.loyalsmile.net
-  port: 8080
-  udp: true
-  type: vless
-  uuid: 66315d7f-ebf4-43f6-a475-c578c382409f
-  network: ws
-  ws-opts:
-    path: /wp-content3
-- name: 🇫🇮 芬兰 (Finland) 06 - dwt
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 04 - dwt
   server: 65.109.211.81
   port: 465
   udp: true
@@ -74,6 +55,65 @@ proxies:
     path: /
     headers:
       Host: hw6.divarkhaghazi.com.
+- name: 🇫🇮 芬兰 (Finland) 05 - dwt
+  server: 65.109.210.221
+  port: 465
+  udp: true
+  type: vless
+  uuid: 924e20da-fcad-4e7e-8113-c62d27a0d01e
+  tls: true
+  servername: hw3.divarkhaghazi.com.
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hw3.divarkhaghazi.com.
+- name: 🇫🇮 芬兰 (Finland) 06 - dwt
+  server: cd0.bmi.ir.kolman.com.de
+  port: 80
+  udp: true
+  type: vmess
+  uuid: 2da85937-93d9-4509-8491-63b1921cf447
+  alterId: 0
+  cipher: auto
+  network: httpupgrade
+- name: 🇫🇮 芬兰 (Finland) 07 - dwt
+  server: 6.bmi.ir.asopardaz.ir
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 2da85937-93d9-4509-8491-63b1921cf447
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JtA0d5K6Jnmg35oWP9SDOsc1ceuqaxOsNg33fiPHJQs
+    short-id: e915
+  servername: hostgator.com
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 08 - dwt
+  server: 65.21.52.113
+  port: 53731
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: QoYjvkIZ7-bMIYfVI9IzRXUx5A1o3kj7
+- name: 🇫🇮 芬兰 (Finland) 09 - dwt
+  server: 196.196.204.174
+  port: 443
+  udp: true
+  type: vless
+  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+  tls: true
+  reality-opts:
+    public-key: GJzag9Wrvz_bO9AQaA-Oq0P1kV9btmxxAdzPV-uQB18
+    short-id: 09d0a94a1c6fc9d5
+  servername: 8fc752g.fi3.h1clayd.click
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: f345a414c040
 proxy-groups:
 - name: PROXIES
   type: select
@@ -85,6 +125,9 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 04 - dwt
   - 🇫🇮 芬兰 (Finland) 05 - dwt
   - 🇫🇮 芬兰 (Finland) 06 - dwt
+  - 🇫🇮 芬兰 (Finland) 07 - dwt
+  - 🇫🇮 芬兰 (Finland) 08 - dwt
+  - 🇫🇮 芬兰 (Finland) 09 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -96,5 +139,8 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 04 - dwt
   - 🇫🇮 芬兰 (Finland) 05 - dwt
   - 🇫🇮 芬兰 (Finland) 06 - dwt
+  - 🇫🇮 芬兰 (Finland) 07 - dwt
+  - 🇫🇮 芬兰 (Finland) 08 - dwt
+  - 🇫🇮 芬兰 (Finland) 09 - dwt
 rules:
 - MATCH,PROXIES
