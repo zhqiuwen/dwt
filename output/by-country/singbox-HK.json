@@ -4,71 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 01 - dwt",
-      "server": "189.24.79.229",
-      "server_port": 443,
-      "uuid": "ee29ce31-ee5e-479b-900c-97c50e0f1218",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Di20k-Yrc4tfKGcSYCLp88xDaYMsIrIa_6go-QvAVCw",
-          "short_id": "6717a9ae"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 - dwt",
-      "server": "165.154.63.139",
-      "server_port": 443,
-      "uuid": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amazon.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ",
-          "short_id": "ca4aedd4"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 - dwt",
-      "server": "141.11.91.35",
-      "server_port": 443,
-      "uuid": "4a270d3e-27b4-497d-8c8c-28f1f54958d9",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amazon.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4",
-          "short_id": "b390142456517acc"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - dwt",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 - dwt",
       "server": "152.32.254.68",
       "server_port": 5010,
       "password": "eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ",
@@ -84,31 +21,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - dwt",
-      "server": "202.146.222.29",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "https%253a%252f%252ft.me%252fwangcai2%25d1%2580%25d2%25b9%25d2%25af%25d1%2591%25d1%2580%25d2%25b9%25d2%25af%25d1%2596",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - dwt",
-      "server": "202.146.222.174",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "https://t.me/wangcai2🇨🇳",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - dwt",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 02 - dwt",
       "server": "202.146.222.89",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
@@ -119,31 +32,44 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - dwt",
-      "server": "104.21.29.202",
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 - dwt",
+      "server": "202.146.222.174",
       "server_port": 443,
-      "uuid": "326227e2-f2d1-4f43-8715-9da854f5f4c0",
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "px2.5ibtc.cn",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/326227e2-f2d1-4f43-8715-9da854f5f4c0",
-        "headers": {
-          "Host": "px2.5ibtc.cn"
-        }
+        "server_name": "https://t.me/wangcai2",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - dwt",
+      "server": "202.146.222.29",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https://t.me/wangcai2ð",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - dwt",
+      "server": "vpn-hk-004.fastervpn.world",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn-hk-004.fastervpn.world",
+        "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - dwt",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - dwt",
       "server": "195.58.144.56",
       "server_port": 11907,
       "uuid": "07cb07b9-0c4d-46c1-a15a-b147511b6b07",
@@ -171,10 +97,7 @@
         "🇭🇰 中国香港 (Hong Kong) 03 - dwt",
         "🇭🇰 中国香港 (Hong Kong) 04 - dwt",
         "🇭🇰 中国香港 (Hong Kong) 05 - dwt",
-        "🇭🇰 中国香港 (Hong Kong) 06 - dwt",
-        "🇭🇰 中国香港 (Hong Kong) 07 - dwt",
-        "🇭🇰 中国香港 (Hong Kong) 08 - dwt",
-        "🇭🇰 中国香港 (Hong Kong) 09 - dwt"
+        "🇭🇰 中国香港 (Hong Kong) 06 - dwt"
       ]
     },
     {
@@ -186,10 +109,7 @@
         "🇭🇰 中国香港 (Hong Kong) 03 - dwt",
         "🇭🇰 中国香港 (Hong Kong) 04 - dwt",
         "🇭🇰 中国香港 (Hong Kong) 05 - dwt",
-        "🇭🇰 中国香港 (Hong Kong) 06 - dwt",
-        "🇭🇰 中国香港 (Hong Kong) 07 - dwt",
-        "🇭🇰 中国香港 (Hong Kong) 08 - dwt",
-        "🇭🇰 中国香港 (Hong Kong) 09 - dwt"
+        "🇭🇰 中国香港 (Hong Kong) 06 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
