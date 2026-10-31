@@ -13,27 +13,6 @@ proxies:
   sni: promo.betust.net
   skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 02 - dwt
-  server: 70.34.207.14
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
-  skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 03 - dwt
-  server: 31.172.65.4
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 9c6e83fc-b755-4ad4-9b0a-14b610153d8f
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: wRvUAKwcHc4pBNVouIcVjQkVD9aCRR-AmtcFyBV36lU
-    short-id: 0e7741edc378622f
-  servername: www.bing.com
-  client-fingerprint: qq
-- name: 🇸🇪 瑞典 (Sweden) 04 - dwt
   server: 171.25.158.163
   port: 443
   udp: true
@@ -46,7 +25,36 @@ proxies:
     short-id: ecb6f8fb31668176
   servername: s9se1.newagetechnologies.live
   client-fingerprint: firefox
+- name: 🇸🇪 瑞典 (Sweden) 03 - dwt
+  server: 70.34.207.14
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
+  skip-cert-verify: false
+- name: 🇸🇪 瑞典 (Sweden) 04 - dwt
+  server: 192.142.23.46
+  port: 443
+  udp: true
+  type: hysteria2
+  password: a0052f4f-4c63-0002-a16f-ab2d5d718cd3
+  sni: diffoscope.com
+  skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 05 - dwt
+  server: 31.172.65.4
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 9c6e83fc-b755-4ad4-9b0a-14b610153d8f
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: wRvUAKwcHc4pBNVouIcVjQkVD9aCRR-AmtcFyBV36lU
+    short-id: 0e7741edc378622f
+  servername: www.bing.com
+  client-fingerprint: qq
+- name: 🇸🇪 瑞典 (Sweden) 06 - dwt
   server: 5.178.109.174
   port: 14430
   udp: true
@@ -57,14 +65,6 @@ proxies:
     path: /vless
     headers:
       Host: 5.178.109.174
-- name: 🇸🇪 瑞典 (Sweden) 06 - dwt
-  server: 192.142.23.46
-  port: 443
-  udp: true
-  type: hysteria2
-  password: a0052f4f-4c63-0002-a16f-ab2d5d718cd3
-  sni: diffoscope.com
-  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select

@@ -18,41 +18,32 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇫🇮 芬兰 (Finland) 02 - dwt",
-      "server": "153.76.194.118",
-      "server_port": 8443,
-      "password": "7d43670b-6b08-45b9-8a24-8f3971abc132",
-      "tls": {
-        "enabled": true,
-        "server_name": "finland.biznes.lol",
-        "insecure": false
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 03 - dwt",
-      "server": "31.77.199.147",
-      "server_port": 4443,
-      "uuid": "20dd9433-389e-4573-ba7b-689619cf13da",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇫🇮 芬兰 (Finland) 02 - dwt",
+      "server": "84.38.184.126",
+      "server_port": 2089,
+      "uuid": "a628c583-24a8-4ce5-98ad-c6458abf1cc4",
       "tls": {
         "enabled": true,
-        "server_name": "images.unsplash.com",
+        "server_name": "s3.storage.selcloud.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A",
-          "short_id": "7da2eae792187ab9"
+          "public_key": "4Ba7EKm90gUC57U-0WtkSVXgmeLzR9TG5Qw3dqgjbDQ",
+          "short_id": "c1db0a1b"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "cas-fi"
       }
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 04 - dwt",
+      "tag": "🇫🇮 芬兰 (Finland) 03 - dwt",
       "server": "hw3.divarkhaghazi.com.",
       "server_port": 465,
       "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
@@ -68,6 +59,18 @@
       "transport": {
         "type": "ws",
         "path": "/"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇫🇮 芬兰 (Finland) 04 - dwt",
+      "server": "153.76.194.118",
+      "server_port": 8443,
+      "password": "7d43670b-6b08-45b9-8a24-8f3971abc132",
+      "tls": {
+        "enabled": true,
+        "server_name": "finland.biznes.lol",
+        "insecure": false
       }
     },
     {

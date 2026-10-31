@@ -17,15 +17,6 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: firefox
 - name: 🇮🇳 印度 (India) 02 - dwt
-  server: 13.140.56.100
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
-  network: ws
-  ws-opts:
-    path: /vless
-- name: 🇮🇳 印度 (India) 03 - dwt
   server: 194.61.31.126
   port: 2053
   udp: true
@@ -36,8 +27,30 @@ proxies:
     public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
     short-id: 9980e0609b0d3891
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: random
+- name: 🇮🇳 印度 (India) 03 - dwt
+  server: 13.140.56.100
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 13.140.56.100
 - name: 🇮🇳 印度 (India) 04 - dwt
+  server: 152.67.8.205
+  port: 80
+  udp: true
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇮🇳 印度 (India) 05 - dwt
   server: in002.zestapp778.com
   port: 42733
   udp: true
@@ -45,14 +58,14 @@ proxies:
   password: 5t6i121em5lkmsmk
   sni: in002.zestapp778.com
   skip-cert-verify: true
-- name: 🇮🇳 印度 (India) 05 - dwt
-  server: 172.105.39.124
-  port: 7002
+- name: 🇮🇳 印度 (India) 06 - dwt
+  server: 139.84.166.47
+  port: 8388
   udp: true
   type: ss
   cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-- name: 🇮🇳 印度 (India) 06 - dwt
+  password: GEdoeeqLZtkJRgSa
+- name: 🇮🇳 印度 (India) 07 - dwt
   server: 139.84.166.47
   port: 8388
   udp: true
@@ -70,6 +83,7 @@ proxy-groups:
   - 🇮🇳 印度 (India) 04 - dwt
   - 🇮🇳 印度 (India) 05 - dwt
   - 🇮🇳 印度 (India) 06 - dwt
+  - 🇮🇳 印度 (India) 07 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -81,5 +95,6 @@ proxy-groups:
   - 🇮🇳 印度 (India) 04 - dwt
   - 🇮🇳 印度 (India) 05 - dwt
   - 🇮🇳 印度 (India) 06 - dwt
+  - 🇮🇳 印度 (India) 07 - dwt
 rules:
 - MATCH,PROXIES

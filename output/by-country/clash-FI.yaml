@@ -16,27 +16,21 @@ proxies:
     headers:
       Host: 45.144.234.157
 - name: 🇫🇮 芬兰 (Finland) 02 - dwt
-  server: 153.76.194.118
-  port: 8443
-  udp: true
-  type: hysteria2
-  password: 7d43670b-6b08-45b9-8a24-8f3971abc132
-  sni: finland.biznes.lol
-  skip-cert-verify: false
-- name: 🇫🇮 芬兰 (Finland) 03 - dwt
-  server: 31.77.199.147
-  port: 4443
+  server: 84.38.184.126
+  port: 2089
   udp: true
   type: vless
-  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
-  flow: xtls-rprx-vision
+  uuid: a628c583-24a8-4ce5-98ad-c6458abf1cc4
   tls: true
   reality-opts:
-    public-key: GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A
-    short-id: 7da2eae792187ab9
-  servername: images.unsplash.com
+    public-key: 4Ba7EKm90gUC57U-0WtkSVXgmeLzR9TG5Qw3dqgjbDQ
+    short-id: c1db0a1b
+  servername: s3.storage.selcloud.ru
   client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 04 - dwt
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cas-fi
+- name: 🇫🇮 芬兰 (Finland) 03 - dwt
   server: hw3.divarkhaghazi.com.
   port: 465
   udp: true
@@ -49,6 +43,14 @@ proxies:
   network: ws
   ws-opts:
     path: /
+- name: 🇫🇮 芬兰 (Finland) 04 - dwt
+  server: 153.76.194.118
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: 7d43670b-6b08-45b9-8a24-8f3971abc132
+  sni: finland.biznes.lol
+  skip-cert-verify: false
 - name: 🇫🇮 芬兰 (Finland) 05 - dwt
   server: 65.109.211.81
   port: 465

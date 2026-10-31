@@ -13,6 +13,19 @@ proxies:
   sni: nl1.obxodvpn.us
   skip-cert-verify: false
 - name: 🇪🇪 爱沙尼亚 (Estonia) 02 - dwt
+  server: 87.232.116.20
+  port: 443
+  udp: true
+  type: vless
+  uuid: d86e6fda-e519-46ab-98eb-9ff9a9da5984
+  tls: true
+  servername: fafeqdhlett2p5la6d.cdn.cachefleet.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 67h2o3erm0t9imsj
+- name: 🇪🇪 爱沙尼亚 (Estonia) 03 - dwt
   server: ee.h1cloud.net
   port: 25895
   udp: true
@@ -23,7 +36,7 @@ proxies:
     public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
     short-id: a73f0410d728c823
   servername: www.samsung.com
-  client-fingerprint: chrome
+  client-fingerprint: edge
 proxy-groups:
 - name: PROXIES
   type: select
@@ -31,6 +44,7 @@ proxy-groups:
   - AUTO
   - 🇪🇪 爱沙尼亚 (Estonia) 01 - dwt
   - 🇪🇪 爱沙尼亚 (Estonia) 02 - dwt
+  - 🇪🇪 爱沙尼亚 (Estonia) 03 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -38,5 +52,6 @@ proxy-groups:
   proxies:
   - 🇪🇪 爱沙尼亚 (Estonia) 01 - dwt
   - 🇪🇪 爱沙尼亚 (Estonia) 02 - dwt
+  - 🇪🇪 爱沙尼亚 (Estonia) 03 - dwt
 rules:
 - MATCH,PROXIES

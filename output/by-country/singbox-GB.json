@@ -29,37 +29,14 @@
     {
       "type": "shadowsocks",
       "tag": "🇬🇧 英国 (United Kingdom) 04 - dwt",
-      "server": "104.239.12.81",
-      "server_port": 43385,
-      "method": "chacha20-ietf-poly1305",
-      "password": "AwW1fV6oDDQKh8r2znmptv59tPgt4eHVTgFaTqgKS2jiSdikJ7GyGCBYehDaK38S8yMgHFdbJqcTmRJSfYS5CFw345bNhFZa"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 英国 (United Kingdom) 05 - dwt",
-      "server": "146.70.61.37",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇬🇧 英国 (United Kingdom) 06 - dwt",
-      "server": "57.129.132.223",
-      "server_port": 80,
-      "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/vmess/",
-        "headers": {
-          "Host": "google.com"
-        }
-      }
+      "server": "94.156.250.148",
+      "server_port": 7001,
+      "method": "aes-256-gcm",
+      "password": "RexnBgU7EV5ADxG"
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 英国 (United Kingdom) 07 - dwt",
+      "tag": "🇬🇧 英国 (United Kingdom) 05 - dwt",
       "server": "51.89.194.151",
       "server_port": 2053,
       "uuid": "8e790f25-1d71-4601-9fb0-d503931dcfca",
@@ -68,7 +45,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -78,8 +55,39 @@
       }
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
+      "tag": "🇬🇧 英国 (United Kingdom) 06 - dwt",
+      "server": "104.239.12.81",
+      "server_port": 43385,
+      "method": "chacha20-ietf-poly1305",
+      "password": "AwW1fV6oDDQKh8r2znmptv59tPgt4eHVTgFaTqgKS2jiSdikJ7GyGCBYehDaK38S8yMgHFdbJqcTmRJSfYS5CFw345bNhFZa"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 英国 (United Kingdom) 07 - dwt",
+      "server": "146.70.61.37",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
+    },
+    {
+      "type": "vmess",
       "tag": "🇬🇧 英国 (United Kingdom) 08 - dwt",
+      "server": "57.129.132.223",
+      "server_port": 80,
+      "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/vmess/",
+        "headers": {
+          "Host": "viber.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 英国 (United Kingdom) 09 - dwt",
       "server": "191.44.108.31",
       "server_port": 443,
       "uuid": "558b26f6-061b-4079-9b84-ca13b3e90ae3",
@@ -89,7 +97,7 @@
         "server_name": "www.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -97,14 +105,6 @@
           "short_id": "3ba10d9ce34380c9"
         }
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 英国 (United Kingdom) 09 - dwt",
-      "server": "98.98.142.161",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
     },
     {
       "type": "vless",
@@ -128,8 +128,78 @@
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇬🇧 英国 (United Kingdom) 11 - dwt",
+      "server": "138.124.125.193",
+      "server_port": 10444,
+      "uuid": "e57ce64d-5a1a-4a90-96df-9e1bd3ad26e4",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo",
+          "short_id": "8debcf36f1cc69ff"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 英国 (United Kingdom) 12 - dwt",
+      "server": "46.250.250.149",
+      "server_port": 2053,
+      "uuid": "b4caaf57-ad77-4948-a6f5-51b3513799bf",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M",
+          "short_id": "9922313fffed1c63"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 英国 (United Kingdom) 13 - dwt",
+      "server": "191.44.108.6",
+      "server_port": 443,
+      "uuid": "558b26f6-061b-4079-9b84-ca13b3e90ae3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "c9.qwyak.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "A0QL_j-ReX7AotEj1w8qX9rHRgN2WycTZ43gUvuvZ00",
+          "short_id": "3cf8d11aa0415d29"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 英国 (United Kingdom) 14 - dwt",
+      "server": "98.98.142.161",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 英国 (United Kingdom) 15 - dwt",
       "server": "98.98.207.163",
       "server_port": 8080,
       "method": "rc4-md5",
@@ -137,7 +207,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 英国 (United Kingdom) 12 - dwt",
+      "tag": "🇬🇧 英国 (United Kingdom) 16 - dwt",
       "server": "46.250.240.80",
       "server_port": 2053,
       "uuid": "948df76f-505d-4608-9c76-a933ee3ccc76",
@@ -157,7 +227,60 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 英国 (United Kingdom) 13 - dwt",
+      "tag": "🇬🇧 英国 (United Kingdom) 17 - dwt",
+      "server": "144.48.11.97",
+      "server_port": 43000,
+      "uuid": "4799abf0-d0d9-4a46-9c31-b1f76ae00e1e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "144.48.11.97",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "lmT0SFJL1A8_ariRWL65dhShaqFbpitjGanv7EFnoR0",
+          "short_id": "725e6ea0"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇬🇧 英国 (United Kingdom) 18 - dwt",
+      "server": "en001.zestapp778.com",
+      "server_port": 29813,
+      "password": "5t6i121em5lkmsmk",
+      "tls": {
+        "enabled": true,
+        "server_name": "en001.zestapp778.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 英国 (United Kingdom) 19 - dwt",
+      "server": "uk1.connectsuite.org",
+      "server_port": 443,
+      "uuid": "fda89998-7e9a-4494-857a-cd0d00661b58",
+      "tls": {
+        "enabled": true,
+        "server_name": "uk1.connectsuite.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn-cgi/ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 英国 (United Kingdom) 20 - dwt",
       "server": "104.239.12.81",
       "server_port": 443,
       "uuid": "d806a58b-33aa-42e0-b170-395e49c16b37",
@@ -178,69 +301,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 英国 (United Kingdom) 14 - dwt",
-      "server": "87.239.249.137",
-      "server_port": 443,
-      "uuid": "67eb6b17-7797-4ded-bf52-423c4c5f6cbd",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.foxsports.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "G7bpUPFSW28-oE6ff8qZac1_apU6PiJ-GHmi7tAPDSY",
-          "short_id": "91af08b1ce1f"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 英国 (United Kingdom) 15 - dwt",
-      "server": "46.250.250.149",
-      "server_port": 2053,
-      "uuid": "b4caaf57-ad77-4948-a6f5-51b3513799bf",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M",
-          "short_id": "9922313fffed1c63"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 英国 (United Kingdom) 16 - dwt",
-      "server": "138.124.125.193",
-      "server_port": 10444,
-      "uuid": "e57ce64d-5a1a-4a90-96df-9e1bd3ad26e4",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo",
-          "short_id": "8debcf36f1cc69ff"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 英国 (United Kingdom) 17 - dwt",
+      "tag": "🇬🇧 英国 (United Kingdom) 21 - dwt",
       "server": "webdisk.jaggyslawa.org",
       "server_port": 443,
       "uuid": "b62e3646-b84d-443c-9c94-718b646502e0",
@@ -261,7 +322,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 英国 (United Kingdom) 18 - dwt",
+      "tag": "🇬🇧 英国 (United Kingdom) 22 - dwt",
       "server": "51.38.71.147",
       "server_port": 443,
       "uuid": "fda89998-7e9a-4494-857a-cd0d00661b58",
@@ -271,24 +332,12 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
         "type": "ws",
         "path": "/cdn-cgi/ws"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇬🇧 英国 (United Kingdom) 19 - dwt",
-      "server": "en001.zestapp778.com",
-      "server_port": 29813,
-      "password": "5t6i121em5lkmsmk",
-      "tls": {
-        "enabled": true,
-        "server_name": "en001.zestapp778.com",
-        "insecure": true
       }
     },
     {
@@ -314,7 +363,10 @@
         "🇬🇧 英国 (United Kingdom) 16 - dwt",
         "🇬🇧 英国 (United Kingdom) 17 - dwt",
         "🇬🇧 英国 (United Kingdom) 18 - dwt",
-        "🇬🇧 英国 (United Kingdom) 19 - dwt"
+        "🇬🇧 英国 (United Kingdom) 19 - dwt",
+        "🇬🇧 英国 (United Kingdom) 20 - dwt",
+        "🇬🇧 英国 (United Kingdom) 21 - dwt",
+        "🇬🇧 英国 (United Kingdom) 22 - dwt"
       ]
     },
     {
@@ -339,7 +391,10 @@
         "🇬🇧 英国 (United Kingdom) 16 - dwt",
         "🇬🇧 英国 (United Kingdom) 17 - dwt",
         "🇬🇧 英国 (United Kingdom) 18 - dwt",
-        "🇬🇧 英国 (United Kingdom) 19 - dwt"
+        "🇬🇧 英国 (United Kingdom) 19 - dwt",
+        "🇬🇧 英国 (United Kingdom) 20 - dwt",
+        "🇬🇧 英国 (United Kingdom) 21 - dwt",
+        "🇬🇧 英国 (United Kingdom) 22 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
