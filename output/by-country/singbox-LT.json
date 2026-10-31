@@ -6,24 +6,54 @@
     {
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 01 - dwt",
-      "server": "195.238.126.20",
-      "server_port": 9008,
+      "server": "195.238.126.84",
+      "server_port": 9039,
       "method": "aes-256-cfb",
-      "password": "y9VURyNzJWNRYEGQ"
+      "password": "qYEN5HX4JKeVCdEC"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 02 - dwt",
+      "server": "195.238.126.20",
+      "server_port": 9045,
+      "method": "aes-256-cfb",
+      "password": "Lp27rqyJq72bZsqX"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 03 - dwt",
+      "server": "195.238.126.20",
+      "server_port": 9078,
+      "method": "aes-256-cfb",
+      "password": "JCJpbRbQZNw9XFZG"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 04 - dwt",
+      "server": "195.238.126.20",
+      "server_port": 9086,
+      "method": "aes-256-cfb",
+      "password": "37Z4TFCYhfxcpc9Q"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇹 立陶宛 (Lithuania) 01 - dwt"
+        "🇱🇹 立陶宛 (Lithuania) 01 - dwt",
+        "🇱🇹 立陶宛 (Lithuania) 02 - dwt",
+        "🇱🇹 立陶宛 (Lithuania) 03 - dwt",
+        "🇱🇹 立陶宛 (Lithuania) 04 - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇹 立陶宛 (Lithuania) 01 - dwt"
+        "🇱🇹 立陶宛 (Lithuania) 01 - dwt",
+        "🇱🇹 立陶宛 (Lithuania) 02 - dwt",
+        "🇱🇹 立陶宛 (Lithuania) 03 - dwt",
+        "🇱🇹 立陶宛 (Lithuania) 04 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

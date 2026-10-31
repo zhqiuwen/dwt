@@ -4,8 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "shadowsocks",
       "tag": "🇲🇽 墨西哥 (Mexico) 01 - dwt",
+      "server": "64.177.90.30",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "BWyPPTusFKhGgzKh"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇲🇽 墨西哥 (Mexico) 02 - dwt",
       "server": "216.238.80.100",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -17,7 +25,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇲🇽 墨西哥 (Mexico) 02 - dwt",
+      "tag": "🇲🇽 墨西哥 (Mexico) 03 - dwt",
       "server": "149.104.87.33",
       "server_port": 15083,
       "password": "5t6i121em5lkmsmk",
@@ -37,7 +45,8 @@
       "outbounds": [
         "auto",
         "🇲🇽 墨西哥 (Mexico) 01 - dwt",
-        "🇲🇽 墨西哥 (Mexico) 02 - dwt"
+        "🇲🇽 墨西哥 (Mexico) 02 - dwt",
+        "🇲🇽 墨西哥 (Mexico) 03 - dwt"
       ]
     },
     {
@@ -45,7 +54,8 @@
       "tag": "auto",
       "outbounds": [
         "🇲🇽 墨西哥 (Mexico) 01 - dwt",
-        "🇲🇽 墨西哥 (Mexico) 02 - dwt"
+        "🇲🇽 墨西哥 (Mexico) 02 - dwt",
+        "🇲🇽 墨西哥 (Mexico) 03 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
