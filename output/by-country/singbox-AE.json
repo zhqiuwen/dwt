@@ -4,35 +4,33 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 01 - dwt",
-      "server": "156.229.163.237",
-      "server_port": 10238,
-      "uuid": "05cfac59-b08a-4d35-9e6d-7924f6439f28",
-      "tls": {
-        "enabled": true,
-        "server_name": "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
-        }
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇦🇪 阿联酋 (UAE) 02 - dwt",
-      "server": "ams1.rvpn.app",
+      "tag": "🇦🇪 阿联酋 (UAE) 01 - dwt",
+      "server": "178.253.16.185",
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
       "password": "x2A6AsyZ-rAllz0wbKHzWA"
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 (UAE) 02 - dwt",
+      "server": "130.49.162.137",
+      "server_port": 443,
+      "uuid": "689a62e4-37e7-41de-9e6a-f2a56368c9e2",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "sk3.speedtestinternet.link",
+        "insecure": false,
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
     },
     {
       "type": "vless",
@@ -42,10 +40,7 @@
       "uuid": "aee7ae19-672f-49d8-8a92-aa7cdfc89f89",
       "transport": {
         "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "185.253.116.33"
-        }
+        "path": "/vless"
       }
     },
     {
@@ -81,6 +76,27 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 06 - dwt",
+      "server": "app-mi-26.spbstudentlife.com",
+      "server_port": 443,
+      "uuid": "07680ffb-0666-4836-b6ad-ec0de62bc38f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "assets-mi-26.spbstudentlife.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "cYtAkO6yUCuRTxHvF8EH76bybk1yfS005KLls-at2yc",
+          "short_id": "a7856800c2deb7b2"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 (UAE) 07 - dwt",
       "server": "95.174.68.188",
       "server_port": 14430,
       "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
@@ -102,7 +118,8 @@
         "🇦🇪 阿联酋 (UAE) 03 - dwt",
         "🇦🇪 阿联酋 (UAE) 04 - dwt",
         "🇦🇪 阿联酋 (UAE) 05 - dwt",
-        "🇦🇪 阿联酋 (UAE) 06 - dwt"
+        "🇦🇪 阿联酋 (UAE) 06 - dwt",
+        "🇦🇪 阿联酋 (UAE) 07 - dwt"
       ]
     },
     {
@@ -114,7 +131,8 @@
         "🇦🇪 阿联酋 (UAE) 03 - dwt",
         "🇦🇪 阿联酋 (UAE) 04 - dwt",
         "🇦🇪 阿联酋 (UAE) 05 - dwt",
-        "🇦🇪 阿联酋 (UAE) 06 - dwt"
+        "🇦🇪 阿联酋 (UAE) 06 - dwt",
+        "🇦🇪 阿联酋 (UAE) 07 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

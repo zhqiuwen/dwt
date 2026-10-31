@@ -5,18 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - dwt
-  server: 141.11.91.35
+  server: 189.24.79.229
   port: 443
   udp: true
   type: vless
-  uuid: 4a270d3e-27b4-497d-8c8c-28f1f54958d9
+  uuid: ee29ce31-ee5e-479b-900c-97c50e0f1218
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-  servername: www.amazon.com
-  client-fingerprint: chrome
+    public-key: Di20k-Yrc4tfKGcSYCLp88xDaYMsIrIa_6go-QvAVCw
+    short-id: 6717a9ae
+  servername: www.microsoft.com
+  client-fingerprint: firefox
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - dwt
   server: 165.154.63.139
   port: 443
@@ -31,53 +31,68 @@ proxies:
   servername: www.amazon.com
   client-fingerprint: chrome
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - dwt
+  server: 141.11.91.35
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4a270d3e-27b4-497d-8c8c-28f1f54958d9
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  servername: www.amazon.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - dwt
   server: 152.32.254.68
   port: 5010
   udp: true
   type: hysteria2
   password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-  sni: 127.0.0.1
-  skip-cert-verify: true
+  sni: nas.aizhzo.com
+  skip-cert-verify: false
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - dwt
-  server: 202.146.222.174
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 202.146.222.174
-  skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 05 - dwt
-  server: 202.146.222.89
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 202.146.222.89
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - dwt
   server: 202.146.222.29
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: "https://t.me/wangcai2ð\x9F\x87¨ð\x9F\x87³"
+  sni: https%253a%252f%252ft.me%252fwangcai2%25d1%2580%25d2%25b9%25d2%25af%25d1%2591%25d1%2580%25d2%25b9%25d2%25af%25d1%2596
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - dwt
+  server: 202.146.222.174
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/wangcai2🇨🇳
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 07 - dwt
-  server: 189.24.79.229
+  server: 202.146.222.89
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: t.me
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - dwt
+  server: 104.21.29.202
   port: 443
   udp: true
   type: vless
-  uuid: ee29ce31-ee5e-479b-900c-97c50e0f1218
-  flow: xtls-rprx-vision
+  uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
   tls: true
-  reality-opts:
-    public-key: Di20k-Yrc4tfKGcSYCLp88xDaYMsIrIa_6go-QvAVCw
-    short-id: 6717a9ae
-  servername: www.microsoft.com
-  client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - dwt
+  servername: px2.5ibtc.cn
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
+    headers:
+      Host: px2.5ibtc.cn
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - dwt
   server: 195.58.144.56
   port: 11907
   udp: true
@@ -87,32 +102,6 @@ proxies:
   servername: 195.58.144.56
   skip-cert-verify: false
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - dwt
-  server: 8.217.186.60
-  port: 443
-  udp: true
-  type: vmess
-  uuid: d237ab38-1974-4b36-94a3-0665ce8587b9
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: euu1yalfmcqvljex.v.3dns.vip
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: euu1yalfmcqvljex.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 10 - dwt
-  server: 152.175.6.229
-  port: 31884
-  udp: true
-  type: vless
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  tls: true
-  servername: hk010.zestapp778.com
-  skip-cert-verify: false
-  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -127,7 +116,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 07 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 08 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 09 - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 10 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -142,6 +130,5 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 07 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 08 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 09 - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 10 - dwt
 rules:
 - MATCH,PROXIES

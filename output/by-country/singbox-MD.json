@@ -46,12 +46,34 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇲🇩 摩尔多瓦 (Moldova) 03 - dwt",
+      "server": "5.181.158.100",
+      "server_port": 8470,
+      "uuid": "1c8f7130-8c1a-4949-831d-1d45b39c795b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "svoboda14.bystriynet.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "VaMT-IAVkmjdrf4OS0Mnqg0YhQc35O9wZo2TW2LrmjU",
+          "short_id": "21e829b360d15daf"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇲🇩 摩尔多瓦 (Moldova) 01 - dwt",
-        "🇲🇩 摩尔多瓦 (Moldova) 02 - dwt"
+        "🇲🇩 摩尔多瓦 (Moldova) 02 - dwt",
+        "🇲🇩 摩尔多瓦 (Moldova) 03 - dwt"
       ]
     },
     {
@@ -59,7 +81,8 @@
       "tag": "auto",
       "outbounds": [
         "🇲🇩 摩尔多瓦 (Moldova) 01 - dwt",
-        "🇲🇩 摩尔多瓦 (Moldova) 02 - dwt"
+        "🇲🇩 摩尔多瓦 (Moldova) 02 - dwt",
+        "🇲🇩 摩尔多瓦 (Moldova) 03 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

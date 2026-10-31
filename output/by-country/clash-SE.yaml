@@ -5,6 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 瑞典 (Sweden) 01 - dwt
+  server: 5.178.109.174
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 5.178.109.174
+- name: 🇸🇪 瑞典 (Sweden) 02 - dwt
   server: 50.7.38.243
   port: 443
   udp: true
@@ -12,19 +23,6 @@ proxies:
   password: d4ca9415f0eac7897472e1e5b86d2e96
   sni: promo.betust.net
   skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 02 - dwt
-  server: 171.25.158.163
-  port: 443
-  udp: true
-  type: vless
-  uuid: 706bce83-91db-4260-b175-cba29145cd56
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: Dt6OmhEDOi-Y204u5jWdQsHIgof7g8i52NUnTGc-yjM
-    short-id: ecb6f8fb31668176
-  servername: s9se1.newagetechnologies.live
-  client-fingerprint: firefox
 - name: 🇸🇪 瑞典 (Sweden) 03 - dwt
   server: 70.34.207.14
   port: 443
@@ -42,6 +40,19 @@ proxies:
   sni: diffoscope.com
   skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 05 - dwt
+  server: 171.25.158.163
+  port: 443
+  udp: true
+  type: vless
+  uuid: 706bce83-91db-4260-b175-cba29145cd56
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Dt6OmhEDOi-Y204u5jWdQsHIgof7g8i52NUnTGc-yjM
+    short-id: ecb6f8fb31668176
+  servername: s9se1.newagetechnologies.live
+  client-fingerprint: firefox
+- name: 🇸🇪 瑞典 (Sweden) 06 - dwt
   server: 31.172.65.4
   port: 8443
   udp: true
@@ -53,18 +64,7 @@ proxies:
     public-key: wRvUAKwcHc4pBNVouIcVjQkVD9aCRR-AmtcFyBV36lU
     short-id: 0e7741edc378622f
   servername: www.bing.com
-  client-fingerprint: qq
-- name: 🇸🇪 瑞典 (Sweden) 06 - dwt
-  server: 5.178.109.174
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 5.178.109.174
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select

@@ -6,58 +6,22 @@ log-level: info
 proxies:
 - name: 🇱🇹 立陶宛 (Lithuania) 01 - dwt
   server: 195.238.126.20
-  port: 9011
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: M3t2ZEQcMGRWBjRa
-- name: 🇱🇹 立陶宛 (Lithuania) 02 - dwt
-  server: 195.238.126.20
-  port: 9012
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: xaupMUvhptwxdDUg
-- name: 🇱🇹 立陶宛 (Lithuania) 03 - dwt
-  server: 195.238.126.20
   port: 9008
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: y9VURyNzJWNRYEGQ
-- name: 🇱🇹 立陶宛 (Lithuania) 04 - dwt
-  server: 195.238.126.20
-  port: 9086
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 37Z4TFCYhfxcpc9Q
-- name: 🇱🇹 立陶宛 (Lithuania) 05 - dwt
-  server: 195.238.126.20
-  port: 9045
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: Lp27rqyJq72bZsqX
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇱🇹 立陶宛 (Lithuania) 01 - dwt
-  - 🇱🇹 立陶宛 (Lithuania) 02 - dwt
-  - 🇱🇹 立陶宛 (Lithuania) 03 - dwt
-  - 🇱🇹 立陶宛 (Lithuania) 04 - dwt
-  - 🇱🇹 立陶宛 (Lithuania) 05 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇱🇹 立陶宛 (Lithuania) 01 - dwt
-  - 🇱🇹 立陶宛 (Lithuania) 02 - dwt
-  - 🇱🇹 立陶宛 (Lithuania) 03 - dwt
-  - 🇱🇹 立陶宛 (Lithuania) 04 - dwt
-  - 🇱🇹 立陶宛 (Lithuania) 05 - dwt
 rules:
 - MATCH,PROXIES
