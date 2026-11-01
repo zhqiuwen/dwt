@@ -4,15 +4,26 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 01 - dwt",
+      "server": "185.253.116.33",
+      "server_port": 14430,
+      "uuid": "aee7ae19-672f-49d8-8a92-aa7cdfc89f89",
+      "transport": {
+        "type": "ws",
+        "path": "/vless"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇦🇪 阿联酋 (UAE) 02 - dwt",
       "server": "130.49.161.70",
       "server_port": 443,
       "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
       "tls": {
         "enabled": true,
         "server_name": "hy2.aspidnet.xyz",
-        "insecure": true
+        "insecure": false
       },
       "obfs": {
         "type": "salamander",
@@ -21,7 +32,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇦🇪 阿联酋 (UAE) 02 - dwt",
+      "tag": "🇦🇪 阿联酋 (UAE) 03 - dwt",
       "server": "217.60.73.56",
       "server_port": 443,
       "password": "69e41e64-a832-471a-b740-94577ca85520",
@@ -36,35 +47,45 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 03 - dwt",
-      "server": "185.253.116.33",
-      "server_port": 14430,
-      "uuid": "aee7ae19-672f-49d8-8a92-aa7cdfc89f89",
-      "transport": {
-        "type": "ws",
-        "path": "/vless"
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 04 - dwt",
-      "server": "uae.unixzone.us",
-      "server_port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 05 - dwt",
       "server": "95.174.68.188",
       "server_port": 14430,
       "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
       "transport": {
         "type": "ws",
         "path": "/vless"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 (UAE) 05 - dwt",
+      "server": "app-mi-26.spbstudentlife.com",
+      "server_port": 443,
+      "uuid": "07680ffb-0666-4836-b6ad-ec0de62bc38f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "assets-mi-26.spbstudentlife.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "cYtAkO6yUCuRTxHvF8EH76bybk1yfS005KLls-at2yc",
+          "short_id": "a7856800c2deb7b2"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 (UAE) 06 - dwt",
+      "server": "uae.unixzone.us",
+      "server_port": 22573,
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "transport": {
+        "type": "ws",
+        "path": "/"
       }
     },
     {
@@ -76,7 +97,8 @@
         "🇦🇪 阿联酋 (UAE) 02 - dwt",
         "🇦🇪 阿联酋 (UAE) 03 - dwt",
         "🇦🇪 阿联酋 (UAE) 04 - dwt",
-        "🇦🇪 阿联酋 (UAE) 05 - dwt"
+        "🇦🇪 阿联酋 (UAE) 05 - dwt",
+        "🇦🇪 阿联酋 (UAE) 06 - dwt"
       ]
     },
     {
@@ -87,7 +109,8 @@
         "🇦🇪 阿联酋 (UAE) 02 - dwt",
         "🇦🇪 阿联酋 (UAE) 03 - dwt",
         "🇦🇪 阿联酋 (UAE) 04 - dwt",
-        "🇦🇪 阿联酋 (UAE) 05 - dwt"
+        "🇦🇪 阿联酋 (UAE) 05 - dwt",
+        "🇦🇪 阿联酋 (UAE) 06 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

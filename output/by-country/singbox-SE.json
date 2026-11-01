@@ -42,39 +42,13 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 04 - dwt",
-      "server": "179.253.179.109",
-      "server_port": 54083,
-      "uuid": "0ef03752-c8bf-4482-8710-e563ca4808f9",
-      "tls": {
-        "enabled": true,
-        "server_name": "177.3.215.54",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇸🇪 瑞典 (Sweden) 05 - dwt",
-      "server": "70.34.212.124",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "AxIYWtskJWIIaefW"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇸🇪 瑞典 (Sweden) 01 - dwt",
         "🇸🇪 瑞典 (Sweden) 02 - dwt",
-        "🇸🇪 瑞典 (Sweden) 03 - dwt",
-        "🇸🇪 瑞典 (Sweden) 04 - dwt",
-        "🇸🇪 瑞典 (Sweden) 05 - dwt"
+        "🇸🇪 瑞典 (Sweden) 03 - dwt"
       ]
     },
     {
@@ -83,9 +57,7 @@
       "outbounds": [
         "🇸🇪 瑞典 (Sweden) 01 - dwt",
         "🇸🇪 瑞典 (Sweden) 02 - dwt",
-        "🇸🇪 瑞典 (Sweden) 03 - dwt",
-        "🇸🇪 瑞典 (Sweden) 04 - dwt",
-        "🇸🇪 瑞典 (Sweden) 05 - dwt"
+        "🇸🇪 瑞典 (Sweden) 03 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
