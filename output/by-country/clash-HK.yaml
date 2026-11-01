@@ -5,98 +5,106 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - dwt
-  server: 152.175.6.229
-  port: 31884
+  server: 47.244.120.197
+  port: 44867
+  udp: true
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /arki
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - dwt
+  server: 47.244.120.197
+  port: 23026
+  udp: true
+  type: vmess
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /arki
+    headers:
+      Host: 47.244.120.197
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - dwt
+  server: 165.154.63.139
+  port: 443
   udp: true
   type: vless
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
+  flow: xtls-rprx-vision
   tls: true
-  servername: hk010.zestapp778.com
-  skip-cert-verify: false
-  client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - dwt
-  server: 103.149.182.79
-  port: 8388
+  reality-opts:
+    public-key: AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ
+    short-id: ca4aedd4
+  servername: www.amazon.com
+  client-fingerprint: random
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - dwt
+  server: 152.32.254.68
+  port: 5010
   udp: true
-  type: ss
-  cipher: chacha20-ietf
-  password: asd123456
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - dwt
+  type: hysteria2
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  sni: 127.0.0.1
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - dwt
   server: 31.57.248.176
   port: 50160
   udp: true
   type: hysteria2
   password: b0917015b656b3dd2286b5633af0c5c1
-  sni: www.bing.com
+  sni: www.bing.com%23%e9%a6%83%e5%9a%9f%e9%a6%83%e5%9a%a2%7chk%7c%40wxgqlfx%7c147
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - dwt
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - dwt
   server: 202.146.222.89
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/clashv8🇨🇳
+  sni: 202.146.222.89
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - dwt
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - dwt
+  server: 189.24.79.229
+  port: 443
+  udp: true
+  type: vless
+  uuid: ee29ce31-ee5e-479b-900c-97c50e0f1218
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Di20k-Yrc4tfKGcSYCLp88xDaYMsIrIa_6go-QvAVCw
+    short-id: 6717a9ae
+  servername: www.microsoft.com
+  client-fingerprint: firefox
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - dwt
   server: 202.146.222.29
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: t.me
+  sni: https://t.me/wangcai2ôøωôøωôøωôøω
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - dwt
-  server: 38.76.180.144
-  port: 1443
-  udp: true
-  type: vless
-  uuid: d98b67d4-024a-4bba-91e2-e6ebece6df11
-  network: ws
-  ws-opts:
-    path: /vless-ws
-    headers:
-      Host: 38.76.180.144
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - dwt
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - dwt
   server: 202.146.222.174
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%3a%2f%2ft.me%2foneclickvpnkeys
+  sni: https://t.me/wangcai2🇨🇳
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - dwt
-  server: 8.217.254.88
-  port: 443
-  udp: true
-  type: vmess
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: 2b9hwy8ocx7q74nm.v.3dns.vip
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 2b9hwY8oCx7Q74NM.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - dwt
-  server: 8.218.195.61
-  port: 443
-  udp: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: ex1ogt73nzpqkac2.v.3dns.vip
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: ex1ogt73nzpqkac2.v.3dns.vip
 - name: 🇭🇰 中国香港 (Hong Kong) 10 - dwt
+  server: 101.32.8.251
+  port: 50001
+  udp: true
+  type: vmess
+  uuid: 5706beb5-479b-475d-b557-00309327e9cc
+  alterId: 0
+  cipher: auto
+- name: 🇭🇰 中国香港 (Hong Kong) 11 - dwt
   server: 195.58.144.56
   port: 11907
   udp: true
@@ -106,86 +114,55 @@ proxies:
   servername: 195.58.144.56
   skip-cert-verify: false
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 11 - dwt
-  server: 8.217.186.60
-  port: 443
-  udp: true
-  type: vmess
-  uuid: d237ab38-1974-4b36-94a3-0665ce8587b9
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: euu1yalfmcqvljex.v.3dns.vip
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: euu1yalfmcqvljex.v.3dns.vip
 - name: 🇭🇰 中国香港 (Hong Kong) 12 - dwt
-  server: 8.217.13.103
+  server: 104.21.29.202
   port: 443
   udp: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
   tls: true
-  servername: qtkdr8jxe3wefxjm.v.3dns.vip
+  servername: px2.5ibtc.cn
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /ws-vmess
+    path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
     headers:
-      Host: qtkdr8jxe3wefxjm.v.3dns.vip
+      Host: px2.5ibtc.cn
 - name: 🇭🇰 中国香港 (Hong Kong) 13 - dwt
-  server: 47.76.57.83
-  port: 443
+  server: 152.175.6.229
+  port: 31884
   udp: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   tls: true
-  servername: vah4urdzl3jdx5r2.v.3dns.vip
+  servername: hk010.zestapp778.com
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
+  client-fingerprint: firefox
 - name: 🇭🇰 中国香港 (Hong Kong) 14 - dwt
-  server: 47.243.194.125
-  port: 443
+  server: az-1.linkaa.xyz
+  port: 53110
   udp: true
   type: vmess
-  uuid: f23bb427c1f94373876c2f43e9f790f3
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
   alterId: 0
   cipher: auto
-  tls: true
-  servername: nycqg19zkwacpm1b.v.3dns.vip
-  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /ws-vmess
+    path: /game/resources
     headers:
-      Host: nycqg19zkwacpm1b.v.3dns.vip
+      Host: az-1.linkaa.xyz
 - name: 🇭🇰 中国香港 (Hong Kong) 15 - dwt
-  server: i2psm3knof5qjjix.v.3dns.vip
-  port: 443
+  server: 47.244.120.197
+  port: 36703
   udp: true
   type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   alterId: 0
   cipher: auto
-  tls: true
-  servername: i2psm3knof5qjjix.v.3dns.vip
-  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: i2psm3knof5qjjix.v.3dns.vip
+    path: /arki
 proxy-groups:
 - name: PROXIES
   type: select

@@ -26,7 +26,7 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇹🇭 泰国 (Thailand) 03 - dwt
-  server: th001.zestapp778.com
+  server: 38.60.200.237
   port: 33079
   udp: true
   type: trojan

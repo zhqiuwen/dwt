@@ -32,12 +32,34 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇦🇺 澳大利亚 (Australia) 03 - dwt",
+      "server": "207.148.80.199",
+      "server_port": 443,
+      "uuid": "6033ee9d-7c2a-4f37-a055-0c0d2d8487f0",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.googleapis.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ",
+          "short_id": ""
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇦🇺 澳大利亚 (Australia) 01 - dwt",
-        "🇦🇺 澳大利亚 (Australia) 02 - dwt"
+        "🇦🇺 澳大利亚 (Australia) 02 - dwt",
+        "🇦🇺 澳大利亚 (Australia) 03 - dwt"
       ]
     },
     {
@@ -45,7 +67,8 @@
       "tag": "auto",
       "outbounds": [
         "🇦🇺 澳大利亚 (Australia) 01 - dwt",
-        "🇦🇺 澳大利亚 (Australia) 02 - dwt"
+        "🇦🇺 澳大利亚 (Australia) 02 - dwt",
+        "🇦🇺 澳大利亚 (Australia) 03 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

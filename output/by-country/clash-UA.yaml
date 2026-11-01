@@ -18,17 +18,18 @@ proxies:
   servername: www.bing.com
   client-fingerprint: chrome
 - name: 🇺🇦 乌克兰 (Ukraine) 02 - dwt
-  server: 31.222.235.81
+  server: 104.253.216.227
   port: 443
   udp: true
   type: vless
-  uuid: d8b58872-cc25-4bb2-badb-b86399c075fa
+  uuid: 455cfdc6-9abf-4e40-863f-5ff6cc63457c
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk
-    short-id: d8b58872
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
+    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
+    short-id: 18e4d2d21241
+  servername: www.microsoft.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
