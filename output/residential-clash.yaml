@@ -4,7 +4,23 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - dwt
+- name: 🇺🇸 美国 (United States) 01 (移动家宽) - dwt
+  server: 130.94.19.95
+  port: 57277
+  udp: true
+  type: trojan
+  password: 5t6i121em5lkmsmk
+  sni: us001.zestapp778.com
+  skip-cert-verify: false
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - dwt
+  server: b503b615-tm96o0-tne5x4-1rfon.hk3.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+  sni: b503b615-tm96o0-tne5x4-1rfon.hk3.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - dwt
   server: 0e05f970-tki800-traezq-1t5n1.hk2.hyhuawei.com
   port: 443
   udp: true
@@ -15,17 +31,51 @@ proxies:
     public-key: c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo
   servername: download.windowsupdate.com
   client-fingerprint: chrome
+- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - dwt
+  server: ench-snet-app.w-ctrip.cn
+  port: 45503
+  udp: true
+  type: trojan
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  sni: cm.g.doubleclick.net
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - dwt
+  server: ench-snet-app.w-ctrip.cn
+  port: 53004
+  udp: true
+  type: trojan
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  sni: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - dwt
+  server: ench-snet-app.w-ctrip.cn
+  port: 45502
+  udp: true
+  type: trojan
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  sni: cm.g.doubleclick.net
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - dwt
+  - 🇺🇸 美国 (United States) 01 (移动家宽) - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - dwt
+  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - dwt
+  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - dwt
+  - 🇺🇸 美国 (United States) 01 (移动家宽) - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - dwt
+  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - dwt
+  - 🇹🇼 中国台湾 (Taiwan) 06 (家宽) - dwt
 rules:
 - MATCH,PROXIES

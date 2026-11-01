@@ -4,86 +4,22 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vmess",
       "tag": "🌐 其他地区 (Other) 01 - dwt",
-      "server": "172.64.190.13",
-      "server_port": 443,
-      "password": "humanity",
+      "server": "chatgpt.com",
+      "server_port": 8443,
+      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "www.pleadcourt.org",
+        "server_name": "v2ray1.dozapp.xyz",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/lMnsZUN4/",
         "headers": {
-          "Host": "www.pleadcourt.org"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🌐 其他地区 (Other) 02 - dwt",
-      "server": "172.64.190.13",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.pleadcourt.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "unsafe"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.pleadcourt.org"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🌐 其他地区 (Other) 03 - dwt",
-      "server": "172.64.190.13",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.pleadcourt.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "unsafe"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.pleadcourt.org"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🌐 其他地区 (Other) 04 - dwt",
-      "server": "108.162.194.134",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.pleadcourt.org",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.pleadcourt.org"
+          "Host": "v2ray1.dozapp.xyz"
         }
       }
     },
@@ -92,20 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - dwt",
-        "🌐 其他地区 (Other) 02 - dwt",
-        "🌐 其他地区 (Other) 03 - dwt",
-        "🌐 其他地区 (Other) 04 - dwt"
+        "🌐 其他地区 (Other) 01 - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - dwt",
-        "🌐 其他地区 (Other) 02 - dwt",
-        "🌐 其他地区 (Other) 03 - dwt",
-        "🌐 其他地区 (Other) 04 - dwt"
+        "🌐 其他地区 (Other) 01 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

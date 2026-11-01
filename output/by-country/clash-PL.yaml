@@ -6,19 +6,26 @@ log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - dwt
   server: 217.30.10.44
-  port: 9076
+  port: 9006
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: S2zDyyPcmZN2h8EC
+  password: FAdUvMJUq5vDgKEq
 - name: 🇵🇱 波兰 (Poland) 02 - dwt
+  server: 217.30.10.44
+  port: 9063
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: aQqJbtwFGcCCaeL3
+- name: 🇵🇱 波兰 (Poland) 03 - dwt
   server: 217.30.10.44
   port: 9042
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: S7KwUu7yBy58S3Ga
-- name: 🇵🇱 波兰 (Poland) 03 - dwt
+- name: 🇵🇱 波兰 (Poland) 04 - dwt
   server: 2.26.255.215
   port: 443
   udp: true
@@ -31,7 +38,7 @@ proxies:
     short-id: '50'
   servername: cloudflare.com
   client-fingerprint: ''
-- name: 🇵🇱 波兰 (Poland) 04 - dwt
+- name: 🇵🇱 波兰 (Poland) 05 - dwt
   server: 70.34.252.255
   port: 443
   udp: true
@@ -39,20 +46,44 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
   skip-cert-verify: false
-- name: 🇵🇱 波兰 (Poland) 05 - dwt
-  server: 217.60.33.67
-  port: 8443
+- name: 🇵🇱 波兰 (Poland) 06 - dwt
+  server: 191.217.245.227
+  port: 443
   udp: true
   type: vless
-  uuid: dc413f44-7dce-4cc4-b2c7-878ef70ce464
+  uuid: 2614a96d-e39f-4cca-a9c7-467a178c2c0a
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: -r5xcA3iTzAf63kkb0VIILrLHH1VUq550pFZ-M74Jlc
-    short-id: de
-  servername: go-obsh-auto-drun.keno.su
-  client-fingerprint: chrome
-- name: 🇵🇱 波兰 (Poland) 06 - dwt
+    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+  servername: pl.lenvex.cc
+  client-fingerprint: firefox
+- name: 🇵🇱 波兰 (Poland) 07 - dwt
+  server: 82.118.22.161
+  port: 443
+  udp: true
+  type: vless
+  uuid: 05488656-d4bf-4634-8b2e-e4ff5a56c7e2
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E
+    short-id: fa3ea655619a3e78
+  servername: www.cloudflare.com
+  client-fingerprint: safari
+- name: 🇵🇱 波兰 (Poland) 08 - dwt
+  server: 191.217.245.10
+  port: 443
+  udp: true
+  type: vless
+  uuid: 2614a96d-e39f-4cca-a9c7-467a178c2c0a
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+  servername: pl.lenvex.cc
+  client-fingerprint: firefox
+- name: 🇵🇱 波兰 (Poland) 09 - dwt
   server: 94.249.180.86
   port: 443
   udp: true
@@ -65,15 +96,6 @@ proxies:
     short-id: a696de84963656de
   servername: amd.com
   client-fingerprint: ''
-- name: 🇵🇱 波兰 (Poland) 07 - dwt
-  server: 2.26.6.1
-  port: 2087
-  udp: true
-  type: vless
-  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
-  tls: true
-  servername: 2.26.6.1
-  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
@@ -86,6 +108,8 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 05 - dwt
   - 🇵🇱 波兰 (Poland) 06 - dwt
   - 🇵🇱 波兰 (Poland) 07 - dwt
+  - 🇵🇱 波兰 (Poland) 08 - dwt
+  - 🇵🇱 波兰 (Poland) 09 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -98,5 +122,7 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 05 - dwt
   - 🇵🇱 波兰 (Poland) 06 - dwt
   - 🇵🇱 波兰 (Poland) 07 - dwt
+  - 🇵🇱 波兰 (Poland) 08 - dwt
+  - 🇵🇱 波兰 (Poland) 09 - dwt
 rules:
 - MATCH,PROXIES

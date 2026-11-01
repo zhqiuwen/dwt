@@ -6,13 +6,13 @@
     {
       "type": "trojan",
       "tag": "🇧🇷 巴西 (Brazil) 01 - dwt",
-      "server": "216.238.104.154",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "server": "ench-snet-app.w-ctrip.cn",
+      "server_port": 16932,
+      "password": "b17e9b52db9623bd6c16eea3d7adb5b3",
       "tls": {
         "enabled": true,
-        "server_name": "findtemporaryworkandfreelancerprojectsonlineplatform.com",
-        "insecure": false
+        "server_name": "ench-snet-app.w-ctrip.cn",
+        "insecure": true
       }
     },
     {
