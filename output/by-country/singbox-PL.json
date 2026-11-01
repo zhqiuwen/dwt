@@ -7,17 +7,17 @@
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 01 - dwt",
       "server": "217.30.10.44",
-      "server_port": 9052,
+      "server_port": 9076,
       "method": "aes-256-cfb",
-      "password": "jt2ekBNc9HuVtm2a"
+      "password": "S2zDyyPcmZN2h8EC"
     },
     {
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 02 - dwt",
       "server": "217.30.10.44",
-      "server_port": 9006,
+      "server_port": 9042,
       "method": "aes-256-cfb",
-      "password": "FAdUvMJUq5vDgKEq"
+      "password": "S7KwUu7yBy58S3Ga"
     },
     {
       "type": "vless",
@@ -55,6 +55,27 @@
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 05 - dwt",
+      "server": "217.60.33.67",
+      "server_port": 8443,
+      "uuid": "dc413f44-7dce-4cc4-b2c7-878ef70ce464",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "go-obsh-auto-drun.keno.su",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "-r5xcA3iTzAf63kkb0VIILrLHH1VUq550pFZ-M74Jlc",
+          "short_id": "de"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 06 - dwt",
       "server": "94.249.180.86",
       "server_port": 443,
       "uuid": "0de1d303-d7de-0001-8679-c4cb67e2e2cc",
@@ -64,7 +85,7 @@
         "server_name": "amd.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": ""
         },
         "reality": {
           "enabled": true,
@@ -75,65 +96,14 @@
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 06 - dwt",
-      "server": "2.26.231.218",
-      "server_port": 2063,
-      "uuid": "b18d5990-96eb-4587-a386-7f8ef7591e6a",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "rusbid.de",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 07 - dwt",
-      "server": "45.132.178.123",
-      "server_port": 443,
-      "uuid": "902e7be9-d0a8-000e-994f-8320916a9d9e",
-      "flow": "xtls-rprx-vision",
+      "server": "2.26.6.1",
+      "server_port": 2087,
+      "uuid": "b9fdc03f-389b-4cda-9be4-155b623bee15",
       "tls": {
         "enabled": true,
-        "server_name": "media.usicloid.my",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "fERXyd24DZcsFqE84AHjugHha0U5H6Wdb2wCIo5kPV8",
-          "short_id": "0cabf7c24918fe72"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 08 - dwt",
-      "server": "82.118.22.161",
-      "server_port": 443,
-      "uuid": "05488656-d4bf-4634-8b2e-e4ff5a56c7e2",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E",
-          "short_id": "fa3ea655619a3e78"
-        }
+        "server_name": "2.26.6.1",
+        "insecure": false
       }
     },
     {
@@ -147,8 +117,7 @@
         "🇵🇱 波兰 (Poland) 04 - dwt",
         "🇵🇱 波兰 (Poland) 05 - dwt",
         "🇵🇱 波兰 (Poland) 06 - dwt",
-        "🇵🇱 波兰 (Poland) 07 - dwt",
-        "🇵🇱 波兰 (Poland) 08 - dwt"
+        "🇵🇱 波兰 (Poland) 07 - dwt"
       ]
     },
     {
@@ -161,8 +130,7 @@
         "🇵🇱 波兰 (Poland) 04 - dwt",
         "🇵🇱 波兰 (Poland) 05 - dwt",
         "🇵🇱 波兰 (Poland) 06 - dwt",
-        "🇵🇱 波兰 (Poland) 07 - dwt",
-        "🇵🇱 波兰 (Poland) 08 - dwt"
+        "🇵🇱 波兰 (Poland) 07 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -5,24 +5,24 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇾 塞浦路斯 (Cyprus) 01 - dwt
-  server: 138.124.58.206
-  port: 8443
-  udp: true
-  type: vless
-  uuid: a52fd54b-ba4d-4d11-8e00-301e2646cd66
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1H1DiBCBB7fpALV71pH1q66ePybBFlVOcxftdlQimQ8
-    short-id: 385cb18df0892069
-  servername: fr1.vpngold.ru
-  client-fingerprint: firefox
-- name: 🇨🇾 塞浦路斯 (Cyprus) 02 - dwt
-  server: 5.253.28.240
+  server: 5.253.28.224
   port: 40443
   udp: true
   type: vless
-  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
+  uuid: af5eac96-e478-488a-bc8c-45269d7e8847
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw
+    short-id: 68a8
+  servername: deepl.com
+  client-fingerprint: chrome
+- name: 🇨🇾 塞浦路斯 (Cyprus) 02 - dwt
+  server: 5.253.30.99
+  port: 40443
+  udp: true
+  type: vless
+  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
@@ -46,20 +46,7 @@ proxies:
   grpc-opts:
     grpc-service-name: rex-eb0bf76b710ce763
 - name: 🇨🇾 塞浦路斯 (Cyprus) 04 - dwt
-  server: 5.253.28.224
-  port: 40443
-  udp: true
-  type: vless
-  uuid: af5eac96-e478-488a-bc8c-45269d7e8847
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw
-    short-id: 68a8
-  servername: deepl.com
-  client-fingerprint: chrome
-- name: 🇨🇾 塞浦路斯 (Cyprus) 05 - dwt
-  server: 45.86.60.102
+  server: fr1.vpngold.ru
   port: 8443
   udp: true
   type: vless
@@ -69,8 +56,8 @@ proxies:
   reality-opts:
     public-key: 1H1DiBCBB7fpALV71pH1q66ePybBFlVOcxftdlQimQ8
     short-id: 385cb18df0892069
-  servername: ee1.vpngold.ru
-  client-fingerprint: firefox
+  servername: fr1.vpngold.ru
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -80,7 +67,6 @@ proxy-groups:
   - 🇨🇾 塞浦路斯 (Cyprus) 02 - dwt
   - 🇨🇾 塞浦路斯 (Cyprus) 03 - dwt
   - 🇨🇾 塞浦路斯 (Cyprus) 04 - dwt
-  - 🇨🇾 塞浦路斯 (Cyprus) 05 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -90,6 +76,5 @@ proxy-groups:
   - 🇨🇾 塞浦路斯 (Cyprus) 02 - dwt
   - 🇨🇾 塞浦路斯 (Cyprus) 03 - dwt
   - 🇨🇾 塞浦路斯 (Cyprus) 04 - dwt
-  - 🇨🇾 塞浦路斯 (Cyprus) 05 - dwt
 rules:
 - MATCH,PROXIES
