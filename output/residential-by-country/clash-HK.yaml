@@ -5,25 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - dwt
-  server: b503b615-tm96o0-tne5x4-1rfon.hk3.hyhuawei.com
-  port: 443
-  udp: true
-  type: hysteria2
-  password: aed1cc24-351d-11ef-ba52-f23c9164ca5d
-  sni: b503b615-tm96o0-tne5x4-1rfon.hk3.hyhuawei.com
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - dwt
-  server: 0e05f970-tki800-traezq-1t5n1.hk2.hyhuawei.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
-  tls: true
-  reality-opts:
-    public-key: c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo
-  servername: download.windowsupdate.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - dwt
   server: ench-snet-app.w-ctrip.cn
   port: 53004
   udp: true
@@ -37,15 +18,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - dwt
 rules:
 - MATCH,PROXIES

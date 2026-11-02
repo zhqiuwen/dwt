@@ -6,26 +6,38 @@ log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - dwt
   server: 217.30.10.44
+  port: 9042
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: S7KwUu7yBy58S3Ga
+- name: 🇵🇱 波兰 (Poland) 02 - dwt
+  server: 217.30.10.44
   port: 9006
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: FAdUvMJUq5vDgKEq
-- name: 🇵🇱 波兰 (Poland) 02 - dwt
+- name: 🇵🇱 波兰 (Poland) 03 - dwt
   server: 217.30.10.44
   port: 9063
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: aQqJbtwFGcCCaeL3
-- name: 🇵🇱 波兰 (Poland) 03 - dwt
-  server: 217.30.10.44
-  port: 9042
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: S7KwUu7yBy58S3Ga
 - name: 🇵🇱 波兰 (Poland) 04 - dwt
+  server: 191.217.245.10
+  port: 443
+  udp: true
+  type: vless
+  uuid: 2614a96d-e39f-4cca-a9c7-467a178c2c0a
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
+  servername: pl.lenvex.cc
+  client-fingerprint: firefox
+- name: 🇵🇱 波兰 (Poland) 05 - dwt
   server: 2.26.255.215
   port: 443
   udp: true
@@ -38,26 +50,19 @@ proxies:
     short-id: '50'
   servername: cloudflare.com
   client-fingerprint: ''
-- name: 🇵🇱 波兰 (Poland) 05 - dwt
-  server: 70.34.252.255
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
-  skip-cert-verify: false
 - name: 🇵🇱 波兰 (Poland) 06 - dwt
-  server: 191.217.245.227
-  port: 443
+  server: 217.60.33.67
+  port: 8443
   udp: true
   type: vless
-  uuid: 2614a96d-e39f-4cca-a9c7-467a178c2c0a
+  uuid: dc413f44-7dce-4cc4-b2c7-878ef70ce464
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
-  servername: pl.lenvex.cc
-  client-fingerprint: firefox
+    public-key: -r5xcA3iTzAf63kkb0VIILrLHH1VUq550pFZ-M74Jlc
+    short-id: de
+  servername: go-obsh-auto-drun.keno.su
+  client-fingerprint: chrome
 - name: 🇵🇱 波兰 (Poland) 07 - dwt
   server: 82.118.22.161
   port: 443
@@ -72,7 +77,15 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: safari
 - name: 🇵🇱 波兰 (Poland) 08 - dwt
-  server: 191.217.245.10
+  server: 70.34.252.255
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
+  skip-cert-verify: false
+- name: 🇵🇱 波兰 (Poland) 09 - dwt
+  server: 191.217.245.227
   port: 443
   udp: true
   type: vless
@@ -83,7 +96,7 @@ proxies:
     public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
   servername: pl.lenvex.cc
   client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 09 - dwt
+- name: 🇵🇱 波兰 (Poland) 10 - dwt
   server: 94.249.180.86
   port: 443
   udp: true
@@ -95,7 +108,19 @@ proxies:
     public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
     short-id: a696de84963656de
   servername: amd.com
-  client-fingerprint: ''
+  client-fingerprint: chrome
+- name: 🇵🇱 波兰 (Poland) 11 - dwt
+  server: 79.182.39.37
+  port: 27591
+  udp: true
+  type: vless
+  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+  tls: true
+  reality-opts:
+    public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
+    short-id: 6c5c7900406a1ae7
+  servername: www.samsung.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -110,6 +135,8 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 07 - dwt
   - 🇵🇱 波兰 (Poland) 08 - dwt
   - 🇵🇱 波兰 (Poland) 09 - dwt
+  - 🇵🇱 波兰 (Poland) 10 - dwt
+  - 🇵🇱 波兰 (Poland) 11 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -124,5 +151,7 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 07 - dwt
   - 🇵🇱 波兰 (Poland) 08 - dwt
   - 🇵🇱 波兰 (Poland) 09 - dwt
+  - 🇵🇱 波兰 (Poland) 10 - dwt
+  - 🇵🇱 波兰 (Poland) 11 - dwt
 rules:
 - MATCH,PROXIES

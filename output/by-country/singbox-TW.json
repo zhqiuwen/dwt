@@ -6,54 +6,30 @@
     {
       "type": "hysteria2",
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 - dwt",
-      "server": "103.115.109.49",
+      "server": "vpn-tw-002.fastervpn.world",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "103.115.109.49",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - dwt",
-      "server": "ench-snet-app.w-ctrip.cn",
-      "server_port": 22003,
-      "password": "b17e9b52db9623bd6c16eea3d7adb5b3",
-      "tls": {
-        "enabled": true,
-        "server_name": "cm.g.doubleclick.net",
+        "server_name": "vpn-tw-002.fastervpn.world\\u0026insecure=1\\u0026allowinsecure=1",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - dwt",
-      "server": "160.187.100.109",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - dwt",
+      "server": "103.115.109.49",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "vpn-tw-002.fastervpn.world",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 - dwt",
-      "server": "ench-snet-app.w-ctrip.cn",
-      "server_port": 54815,
-      "password": "b17e9b52db9623bd6c16eea3d7adb5b3",
-      "tls": {
-        "enabled": true,
-        "server_name": "cm.g.doubleclick.net",
+        "server_name": "https://t.me/wangcai2🇨🇳",
         "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 05 - dwt",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - dwt",
       "server": "152.32.167.33",
       "server_port": 443,
       "uuid": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a",
@@ -73,28 +49,13 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 06 - dwt",
-      "server": "ench-snet-app.w-ctrip.cn",
-      "server_port": 47786,
-      "password": "b17e9b52db9623bd6c16eea3d7adb5b3",
-      "tls": {
-        "enabled": true,
-        "server_name": "cm.g.doubleclick.net",
-        "insecure": true
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇹🇼 中国台湾 (Taiwan) 01 - dwt",
         "🇹🇼 中国台湾 (Taiwan) 02 - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 03 - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 04 - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 05 - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 06 - dwt"
+        "🇹🇼 中国台湾 (Taiwan) 03 - dwt"
       ]
     },
     {
@@ -103,10 +64,7 @@
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 - dwt",
         "🇹🇼 中国台湾 (Taiwan) 02 - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 03 - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 04 - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 05 - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 06 - dwt"
+        "🇹🇼 中国台湾 (Taiwan) 03 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -12,16 +12,12 @@
       "password": "RexnBgU7EV5ADxG"
     },
     {
-      "type": "trojan",
+      "type": "shadowsocks",
       "tag": "🇲🇾 马来西亚 (Malaysia) 02 - dwt",
-      "server": "47.250.84.25",
-      "server_port": 443,
-      "password": "5931134d1cde66bf83a54acdfebe7ab2",
-      "tls": {
-        "enabled": true,
-        "server_name": "47.250.84.25",
-        "insecure": true
-      }
+      "server": "58.152.58.193",
+      "server_port": 40006,
+      "method": "chacha20-ietf-poly1305",
+      "password": "28789988-887e-4e41-83cd-27bbfb7999ad"
     },
     {
       "type": "selector",

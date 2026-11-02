@@ -6,13 +6,29 @@
     {
       "type": "trojan",
       "tag": "🇧🇷 巴西 (Brazil) 01 - dwt",
-      "server": "ench-snet-app.w-ctrip.cn",
-      "server_port": 16932,
-      "password": "b17e9b52db9623bd6c16eea3d7adb5b3",
+      "server": "216.238.104.154",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "ench-snet-app.w-ctrip.cn",
-        "insecure": true
+        "server_name": "findtemporaryworkandfreelancerprojectsonlineplatform.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇧🇷 巴西 (Brazil) 02 - dwt",
+      "server": "216.238.116.204",
+      "server_port": 39533,
+      "password": "5t6i121em5lkmsmk",
+      "tls": {
+        "enabled": true,
+        "server_name": "br001.zestapp778.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -20,14 +36,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇷 巴西 (Brazil) 01 - dwt"
+        "🇧🇷 巴西 (Brazil) 01 - dwt",
+        "🇧🇷 巴西 (Brazil) 02 - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 巴西 (Brazil) 01 - dwt"
+        "🇧🇷 巴西 (Brazil) 01 - dwt",
+        "🇧🇷 巴西 (Brazil) 02 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

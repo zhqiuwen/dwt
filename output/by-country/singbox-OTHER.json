@@ -6,20 +6,37 @@
     {
       "type": "vmess",
       "tag": "🌐 其他地区 (Other) 01 - dwt",
-      "server": "chatgpt.com",
-      "server_port": 8443,
-      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+      "server": "www.ubuntuupdates.com",
+      "server_port": 443,
+      "uuid": "83b09a64-1eaf-4c4d-89ed-866d4b6b8115",
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "v2ray1.dozapp.xyz",
+        "server_name": "www.ubuntuupdates.com",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/lMnsZUN4/",
+        "path": "/truth"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 02 - dwt",
+      "server": "www.ubuntuupdates.com",
+      "server_port": 443,
+      "uuid": "83b09a64-1eaf-4c4d-89ed-866d4b6b8115",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ubuntuupdates.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/truth",
         "headers": {
-          "Host": "v2ray1.dozapp.xyz"
+          "Host": "www.ubuntuupdates.com"
         }
       }
     },
@@ -28,14 +45,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - dwt"
+        "🌐 其他地区 (Other) 01 - dwt",
+        "🌐 其他地区 (Other) 02 - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - dwt"
+        "🌐 其他地区 (Other) 01 - dwt",
+        "🌐 其他地区 (Other) 02 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
