@@ -5,37 +5,37 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇷 法国 (France) 01 - dwt
-  server: 77.216.2.178
-  port: 30
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: BHxDn8Z67zuaoQsjHqSAMQQs8Dz1CGqJ
-- name: 🇫🇷 法国 (France) 02 - dwt
-  server: 138.124.70.41
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
-  network: ws
-  ws-opts:
-    path: /vless
-- name: 🇫🇷 法国 (France) 03 - dwt
-  server: 54.36.174.140
-  port: 443
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 6heexyz
-- name: 🇫🇷 法国 (France) 04 - dwt
-  server: 13.36.234.11
-  port: 443
+  server: 51.77.217.70
+  port: 8447
   udp: true
   type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 13.36.234.11
+  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
+  sni: vpn.local
   skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 05 - dwt
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
+- name: 🇫🇷 法国 (France) 02 - dwt
+  server: 51.77.217.70
+  port: 33128
+  udp: true
+  type: hysteria2
+  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
+- name: 🇫🇷 法国 (France) 03 - dwt
+  server: 51.77.217.70
+  port: 21000
+  udp: true
+  type: hysteria2
+  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
+  ports: 21000-21199,33000-33199
+- name: 🇫🇷 法国 (France) 04 - dwt
   server: 108.61.177.57
   port: 16778
   udp: true
@@ -43,43 +43,7 @@ proxies:
   password: 5t6i121em5lkmsmk
   sni: fr001.zestapp778.com
   skip-cert-verify: false
-- name: 🇫🇷 法国 (France) 06 - dwt
-  server: 54.36.174.134
-  port: 443
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 6heexyz
-- name: 🇫🇷 法国 (France) 07 - dwt
-  server: 62.210.7.139
-  port: 60111
-  udp: true
-  type: hysteria2
-  password: github.com/Alvin9999-newpac/fanqiang
-  sni: …
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 08 - dwt
-  server: 62.210.124.146
-  port: 22000
-  udp: true
-  type: hysteria2
-  password: dongtaiwang.com
-  sni: www.microsoft.com
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 09 - dwt
-  server: 62.210.91.10
-  port: 23576
-  udp: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  servername: fuck.rkn
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 10 - dwt
+- name: 🇫🇷 法国 (France) 05 - dwt
   server: 62.210.91.2
   port: 23576
   udp: true
@@ -92,9 +56,16 @@ proxies:
     short-id: '01'
   servername: fuck.rkn
   client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 11 - dwt
+- name: 🇫🇷 法国 (France) 06 - dwt
+  server: pl134.vpnbook.com
+  port: 443
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6heexyz
+- name: 🇫🇷 法国 (France) 07 - dwt
   server: 51.77.217.70
-  port: 8447
+  port: 21169
   udp: true
   type: hysteria2
   password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
@@ -102,38 +73,7 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: ChY5QQQT3ZtUdNT8
-- name: 🇫🇷 法国 (France) 12 - dwt
-  server: 51.77.217.70
-  port: 21000
-  udp: true
-  type: hysteria2
-  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: ChY5QQQT3ZtUdNT8
-  ports: 21000-21199,33000-33199
-- name: 🇫🇷 法国 (France) 13 - dwt
-  server: 51.77.217.70
-  port: 21182
-  udp: true
-  type: hysteria2
-  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: ChY5QQQT3ZtUdNT8
-- name: 🇫🇷 法国 (France) 14 - dwt
-  server: 51.77.217.70
-  port: 8446
-  udp: true
-  type: hysteria2
-  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: ChY5QQQT3ZtUdNT8
-- name: 🇫🇷 法国 (France) 15 - dwt
+- name: 🇫🇷 法国 (France) 08 - dwt
   server: 51.77.217.70
   port: 8445
   udp: true
@@ -143,9 +83,9 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: ChY5QQQT3ZtUdNT8
-- name: 🇫🇷 法国 (France) 16 - dwt
+- name: 🇫🇷 法国 (France) 09 - dwt
   server: 51.77.217.70
-  port: 33128
+  port: 8446
   udp: true
   type: hysteria2
   password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
@@ -153,7 +93,97 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: ChY5QQQT3ZtUdNT8
+- name: 🇫🇷 法国 (France) 10 - dwt
+  server: 62.210.7.139
+  port: 60111
+  udp: true
+  type: hysteria2
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: google.com
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 11 - dwt
+  server: 51.77.217.70
+  port: 21182
+  udp: true
+  type: hysteria2
+  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
+- name: 🇫🇷 法国 (France) 12 - dwt
+  server: pl140.vpnbook.com
+  port: 443
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6heexyz
+- name: 🇫🇷 法国 (France) 13 - dwt
+  server: 13.36.234.11
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 13.36.234.11
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 14 - dwt
+  server: 138.124.70.41
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 138.124.70.41
+- name: 🇫🇷 法国 (France) 15 - dwt
+  server: 45.77.62.132
+  port: 22357
+  udp: true
+  type: hysteria2
+  password: dq6rfcyex30h1b6z
+  sni: ll5xoe8j.easyiran.org
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: qkdqum5rllpyup7h
+- name: 🇫🇷 法国 (France) 16 - dwt
+  server: 152.228.139.33
+  port: 35108
+  udp: true
+  type: vless
+  uuid: 81dc0b61-f9fe-4ad6-8b4e-b8c067b73712
+  tls: true
+  reality-opts:
+    public-key: X_lOw5Zz4SJBa1cRHV4dAq5msYE-ClY5-WNcBmBWRxg
+    short-id: 52add08b86a5ccea
+  servername: www.nvidia.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-common3
 - name: 🇫🇷 法国 (France) 17 - dwt
+  server: 62.210.147.2
+  port: 43115
+  udp: true
+  type: hysteria2
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 18 - dwt
+  server: 62.210.91.10
+  port: 23576
+  udp: true
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  servername: fuck.rkn
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 19 - dwt
   server: 51.77.217.70
   port: 2053
   udp: true
@@ -165,17 +195,14 @@ proxies:
     short-id: bfe58beb41f1d09f
   servername: www.apple.com
   client-fingerprint: firefox
-- name: 🇫🇷 法国 (France) 18 - dwt
-  server: 51.77.217.70
-  port: 21169
+- name: 🇫🇷 法国 (France) 20 - dwt
+  server: iri750y8gl.gadawebi.ir
+  port: 5050
   udp: true
-  type: hysteria2
-  password: capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: ChY5QQQT3ZtUdNT8
-- name: 🇫🇷 法国 (France) 19 - dwt
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: DPpk3OhbcFpFOpTnKnlGsi5kWH7BJTDv
+- name: 🇫🇷 法国 (France) 21 - dwt
   server: 152.228.139.33
   port: 51671
   udp: true
@@ -190,15 +217,8 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc_common3
-- name: 🇫🇷 法国 (France) 20 - dwt
-  server: 51.83.192.80
-  port: 8388
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: itzvpn@321
-- name: 🇫🇷 法国 (France) 21 - dwt
-  server: 186.246.9.62
+- name: 🇫🇷 法国 (France) 22 - dwt
+  server: 201.51.5.181
   port: 443
   udp: true
   type: vless
@@ -208,36 +228,9 @@ proxies:
   reality-opts:
     public-key: LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU
     short-id: b9120cd53ffd7bba
-  servername: media-27.topp-con.xyz
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 22 - dwt
-  server: 54.37.136.194
-  port: 2053
-  udp: true
-  type: vless
-  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
-  tls: true
-  reality-opts:
-    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
-    short-id: 50ba05992b05c1c3
-  servername: www.cloudflare.com
+  servername: pkg-77.topp-con.xyz
   client-fingerprint: chrome
 - name: 🇫🇷 法国 (France) 23 - dwt
-  server: 152.228.139.33
-  port: 35108
-  udp: true
-  type: vless
-  uuid: 81dc0b61-f9fe-4ad6-8b4e-b8c067b73712
-  tls: true
-  reality-opts:
-    public-key: X_lOw5Zz4SJBa1cRHV4dAq5msYE-ClY5-WNcBmBWRxg
-    short-id: 52add08b86a5ccea
-  servername: www.nvidia.com
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-common3
-- name: 🇫🇷 法国 (France) 24 - dwt
   server: 161.97.66.16
   port: 443
   udp: true
@@ -247,6 +240,18 @@ proxies:
   reality-opts:
     public-key: R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc
     short-id: 086bf957
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 24 - dwt
+  server: 54.37.136.194
+  port: 2053
+  udp: true
+  type: vless
+  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  tls: true
+  reality-opts:
+    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+    short-id: 50ba05992b05c1c3
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇫🇷 法国 (France) 25 - dwt
@@ -263,27 +268,38 @@ proxies:
   servername: www.icloud.com
   client-fingerprint: chrome
 - name: 🇫🇷 法国 (France) 26 - dwt
-  server: 161.97.160.224
+  server: 47.129.112.129
+  port: 20000
+  udp: true
+  type: hysteria2
+  password: rBM3dgUU0Mtjflss4jeZRw92
+  sni: sg-transit-3.nebulacloud.win
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 27 - dwt
+  server: 145.223.68.58
   port: 443
   udp: true
   type: vless
-  uuid: b81b4d1b-7f20-48f1-82dc-d24bef898cab
+  uuid: edb50d20-2d3e-4c1e-8a75-a17168a89aa5
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0
-    short-id: e6
-  servername: passport.yandex.ru
-  client-fingerprint: ''
-- name: 🇫🇷 法国 (France) 27 - dwt
-  server: 51.75.118.5
-  port: 20222
+    public-key: qc2DcqT9zPPZr6ePZ7ukxACWrYhRNIBjDIjCK7veyQg
+    short-id: a44ff7d2e80213c2
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 28 - dwt
+  server: ai.smrtai.top
+  port: 443
   udp: true
   type: vless
-  uuid: 418ddc75-aa9c-4e5d-a9a3-82c50a5a02b6
-  network: grpc
-  grpc-opts:
-    grpc-service-name: parham-confing-grpc
+  uuid: 086bf957-9cd0-4e55-8280-bbef10435b41
+  tls: true
+  reality-opts:
+    public-key: R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc
+    short-id: 086bf957
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -316,6 +332,7 @@ proxy-groups:
   - 🇫🇷 法国 (France) 25 - dwt
   - 🇫🇷 法国 (France) 26 - dwt
   - 🇫🇷 法国 (France) 27 - dwt
+  - 🇫🇷 法国 (France) 28 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -348,5 +365,6 @@ proxy-groups:
   - 🇫🇷 法国 (France) 25 - dwt
   - 🇫🇷 法国 (France) 26 - dwt
   - 🇫🇷 法国 (France) 27 - dwt
+  - 🇫🇷 法国 (France) 28 - dwt
 rules:
 - MATCH,PROXIES

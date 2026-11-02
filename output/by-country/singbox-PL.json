@@ -15,9 +15,9 @@
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 02 - dwt",
       "server": "217.30.10.44",
-      "server_port": 9006,
+      "server_port": 9095,
       "method": "aes-256-cfb",
-      "password": "FAdUvMJUq5vDgKEq"
+      "password": "N7j3pdTYkKmsy8CR"
     },
     {
       "type": "shadowsocks",
@@ -30,7 +30,7 @@
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 04 - dwt",
-      "server": "191.217.245.10",
+      "server": "191.217.245.227",
       "server_port": 443,
       "uuid": "2614a96d-e39f-4cca-a9c7-467a178c2c0a",
       "flow": "xtls-rprx-vision",
@@ -51,6 +51,27 @@
     {
       "type": "vless",
       "tag": "🇵🇱 波兰 (Poland) 05 - dwt",
+      "server": "191.217.245.10",
+      "server_port": 443,
+      "uuid": "2614a96d-e39f-4cca-a9c7-467a178c2c0a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl.lenvex.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 06 - dwt",
       "server": "2.26.255.215",
       "server_port": 443,
       "uuid": "69e41e64-a832-471a-b740-94577ca85520",
@@ -70,29 +91,35 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 06 - dwt",
-      "server": "217.60.33.67",
-      "server_port": 8443,
-      "uuid": "dc413f44-7dce-4cc4-b2c7-878ef70ce464",
-      "flow": "xtls-rprx-vision",
+      "type": "trojan",
+      "tag": "🇵🇱 波兰 (Poland) 07 - dwt",
+      "server": "70.34.252.255",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "go-obsh-auto-drun.keno.su",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "-r5xcA3iTzAf63kkb0VIILrLHH1VUq550pFZ-M74Jlc",
-          "short_id": "de"
+        "server_name": "browseexecutivejobopeningsandenhanceleadershipcareer.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇵🇱 波兰 (Poland) 08 - dwt",
+      "server": "54.37.131.126",
+      "server_port": 80,
+      "uuid": "059fda3e-5ca9-4fbd-dd89-01cc6d4bb5dd",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 07 - dwt",
+      "tag": "🇵🇱 波兰 (Poland) 09 - dwt",
       "server": "82.118.22.161",
       "server_port": 443,
       "uuid": "05488656-d4bf-4634-8b2e-e4ff5a56c7e2",
@@ -108,39 +135,6 @@
           "enabled": true,
           "public_key": "xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E",
           "short_id": "fa3ea655619a3e78"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇵🇱 波兰 (Poland) 08 - dwt",
-      "server": "70.34.252.255",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "browseexecutivejobopeningsandenhanceleadershipcareer.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 09 - dwt",
-      "server": "191.217.245.227",
-      "server_port": 443,
-      "uuid": "2614a96d-e39f-4cca-a9c7-467a178c2c0a",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl.lenvex.cc",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ",
-          "short_id": ""
         }
       }
     },
@@ -166,26 +160,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇵🇱 波兰 (Poland) 11 - dwt",
-      "server": "79.182.39.37",
-      "server_port": 27591,
-      "uuid": "056405e8-de9f-4d0d-8145-956f13cc34da",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM",
-          "short_id": "6c5c7900406a1ae7"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -199,8 +173,7 @@
         "🇵🇱 波兰 (Poland) 07 - dwt",
         "🇵🇱 波兰 (Poland) 08 - dwt",
         "🇵🇱 波兰 (Poland) 09 - dwt",
-        "🇵🇱 波兰 (Poland) 10 - dwt",
-        "🇵🇱 波兰 (Poland) 11 - dwt"
+        "🇵🇱 波兰 (Poland) 10 - dwt"
       ]
     },
     {
@@ -216,8 +189,7 @@
         "🇵🇱 波兰 (Poland) 07 - dwt",
         "🇵🇱 波兰 (Poland) 08 - dwt",
         "🇵🇱 波兰 (Poland) 09 - dwt",
-        "🇵🇱 波兰 (Poland) 10 - dwt",
-        "🇵🇱 波兰 (Poland) 11 - dwt"
+        "🇵🇱 波兰 (Poland) 10 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

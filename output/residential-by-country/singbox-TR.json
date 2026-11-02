@@ -4,22 +4,19 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇨🇳 CN 01 - dwt",
-      "server": "8.35.211.242",
-      "server_port": 443,
-      "uuid": "fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349",
+      "type": "hysteria2",
+      "tag": "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - dwt",
+      "server": "206.1.96.108",
+      "server_port": 7443,
+      "password": "M8LP9DztTr3znqCkmf-r08CQLBLLFK1r",
       "tls": {
         "enabled": true,
-        "server_name": "vpn.cintaku.qzz.io",
+        "server_name": "me17.msjia8844.site",
         "insecure": false
       },
-      "transport": {
-        "type": "ws",
-        "path": "/vlessws",
-        "headers": {
-          "Host": "vpn.cintaku.qzz.io"
-        }
+      "obfs": {
+        "type": "salamander",
+        "password": "u3Soh9_Ui0UmcuY6vk0ug8Lq"
       }
     },
     {
@@ -27,14 +24,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇳 CN 01 - dwt"
+        "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇳 CN 01 - dwt"
+        "🇹🇷 土耳其 (Turkey) 01 (移动家宽) - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

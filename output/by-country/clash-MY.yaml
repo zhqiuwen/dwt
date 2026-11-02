@@ -12,7 +12,15 @@ proxies:
   cipher: aes-256-gcm
   password: RexnBgU7EV5ADxG
 - name: 🇲🇾 马来西亚 (Malaysia) 02 - dwt
-  server: 58.152.58.193
+  server: 47.250.135.244
+  port: 10000
+  udp: true
+  type: vmess
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  alterId: 0
+  cipher: auto
+- name: 🇲🇾 马来西亚 (Malaysia) 03 - dwt
+  server: xunlinknode.csdjhajkshdjkas.com
   port: 40006
   udp: true
   type: ss
@@ -25,6 +33,7 @@ proxy-groups:
   - AUTO
   - 🇲🇾 马来西亚 (Malaysia) 01 - dwt
   - 🇲🇾 马来西亚 (Malaysia) 02 - dwt
+  - 🇲🇾 马来西亚 (Malaysia) 03 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -32,5 +41,6 @@ proxy-groups:
   proxies:
   - 🇲🇾 马来西亚 (Malaysia) 01 - dwt
   - 🇲🇾 马来西亚 (Malaysia) 02 - dwt
+  - 🇲🇾 马来西亚 (Malaysia) 03 - dwt
 rules:
 - MATCH,PROXIES

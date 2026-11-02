@@ -12,9 +12,17 @@
       "password": "RexnBgU7EV5ADxG"
     },
     {
-      "type": "shadowsocks",
+      "type": "vmess",
       "tag": "🇲🇾 马来西亚 (Malaysia) 02 - dwt",
-      "server": "58.152.58.193",
+      "server": "47.250.135.244",
+      "server_port": 10000,
+      "uuid": "aedc66b8-99d7-4a21-8310-61870e7f870d",
+      "security": "auto"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇲🇾 马来西亚 (Malaysia) 03 - dwt",
+      "server": "xunlinknode.csdjhajkshdjkas.com",
       "server_port": 40006,
       "method": "chacha20-ietf-poly1305",
       "password": "28789988-887e-4e41-83cd-27bbfb7999ad"
@@ -25,7 +33,8 @@
       "outbounds": [
         "auto",
         "🇲🇾 马来西亚 (Malaysia) 01 - dwt",
-        "🇲🇾 马来西亚 (Malaysia) 02 - dwt"
+        "🇲🇾 马来西亚 (Malaysia) 02 - dwt",
+        "🇲🇾 马来西亚 (Malaysia) 03 - dwt"
       ]
     },
     {
@@ -33,7 +42,8 @@
       "tag": "auto",
       "outbounds": [
         "🇲🇾 马来西亚 (Malaysia) 01 - dwt",
-        "🇲🇾 马来西亚 (Malaysia) 02 - dwt"
+        "🇲🇾 马来西亚 (Malaysia) 02 - dwt",
+        "🇲🇾 马来西亚 (Malaysia) 03 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

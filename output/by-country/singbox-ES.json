@@ -7,21 +7,13 @@
       "type": "shadowsocks",
       "tag": "🇪🇸 西班牙 (Spain) 01 - dwt",
       "server": "5.188.181.201",
-      "server_port": 9014,
+      "server_port": 9011,
       "method": "aes-256-cfb",
-      "password": "KnJGad3FqTvjqbaX"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 02 - dwt",
-      "server": "5.188.181.201",
-      "server_port": 9027,
-      "method": "aes-256-cfb",
-      "password": "EXN3S3eQpjE7EJu8"
+      "password": "M3t2ZEQcMGRWBjRa"
     },
     {
       "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 03 - dwt",
+      "tag": "🇪🇸 西班牙 (Spain) 02 - dwt",
       "server": "212.227.235.66",
       "server_port": 2053,
       "uuid": "ead0dd61-d398-40ad-80d6-a0e1e516d7d3",
@@ -40,6 +32,26 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇪🇸 西班牙 (Spain) 03 - dwt",
+      "server": "156.252.229.30",
+      "server_port": 8443,
+      "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.googleapis.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A",
+          "short_id": "974f7f8f"
+        }
+      }
+    },
+    {
       "type": "trojan",
       "tag": "🇪🇸 西班牙 (Spain) 04 - dwt",
       "server": "66.163.118.131",
@@ -54,18 +66,58 @@
     {
       "type": "trojan",
       "tag": "🇪🇸 西班牙 (Spain) 05 - dwt",
-      "server": "66.163.118.166",
+      "server": "66.163.118.244",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "learn.discovergreatjobsandadvanceyourcareer.com",
+        "server_name": "api.discovergreatjobsandadvanceyourcareer.com",
         "insecure": false
       }
     },
     {
       "type": "vless",
       "tag": "🇪🇸 西班牙 (Spain) 06 - dwt",
+      "server": "156.252.229.11",
+      "server_port": 8443,
+      "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.googleapis.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A",
+          "short_id": "974f7f8f"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇸 西班牙 (Spain) 07 - dwt",
+      "server": "156.252.229.136",
+      "server_port": 8443,
+      "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.googleapis.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A",
+          "short_id": "974f7f8f"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇸 西班牙 (Spain) 08 - dwt",
       "server": "46.28.71.247",
       "server_port": 443,
       "uuid": "12c53e32-e589-47d6-b857-e4132294f767",
@@ -86,27 +138,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 07 - dwt",
-      "server": "156.252.229.30",
-      "server_port": 8443,
-      "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.googleapis.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A",
-          "short_id": "974f7f8f"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 08 - dwt",
+      "tag": "🇪🇸 西班牙 (Spain) 09 - dwt",
       "server": "156.252.229.159",
       "server_port": 8443,
       "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
@@ -125,54 +157,14 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 09 - dwt",
-      "server": "156.252.229.136",
-      "server_port": 8443,
-      "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.googleapis.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A",
-          "short_id": "974f7f8f"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 10 - dwt",
-      "server": "156.252.229.11",
-      "server_port": 8443,
-      "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.googleapis.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A",
-          "short_id": "974f7f8f"
-        }
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "🇪🇸 西班牙 (Spain) 11 - dwt",
-      "server": "66.163.118.244",
+      "tag": "🇪🇸 西班牙 (Spain) 10 - dwt",
+      "server": "66.163.118.251",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "api.discovergreatjobsandadvanceyourcareer.com",
+        "server_name": "resources.discovergreatjobsandadvanceyourcareer.com",
         "insecure": false
       }
     },
@@ -190,8 +182,7 @@
         "🇪🇸 西班牙 (Spain) 07 - dwt",
         "🇪🇸 西班牙 (Spain) 08 - dwt",
         "🇪🇸 西班牙 (Spain) 09 - dwt",
-        "🇪🇸 西班牙 (Spain) 10 - dwt",
-        "🇪🇸 西班牙 (Spain) 11 - dwt"
+        "🇪🇸 西班牙 (Spain) 10 - dwt"
       ]
     },
     {
@@ -207,8 +198,7 @@
         "🇪🇸 西班牙 (Spain) 07 - dwt",
         "🇪🇸 西班牙 (Spain) 08 - dwt",
         "🇪🇸 西班牙 (Spain) 09 - dwt",
-        "🇪🇸 西班牙 (Spain) 10 - dwt",
-        "🇪🇸 西班牙 (Spain) 11 - dwt"
+        "🇪🇸 西班牙 (Spain) 10 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
