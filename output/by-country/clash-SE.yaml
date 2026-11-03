@@ -5,19 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 瑞典 (Sweden) 01 - dwt
-  server: 132.243.231.21
-  port: 443
-  udp: true
-  type: vless
-  uuid: 518079db-d88d-4035-bbf4-ddd1f9cf1e5f
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: 2d6d073dc88f22a8
-  servername: se.frgcdn.xyz
-  client-fingerprint: firefox
-- name: 🇸🇪 瑞典 (Sweden) 02 - dwt
   server: 70.34.207.14
   port: 443
   udp: true
@@ -25,16 +12,29 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
   skip-cert-verify: false
+- name: 🇸🇪 瑞典 (Sweden) 02 - dwt
+  server: 138.199.55.230
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 03 - dwt
-  server: 192.142.23.46
+  server: 194.104.94.141
   port: 443
   udp: true
-  type: hysteria2
-  password: a0052f4f-4c63-0002-a16f-ab2d5d718cd3
-  sni: diffoscope.com
+  type: vless
+  uuid: 6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6
+  tls: true
+  servername: se3.shtil.io
   skip-cert-verify: false
+  client-fingerprint: firefox
 - name: 🇸🇪 瑞典 (Sweden) 04 - dwt
-  server: sw.golangwikito.cfd
+  server: 193.25.216.31
   port: 443
   udp: true
   type: vless
@@ -47,19 +47,6 @@ proxies:
   servername: sw.golangwikito.cfd
   client-fingerprint: firefox
 - name: 🇸🇪 瑞典 (Sweden) 05 - dwt
-  server: 89.125.37.1
-  port: 443
-  udp: true
-  type: vless
-  uuid: 518079db-d88d-4035-bbf4-ddd1f9cf1e5f
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: 2d6d073dc88f22a8
-  servername: se.frgcdn.xyz
-  client-fingerprint: chrome
-- name: 🇸🇪 瑞典 (Sweden) 06 - dwt
   server: se.mimowhat.online
   port: 443
   udp: true
@@ -67,39 +54,6 @@ proxies:
   password: 769f34f0-1500-488f-b414-03bc90666502
   sni: se.mimowhat.online
   skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 07 - dwt
-  server: 194.104.94.141
-  port: 443
-  udp: true
-  type: vless
-  uuid: 6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6
-  tls: true
-  servername: se3.shtil.io
-  skip-cert-verify: false
-  client-fingerprint: firefox
-- name: 🇸🇪 瑞典 (Sweden) 08 - dwt
-  server: swidenafterlanzerotte.space
-  port: 443
-  udp: true
-  type: vless
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: MQrvfivvEfLGzDee7h0j5uC-DwaD_38_NXOY9-NhqxM
-  servername: swidenafterlanzerotte.space
-  client-fingerprint: chrome
-- name: 🇸🇪 瑞典 (Sweden) 09 - dwt
-  server: 5.178.109.174
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 5.178.109.174
 proxy-groups:
 - name: PROXIES
   type: select
@@ -110,10 +64,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 03 - dwt
   - 🇸🇪 瑞典 (Sweden) 04 - dwt
   - 🇸🇪 瑞典 (Sweden) 05 - dwt
-  - 🇸🇪 瑞典 (Sweden) 06 - dwt
-  - 🇸🇪 瑞典 (Sweden) 07 - dwt
-  - 🇸🇪 瑞典 (Sweden) 08 - dwt
-  - 🇸🇪 瑞典 (Sweden) 09 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -124,9 +74,5 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 03 - dwt
   - 🇸🇪 瑞典 (Sweden) 04 - dwt
   - 🇸🇪 瑞典 (Sweden) 05 - dwt
-  - 🇸🇪 瑞典 (Sweden) 06 - dwt
-  - 🇸🇪 瑞典 (Sweden) 07 - dwt
-  - 🇸🇪 瑞典 (Sweden) 08 - dwt
-  - 🇸🇪 瑞典 (Sweden) 09 - dwt
 rules:
 - MATCH,PROXIES

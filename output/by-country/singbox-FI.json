@@ -25,8 +25,16 @@
       }
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇫🇮 芬兰 (Finland) 02 - dwt",
+      "server": "185.4.115.149",
+      "server_port": 1346,
+      "method": "chacha20-ietf-poly1305",
+      "password": "v1c-i5SSFXP8n4g1Wbc0L9gX82x5O2Qa"
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 03 - dwt",
       "server": "95.216.27.15",
       "server_port": 2053,
       "uuid": "b79d736d-0f10-4169-b626-362059d18204",
@@ -46,7 +54,28 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 03 - dwt",
+      "tag": "🇫🇮 芬兰 (Finland) 04 - dwt",
+      "server": "89.144.53.4",
+      "server_port": 8445,
+      "uuid": "5c32201a-6c0e-451b-8f0a-24b4bd40df59",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "videos.porsche.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk",
+          "short_id": "1a2b3c4d"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 05 - dwt",
       "server": "45.144.234.157",
       "server_port": 14430,
       "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
@@ -60,7 +89,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 04 - dwt",
+      "tag": "🇫🇮 芬兰 (Finland) 06 - dwt",
       "server": "31.77.199.147",
       "server_port": 4443,
       "uuid": "20dd9433-389e-4573-ba7b-689619cf13da",
@@ -80,32 +109,30 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 05 - dwt",
-      "server": "areal1.greewebservices.ir",
-      "server_port": 2425,
-      "uuid": "dfb070bf-0b53-43eb-be2b-4b34f7e1644d",
+      "type": "trojan",
+      "tag": "🇫🇮 芬兰 (Finland) 07 - dwt",
+      "server": "104.18.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
       "tls": {
         "enabled": true,
-        "server_name": "play.googleapis.com",
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "MnPGY1Vo4ZbYdpLRTYHoolv5s_pwO41karyJfnQ0F3o",
-          "short_id": "9b60d3"
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
         }
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇫🇮 芬兰 (Finland) 06 - dwt",
-      "server": "dns22.m3hrzd.ir",
-      "server_port": 1346,
-      "method": "chacha20-ietf-poly1305",
-      "password": "v1c-i5SSFXP8n4g1Wbc0L9gX82x5O2Qa"
     },
     {
       "type": "selector",
@@ -117,7 +144,8 @@
         "🇫🇮 芬兰 (Finland) 03 - dwt",
         "🇫🇮 芬兰 (Finland) 04 - dwt",
         "🇫🇮 芬兰 (Finland) 05 - dwt",
-        "🇫🇮 芬兰 (Finland) 06 - dwt"
+        "🇫🇮 芬兰 (Finland) 06 - dwt",
+        "🇫🇮 芬兰 (Finland) 07 - dwt"
       ]
     },
     {
@@ -129,7 +157,8 @@
         "🇫🇮 芬兰 (Finland) 03 - dwt",
         "🇫🇮 芬兰 (Finland) 04 - dwt",
         "🇫🇮 芬兰 (Finland) 05 - dwt",
-        "🇫🇮 芬兰 (Finland) 06 - dwt"
+        "🇫🇮 芬兰 (Finland) 06 - dwt",
+        "🇫🇮 芬兰 (Finland) 07 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
