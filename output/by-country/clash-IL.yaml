@@ -33,19 +33,6 @@ proxies:
   password: f25f19f29ce3fb53a35bf1b35b452a43
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇮🇱 以色列 (Israel) 04 - dwt
-  server: 77.91.69.169
-  port: 19226
-  udp: true
-  type: vless
-  uuid: f0b144bd-4c44-440d-b630-d79ec82cad3a
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: PQjgf7GxBd2tDXf0zl9Z5rTZo7LdsWj0hGZLH-lJ-Uk
-    short-id: 7c
-  servername: yahoo.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -54,7 +41,6 @@ proxy-groups:
   - 🇮🇱 以色列 (Israel) 01 - dwt
   - 🇮🇱 以色列 (Israel) 02 - dwt
   - 🇮🇱 以色列 (Israel) 03 - dwt
-  - 🇮🇱 以色列 (Israel) 04 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -63,6 +49,5 @@ proxy-groups:
   - 🇮🇱 以色列 (Israel) 01 - dwt
   - 🇮🇱 以色列 (Israel) 02 - dwt
   - 🇮🇱 以色列 (Israel) 03 - dwt
-  - 🇮🇱 以色列 (Israel) 04 - dwt
 rules:
 - MATCH,PROXIES

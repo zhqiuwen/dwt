@@ -12,26 +12,19 @@ proxies:
   cipher: aes-256-cfb
   password: aQqJbtwFGcCCaeL3
 - name: 🇵🇱 波兰 (Poland) 02 - dwt
-  server: 70.34.252.255
-  port: 443
+  server: 217.30.10.44
+  port: 9006
   udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
-  skip-cert-verify: false
+  type: ss
+  cipher: aes-256-cfb
+  password: FAdUvMJUq5vDgKEq
 - name: 🇵🇱 波兰 (Poland) 03 - dwt
-  server: 217.30.10.72
-  port: 443
+  server: 217.30.10.44
+  port: 9076
   udp: true
-  type: vless
-  uuid: 5c32201a-6c0e-451b-8f0a-24b4bd40df59
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
-    short-id: 1a2b3c4d
-  servername: images.porsche.com
-  client-fingerprint: firefox
+  type: ss
+  cipher: aes-256-cfb
+  password: S2zDyyPcmZN2h8EC
 - name: 🇵🇱 波兰 (Poland) 04 - dwt
   server: 2.26.255.215
   port: 443
@@ -46,18 +39,18 @@ proxies:
   servername: cloudflare.com
   client-fingerprint: chrome
 - name: 🇵🇱 波兰 (Poland) 05 - dwt
-  server: 179.198.49.218
+  server: 217.30.10.72
   port: 443
   udp: true
   type: vless
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+  uuid: 5c32201a-6c0e-451b-8f0a-24b4bd40df59
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 9CKMhiYPXEIfQh_XFbbN1GoBxeLxJkaar2wg9FZKfBo
-    short-id: 75fe71d16ccae610
-  servername: assets-44.topp-con.xyz
-  client-fingerprint: chrome
+    public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
+    short-id: 1a2b3c4d
+  servername: images.porsche.com
+  client-fingerprint: firefox
 - name: 🇵🇱 波兰 (Poland) 06 - dwt
   server: 94.249.180.86
   port: 443
@@ -72,43 +65,39 @@ proxies:
   servername: amd.com
   client-fingerprint: chrome
 - name: 🇵🇱 波兰 (Poland) 07 - dwt
-  server: 54.37.131.126
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 059fda3e-5ca9-4fbd-dd89-01cc6d4bb5dd
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
-- name: 🇵🇱 波兰 (Poland) 08 - dwt
-  server: 45.198.0.133
+  server: 179.198.49.218
   port: 443
   udp: true
   type: vless
-  uuid: 7a5cbb56-228f-4a38-b640-5d5803b5dbb5
+  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: cmHxNU_t7SQibzl8QuyDNPorLZkYp0mYKb79-4kEm1M
-    short-id: 5ff72a0ca3e4a1b6
-  servername: govnetkurwa.farted.net
-  client-fingerprint: qq
-- name: 🇵🇱 波兰 (Poland) 09 - dwt
-  server: 2.26.231.218
-  port: 2063
+    public-key: 9CKMhiYPXEIfQh_XFbbN1GoBxeLxJkaar2wg9FZKfBo
+    short-id: 75fe71d16ccae610
+  servername: assets-44.topp-con.xyz
+  client-fingerprint: chrome
+- name: 🇵🇱 波兰 (Poland) 08 - dwt
+  server: 217.60.33.67
+  port: 8443
   udp: true
   type: vless
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+  uuid: dc413f44-7dce-4cc4-b2c7-878ef70ce464
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
-  servername: rusbid.de
+    public-key: -r5xcA3iTzAf63kkb0VIILrLHH1VUq550pFZ-M74Jlc
+    short-id: de
+  servername: go-obsh-auto-drun.keno.su
   client-fingerprint: chrome
+- name: 🇵🇱 波兰 (Poland) 09 - dwt
+  server: 70.34.252.255
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
+  skip-cert-verify: false
 - name: 🇵🇱 波兰 (Poland) 10 - dwt
   server: 82.118.22.161
   port: 443
@@ -123,17 +112,120 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇵🇱 波兰 (Poland) 11 - dwt
-  server: 217.60.33.67
-  port: 8443
+  server: 54.37.131.126
+  port: 80
+  udp: true
+  type: vmess
+  uuid: 059fda3e-5ca9-4fbd-dd89-01cc6d4bb5dd
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+- name: 🇵🇱 波兰 (Poland) 12 - dwt
+  server: 2.26.231.218
+  port: 2063
   udp: true
   type: vless
-  uuid: 2a66ad35-93ce-4fd2-831f-bcaa63cdac1e
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: -r5xcA3iTzAf63kkb0VIILrLHH1VUq550pFZ-M74Jlc
-    short-id: de
-  servername: go-obsh-auto-drun.keno.su
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+  servername: rusbid.de
+  client-fingerprint: firefox
+- name: 🇵🇱 波兰 (Poland) 13 - dwt
+  server: 84.23.52.120
+  port: 28449
+  udp: true
+  type: vless
+  uuid: 4d8132cb-f4e3-428c-91ff-2b4f7a868551
+  tls: true
+  servername: pl.sparxiecn.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /lovelive
+- name: 🇵🇱 波兰 (Poland) 14 - dwt
+  server: 84.23.52.120
+  port: 28450
+  udp: true
+  type: vless
+  uuid: 4d8132cb-f4e3-428c-91ff-2b4f7a868551
+  tls: true
+  servername: pl.sparxiecn.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /lovelive
+- name: 🇵🇱 波兰 (Poland) 15 - dwt
+  server: 84.23.52.120
+  port: 28448
+  udp: true
+  type: vless
+  uuid: 4d8132cb-f4e3-428c-91ff-2b4f7a868551
+  tls: true
+  servername: pl.sparxiecn.com
+  skip-cert-verify: false
+  client-fingerprint: ios
+  network: ws
+  ws-opts:
+    path: /lovelive
+- name: 🇵🇱 波兰 (Poland) 16 - dwt
+  server: 84.23.52.120
+  port: 28453
+  udp: true
+  type: vless
+  uuid: 4d8132cb-f4e3-428c-91ff-2b4f7a868551
+  tls: true
+  servername: pl.sparxiecn.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /lovelive
+- name: 🇵🇱 波兰 (Poland) 17 - dwt
+  server: 201.58.181.231
+  port: 2083
+  udp: true
+  type: vless
+  uuid: fafc7c16-f890-45ee-a856-02df225172dd
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: uKk4cvAJii_YbhzUm9IeMKLHR851E_1sfiMP-ncyeyM
+    short-id: e69c662141e37e7b
+  servername: ya.ru
+  client-fingerprint: firefox
+- name: 🇵🇱 波兰 (Poland) 18 - dwt
+  server: 201.58.181.231
+  port: 4443
+  udp: true
+  type: vless
+  uuid: fafc7c16-f890-45ee-a856-02df225172dd
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: kn7Lh0yi6CYrHW5KpiQrfrs9FED-mbbEEKgOoiDkx2M
+    short-id: 858affa9443ebac6
+  servername: www.kinopoisk.ru
+  client-fingerprint: firefox
+- name: 🇵🇱 波兰 (Poland) 19 - dwt
+  server: 201.58.181.231
+  port: 2053
+  udp: true
+  type: vless
+  uuid: fafc7c16-f890-45ee-a856-02df225172dd
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: MNiFXYg5jUmPSGK799ApRlrPR1CV8QflX85dDakOzRg
+    short-id: cc91595f8222fda2
+  servername: ya.ru
   client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
@@ -151,6 +243,14 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 09 - dwt
   - 🇵🇱 波兰 (Poland) 10 - dwt
   - 🇵🇱 波兰 (Poland) 11 - dwt
+  - 🇵🇱 波兰 (Poland) 12 - dwt
+  - 🇵🇱 波兰 (Poland) 13 - dwt
+  - 🇵🇱 波兰 (Poland) 14 - dwt
+  - 🇵🇱 波兰 (Poland) 15 - dwt
+  - 🇵🇱 波兰 (Poland) 16 - dwt
+  - 🇵🇱 波兰 (Poland) 17 - dwt
+  - 🇵🇱 波兰 (Poland) 18 - dwt
+  - 🇵🇱 波兰 (Poland) 19 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -167,5 +267,13 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 09 - dwt
   - 🇵🇱 波兰 (Poland) 10 - dwt
   - 🇵🇱 波兰 (Poland) 11 - dwt
+  - 🇵🇱 波兰 (Poland) 12 - dwt
+  - 🇵🇱 波兰 (Poland) 13 - dwt
+  - 🇵🇱 波兰 (Poland) 14 - dwt
+  - 🇵🇱 波兰 (Poland) 15 - dwt
+  - 🇵🇱 波兰 (Poland) 16 - dwt
+  - 🇵🇱 波兰 (Poland) 17 - dwt
+  - 🇵🇱 波兰 (Poland) 18 - dwt
+  - 🇵🇱 波兰 (Poland) 19 - dwt
 rules:
 - MATCH,PROXIES

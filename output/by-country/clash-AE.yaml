@@ -5,16 +5,30 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - dwt
+  server: 151.241.19.29
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇦🇪 阿联酋 (UAE) 02 - dwt
+  server: 151.241.19.36
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇦🇪 阿联酋 (UAE) 03 - dwt
   server: 130.49.161.70
   port: 443
   udp: true
   type: hysteria2
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
   sni: hy2.aspidnet.xyz
-  skip-cert-verify: false
+  skip-cert-verify: true
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇦🇪 阿联酋 (UAE) 02 - dwt
+- name: 🇦🇪 阿联酋 (UAE) 04 - dwt
   server: 95.174.68.188
   port: 14430
   udp: true
@@ -23,8 +37,17 @@ proxies:
   network: ws
   ws-opts:
     path: /vless
+- name: 🇦🇪 阿联酋 (UAE) 05 - dwt
+  server: 84.235.244.108
+  port: 22573
+  udp: true
+  type: vless
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  network: ws
+  ws-opts:
+    path: /
     headers:
-      Host: 95.174.68.188
+      Host: uae.unixzone.us
 proxy-groups:
 - name: PROXIES
   type: select
@@ -32,6 +55,9 @@ proxy-groups:
   - AUTO
   - 🇦🇪 阿联酋 (UAE) 01 - dwt
   - 🇦🇪 阿联酋 (UAE) 02 - dwt
+  - 🇦🇪 阿联酋 (UAE) 03 - dwt
+  - 🇦🇪 阿联酋 (UAE) 04 - dwt
+  - 🇦🇪 阿联酋 (UAE) 05 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -39,5 +65,8 @@ proxy-groups:
   proxies:
   - 🇦🇪 阿联酋 (UAE) 01 - dwt
   - 🇦🇪 阿联酋 (UAE) 02 - dwt
+  - 🇦🇪 阿联酋 (UAE) 03 - dwt
+  - 🇦🇪 阿联酋 (UAE) 04 - dwt
+  - 🇦🇪 阿联酋 (UAE) 05 - dwt
 rules:
 - MATCH,PROXIES
