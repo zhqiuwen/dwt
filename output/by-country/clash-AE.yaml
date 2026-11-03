@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - dwt
-  server: 130.49.161.70
+  server: hy2.aspidnet.xyz
   port: 443
   udp: true
   type: hysteria2
@@ -15,6 +15,29 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 02 - dwt
+  server: 57.129.130.10
+  port: 52014
+  udp: true
+  type: vless
+  uuid: bca740c6-6704-48ba-99da-7d7a31768d73
+  tls: true
+  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 03 - dwt
+  server: 217.60.73.56
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 69e41e64-a832-471a-b740-94577ca85520
+  sni: forshynewh.duckdns.org
+  skip-cert-verify: true
+- name: 🇦🇪 阿联酋 (UAE) 04 - dwt
   server: 95.174.68.188
   port: 14430
   udp: true
@@ -25,16 +48,8 @@ proxies:
     path: /vless
     headers:
       Host: 95.174.68.188
-- name: 🇦🇪 阿联酋 (UAE) 03 - dwt
-  server: forshynewh.duckdns.org
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 69e41e64-a832-471a-b740-94577ca85520
-  sni: forshynewh.duckdns.org
-  skip-cert-verify: false
-- name: 🇦🇪 阿联酋 (UAE) 04 - dwt
-  server: 84.235.244.108
+- name: 🇦🇪 阿联酋 (UAE) 05 - dwt
+  server: uae.unixzone.us
   port: 22573
   udp: true
   type: vless
@@ -53,6 +68,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - dwt
   - 🇦🇪 阿联酋 (UAE) 03 - dwt
   - 🇦🇪 阿联酋 (UAE) 04 - dwt
+  - 🇦🇪 阿联酋 (UAE) 05 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -62,5 +78,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - dwt
   - 🇦🇪 阿联酋 (UAE) 03 - dwt
   - 🇦🇪 阿联酋 (UAE) 04 - dwt
+  - 🇦🇪 阿联酋 (UAE) 05 - dwt
 rules:
 - MATCH,PROXIES

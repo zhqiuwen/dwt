@@ -5,6 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - dwt
+  server: 201.58.177.35
+  port: 443
+  udp: true
+  type: vless
+  uuid: 5adb25b6-b41a-46ac-a481-71651deb60c5
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: DA1kJXSsIsN8H-kZ51jEYHafTx50X-2RGG8KNZuCISg
+    short-id: da4d87fa
+  servername: xb1.huinaduok.fans
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 02 - dwt
   server: 95.216.27.15
   port: 2053
   udp: true
@@ -16,7 +29,18 @@ proxies:
     short-id: 10351b07c712d2a2
   servername: www.cloudflare.com
   client-fingerprint: ''
-- name: 🇫🇮 芬兰 (Finland) 02 - dwt
+- name: 🇫🇮 芬兰 (Finland) 03 - dwt
+  server: 45.144.234.157
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 45.144.234.157
+- name: 🇫🇮 芬兰 (Finland) 04 - dwt
   server: 31.77.199.147
   port: 4443
   udp: true
@@ -29,17 +53,25 @@ proxies:
     short-id: 7da2eae792187ab9
   servername: images.unsplash.com
   client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 03 - dwt
-  server: 45.144.234.157
-  port: 14430
+- name: 🇫🇮 芬兰 (Finland) 05 - dwt
+  server: areal1.greewebservices.ir
+  port: 2425
   udp: true
   type: vless
-  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 45.144.234.157
+  uuid: dfb070bf-0b53-43eb-be2b-4b34f7e1644d
+  tls: true
+  reality-opts:
+    public-key: MnPGY1Vo4ZbYdpLRTYHoolv5s_pwO41karyJfnQ0F3o
+    short-id: 9b60d3
+  servername: play.googleapis.com
+  client-fingerprint: ios
+- name: 🇫🇮 芬兰 (Finland) 06 - dwt
+  server: dns22.m3hrzd.ir
+  port: 1346
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: v1c-i5SSFXP8n4g1Wbc0L9gX82x5O2Qa
 proxy-groups:
 - name: PROXIES
   type: select
@@ -48,6 +80,9 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 01 - dwt
   - 🇫🇮 芬兰 (Finland) 02 - dwt
   - 🇫🇮 芬兰 (Finland) 03 - dwt
+  - 🇫🇮 芬兰 (Finland) 04 - dwt
+  - 🇫🇮 芬兰 (Finland) 05 - dwt
+  - 🇫🇮 芬兰 (Finland) 06 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -56,5 +91,8 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 01 - dwt
   - 🇫🇮 芬兰 (Finland) 02 - dwt
   - 🇫🇮 芬兰 (Finland) 03 - dwt
+  - 🇫🇮 芬兰 (Finland) 04 - dwt
+  - 🇫🇮 芬兰 (Finland) 05 - dwt
+  - 🇫🇮 芬兰 (Finland) 06 - dwt
 rules:
 - MATCH,PROXIES

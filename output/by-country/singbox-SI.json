@@ -5,17 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇩 印尼 (Indonesia) 01 - dwt",
-      "server": "130.94.95.198",
-      "server_port": 57353,
-      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
+      "tag": "🇸🇮 斯洛文尼亚 (Slovenia) 01 - dwt",
+      "server": "92.42.201.65",
+      "server_port": 4443,
+      "uuid": "e0134f1c-8b74-4733-9c34-50cb251480c2",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "in001.zestapp778.com",
-        "insecure": true,
+        "server_name": "node-slo03.rkitman.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "CTiiN_SriTUj-eBv0047HpCWgLtAzWzq-gwvIWN9KUI",
+          "short_id": "7f0275a4db6068fb"
         }
       }
     },
@@ -24,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇩 印尼 (Indonesia) 01 - dwt"
+        "🇸🇮 斯洛文尼亚 (Slovenia) 01 - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇩 印尼 (Indonesia) 01 - dwt"
+        "🇸🇮 斯洛文尼亚 (Slovenia) 01 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
