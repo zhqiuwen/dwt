@@ -16,37 +16,18 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇧🇷 巴西 (Brazil) 02 - dwt",
-      "server": "177.3.193.43",
-      "server_port": 443,
-      "uuid": "5fb552a8-9c41-4031-86f5-ca10fc802da5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "debik1.vethilis.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇷 巴西 (Brazil) 01 - dwt",
-        "🇧🇷 巴西 (Brazil) 02 - dwt"
+        "🇧🇷 巴西 (Brazil) 01 - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 巴西 (Brazil) 01 - dwt",
-        "🇧🇷 巴西 (Brazil) 02 - dwt"
+        "🇧🇷 巴西 (Brazil) 01 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
