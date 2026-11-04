@@ -58,29 +58,8 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 05 - dwt",
-      "server": "193.25.216.31",
-      "server_port": 443,
-      "uuid": "f8d52ece-fad4-478d-875d-df6eed3befa7",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "sw.golangwikito.cfd",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg",
-          "short_id": "a1037b25dcef6aa7"
-        }
-      }
-    },
-    {
       "type": "vmess",
-      "tag": "🇸🇪 瑞典 (Sweden) 06 - dwt",
+      "tag": "🇸🇪 瑞典 (Sweden) 05 - dwt",
       "server": "138.199.55.230",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
@@ -92,29 +71,8 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 07 - dwt",
-      "server": "185.153.55.23",
-      "server_port": 443,
-      "uuid": "5c32201a-6c0e-451b-8f0a-24b4bd40df59",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "assets-v2.porsche.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk",
-          "short_id": "1a2b3c4d"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
-      "tag": "🇸🇪 瑞典 (Sweden) 08 - dwt",
+      "tag": "🇸🇪 瑞典 (Sweden) 06 - dwt",
       "server": "se.mimowhat.online",
       "server_port": 443,
       "password": "769f34f0-1500-488f-b414-03bc90666502",
@@ -134,9 +92,7 @@
         "🇸🇪 瑞典 (Sweden) 03 - dwt",
         "🇸🇪 瑞典 (Sweden) 04 - dwt",
         "🇸🇪 瑞典 (Sweden) 05 - dwt",
-        "🇸🇪 瑞典 (Sweden) 06 - dwt",
-        "🇸🇪 瑞典 (Sweden) 07 - dwt",
-        "🇸🇪 瑞典 (Sweden) 08 - dwt"
+        "🇸🇪 瑞典 (Sweden) 06 - dwt"
       ]
     },
     {
@@ -148,9 +104,7 @@
         "🇸🇪 瑞典 (Sweden) 03 - dwt",
         "🇸🇪 瑞典 (Sweden) 04 - dwt",
         "🇸🇪 瑞典 (Sweden) 05 - dwt",
-        "🇸🇪 瑞典 (Sweden) 06 - dwt",
-        "🇸🇪 瑞典 (Sweden) 07 - dwt",
-        "🇸🇪 瑞典 (Sweden) 08 - dwt"
+        "🇸🇪 瑞典 (Sweden) 06 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

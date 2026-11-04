@@ -41,19 +41,6 @@ proxies:
   skip-cert-verify: false
   client-fingerprint: firefox
 - name: 🇸🇪 瑞典 (Sweden) 05 - dwt
-  server: 193.25.216.31
-  port: 443
-  udp: true
-  type: vless
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg
-    short-id: a1037b25dcef6aa7
-  servername: sw.golangwikito.cfd
-  client-fingerprint: firefox
-- name: 🇸🇪 瑞典 (Sweden) 06 - dwt
   server: 138.199.55.230
   port: 1270
   udp: true
@@ -64,20 +51,7 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 07 - dwt
-  server: 185.153.55.23
-  port: 443
-  udp: true
-  type: vless
-  uuid: 5c32201a-6c0e-451b-8f0a-24b4bd40df59
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
-    short-id: 1a2b3c4d
-  servername: assets-v2.porsche.com
-  client-fingerprint: chrome
-- name: 🇸🇪 瑞典 (Sweden) 08 - dwt
+- name: 🇸🇪 瑞典 (Sweden) 06 - dwt
   server: se.mimowhat.online
   port: 443
   udp: true
@@ -96,8 +70,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 04 - dwt
   - 🇸🇪 瑞典 (Sweden) 05 - dwt
   - 🇸🇪 瑞典 (Sweden) 06 - dwt
-  - 🇸🇪 瑞典 (Sweden) 07 - dwt
-  - 🇸🇪 瑞典 (Sweden) 08 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -109,7 +81,5 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 04 - dwt
   - 🇸🇪 瑞典 (Sweden) 05 - dwt
   - 🇸🇪 瑞典 (Sweden) 06 - dwt
-  - 🇸🇪 瑞典 (Sweden) 07 - dwt
-  - 🇸🇪 瑞典 (Sweden) 08 - dwt
 rules:
 - MATCH,PROXIES

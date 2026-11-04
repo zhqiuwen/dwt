@@ -6,22 +6,14 @@
     {
       "type": "shadowsocks",
       "tag": "🇪🇸 西班牙 (Spain) 01 - dwt",
-      "server": "5.188.181.201",
-      "server_port": 9005,
-      "method": "aes-256-cfb",
-      "password": "ZET59LF6DvCC8KVt"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 02 - dwt",
-      "server": "167.17.71.167",
+      "server": "66.163.118.103",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 03 - dwt",
+      "tag": "🇪🇸 西班牙 (Spain) 02 - dwt",
       "server": "79.127.139.242",
       "server_port": 19999,
       "method": "aes-256-gcm",
@@ -29,36 +21,15 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 04 - dwt",
-      "server": "66.163.118.103",
+      "tag": "🇪🇸 西班牙 (Spain) 03 - dwt",
+      "server": "62.93.179.117",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 05 - dwt",
-      "server": "83.147.18.3",
-      "server_port": 443,
-      "uuid": "9f61cdf4-810d-4052-bbc7-2da0c8e20104",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA",
-          "short_id": "fd8cf7e1173f0edb"
-        }
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 06 - dwt",
+      "tag": "🇪🇸 西班牙 (Spain) 04 - dwt",
       "server": "62.93.179.97",
       "server_port": 19999,
       "method": "aes-256-gcm",
@@ -66,11 +37,35 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 07 - dwt",
-      "server": "62.93.179.117",
+      "tag": "🇪🇸 西班牙 (Spain) 05 - dwt",
+      "server": "167.17.71.167",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "trojan",
+      "tag": "🇪🇸 西班牙 (Spain) 06 - dwt",
+      "server": "66.163.118.166",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "learn.discovergreatjobsandadvanceyourcareer.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇪🇸 西班牙 (Spain) 07 - dwt",
+      "server": "66.163.118.244",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.discovergreatjobsandadvanceyourcareer.com",
+        "insecure": false
+      }
     },
     {
       "type": "trojan",
@@ -99,18 +94,6 @@
     {
       "type": "trojan",
       "tag": "🇪🇸 西班牙 (Spain) 10 - dwt",
-      "server": "66.163.118.244",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "api.discovergreatjobsandadvanceyourcareer.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇪🇸 西班牙 (Spain) 11 - dwt",
       "server": "66.163.118.251",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -122,8 +105,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 12 - dwt",
-      "server": "156.252.229.11",
+      "tag": "🇪🇸 西班牙 (Spain) 11 - dwt",
+      "server": "156.252.229.30",
       "server_port": 8443,
       "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
       "tls": {
@@ -131,7 +114,7 @@
         "server_name": "play.googleapis.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -142,7 +125,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 13 - dwt",
+      "tag": "🇪🇸 西班牙 (Spain) 12 - dwt",
       "server": "46.28.71.247",
       "server_port": 443,
       "uuid": "12c53e32-e589-47d6-b857-e4132294f767",
@@ -163,7 +146,47 @@
     },
     {
       "type": "vless",
+      "tag": "🇪🇸 西班牙 (Spain) 13 - dwt",
+      "server": "156.252.229.11",
+      "server_port": 8443,
+      "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.googleapis.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A",
+          "short_id": "974f7f8f"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇪🇸 西班牙 (Spain) 14 - dwt",
+      "server": "156.252.229.50",
+      "server_port": 8443,
+      "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.googleapis.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A",
+          "short_id": "974f7f8f"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇸 西班牙 (Spain) 15 - dwt",
       "server": "156.252.229.159",
       "server_port": 8443,
       "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
@@ -182,44 +205,12 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇪🇸 西班牙 (Spain) 15 - dwt",
-      "server": "156.252.229.136",
-      "server_port": 8443,
-      "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.googleapis.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A",
-          "short_id": "974f7f8f"
-        }
-      }
-    },
-    {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇪🇸 西班牙 (Spain) 16 - dwt",
-      "server": "156.252.229.50",
-      "server_port": 8443,
-      "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.googleapis.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A",
-          "short_id": "974f7f8f"
-        }
-      }
+      "server": "dns27.m3hrzd.ir",
+      "server_port": 1354,
+      "method": "chacha20-ietf-poly1305",
+      "password": "v1c-i5SSFXP8n4g1Wbc0L9gX82x5O2Qa"
     },
     {
       "type": "vless",
@@ -242,14 +233,6 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇪🇸 西班牙 (Spain) 18 - dwt",
-      "server": "dns27.m3hrzd.ir",
-      "server_port": 1354,
-      "method": "chacha20-ietf-poly1305",
-      "password": "v1c-i5SSFXP8n4g1Wbc0L9gX82x5O2Qa"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -270,8 +253,7 @@
         "🇪🇸 西班牙 (Spain) 14 - dwt",
         "🇪🇸 西班牙 (Spain) 15 - dwt",
         "🇪🇸 西班牙 (Spain) 16 - dwt",
-        "🇪🇸 西班牙 (Spain) 17 - dwt",
-        "🇪🇸 西班牙 (Spain) 18 - dwt"
+        "🇪🇸 西班牙 (Spain) 17 - dwt"
       ]
     },
     {
@@ -294,8 +276,7 @@
         "🇪🇸 西班牙 (Spain) 14 - dwt",
         "🇪🇸 西班牙 (Spain) 15 - dwt",
         "🇪🇸 西班牙 (Spain) 16 - dwt",
-        "🇪🇸 西班牙 (Spain) 17 - dwt",
-        "🇪🇸 西班牙 (Spain) 18 - dwt"
+        "🇪🇸 西班牙 (Spain) 17 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
