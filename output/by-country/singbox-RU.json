@@ -4,8 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - dwt",
+      "server": "130.49.189.158",
+      "server_port": 43558,
+      "method": "chacha20-ietf-poly1305",
+      "password": "yZiPrr484OdSYcivDUv+UIygwvyW+HQYytKsIgTw9tU="
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - dwt",
       "server": "193.233.253.180",
       "server_port": 8444,
       "uuid": "a346c521-7a7f-452b-9356-a4893feb5982",
@@ -26,14 +34,6 @@
         "type": "grpc",
         "service_name": "GunService"
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - dwt",
-      "server": "130.49.189.158",
-      "server_port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "yZiPrr484OdSYcivDUv+UIygwvyW+HQYytKsIgTw9tU="
     },
     {
       "type": "vless",
@@ -59,34 +59,6 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 04 - dwt",
-      "server": "147.45.126.220",
-      "server_port": 443,
-      "uuid": "ede2f330-aab4-4a34-8b79-0df85ae3f6a9",
-      "tls": {
-        "enabled": true,
-        "server_name": "pol.qikbro.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "assets"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - dwt",
-      "server": "185.22.153.192",
-      "server_port": 18443,
-      "method": "aes-256-gcm",
-      "password": "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 06 - dwt",
       "server": "201.24.121.243",
       "server_port": 443,
       "uuid": "32b5ca9b-3f81-4031-965d-e8b074216e8d",
@@ -108,8 +80,16 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - dwt",
+      "server": "185.22.153.192",
+      "server_port": 18443,
+      "method": "aes-256-gcm",
+      "password": "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
+    },
+    {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 07 - dwt",
+      "tag": "🇷🇺 俄罗斯 (Russia) 06 - dwt",
       "server": "du-rov.secureservice.top",
       "server_port": 8443,
       "uuid": "c53ea5e9-ed8b-4990-805d-7f1d6451426c",
@@ -119,7 +99,7 @@
         "server_name": "du-rov.secureservice.top",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -130,7 +110,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 08 - dwt",
+      "tag": "🇷🇺 俄罗斯 (Russia) 07 - dwt",
       "server": "5.42.99.64",
       "server_port": 8443,
       "uuid": "c53ea5e9-ed8b-4990-805d-7f1d6451426c",
@@ -151,40 +131,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 09 - dwt",
+      "tag": "🇷🇺 俄罗斯 (Russia) 08 - dwt",
       "server": "46.17.46.27",
       "server_port": 18443,
       "method": "aes-256-gcm",
       "password": "cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 10 - dwt",
-      "server": "185.4.115.146",
-      "server_port": 1355,
-      "method": "chacha20-ietf-poly1305",
-      "password": "v1c-i5SSFXP8n4g1Wbc0L9gX82x5O2Qa"
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 11 - dwt",
-      "server": "de-2.ffpn.pro",
-      "server_port": 443,
-      "uuid": "727a9178-d7f0-4142-8205-b0d19959ded0",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "de-2.ffpn.pro",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "DCpi9-1rSXxBnEIAQ9U3mTqHivk7vHJRV_T2pWw5vCc",
-          "short_id": "681fc2dd643bc2f3"
-        }
-      }
     },
     {
       "type": "selector",
@@ -198,10 +149,7 @@
         "🇷🇺 俄罗斯 (Russia) 05 - dwt",
         "🇷🇺 俄罗斯 (Russia) 06 - dwt",
         "🇷🇺 俄罗斯 (Russia) 07 - dwt",
-        "🇷🇺 俄罗斯 (Russia) 08 - dwt",
-        "🇷🇺 俄罗斯 (Russia) 09 - dwt",
-        "🇷🇺 俄罗斯 (Russia) 10 - dwt",
-        "🇷🇺 俄罗斯 (Russia) 11 - dwt"
+        "🇷🇺 俄罗斯 (Russia) 08 - dwt"
       ]
     },
     {
@@ -215,10 +163,7 @@
         "🇷🇺 俄罗斯 (Russia) 05 - dwt",
         "🇷🇺 俄罗斯 (Russia) 06 - dwt",
         "🇷🇺 俄罗斯 (Russia) 07 - dwt",
-        "🇷🇺 俄罗斯 (Russia) 08 - dwt",
-        "🇷🇺 俄罗斯 (Russia) 09 - dwt",
-        "🇷🇺 俄罗斯 (Russia) 10 - dwt",
-        "🇷🇺 俄罗斯 (Russia) 11 - dwt"
+        "🇷🇺 俄罗斯 (Russia) 08 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

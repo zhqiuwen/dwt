@@ -18,6 +18,17 @@ proxies:
   servername: gateway.icloud.com
   client-fingerprint: chrome
 - name: 🇨🇿 捷克 (Czech) 02 - dwt
+  server: 178.208.89.21
+  port: 443
+  udp: true
+  type: vless
+  uuid: 689a62e4-37e7-41de-9e6a-f2a56368c9e2
+  flow: xtls-rprx-vision
+  tls: true
+  servername: prod-eu-east-cz6.api-gateway.service-mesh.ingress-observability.speedtestinternet.link
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- name: 🇨🇿 捷克 (Czech) 03 - dwt
   server: 212.102.38.25
   port: 443
   udp: true
@@ -29,17 +40,19 @@ proxies:
     public-key: 23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE
     short-id: e90360ec7cc61b20
   servername: udemy.com
-  client-fingerprint: chrome
-- name: 🇨🇿 捷克 (Czech) 03 - dwt
-  server: 178.208.89.21
+  client-fingerprint: ios
+- name: 🇨🇿 捷克 (Czech) 04 - dwt
+  server: 193.124.17.190
   port: 443
   udp: true
   type: vless
-  uuid: 689a62e4-37e7-41de-9e6a-f2a56368c9e2
+  uuid: fad0b9a6-187d-4fcc-96fc-498bc5b3135a
   flow: xtls-rprx-vision
   tls: true
-  servername: prod-eu-east-cz6.api-gateway.service-mesh.ingress-observability.speedtestinternet.link
-  skip-cert-verify: false
+  reality-opts:
+    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
+    short-id: 8325360e8bd2
+  servername: www.foxsports.com
   client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
@@ -49,6 +62,7 @@ proxy-groups:
   - 🇨🇿 捷克 (Czech) 01 - dwt
   - 🇨🇿 捷克 (Czech) 02 - dwt
   - 🇨🇿 捷克 (Czech) 03 - dwt
+  - 🇨🇿 捷克 (Czech) 04 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -57,5 +71,6 @@ proxy-groups:
   - 🇨🇿 捷克 (Czech) 01 - dwt
   - 🇨🇿 捷克 (Czech) 02 - dwt
   - 🇨🇿 捷克 (Czech) 03 - dwt
+  - 🇨🇿 捷克 (Czech) 04 - dwt
 rules:
 - MATCH,PROXIES

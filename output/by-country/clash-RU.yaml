@@ -5,6 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - dwt
+  server: 130.49.189.158
+  port: 43558
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: yZiPrr484OdSYcivDUv+UIygwvyW+HQYytKsIgTw9tU=
+- name: 🇷🇺 俄罗斯 (Russia) 02 - dwt
   server: 193.233.253.180
   port: 8444
   udp: true
@@ -18,13 +25,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: GunService
-- name: 🇷🇺 俄罗斯 (Russia) 02 - dwt
-  server: 130.49.189.158
-  port: 43558
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: yZiPrr484OdSYcivDUv+UIygwvyW+HQYytKsIgTw9tU=
 - name: 🇷🇺 俄罗斯 (Russia) 03 - dwt
   server: 130.49.177.193
   port: 443
@@ -39,26 +39,6 @@ proxies:
   servername: de-2.ffpn.pro
   client-fingerprint: firefox
 - name: 🇷🇺 俄罗斯 (Russia) 04 - dwt
-  server: 147.45.126.220
-  port: 443
-  udp: true
-  type: vless
-  uuid: ede2f330-aab4-4a34-8b79-0df85ae3f6a9
-  tls: true
-  servername: pol.qikbro.com
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: assets
-- name: 🇷🇺 俄罗斯 (Russia) 05 - dwt
-  server: 185.22.153.192
-  port: 18443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-- name: 🇷🇺 俄罗斯 (Russia) 06 - dwt
   server: 201.24.121.243
   port: 443
   udp: true
@@ -71,7 +51,14 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: vlgrpc
-- name: 🇷🇺 俄罗斯 (Russia) 07 - dwt
+- name: 🇷🇺 俄罗斯 (Russia) 05 - dwt
+  server: 185.22.153.192
+  port: 18443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
+- name: 🇷🇺 俄罗斯 (Russia) 06 - dwt
   server: du-rov.secureservice.top
   port: 8443
   udp: true
@@ -83,8 +70,8 @@ proxies:
     public-key: fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI
     short-id: 3cbc3d737fb9c4af
   servername: du-rov.secureservice.top
-  client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 08 - dwt
+  client-fingerprint: random
+- name: 🇷🇺 俄罗斯 (Russia) 07 - dwt
   server: 5.42.99.64
   port: 8443
   udp: true
@@ -97,33 +84,13 @@ proxies:
     short-id: 3cbc3d737fb9c4af
   servername: du-rov.secureservice.top
   client-fingerprint: random
-- name: 🇷🇺 俄罗斯 (Russia) 09 - dwt
+- name: 🇷🇺 俄罗斯 (Russia) 08 - dwt
   server: 46.17.46.27
   port: 18443
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
-- name: 🇷🇺 俄罗斯 (Russia) 10 - dwt
-  server: 185.4.115.146
-  port: 1355
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: v1c-i5SSFXP8n4g1Wbc0L9gX82x5O2Qa
-- name: 🇷🇺 俄罗斯 (Russia) 11 - dwt
-  server: de-2.ffpn.pro
-  port: 443
-  udp: true
-  type: vless
-  uuid: 727a9178-d7f0-4142-8205-b0d19959ded0
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: DCpi9-1rSXxBnEIAQ9U3mTqHivk7vHJRV_T2pWw5vCc
-    short-id: 681fc2dd643bc2f3
-  servername: de-2.ffpn.pro
-  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -137,9 +104,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 06 - dwt
   - 🇷🇺 俄罗斯 (Russia) 07 - dwt
   - 🇷🇺 俄罗斯 (Russia) 08 - dwt
-  - 🇷🇺 俄罗斯 (Russia) 09 - dwt
-  - 🇷🇺 俄罗斯 (Russia) 10 - dwt
-  - 🇷🇺 俄罗斯 (Russia) 11 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -153,8 +117,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 06 - dwt
   - 🇷🇺 俄罗斯 (Russia) 07 - dwt
   - 🇷🇺 俄罗斯 (Russia) 08 - dwt
-  - 🇷🇺 俄罗斯 (Russia) 09 - dwt
-  - 🇷🇺 俄罗斯 (Russia) 10 - dwt
-  - 🇷🇺 俄罗斯 (Russia) 11 - dwt
 rules:
 - MATCH,PROXIES

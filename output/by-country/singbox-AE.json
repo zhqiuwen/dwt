@@ -6,7 +6,7 @@
     {
       "type": "shadowsocks",
       "tag": "🇦🇪 阿联酋 (UAE) 01 - dwt",
-      "server": "151.241.19.36",
+      "server": "151.241.19.29",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -14,7 +14,7 @@
     {
       "type": "shadowsocks",
       "tag": "🇦🇪 阿联酋 (UAE) 02 - dwt",
-      "server": "151.241.19.29",
+      "server": "151.241.19.36",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -52,7 +52,7 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 05 - dwt",
-      "server": "84.235.244.108",
+      "server": "uae.unixzone.us",
       "server_port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "transport": {
@@ -64,6 +64,30 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "🇦🇪 阿联酋 (UAE) 06 - dwt",
+      "server": "Sclass-00.catcat321.com",
+      "server_port": 20123,
+      "password": "d9064589-74af-432a-9390-5d8a9da281bf",
+      "tls": {
+        "enabled": true,
+        "server_name": "Sclass-00.catcat321.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇦🇪 阿联酋 (UAE) 07 - dwt",
+      "server": "Sclass-C1.catcat321.com",
+      "server_port": 20086,
+      "password": "d9064589-74af-432a-9390-5d8a9da281bf",
+      "tls": {
+        "enabled": true,
+        "server_name": "Sclass-C1.catcat321.com",
+        "insecure": true
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -72,7 +96,9 @@
         "🇦🇪 阿联酋 (UAE) 02 - dwt",
         "🇦🇪 阿联酋 (UAE) 03 - dwt",
         "🇦🇪 阿联酋 (UAE) 04 - dwt",
-        "🇦🇪 阿联酋 (UAE) 05 - dwt"
+        "🇦🇪 阿联酋 (UAE) 05 - dwt",
+        "🇦🇪 阿联酋 (UAE) 06 - dwt",
+        "🇦🇪 阿联酋 (UAE) 07 - dwt"
       ]
     },
     {
@@ -83,7 +109,9 @@
         "🇦🇪 阿联酋 (UAE) 02 - dwt",
         "🇦🇪 阿联酋 (UAE) 03 - dwt",
         "🇦🇪 阿联酋 (UAE) 04 - dwt",
-        "🇦🇪 阿联酋 (UAE) 05 - dwt"
+        "🇦🇪 阿联酋 (UAE) 05 - dwt",
+        "🇦🇪 阿联酋 (UAE) 06 - dwt",
+        "🇦🇪 阿联酋 (UAE) 07 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
