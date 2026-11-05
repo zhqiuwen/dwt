@@ -11,68 +11,41 @@
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "t.me",
+        "server_name": "https%3a%2f%2ft.me%2fwangcai2",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇹🇼 中国台湾 (Taiwan) 02 - dwt",
-      "server": "160.187.100.109",
+      "server": "vpn-tw-002.fastervpn.world",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "off",
+        "server_name": "vpn-tw-002.fastervpn.world%5cu0026insecure%3d1%5cu0026allowinsecure%3d1",
         "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - dwt",
-      "server": "125.227.86.46",
-      "server_port": 443,
-      "password": "0a9f1f5a397bd427",
-      "tls": {
-        "enabled": true,
-        "server_name": "TG.freecodes",
-        "insecure": true
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "db"
       }
     },
     {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 - dwt",
-      "server": "83.147.13.74",
-      "server_port": 8443,
-      "uuid": "eb8c97f7-a154-4442-91b0-54c0d055ad0b",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - dwt",
+      "server": "152.32.167.33",
+      "server_port": 443,
+      "uuid": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "github.githubassets.com",
+        "server_name": "www.amazon.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA",
-          "short_id": "4ad2e4e660550e43"
+          "public_key": "Q8QwBSGN6J-FqgDV1pYNm0VThS_xNRyQ3DPPa9YZ3j4",
+          "short_id": "cff998a4"
         }
-      }
-    },
-    {
-      "type": "anytls",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 05 - dwt",
-      "server": "er8u54dh.df6h451rh.xin",
-      "server_port": 443,
-      "password": "0324fbc29561",
-      "tls": {
-        "enabled": true,
-        "server_name": "px.ads.linkedin.com",
-        "insecure": true
       }
     },
     {
@@ -82,9 +55,7 @@
         "auto",
         "🇹🇼 中国台湾 (Taiwan) 01 - dwt",
         "🇹🇼 中国台湾 (Taiwan) 02 - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 03 - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 04 - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 05 - dwt"
+        "🇹🇼 中国台湾 (Taiwan) 03 - dwt"
       ]
     },
     {
@@ -93,9 +64,7 @@
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 - dwt",
         "🇹🇼 中国台湾 (Taiwan) 02 - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 03 - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 04 - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 05 - dwt"
+        "🇹🇼 中国台湾 (Taiwan) 03 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
