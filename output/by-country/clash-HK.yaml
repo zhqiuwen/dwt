@@ -5,6 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - dwt
+  server: 103.204.174.80
+  port: 443
+  udp: true
+  type: vless
+  uuid: 91a538f2-e8d6-4fd1-b00a-d39522f20c35
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: c8xReeCgCTOZ2snvR7I4sPtSYAJquSC-_pAIuZG3rVQ
+    short-id: 9b1813e63f474741
+  servername: gateway.icloud.com
+  client-fingerprint: firefox
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - dwt
   server: 210.0.244.157
   port: 443
   udp: true
@@ -15,14 +28,6 @@ proxies:
     public-key: T239VP3HbJ2KJCur7hDHJtrs6eKmKQfU_X1Xg6NmPgI
   servername: cloudflare.com
   client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - dwt
-  server: 202.146.222.89
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: t.me
-  skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - dwt
   server: 165.154.63.139
   port: 443
@@ -35,24 +40,16 @@ proxies:
     public-key: AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ
     short-id: ca4aedd4
   servername: www.amazon.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - dwt
-  server: 202.146.222.29
+  server: e6b91583-tm96o0-tnhquc-1j0a4.hk3.hyhuawei.com
   port: 443
   udp: true
   type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%3a%2f%2ft.me%2fwangcai2%f0%9f%87%a8%f0%9f%87%b3
+  password: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
+  sni: e6b91583-tm96o0-tnhquc-1j0a4.hk3.hyhuawei.com
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 05 - dwt
-  server: 202.146.222.174
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2🇨🇳
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - dwt
   server: 152.32.254.68
   port: 5010
   udp: true
@@ -62,6 +59,72 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - dwt
+  server: baf80640-tmm5c0-to0mym-z93q.nw4.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 40639730-e027-11ea-87ad-f23c913c8d2b
+  sni: baf80640-tmm5c0-to0mym-z93q.nw4.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - dwt
+  server: 202.146.222.174
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 202.146.222.174
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - dwt
+  server: 202.146.222.89
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 202.146.222.89
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - dwt
+  server: vpn-hk-004.fastervpn.world
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-hk-004.fastervpn.world
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - dwt
+  server: 202.146.222.29
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/wangcai2ôøωôøωôøωôøω
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 11 - dwt
+  server: hk.wawojk.dpdns.org
+  port: 50007
+  udp: true
+  type: vmess
+  uuid: 0d824a74-1207-48c4-a7a0-d283d5f10b4e
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: hk.wawojk.dpdns.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /hk-vmess-ws-c9f3a2
+    headers:
+      Host: hk.wawojk.dpdns.org
+- name: 🇭🇰 中国香港 (Hong Kong) 12 - dwt
+  server: 152.175.6.229
+  port: 31884
+  udp: true
+  type: vless
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  tls: true
+  servername: hk010.zestapp778.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -73,6 +136,12 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 04 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 05 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 06 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 07 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 08 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 09 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 10 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 11 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 12 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -84,5 +153,11 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 04 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 05 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 06 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 07 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 08 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 09 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 10 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 11 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 12 - dwt
 rules:
 - MATCH,PROXIES

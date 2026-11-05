@@ -5,14 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - dwt
-  server: 151.241.19.29
+  server: 151.241.19.36
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇦🇪 阿联酋 (UAE) 02 - dwt
-  server: 151.241.19.36
+  server: 151.241.19.29
   port: 19999
   udp: true
   type: ss
@@ -25,7 +25,7 @@ proxies:
   type: hysteria2
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
   sni: hy2.aspidnet.xyz
-  skip-cert-verify: true
+  skip-cert-verify: false
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 04 - dwt
@@ -40,17 +40,6 @@ proxies:
     headers:
       Host: 95.174.68.188
 - name: 🇦🇪 阿联酋 (UAE) 05 - dwt
-  server: uae.unixzone.us
-  port: 22573
-  udp: true
-  type: vless
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 06 - dwt
   server: Sclass-00.catcat321.com
   port: 20123
   udp: true
@@ -58,7 +47,7 @@ proxies:
   password: d9064589-74af-432a-9390-5d8a9da281bf
   sni: Sclass-00.catcat321.com
   skip-cert-verify: true
-- name: 🇦🇪 阿联酋 (UAE) 07 - dwt
+- name: 🇦🇪 阿联酋 (UAE) 06 - dwt
   server: Sclass-C1.catcat321.com
   port: 20086
   udp: true
@@ -77,7 +66,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 04 - dwt
   - 🇦🇪 阿联酋 (UAE) 05 - dwt
   - 🇦🇪 阿联酋 (UAE) 06 - dwt
-  - 🇦🇪 阿联酋 (UAE) 07 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -89,6 +77,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 04 - dwt
   - 🇦🇪 阿联酋 (UAE) 05 - dwt
   - 🇦🇪 阿联酋 (UAE) 06 - dwt
-  - 🇦🇪 阿联酋 (UAE) 07 - dwt
 rules:
 - MATCH,PROXIES

@@ -5,25 +5,25 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "🇪🇬 埃及 (Egypt) 01 - dwt",
-      "server": "38.54.59.78",
-      "server_port": 16676,
+      "tag": "🇵🇹 葡萄牙 (Portugal) 01 - dwt",
+      "server": "185.231.233.91",
+      "server_port": 17167,
       "method": "aes-128-gcm",
-      "password": "c58938bbf5410f996b13983264fb2229"
+      "password": "d925ddb6fe1e6e62887cf3dc3f5137f3"
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇬 埃及 (Egypt) 01 - dwt"
+        "🇵🇹 葡萄牙 (Portugal) 01 - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇬 埃及 (Egypt) 01 - dwt"
+        "🇵🇹 葡萄牙 (Portugal) 01 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
