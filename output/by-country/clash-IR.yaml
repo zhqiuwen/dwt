@@ -18,7 +18,7 @@ proxies:
   servername: www.apple.com
   client-fingerprint: chrome
 - name: 🇮🇷 IR 02 - dwt
-  server: 198.16.113.220
+  server: 198.16.113.218
   port: 8443
   udp: true
   type: vless
@@ -31,7 +31,7 @@ proxies:
   servername: www.apple.com
   client-fingerprint: chrome
 - name: 🇮🇷 IR 03 - dwt
-  server: 198.16.113.218
+  server: 198.16.113.221
   port: 8443
   udp: true
   type: vless

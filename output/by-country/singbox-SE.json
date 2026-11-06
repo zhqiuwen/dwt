@@ -26,21 +26,15 @@
     {
       "type": "vless",
       "tag": "🇸🇪 瑞典 (Sweden) 03 - dwt",
-      "server": "138.124.86.230",
-      "server_port": 48115,
-      "uuid": "b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b",
-      "tls": {
-        "enabled": true,
-        "server_name": "138-124-86-230.sslip.io",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
+      "server": "5.178.109.174",
+      "server_port": 14430,
+      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
       "transport": {
-        "type": "grpc",
-        "service_name": "138-124-86-230-sslip-io"
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "5.178.109.174"
+        }
       }
     },
     {
@@ -70,22 +64,8 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 06 - dwt",
-      "server": "5.178.109.174",
-      "server_port": 14430,
-      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "5.178.109.174"
-        }
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "🇸🇪 瑞典 (Sweden) 07 - dwt",
+      "tag": "🇸🇪 瑞典 (Sweden) 06 - dwt",
       "server": "95.143.196.97",
       "server_port": 443,
       "password": "FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF",
@@ -104,6 +84,47 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 07 - dwt",
+      "server": "194.104.94.141",
+      "server_port": 443,
+      "uuid": "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6",
+      "tls": {
+        "enabled": true,
+        "server_name": "se3.shtil.io",
+        "insecure": false,
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 08 - dwt",
+      "server": "sw.golangwikito.cfd",
+      "server_port": 443,
+      "uuid": "f8d52ece-fad4-478d-875d-df6eed3befa7",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "sw.golangwikito.cfd",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg",
+          "short_id": "a1037b25dcef6aa7"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -114,7 +135,8 @@
         "🇸🇪 瑞典 (Sweden) 04 - dwt",
         "🇸🇪 瑞典 (Sweden) 05 - dwt",
         "🇸🇪 瑞典 (Sweden) 06 - dwt",
-        "🇸🇪 瑞典 (Sweden) 07 - dwt"
+        "🇸🇪 瑞典 (Sweden) 07 - dwt",
+        "🇸🇪 瑞典 (Sweden) 08 - dwt"
       ]
     },
     {
@@ -127,7 +149,8 @@
         "🇸🇪 瑞典 (Sweden) 04 - dwt",
         "🇸🇪 瑞典 (Sweden) 05 - dwt",
         "🇸🇪 瑞典 (Sweden) 06 - dwt",
-        "🇸🇪 瑞典 (Sweden) 07 - dwt"
+        "🇸🇪 瑞典 (Sweden) 07 - dwt",
+        "🇸🇪 瑞典 (Sweden) 08 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

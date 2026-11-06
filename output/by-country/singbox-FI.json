@@ -20,25 +20,6 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 02 - dwt",
-      "server": "146.103.118.189",
-      "server_port": 443,
-      "uuid": "ce698f0c-a8ec-474a-b5d8-3be8032deeb8",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl2.574ck.xyz",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/574ck-finland",
-        "headers": {
-          "Host": "nl2.574ck.xyz"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 03 - dwt",
       "server": "95.216.27.15",
       "server_port": 2053,
       "uuid": "b79d736d-0f10-4169-b626-362059d18204",
@@ -57,13 +38,81 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 03 - dwt",
+      "server": "146.103.118.189",
+      "server_port": 443,
+      "uuid": "ce698f0c-a8ec-474a-b5d8-3be8032deeb8",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl2.574ck.xyz",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/574ck-finland",
+        "headers": {
+          "Host": "nl2.574ck.xyz"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 04 - dwt",
+      "server": "89.144.53.4",
+      "server_port": 8445,
+      "uuid": "5c32201a-6c0e-451b-8f0a-24b4bd40df59",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "videos.porsche.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk",
+          "short_id": "1a2b3c4d"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇮 芬兰 (Finland) 05 - dwt",
+      "server": "172.66.0.1",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇫🇮 芬兰 (Finland) 01 - dwt",
         "🇫🇮 芬兰 (Finland) 02 - dwt",
-        "🇫🇮 芬兰 (Finland) 03 - dwt"
+        "🇫🇮 芬兰 (Finland) 03 - dwt",
+        "🇫🇮 芬兰 (Finland) 04 - dwt",
+        "🇫🇮 芬兰 (Finland) 05 - dwt"
       ]
     },
     {
@@ -72,7 +121,9 @@
       "outbounds": [
         "🇫🇮 芬兰 (Finland) 01 - dwt",
         "🇫🇮 芬兰 (Finland) 02 - dwt",
-        "🇫🇮 芬兰 (Finland) 03 - dwt"
+        "🇫🇮 芬兰 (Finland) 03 - dwt",
+        "🇫🇮 芬兰 (Finland) 04 - dwt",
+        "🇫🇮 芬兰 (Finland) 05 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
