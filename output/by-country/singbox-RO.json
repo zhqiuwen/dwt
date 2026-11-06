@@ -33,8 +33,24 @@
       "password": "U83u9OGpvSatIUW7LsWffr"
     },
     {
-      "type": "shadowsocks",
+      "type": "hysteria2",
       "tag": "🇷🇴 罗马尼亚 (Romania) 03 - dwt",
+      "server": "162.249.125.133",
+      "server_port": 443,
+      "password": "QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s",
+      "tls": {
+        "enabled": true,
+        "server_name": "hy2-new.aspidnet.xyz",
+        "insecure": false
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "c1b4086fea89914496c7e10967a419216566"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 04 - dwt",
       "server": "82.152.132.211",
       "server_port": 8044,
       "method": "chacha20-ietf-poly1305",
@@ -47,7 +63,8 @@
         "auto",
         "🇷🇴 罗马尼亚 (Romania) 01 - dwt",
         "🇷🇴 罗马尼亚 (Romania) 02 - dwt",
-        "🇷🇴 罗马尼亚 (Romania) 03 - dwt"
+        "🇷🇴 罗马尼亚 (Romania) 03 - dwt",
+        "🇷🇴 罗马尼亚 (Romania) 04 - dwt"
       ]
     },
     {
@@ -56,7 +73,8 @@
       "outbounds": [
         "🇷🇴 罗马尼亚 (Romania) 01 - dwt",
         "🇷🇴 罗马尼亚 (Romania) 02 - dwt",
-        "🇷🇴 罗马尼亚 (Romania) 03 - dwt"
+        "🇷🇴 罗马尼亚 (Romania) 03 - dwt",
+        "🇷🇴 罗马尼亚 (Romania) 04 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -17,16 +17,17 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: firefox
 - name: 🇮🇳 印度 (India) 02 - dwt
-  server: 13.140.56.100
-  port: 14430
+  server: 194.61.31.126
+  port: 2053
   udp: true
   type: vless
-  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 13.140.56.100
+  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
+  tls: true
+  reality-opts:
+    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
+    short-id: 9980e0609b0d3891
+  servername: www.apple.com
+  client-fingerprint: chrome
 - name: 🇮🇳 印度 (India) 03 - dwt
   server: 152.67.8.205
   port: 80
@@ -40,6 +41,30 @@ proxies:
     path: /
     headers:
       Host: in-152.67.8.205-0250
+- name: 🇮🇳 印度 (India) 04 - dwt
+  server: 13.140.56.100
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 13.140.56.100
+- name: 🇮🇳 印度 (India) 05 - dwt
+  server: in1.japancase.site
+  port: 443
+  udp: true
+  type: vless
+  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: lDBwW08dYwPP-7dVxYQ_clzfFwsDHLlclz9K2cEV6DM
+    short-id: df7b054cfc29800c
+  servername: in1.japancase.site
+  client-fingerprint: ios
 proxy-groups:
 - name: PROXIES
   type: select
@@ -48,6 +73,8 @@ proxy-groups:
   - 🇮🇳 印度 (India) 01 - dwt
   - 🇮🇳 印度 (India) 02 - dwt
   - 🇮🇳 印度 (India) 03 - dwt
+  - 🇮🇳 印度 (India) 04 - dwt
+  - 🇮🇳 印度 (India) 05 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -56,5 +83,7 @@ proxy-groups:
   - 🇮🇳 印度 (India) 01 - dwt
   - 🇮🇳 印度 (India) 02 - dwt
   - 🇮🇳 印度 (India) 03 - dwt
+  - 🇮🇳 印度 (India) 04 - dwt
+  - 🇮🇳 印度 (India) 05 - dwt
 rules:
 - MATCH,PROXIES

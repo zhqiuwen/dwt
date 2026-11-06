@@ -4,31 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🌐 其他地区 (Other) 01 - dwt
-  server: 104.16.10.48
-  port: 443
+- name: 🇱🇰 斯里兰卡 (Sri Lanka) 01 - dwt
+  server: 141.193.213.21
+  port: 2087
   udp: true
   type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 0ef68b97-f878-4cea-b756-c56ea3632851
   tls: true
-  servername: jp3.yohototo.top
+  servername: free.vkehi.store
   skip-cert-verify: false
+  client-fingerprint: android
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /
     headers:
-      Host: jp3.yohototo.top
+      Host: free.vkehi.store
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🌐 其他地区 (Other) 01 - dwt
+  - 🇱🇰 斯里兰卡 (Sri Lanka) 01 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🌐 其他地区 (Other) 01 - dwt
+  - 🇱🇰 斯里兰卡 (Sri Lanka) 01 - dwt
 rules:
 - MATCH,PROXIES
