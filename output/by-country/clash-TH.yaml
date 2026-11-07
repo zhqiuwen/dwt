@@ -5,6 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇭 泰国 (Thailand) 01 - dwt
+  server: catnet-other.kunlun04dns.com
+  port: 28042
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41
+- name: 🇹🇭 泰国 (Thailand) 02 - dwt
+  server: catnet-other.kunlun04dns.com
+  port: 28041
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41
+- name: 🇹🇭 泰国 (Thailand) 03 - dwt
   server: 119.46.51.45
   port: 37515
   udp: true
@@ -12,7 +26,7 @@ proxies:
   uuid: 9b76bc31-17a5-4454-934a-8d5fb602cd70
   alterId: 0
   cipher: auto
-- name: 🇹🇭 泰国 (Thailand) 02 - dwt
+- name: 🇹🇭 泰国 (Thailand) 04 - dwt
   server: 38.60.233.126
   port: 33079
   udp: true
@@ -27,6 +41,8 @@ proxy-groups:
   - AUTO
   - 🇹🇭 泰国 (Thailand) 01 - dwt
   - 🇹🇭 泰国 (Thailand) 02 - dwt
+  - 🇹🇭 泰国 (Thailand) 03 - dwt
+  - 🇹🇭 泰国 (Thailand) 04 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -34,5 +50,7 @@ proxy-groups:
   proxies:
   - 🇹🇭 泰国 (Thailand) 01 - dwt
   - 🇹🇭 泰国 (Thailand) 02 - dwt
+  - 🇹🇭 泰国 (Thailand) 03 - dwt
+  - 🇹🇭 泰国 (Thailand) 04 - dwt
 rules:
 - MATCH,PROXIES

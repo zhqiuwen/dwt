@@ -4,8 +4,24 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "shadowsocks",
       "tag": "🇹🇭 泰国 (Thailand) 01 - dwt",
+      "server": "catnet-other.kunlun04dns.com",
+      "server_port": 28042,
+      "method": "aes-128-gcm",
+      "password": "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇹🇭 泰国 (Thailand) 02 - dwt",
+      "server": "catnet-other.kunlun04dns.com",
+      "server_port": 28041,
+      "method": "aes-128-gcm",
+      "password": "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇹🇭 泰国 (Thailand) 03 - dwt",
       "server": "119.46.51.45",
       "server_port": 37515,
       "uuid": "9b76bc31-17a5-4454-934a-8d5fb602cd70",
@@ -13,14 +29,18 @@
     },
     {
       "type": "trojan",
-      "tag": "🇹🇭 泰国 (Thailand) 02 - dwt",
+      "tag": "🇹🇭 泰国 (Thailand) 04 - dwt",
       "server": "38.60.233.126",
       "server_port": 33079,
       "password": "5t6i121em5lkmsmk",
       "tls": {
         "enabled": true,
         "server_name": "th001.zestapp778.com",
-        "insecure": false
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -29,7 +49,9 @@
       "outbounds": [
         "auto",
         "🇹🇭 泰国 (Thailand) 01 - dwt",
-        "🇹🇭 泰国 (Thailand) 02 - dwt"
+        "🇹🇭 泰国 (Thailand) 02 - dwt",
+        "🇹🇭 泰国 (Thailand) 03 - dwt",
+        "🇹🇭 泰国 (Thailand) 04 - dwt"
       ]
     },
     {
@@ -37,7 +59,9 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇭 泰国 (Thailand) 01 - dwt",
-        "🇹🇭 泰国 (Thailand) 02 - dwt"
+        "🇹🇭 泰国 (Thailand) 02 - dwt",
+        "🇹🇭 泰国 (Thailand) 03 - dwt",
+        "🇹🇭 泰国 (Thailand) 04 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -4,16 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇮🇳 印度 (India) 01 - dwt",
-      "server": "139.84.166.47",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "GEdoeeqLZtkJRgSa"
-    },
-    {
       "type": "vless",
-      "tag": "🇮🇳 印度 (India) 02 - dwt",
+      "tag": "🇮🇳 印度 (India) 01 - dwt",
       "server": "194.61.31.126",
       "server_port": 2053,
       "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
@@ -22,7 +14,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -33,7 +25,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇳 印度 (India) 03 - dwt",
+      "tag": "🇮🇳 印度 (India) 02 - dwt",
       "server": "178.212.35.198",
       "server_port": 443,
       "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
@@ -53,7 +45,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇳 印度 (India) 04 - dwt",
+      "tag": "🇮🇳 印度 (India) 03 - dwt",
       "server": "107.181.139.144",
       "server_port": 443,
       "uuid": "db80088c-32a1-4cb8-a907-0f3cb7844152",
@@ -73,33 +65,31 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇮🇳 印度 (India) 05 - dwt",
-      "server": "172.105.39.124",
-      "server_port": 7002,
-      "method": "aes-256-gcm",
-      "password": "RexnBgU7EV5ADxG"
+      "type": "vmess",
+      "tag": "🇮🇳 印度 (India) 04 - dwt",
+      "server": "152.67.8.205",
+      "server_port": 80,
+      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "in-152.67.8.205-0200"
+        }
+      }
     },
     {
       "type": "vless",
-      "tag": "🇮🇳 印度 (India) 06 - dwt",
-      "server": "122.176.216.52",
-      "server_port": 443,
-      "uuid": "16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
-      "tls": {
-        "enabled": true,
-        "server_name": "app-6ada5023.deploy.meerasolution.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
+      "tag": "🇮🇳 印度 (India) 05 - dwt",
+      "server": "13.140.56.100",
+      "server_port": 14430,
+      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
       "transport": {
         "type": "ws",
-        "path": "/ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
+        "path": "/vless",
         "headers": {
-          "Host": "app-6ada5023.deploy.meerasolution.com"
+          "Host": "13.140.56.100"
         }
       }
     },
@@ -112,8 +102,7 @@
         "🇮🇳 印度 (India) 02 - dwt",
         "🇮🇳 印度 (India) 03 - dwt",
         "🇮🇳 印度 (India) 04 - dwt",
-        "🇮🇳 印度 (India) 05 - dwt",
-        "🇮🇳 印度 (India) 06 - dwt"
+        "🇮🇳 印度 (India) 05 - dwt"
       ]
     },
     {
@@ -124,8 +113,7 @@
         "🇮🇳 印度 (India) 02 - dwt",
         "🇮🇳 印度 (India) 03 - dwt",
         "🇮🇳 印度 (India) 04 - dwt",
-        "🇮🇳 印度 (India) 05 - dwt",
-        "🇮🇳 印度 (India) 06 - dwt"
+        "🇮🇳 印度 (India) 05 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

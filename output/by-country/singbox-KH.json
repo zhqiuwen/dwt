@@ -1,0 +1,49 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "shadowsocks",
+      "tag": "🇰🇭 柬埔寨 (Cambodia) 01 - dwt",
+      "server": "catnet-other.kunlun04dns.com",
+      "server_port": 28036,
+      "method": "aes-128-gcm",
+      "password": "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇰🇭 柬埔寨 (Cambodia) 02 - dwt",
+      "server": "catnet-other.kunlun04dns.com",
+      "server_port": 28035,
+      "method": "aes-128-gcm",
+      "password": "b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41"
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇰🇭 柬埔寨 (Cambodia) 01 - dwt",
+        "🇰🇭 柬埔寨 (Cambodia) 02 - dwt"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇰🇭 柬埔寨 (Cambodia) 01 - dwt",
+        "🇰🇭 柬埔寨 (Cambodia) 02 - dwt"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

@@ -5,6 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 罗马尼亚 (Romania) 01 - dwt
+  server: 154.46.31.106
+  port: 443
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: QFWzCw2uX9B9i6qAYeFBIE
+- name: 🇷🇴 罗马尼亚 (Romania) 02 - dwt
+  server: 185.156.44.99
+  port: 443
+  udp: true
+  type: hysteria2
+  password: gf1:gfhysteria2024
+  sni: whatsapp.com
+  skip-cert-verify: true
+- name: 🇷🇴 罗马尼亚 (Romania) 03 - dwt
   server: 46.28.67.55
   port: 443
   udp: true
@@ -17,7 +32,17 @@ proxies:
     short-id: d06d78e974491b6e
   servername: www.cloudflare.com
   client-fingerprint: firefox
-- name: 🇷🇴 罗马尼亚 (Romania) 02 - dwt
+- name: 🇷🇴 罗马尼亚 (Romania) 04 - dwt
+  server: hy2-new.aspidnet.xyz
+  port: 443
+  udp: true
+  type: hysteria2
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  sni: hy2-new.aspidnet.xyz
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
+- name: 🇷🇴 罗马尼亚 (Romania) 05 - dwt
   server: 162.249.125.133
   port: 443
   udp: true
@@ -27,28 +52,20 @@ proxies:
   skip-cert-verify: false
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
-- name: 🇷🇴 罗马尼亚 (Romania) 03 - dwt
+- name: 🇷🇴 罗马尼亚 (Romania) 06 - dwt
   server: 194.68.44.42
   port: 64546
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: U83u9OGpvSatIUW7LsWffr
-- name: 🇷🇴 罗马尼亚 (Romania) 04 - dwt
+- name: 🇷🇴 罗马尼亚 (Romania) 07 - dwt
   server: 82.152.132.211
   port: 8044
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: dCamglzrORaopqbpBlptzbt9QdiH4CSN
-- name: 🇷🇴 罗马尼亚 (Romania) 05 - dwt
-  server: 185.156.44.99
-  port: 443
-  udp: true
-  type: hysteria2
-  password: gf1:gfhysteria2024
-  sni: www.amazon.com
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -59,6 +76,8 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 03 - dwt
   - 🇷🇴 罗马尼亚 (Romania) 04 - dwt
   - 🇷🇴 罗马尼亚 (Romania) 05 - dwt
+  - 🇷🇴 罗马尼亚 (Romania) 06 - dwt
+  - 🇷🇴 罗马尼亚 (Romania) 07 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -69,5 +88,7 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 (Romania) 03 - dwt
   - 🇷🇴 罗马尼亚 (Romania) 04 - dwt
   - 🇷🇴 罗马尼亚 (Romania) 05 - dwt
+  - 🇷🇴 罗马尼亚 (Romania) 06 - dwt
+  - 🇷🇴 罗马尼亚 (Romania) 07 - dwt
 rules:
 - MATCH,PROXIES

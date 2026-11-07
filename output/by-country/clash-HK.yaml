@@ -5,61 +5,109 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - dwt
-  server: 209.33.160.122
-  port: 39098
+  server: catnet-hk.kunlun04dns.com
+  port: 28001
   udp: true
-  type: vless
-  uuid: 7852e4df-db54-4f75-a35e-3b8fbe89e56d
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: DtOZ39u6MyQMG96tl13-M7-HeaqQzW2RLBVPk9py-Vg
-  servername: dash.cloudflare.com
-  client-fingerprint: firefox
+  type: ss
+  cipher: aes-128-gcm
+  password: b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - dwt
-  server: e0064cf5-tmm5c0-to0mym-z93q.hk3.hyhuawei.com
-  port: 443
+  server: catnet-hk.kunlun04dns.com
+  port: 28004
   udp: true
-  type: hysteria2
-  password: 40639730-e027-11ea-87ad-f23c913c8d2b
-  sni: e0064cf5-tmm5c0-to0mym-z93q.hk3.hyhuawei.com
-  skip-cert-verify: true
+  type: ss
+  cipher: aes-128-gcm
+  password: b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - dwt
-  server: 152.32.254.68
-  port: 5010
+  server: catnet-hk.kunlun04dns.com
+  port: 28003
   udp: true
-  type: hysteria2
-  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-  sni: 127.0.0.1
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+  type: ss
+  cipher: aes-128-gcm
+  password: b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - dwt
-  server: d0f180c2-tmm5c0-tphvvu-gacy.nw4.hyhuawei.com
-  port: 443
+  server: catnet-hk.kunlun04dns.com
+  port: 28002
   udp: true
-  type: hysteria2
-  password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
-  sni: d0f180c2-tmm5c0-tphvvu-gacy.nw4.hyhuawei.com
-  skip-cert-verify: false
+  type: ss
+  cipher: aes-128-gcm
+  password: b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41
 - name: 🇭🇰 中国香港 (Hong Kong) 05 - dwt
-  server: 202.146.222.29
+  server: catnet-hk.kunlun04dns.com
+  port: 28010
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - dwt
+  server: catnet-hk.kunlun04dns.com
+  port: 28008
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - dwt
+  server: catnet-hk.kunlun04dns.com
+  port: 28006
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - dwt
+  server: catnet-hk.kunlun04dns.com
+  port: 28005
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - dwt
+  server: catnet-hk.kunlun04dns.com
+  port: 28009
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - dwt
+  server: catnet-hk.kunlun04dns.com
+  port: 28007
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: b61ca706-e2e9-4f6b-bd1e-0f0534a2fc41
+- name: 🇭🇰 中国香港 (Hong Kong) 11 - dwt
+  server: 202.146.222.89
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/wangcai2��
+  sni: https://t.me/clashv8\u0001f1e8\u0001f1f3
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - dwt
+- name: 🇭🇰 中国香港 (Hong Kong) 12 - dwt
   server: 202.146.222.174
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 'off'
+  sni: 202.146.222.174
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - dwt
-  server: hk1.japancase.site
+- name: 🇭🇰 中国香港 (Hong Kong) 13 - dwt
+  server: 633b0024-tmm5c0-ttx5yr-1j0y6.hk3.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 1cce7df2-251c-11ee-9409-f23c9164ca5d
+  sni: 633b0024-tmm5c0-ttx5yr-1j0y6.hk3.hyhuawei.com
+  skip-cert-verify: false
+- name: 🇭🇰 中国香港 (Hong Kong) 14 - dwt
+  server: 71db9f3f-tmm5c0-tyn7s3-1q3dm.nw4.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: c1785de0-212f-11ef-92aa-f23c9164ca5d
+  sni: 71db9f3f-tmm5c0-tyn7s3-1q3dm.nw4.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 15 - dwt
+  server: 85.155.149.190
   port: 443
   udp: true
   type: vless
@@ -70,16 +118,23 @@ proxies:
     public-key: pGCqNljaUIUVC7xpHa9nFnu6vsQ0OX3QyfvYMhLZuWY
     short-id: bee10b047804c637
   servername: hk1.japancase.site
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - dwt
-  server: 202.146.222.89
+  client-fingerprint: firefox
+- name: 🇭🇰 中国香港 (Hong Kong) 16 - dwt
+  server: 46.29.166.155
+  port: 18443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
+- name: 🇭🇰 中国香港 (Hong Kong) 17 - dwt
+  server: 202.146.222.29
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 202.146.222.89
+  sni: https://t.me/wangcai2ⁿß
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - dwt
+- name: 🇭🇰 中国香港 (Hong Kong) 18 - dwt
   server: 152.175.6.229
   port: 31884
   udp: true
@@ -89,7 +144,17 @@ proxies:
   servername: hk010.zestapp778.com
   skip-cert-verify: false
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 10 - dwt
+- name: 🇭🇰 中国香港 (Hong Kong) 19 - dwt
+  server: 152.32.254.68
+  port: 5010
+  udp: true
+  type: hysteria2
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  sni: nas.aizhzo.com
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+- name: 🇭🇰 中国香港 (Hong Kong) 20 - dwt
   server: 165.154.63.139
   port: 443
   udp: true
@@ -101,7 +166,7 @@ proxies:
     public-key: AE81BrwMc8-kwGEIA1LhzaL03er0Qwt2V-fFy76F5jQ
     short-id: ca4aedd4
   servername: www.amazon.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -117,6 +182,16 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 08 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 09 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 10 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 11 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 12 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 13 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 14 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 15 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 16 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 17 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 18 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 19 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 20 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -132,5 +207,15 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 08 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 09 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 10 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 11 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 12 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 13 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 14 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 15 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 16 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 17 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 18 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 19 - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 20 - dwt
 rules:
 - MATCH,PROXIES
