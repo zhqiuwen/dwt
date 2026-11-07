@@ -5,6 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - dwt
+  server: 45.144.234.157
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 45.144.234.157
+- name: 🇫🇮 芬兰 (Finland) 02 - dwt
   server: 95.216.27.15
   port: 2053
   udp: true
@@ -16,49 +27,22 @@ proxies:
     short-id: 10351b07c712d2a2
   servername: www.cloudflare.com
   client-fingerprint: ''
-- name: 🇫🇮 芬兰 (Finland) 02 - dwt
-  server: 45.144.234.157
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 45.144.234.157
 - name: 🇫🇮 芬兰 (Finland) 03 - dwt
-  server: 6.bmi.ir.asopardaz.ir
-  port: 8443
+  server: 179.253.82.33
+  port: 4444
   udp: true
-  type: vless
-  uuid: fe4d2b3e-965f-4389-a6e4-05887ef5fd2b
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JtA0d5K6Jnmg35oWP9SDOsc1ceuqaxOsNg33fiPHJQs
-    short-id: e915
-  servername: hostgator.com
-  client-fingerprint: chrome
+  type: hysteria2
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  sni: fl3.nexfile.net
+  skip-cert-verify: false
 - name: 🇫🇮 芬兰 (Finland) 04 - dwt
-  server: 104.24.0.1
+  server: 188.114.96.3
   port: 2053
   udp: true
   type: trojan
   password: gHQP0D7D15
   sni: marvdasht.phonecomparisonblog.org
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇫🇮 芬兰 (Finland) 05 - dwt
-  server: 199.232.8.223
-  port: 443
-  udp: true
-  type: trojan
-  password: TtI1G9ChUwNxRuPgOxiPNwAd6FN4BlBJ
-  sni: community.fastly.steamstatic.com
-  skip-cert-verify: true
   network: ws
   ws-opts:
     path: /
@@ -71,7 +55,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 02 - dwt
   - 🇫🇮 芬兰 (Finland) 03 - dwt
   - 🇫🇮 芬兰 (Finland) 04 - dwt
-  - 🇫🇮 芬兰 (Finland) 05 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -81,6 +64,5 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 02 - dwt
   - 🇫🇮 芬兰 (Finland) 03 - dwt
   - 🇫🇮 芬兰 (Finland) 04 - dwt
-  - 🇫🇮 芬兰 (Finland) 05 - dwt
 rules:
 - MATCH,PROXIES
