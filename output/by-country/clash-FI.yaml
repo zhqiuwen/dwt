@@ -16,18 +16,6 @@ proxies:
     headers:
       Host: 45.144.234.157
 - name: 🇫🇮 芬兰 (Finland) 02 - dwt
-  server: 95.216.27.15
-  port: 2053
-  udp: true
-  type: vless
-  uuid: b79d736d-0f10-4169-b626-362059d18204
-  tls: true
-  reality-opts:
-    public-key: aiHdxKOzcFZDILKj3MIPrMsyT0XxMy_O6xoxnz6MIWs
-    short-id: 10351b07c712d2a2
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 03 - dwt
   server: 217.144.188.185
   port: 443
   udp: true
@@ -39,6 +27,21 @@ proxies:
     public-key: _ZRqqX7UVPTq--m8Lk8YHhrfElad2dIIpTh3D59f8zk
   servername: www.nordea.fi
   client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 03 - dwt
+  server: 84.38.184.126
+  port: 2089
+  udp: true
+  type: vless
+  uuid: a628c583-24a8-4ce5-98ad-c6458abf1cc4
+  tls: true
+  reality-opts:
+    public-key: 4Ba7EKm90gUC57U-0WtkSVXgmeLzR9TG5Qw3dqgjbDQ
+    short-id: c1db0a1b
+  servername: s3.storage.selcloud.ru
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cas-fi
 - name: 🇫🇮 芬兰 (Finland) 04 - dwt
   server: 5.129.249.155
   port: 443
@@ -53,7 +56,7 @@ proxies:
   servername: assets-59.topp-con.xyz
   client-fingerprint: firefox
 - name: 🇫🇮 芬兰 (Finland) 05 - dwt
-  server: 188.114.96.3
+  server: 172.66.0.1
   port: 2053
   udp: true
   type: trojan
@@ -64,19 +67,6 @@ proxies:
   ws-opts:
     path: /
 - name: 🇫🇮 芬兰 (Finland) 06 - dwt
-  server: 193.188.21.253
-  port: 10444
-  udp: true
-  type: vless
-  uuid: 57f7772d-f5d6-4d8f-992d-5fa5e0d6da55
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-  servername: video.yandex.ru
-  client-fingerprint: safari
-- name: 🇫🇮 芬兰 (Finland) 07 - dwt
   server: 107.181.151.128
   port: 443
   udp: true
@@ -100,7 +90,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 04 - dwt
   - 🇫🇮 芬兰 (Finland) 05 - dwt
   - 🇫🇮 芬兰 (Finland) 06 - dwt
-  - 🇫🇮 芬兰 (Finland) 07 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -112,6 +101,5 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 04 - dwt
   - 🇫🇮 芬兰 (Finland) 05 - dwt
   - 🇫🇮 芬兰 (Finland) 06 - dwt
-  - 🇫🇮 芬兰 (Finland) 07 - dwt
 rules:
 - MATCH,PROXIES

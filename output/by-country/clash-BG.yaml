@@ -6,60 +6,12 @@ log-level: info
 proxies:
 - name: 🇧🇬 保加利亚 (Bulgaria) 01 - dwt
   server: 213.183.63.60
-  port: 9049
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: PRBf4BS2HvJqtWxY
-- name: 🇧🇬 保加利亚 (Bulgaria) 02 - dwt
-  server: 213.183.63.60
   port: 9098
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: aLpQtfEZe445QyHk
-- name: 🇧🇬 保加利亚 (Bulgaria) 03 - dwt
-  server: 213.183.63.60
-  port: 9054
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: VcFuyXvND2yQWSFY
-- name: 🇧🇬 保加利亚 (Bulgaria) 04 - dwt
-  server: 213.183.63.60
-  port: 9064
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: cp8pRSUAyLhTfVWH
-- name: 🇧🇬 保加利亚 (Bulgaria) 05 - dwt
-  server: 213.183.63.60
-  port: 9061
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 4R3hUfZ2FHhDmNcP
-- name: 🇧🇬 保加利亚 (Bulgaria) 06 - dwt
-  server: 213.183.63.60
-  port: 9085
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 9ej82EKe2gq7gLAM
-- name: 🇧🇬 保加利亚 (Bulgaria) 07 - dwt
-  server: 2.27.105.13
-  port: 31238
-  udp: true
-  type: vless
-  uuid: 9c05ffa3-cc8f-4d44-9ce0-015a7465e786
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 1KhMuUHbT2C7FKp0DHT1MNE-NHiQhy5yiOqqstvthlQ
-    short-id: a9d8f11690e70dd8
-  servername: rbc.ru
-  client-fingerprint: chrome
-- name: 🇧🇬 保加利亚 (Bulgaria) 08 - dwt
+- name: 🇧🇬 保加利亚 (Bulgaria) 02 - dwt
   server: 195.123.226.21
   port: 443
   udp: true
@@ -79,12 +31,6 @@ proxy-groups:
   - AUTO
   - 🇧🇬 保加利亚 (Bulgaria) 01 - dwt
   - 🇧🇬 保加利亚 (Bulgaria) 02 - dwt
-  - 🇧🇬 保加利亚 (Bulgaria) 03 - dwt
-  - 🇧🇬 保加利亚 (Bulgaria) 04 - dwt
-  - 🇧🇬 保加利亚 (Bulgaria) 05 - dwt
-  - 🇧🇬 保加利亚 (Bulgaria) 06 - dwt
-  - 🇧🇬 保加利亚 (Bulgaria) 07 - dwt
-  - 🇧🇬 保加利亚 (Bulgaria) 08 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -92,11 +38,5 @@ proxy-groups:
   proxies:
   - 🇧🇬 保加利亚 (Bulgaria) 01 - dwt
   - 🇧🇬 保加利亚 (Bulgaria) 02 - dwt
-  - 🇧🇬 保加利亚 (Bulgaria) 03 - dwt
-  - 🇧🇬 保加利亚 (Bulgaria) 04 - dwt
-  - 🇧🇬 保加利亚 (Bulgaria) 05 - dwt
-  - 🇧🇬 保加利亚 (Bulgaria) 06 - dwt
-  - 🇧🇬 保加利亚 (Bulgaria) 07 - dwt
-  - 🇧🇬 保加利亚 (Bulgaria) 08 - dwt
 rules:
 - MATCH,PROXIES
