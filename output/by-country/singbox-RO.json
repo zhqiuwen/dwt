@@ -14,55 +14,6 @@
     {
       "type": "hysteria2",
       "tag": "🇷🇴 罗马尼亚 (Romania) 02 - dwt",
-      "server": "185.156.44.99",
-      "server_port": 443,
-      "password": "gf1:gfhysteria2024",
-      "tls": {
-        "enabled": true,
-        "server_name": "whatsapp.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 03 - dwt",
-      "server": "46.28.67.55",
-      "server_port": 443,
-      "uuid": "d1a6a033-fdbd-46a6-a177-3370ba042b9f",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU",
-          "short_id": "d06d78e974491b6e"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 04 - dwt",
-      "server": "hy2-new.aspidnet.xyz",
-      "server_port": 443,
-      "password": "QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s",
-      "tls": {
-        "enabled": true,
-        "server_name": "hy2-new.aspidnet.xyz",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "c1b4086fea89914496c7e10967a419216566"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 05 - dwt",
       "server": "162.249.125.133",
       "server_port": 443,
       "password": "QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s",
@@ -77,8 +28,24 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 03 - dwt",
+      "server": "hy2-new.aspidnet.xyz",
+      "server_port": 443,
+      "password": "QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s",
+      "tls": {
+        "enabled": true,
+        "server_name": "hy2-new.aspidnet.xyz",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "c1b4086fea89914496c7e10967a419216566"
+      }
+    },
+    {
       "type": "shadowsocks",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 06 - dwt",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 04 - dwt",
       "server": "194.68.44.42",
       "server_port": 64546,
       "method": "chacha20-ietf-poly1305",
@@ -86,11 +53,23 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 07 - dwt",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 05 - dwt",
       "server": "82.152.132.211",
       "server_port": 8044,
       "method": "chacha20-ietf-poly1305",
       "password": "dCamglzrORaopqbpBlptzbt9QdiH4CSN"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇷🇴 罗马尼亚 (Romania) 06 - dwt",
+      "server": "185.156.44.99",
+      "server_port": 443,
+      "password": "gf1:gfhysteria2024",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amazon.com",
+        "insecure": true
+      }
     },
     {
       "type": "selector",
@@ -102,8 +81,7 @@
         "🇷🇴 罗马尼亚 (Romania) 03 - dwt",
         "🇷🇴 罗马尼亚 (Romania) 04 - dwt",
         "🇷🇴 罗马尼亚 (Romania) 05 - dwt",
-        "🇷🇴 罗马尼亚 (Romania) 06 - dwt",
-        "🇷🇴 罗马尼亚 (Romania) 07 - dwt"
+        "🇷🇴 罗马尼亚 (Romania) 06 - dwt"
       ]
     },
     {
@@ -115,8 +93,7 @@
         "🇷🇴 罗马尼亚 (Romania) 03 - dwt",
         "🇷🇴 罗马尼亚 (Romania) 04 - dwt",
         "🇷🇴 罗马尼亚 (Romania) 05 - dwt",
-        "🇷🇴 罗马尼亚 (Romania) 06 - dwt",
-        "🇷🇴 罗马尼亚 (Romania) 07 - dwt"
+        "🇷🇴 罗马尼亚 (Romania) 06 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

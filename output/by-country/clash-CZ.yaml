@@ -5,29 +5,46 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - dwt
+  server: 91.199.147.41
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4d945644-69ab-47e0-98b3-d43a6313135d
+  tls: true
+  servername: mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl/SaXqikbSPA3ImtmZKAFin?ed=2560
+    headers:
+      Host: mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV
+- name: 🇨🇿 捷克 (Czech) 02 - dwt
   server: 193.124.17.190
   port: 443
   udp: true
   type: vless
-  uuid: fad0b9a6-187d-4fcc-96fc-498bc5b3135a
+  uuid: ff40696b-06d6-443b-9481-8d01eddd13e1
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: 8325360e8bd2
+    short-id: d659da01fb94
   servername: www.foxsports.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - dwt
+  - 🇨🇿 捷克 (Czech) 02 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - dwt
+  - 🇨🇿 捷克 (Czech) 02 - dwt
 rules:
 - MATCH,PROXIES

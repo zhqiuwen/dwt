@@ -20,6 +20,26 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 02 - dwt",
+      "server": "95.216.27.15",
+      "server_port": 2053,
+      "uuid": "b79d736d-0f10-4169-b626-362059d18204",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "aiHdxKOzcFZDILKj3MIPrMsyT0XxMy_O6xoxnz6MIWs",
+          "short_id": "10351b07c712d2a2"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 03 - dwt",
       "server": "217.144.188.185",
       "server_port": 443,
       "uuid": "8d954cbe-7ca9-402d-bfaf-aca6c92c04c3",
@@ -40,29 +60,29 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 03 - dwt",
-      "server": "static.117.242.109.65.clients.your-server.de",
+      "tag": "🇫🇮 芬兰 (Finland) 04 - dwt",
+      "server": "5.129.249.155",
       "server_port": 443,
-      "uuid": "320536e8-b0d3-4afa-a5ec-de93356ce562",
+      "uuid": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "static.0.72.42.77.clients.your-server.de",
-        "insecure": false,
-        "alpn": [
-          "h2",
-          " http/1.1"
-        ],
+        "server_name": "assets-59.topp-con.xyz",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU",
+          "short_id": "b9120cd53ffd7bba"
         }
       }
     },
     {
       "type": "trojan",
-      "tag": "🇫🇮 芬兰 (Finland) 04 - dwt",
-      "server": "172.66.0.1",
+      "tag": "🇫🇮 芬兰 (Finland) 05 - dwt",
+      "server": "188.114.96.3",
       "server_port": 2053,
       "password": "gHQP0D7D15",
       "tls": {
@@ -74,7 +94,7 @@
         ],
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
@@ -86,6 +106,48 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 06 - dwt",
+      "server": "193.188.21.253",
+      "server_port": 10444,
+      "uuid": "57f7772d-f5d6-4d8f-992d-5fa5e0d6da55",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "video.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo",
+          "short_id": "8debcf36f1cc69ff"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 07 - dwt",
+      "server": "107.181.151.128",
+      "server_port": 443,
+      "uuid": "88742d38-3f5c-4b9c-b256-7df5db8257ec",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.mozilla.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s",
+          "short_id": "8f79726c5002"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -93,7 +155,10 @@
         "🇫🇮 芬兰 (Finland) 01 - dwt",
         "🇫🇮 芬兰 (Finland) 02 - dwt",
         "🇫🇮 芬兰 (Finland) 03 - dwt",
-        "🇫🇮 芬兰 (Finland) 04 - dwt"
+        "🇫🇮 芬兰 (Finland) 04 - dwt",
+        "🇫🇮 芬兰 (Finland) 05 - dwt",
+        "🇫🇮 芬兰 (Finland) 06 - dwt",
+        "🇫🇮 芬兰 (Finland) 07 - dwt"
       ]
     },
     {
@@ -103,7 +168,10 @@
         "🇫🇮 芬兰 (Finland) 01 - dwt",
         "🇫🇮 芬兰 (Finland) 02 - dwt",
         "🇫🇮 芬兰 (Finland) 03 - dwt",
-        "🇫🇮 芬兰 (Finland) 04 - dwt"
+        "🇫🇮 芬兰 (Finland) 04 - dwt",
+        "🇫🇮 芬兰 (Finland) 05 - dwt",
+        "🇫🇮 芬兰 (Finland) 06 - dwt",
+        "🇫🇮 芬兰 (Finland) 07 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
