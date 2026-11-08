@@ -5,14 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇹 意大利 (Italy) 01 - dwt
-  server: 202.50.253.18
+  server: 202.50.253.72
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇮🇹 意大利 (Italy) 02 - dwt
-  server: 149.50.215.234
+  server: 202.50.253.54
   port: 19999
   udp: true
   type: ss
@@ -26,14 +26,14 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇮🇹 意大利 (Italy) 04 - dwt
-  server: 202.50.253.90
+  server: 202.50.253.36
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇮🇹 意大利 (Italy) 05 - dwt
-  server: 202.50.253.72
+  server: 202.50.253.27
   port: 19999
   udp: true
   type: ss
@@ -47,27 +47,20 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇮🇹 意大利 (Italy) 07 - dwt
-  server: 202.50.253.36
+  server: 202.50.253.18
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇮🇹 意大利 (Italy) 08 - dwt
-  server: 202.50.253.54
+  server: 202.50.253.90
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇮🇹 意大利 (Italy) 09 - dwt
-  server: 91.201.65.122
-  port: 9070
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: bf7v334KKDV3YDhH
-- name: 🇮🇹 意大利 (Italy) 10 - dwt
   server: 149.50.215.238
   port: 1270
   udp: true
@@ -78,7 +71,7 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇮🇹 意大利 (Italy) 11 - dwt
+- name: 🇮🇹 意大利 (Italy) 10 - dwt
   server: 149.50.215.240
   port: 1270
   udp: true
@@ -89,14 +82,35 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇮🇹 意大利 (Italy) 12 - dwt
+- name: 🇮🇹 意大利 (Italy) 11 - dwt
   server: 91.201.65.122
-  port: 9002
+  port: 9039
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: b8KkNDjEd5QqFyRm
+  password: qYEN5HX4JKeVCdEC
+- name: 🇮🇹 意大利 (Italy) 12 - dwt
+  server: 91.201.65.122
+  port: 9070
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: bf7v334KKDV3YDhH
 - name: 🇮🇹 意大利 (Italy) 13 - dwt
+  server: 149.50.215.234
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 14 - dwt
+  server: 91.201.65.122
+  port: 9074
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: p5wSkb2uM3pKSS3j
+- name: 🇮🇹 意大利 (Italy) 15 - dwt
   server: 149.22.91.20
   port: 1270
   udp: true
@@ -107,28 +121,21 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇮🇹 意大利 (Italy) 14 - dwt
+- name: 🇮🇹 意大利 (Italy) 16 - dwt
   server: 202.50.253.63
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 15 - dwt
+- name: 🇮🇹 意大利 (Italy) 17 - dwt
   server: 202.50.253.45
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 16 - dwt
-  server: 202.50.253.27
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 17 - dwt
+- name: 🇮🇹 意大利 (Italy) 18 - dwt
   server: 202.50.253.81
   port: 19999
   udp: true
@@ -157,6 +164,7 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 15 - dwt
   - 🇮🇹 意大利 (Italy) 16 - dwt
   - 🇮🇹 意大利 (Italy) 17 - dwt
+  - 🇮🇹 意大利 (Italy) 18 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -179,5 +187,6 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 15 - dwt
   - 🇮🇹 意大利 (Italy) 16 - dwt
   - 🇮🇹 意大利 (Italy) 17 - dwt
+  - 🇮🇹 意大利 (Italy) 18 - dwt
 rules:
 - MATCH,PROXIES
