@@ -20,18 +20,52 @@ proxies:
   password: mwgRg9hRq3b4Qnwb
 - name: 🇱🇹 立陶宛 (Lithuania) 03 - dwt
   server: 195.238.126.20
+  port: 9008
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: y9VURyNzJWNRYEGQ
+- name: 🇱🇹 立陶宛 (Lithuania) 04 - dwt
+  server: 195.238.126.84
+  port: 9039
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: qYEN5HX4JKeVCdEC
+- name: 🇱🇹 立陶宛 (Lithuania) 05 - dwt
+  server: 195.238.126.20
   port: 9011
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: M3t2ZEQcMGRWBjRa
-- name: 🇱🇹 立陶宛 (Lithuania) 04 - dwt
+- name: 🇱🇹 立陶宛 (Lithuania) 06 - dwt
   server: 195.238.126.20
-  port: 9086
+  port: 9078
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: 37Z4TFCYhfxcpc9Q
+  password: JCJpbRbQZNw9XFZG
+- name: 🇱🇹 立陶宛 (Lithuania) 07 - dwt
+  server: 195.238.126.20
+  port: 9002
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: b8KkNDjEd5QqFyRm
+- name: 🇱🇹 立陶宛 (Lithuania) 08 - dwt
+  server: 45.81.252.143
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 53555197-bf0a-49e6-bea1-211fcfc1d962
+  tls: true
+  servername: germany3.banovano.space
+  skip-cert-verify: false
+  client-fingerprint: edge
+  network: grpc
+  grpc-opts:
+    grpc-service-name: ''
 proxy-groups:
 - name: PROXIES
   type: select
@@ -41,6 +75,10 @@ proxy-groups:
   - 🇱🇹 立陶宛 (Lithuania) 02 - dwt
   - 🇱🇹 立陶宛 (Lithuania) 03 - dwt
   - 🇱🇹 立陶宛 (Lithuania) 04 - dwt
+  - 🇱🇹 立陶宛 (Lithuania) 05 - dwt
+  - 🇱🇹 立陶宛 (Lithuania) 06 - dwt
+  - 🇱🇹 立陶宛 (Lithuania) 07 - dwt
+  - 🇱🇹 立陶宛 (Lithuania) 08 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -50,5 +88,9 @@ proxy-groups:
   - 🇱🇹 立陶宛 (Lithuania) 02 - dwt
   - 🇱🇹 立陶宛 (Lithuania) 03 - dwt
   - 🇱🇹 立陶宛 (Lithuania) 04 - dwt
+  - 🇱🇹 立陶宛 (Lithuania) 05 - dwt
+  - 🇱🇹 立陶宛 (Lithuania) 06 - dwt
+  - 🇱🇹 立陶宛 (Lithuania) 07 - dwt
+  - 🇱🇹 立陶宛 (Lithuania) 08 - dwt
 rules:
 - MATCH,PROXIES

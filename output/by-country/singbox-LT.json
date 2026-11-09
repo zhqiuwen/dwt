@@ -23,17 +23,63 @@
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 03 - dwt",
       "server": "195.238.126.20",
+      "server_port": 9008,
+      "method": "aes-256-cfb",
+      "password": "y9VURyNzJWNRYEGQ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 04 - dwt",
+      "server": "195.238.126.84",
+      "server_port": 9039,
+      "method": "aes-256-cfb",
+      "password": "qYEN5HX4JKeVCdEC"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 05 - dwt",
+      "server": "195.238.126.20",
       "server_port": 9011,
       "method": "aes-256-cfb",
       "password": "M3t2ZEQcMGRWBjRa"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 04 - dwt",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 06 - dwt",
       "server": "195.238.126.20",
-      "server_port": 9086,
+      "server_port": 9078,
       "method": "aes-256-cfb",
-      "password": "37Z4TFCYhfxcpc9Q"
+      "password": "JCJpbRbQZNw9XFZG"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 07 - dwt",
+      "server": "195.238.126.20",
+      "server_port": 9002,
+      "method": "aes-256-cfb",
+      "password": "b8KkNDjEd5QqFyRm"
+    },
+    {
+      "type": "vless",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 08 - dwt",
+      "server": "45.81.252.143",
+      "server_port": 2053,
+      "uuid": "53555197-bf0a-49e6-bea1-211fcfc1d962",
+      "tls": {
+        "enabled": true,
+        "server_name": "germany3.banovano.space",
+        "insecure": false,
+        "alpn": [
+          "h2"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      },
+      "transport": {
+        "type": "grpc"
+      }
     },
     {
       "type": "selector",
@@ -43,7 +89,11 @@
         "🇱🇹 立陶宛 (Lithuania) 01 - dwt",
         "🇱🇹 立陶宛 (Lithuania) 02 - dwt",
         "🇱🇹 立陶宛 (Lithuania) 03 - dwt",
-        "🇱🇹 立陶宛 (Lithuania) 04 - dwt"
+        "🇱🇹 立陶宛 (Lithuania) 04 - dwt",
+        "🇱🇹 立陶宛 (Lithuania) 05 - dwt",
+        "🇱🇹 立陶宛 (Lithuania) 06 - dwt",
+        "🇱🇹 立陶宛 (Lithuania) 07 - dwt",
+        "🇱🇹 立陶宛 (Lithuania) 08 - dwt"
       ]
     },
     {
@@ -53,7 +103,11 @@
         "🇱🇹 立陶宛 (Lithuania) 01 - dwt",
         "🇱🇹 立陶宛 (Lithuania) 02 - dwt",
         "🇱🇹 立陶宛 (Lithuania) 03 - dwt",
-        "🇱🇹 立陶宛 (Lithuania) 04 - dwt"
+        "🇱🇹 立陶宛 (Lithuania) 04 - dwt",
+        "🇱🇹 立陶宛 (Lithuania) 05 - dwt",
+        "🇱🇹 立陶宛 (Lithuania) 06 - dwt",
+        "🇱🇹 立陶宛 (Lithuania) 07 - dwt",
+        "🇱🇹 立陶宛 (Lithuania) 08 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

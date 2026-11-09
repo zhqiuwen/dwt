@@ -5,30 +5,56 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - dwt
-  server: 195.123.245.241
+  server: 212.102.38.25
   port: 443
   udp: true
   type: vless
-  uuid: 7c053ca8-38cc-45e2-930c-eda1fd66f903
+  uuid: b34a52cb-cd52-49a8-9362-b8e97c151d49
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: hlY5ce1UsVIgE46y5PlEZhUsSaXUnCtoDLLaGrhInjw
-    short-id: 23d0950d60bc0d5b
-  servername: gateway.icloud.com
-  client-fingerprint: chrome
+    public-key: 23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE
+    short-id: e90360ec7cc61b20
+  servername: udemy.com
+  client-fingerprint: ios
 - name: 🇨🇿 捷克 (Czech) 02 - dwt
+  server: 216.106.191.201
+  port: 10303
+  udp: true
+  type: vless
+  uuid: dbf3f074-3b18-43f3-b82a-debd8c879c69
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: suK-MYTtZhJ9IJgsxPLTHLQadNotDqYslQcd5BNV_EQ
+    short-id: 6aa50b0cc8d23464
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇨🇿 捷克 (Czech) 03 - dwt
+  server: msk5.gacvpn.site
+  port: 443
+  udp: true
+  type: vless
+  uuid: 3f5e89d5-591f-4ac9-b071-b05680b573c3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 8fSwTqCwJ2HWGxcTQsZs8Sx0hRk2Ru7HFdu-iLnesGg
+    short-id: 53d0d0611a
+  servername: de2.gacvpn.site
+  client-fingerprint: firefox
+- name: 🇨🇿 捷克 (Czech) 04 - dwt
   server: 193.124.17.190
   port: 443
   udp: true
   type: vless
-  uuid: 13aef2e0-b3fb-4322-a0e9-c10b908ce6b5
+  uuid: 4d017db2-7655-4276-9557-e2ec25b04ee7
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: 87f895f23064
-  servername: www.techradar.com
+    short-id: ee1716767f9b
+  servername: www.tradingview.com
   client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
@@ -37,6 +63,8 @@ proxy-groups:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - dwt
   - 🇨🇿 捷克 (Czech) 02 - dwt
+  - 🇨🇿 捷克 (Czech) 03 - dwt
+  - 🇨🇿 捷克 (Czech) 04 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -44,5 +72,7 @@ proxy-groups:
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - dwt
   - 🇨🇿 捷克 (Czech) 02 - dwt
+  - 🇨🇿 捷克 (Czech) 03 - dwt
+  - 🇨🇿 捷克 (Czech) 04 - dwt
 rules:
 - MATCH,PROXIES

@@ -1,0 +1,76 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "🇮🇸 冰岛 (Iceland) 01 - dwt",
+      "server": "93.95.226.159",
+      "server_port": 28150,
+      "uuid": "b4e69d67-9d41-417c-b465-ebf1591fb792",
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "KQW_o2BlCjMC8aH5lkNkO_rmMCAUykQIQCCIIehhsAo",
+          "short_id": "06"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇸 冰岛 (Iceland) 02 - dwt",
+      "server": "191.44.112.170",
+      "server_port": 443,
+      "uuid": "46d221fa-e9b4-748c-4eae-019a88e42991",
+      "tls": {
+        "enabled": true,
+        "server_name": "orbylume.my.to",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tvpn-tor/is",
+        "headers": {
+          "Host": "orbylume.my.to"
+        }
+      }
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇮🇸 冰岛 (Iceland) 01 - dwt",
+        "🇮🇸 冰岛 (Iceland) 02 - dwt"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇮🇸 冰岛 (Iceland) 01 - dwt",
+        "🇮🇸 冰岛 (Iceland) 02 - dwt"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
