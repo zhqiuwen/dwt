@@ -14,13 +14,34 @@
     {
       "type": "trojan",
       "tag": "🇹🇭 泰国 (Thailand) 02 - dwt",
-      "server": "th001.zestapp778.com",
+      "server": "38.60.233.126",
       "server_port": 33079,
       "password": "5t6i121em5lkmsmk",
       "tls": {
         "enabled": true,
         "server_name": "th001.zestapp778.com",
-        "insecure": true
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇭 泰国 (Thailand) 03 - dwt",
+      "server": "23.95.72.244",
+      "server_port": 5459,
+      "uuid": "9a5e7b1c-bf39-4b1f-891f-ac87824ee38f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.adidas.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Von3W6smD_9vmKScjCG9ex6xw4_sG9MFfBk-9zbrbzs",
+          "short_id": "3fdc9f533b3fb068"
+        }
       }
     },
     {
@@ -29,7 +50,8 @@
       "outbounds": [
         "auto",
         "🇹🇭 泰国 (Thailand) 01 - dwt",
-        "🇹🇭 泰国 (Thailand) 02 - dwt"
+        "🇹🇭 泰国 (Thailand) 02 - dwt",
+        "🇹🇭 泰国 (Thailand) 03 - dwt"
       ]
     },
     {
@@ -37,7 +59,8 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇭 泰国 (Thailand) 01 - dwt",
-        "🇹🇭 泰国 (Thailand) 02 - dwt"
+        "🇹🇭 泰国 (Thailand) 02 - dwt",
+        "🇹🇭 泰国 (Thailand) 03 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

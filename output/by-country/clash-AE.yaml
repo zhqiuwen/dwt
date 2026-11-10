@@ -5,20 +5,29 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - dwt
-  server: 151.241.19.36
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇦🇪 阿联酋 (UAE) 02 - dwt
   server: 151.241.19.29
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇦🇪 阿联酋 (UAE) 02 - dwt
+  server: 104.143.223.236
+  port: 2085
+  udp: true
+  type: vless
+  uuid: 6538f5c3-5b01-4956-a8e6-47688c01c42e
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
 - name: 🇦🇪 阿联酋 (UAE) 03 - dwt
+  server: 151.241.19.36
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇦🇪 阿联酋 (UAE) 04 - dwt
   server: 130.49.161.70
   port: 443
   udp: true
@@ -28,17 +37,6 @@ proxies:
   skip-cert-verify: false
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇦🇪 阿联酋 (UAE) 04 - dwt
-  server: 84.235.244.108
-  port: 22573
-  udp: true
-  type: vless
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 05 - dwt
   server: 95.174.68.188
   port: 14430
@@ -48,17 +46,6 @@ proxies:
   network: ws
   ws-opts:
     path: /vless
-- name: 🇦🇪 阿联酋 (UAE) 06 - dwt
-  server: 151.241.19.44
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
@@ -69,7 +56,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 03 - dwt
   - 🇦🇪 阿联酋 (UAE) 04 - dwt
   - 🇦🇪 阿联酋 (UAE) 05 - dwt
-  - 🇦🇪 阿联酋 (UAE) 06 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -80,6 +66,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 03 - dwt
   - 🇦🇪 阿联酋 (UAE) 04 - dwt
   - 🇦🇪 阿联酋 (UAE) 05 - dwt
-  - 🇦🇪 阿联酋 (UAE) 06 - dwt
 rules:
 - MATCH,PROXIES
