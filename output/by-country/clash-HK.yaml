@@ -5,22 +5,40 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - dwt
+  server: 3de2432e-tmm5c0-tonrqx-1khwf.hk3.hyhuawei.com
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
+  sni: 3de2432e-tmm5c0-tonrqx-1khwf.hk3.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - dwt
+  server: 152.32.254.68
+  port: 5010
+  udp: true
+  type: hysteria2
+  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+  sni: nas.aizhzo.com
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - dwt
   server: 202.146.222.29
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%3a%2f%2ft.me%2fwangcai2%f0%9f%87%a8%f0%9f%87%b3
+  sni: https%3a%2f%2ft.me%2fwangcai2%e2%89%a1%c6%92%c3%a7
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - dwt
-  server: 202.146.222.89
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - dwt
+  server: 202.146.222.174
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%3a%2f%2ft.me%2fclashv8%f0%9f%87%a8%f0%9f%87%b3
+  sni: 202.146.222.174
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - dwt
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - dwt
   server: 39.109.111.23
   port: 39675
   udp: true
@@ -33,16 +51,8 @@ proxies:
     short-id: 551a216445
   servername: www.lamer.com.hk
   client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - dwt
-  server: 202.146.222.174
-  port: 443
-  udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/oneclickvpnkeys
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - dwt
-  server: 39.109.111.23
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - dwt
+  server: doghkzf.zalolink.com
   port: 28675
   udp: true
   type: vless
@@ -53,16 +63,16 @@ proxies:
     public-key: jgtiLXdCnQ9WRWMuu2gsuGQOQTCRZQpspnn228kjTSA
     short-id: 9a79807253c040
   servername: www.lamer.com.hk
-  client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - dwt
-  server: vpn-hk-004.fastervpn.world
+  client-fingerprint: ios
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - dwt
+  server: 202.146.222.89
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-hk-004.fastervpn.world
+  sni: 202.146.222.89
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - dwt
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - dwt
   server: 103.172.116.191
   port: 10103
   udp: true
@@ -75,37 +85,6 @@ proxies:
     short-id: f96b3b17a0f5b1fe
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - dwt
-  server: 47.129.105.174
-  port: 50000
-  udp: true
-  type: hysteria2
-  password: g4EKHBpZQ9ckIhFRyi3gHDFh
-  sni: sg-transit-3.nebulacloud.win
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - dwt
-  server: 162.19.192.89
-  port: 16632
-  udp: true
-  type: vmess
-  uuid: 992b1bc6-6e1e-455d-940b-e99bd39f70a2
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 0606f25bbb646de3feadb8d23c1c6217.mobgslb.tbcache.com
-- name: 🇭🇰 中国香港 (Hong Kong) 10 - dwt
-  server: 152.32.254.68
-  port: 5010
-  udp: true
-  type: hysteria2
-  password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-  sni: nas.aizhzo.com
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
 proxy-groups:
 - name: PROXIES
   type: select
@@ -119,8 +98,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 06 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 07 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 08 - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 09 - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 10 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -134,7 +111,5 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 06 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 07 - dwt
   - 🇭🇰 中国香港 (Hong Kong) 08 - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 09 - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 10 - dwt
 rules:
 - MATCH,PROXIES
