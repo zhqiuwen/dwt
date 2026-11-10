@@ -5,18 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - dwt
-  server: 212.102.38.25
-  port: 443
+  server: 194.87.233.93
+  port: 46190
   udp: true
-  type: vless
-  uuid: b34a52cb-cd52-49a8-9362-b8e97c151d49
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE
-    short-id: e90360ec7cc61b20
-  servername: udemy.com
-  client-fingerprint: ios
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2Ef8X21WALqK7H6N8A78j5WYtzZ999PP8rF8DaLsb5LLyDLQpf5dGVAjdA3mj1wudigKXTt5heYU9jmaBbfxXBJJAqhPHkxe
 - name: 🇨🇿 捷克 (Czech) 02 - dwt
   server: 216.106.191.201
   port: 10303
@@ -31,31 +25,18 @@ proxies:
   servername: www.apple.com
   client-fingerprint: chrome
 - name: 🇨🇿 捷克 (Czech) 03 - dwt
-  server: msk5.gacvpn.site
-  port: 443
-  udp: true
-  type: vless
-  uuid: 3f5e89d5-591f-4ac9-b071-b05680b573c3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 8fSwTqCwJ2HWGxcTQsZs8Sx0hRk2Ru7HFdu-iLnesGg
-    short-id: 53d0d0611a
-  servername: de2.gacvpn.site
-  client-fingerprint: firefox
-- name: 🇨🇿 捷克 (Czech) 04 - dwt
   server: 193.124.17.190
   port: 443
   udp: true
   type: vless
-  uuid: 4d017db2-7655-4276-9557-e2ec25b04ee7
+  uuid: fad0b9a6-187d-4fcc-96fc-498bc5b3135a
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: ee1716767f9b
-  servername: www.tradingview.com
-  client-fingerprint: firefox
+    short-id: 8325360e8bd2
+  servername: www.foxsports.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -64,7 +45,6 @@ proxy-groups:
   - 🇨🇿 捷克 (Czech) 01 - dwt
   - 🇨🇿 捷克 (Czech) 02 - dwt
   - 🇨🇿 捷克 (Czech) 03 - dwt
-  - 🇨🇿 捷克 (Czech) 04 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -73,6 +53,5 @@ proxy-groups:
   - 🇨🇿 捷克 (Czech) 01 - dwt
   - 🇨🇿 捷克 (Czech) 02 - dwt
   - 🇨🇿 捷克 (Czech) 03 - dwt
-  - 🇨🇿 捷克 (Czech) 04 - dwt
 rules:
 - MATCH,PROXIES

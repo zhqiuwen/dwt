@@ -15,17 +15,17 @@
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - dwt",
       "server": "213.183.63.60",
-      "server_port": 9049,
+      "server_port": 9098,
       "method": "aes-256-cfb",
-      "password": "PRBf4BS2HvJqtWxY"
+      "password": "aLpQtfEZe445QyHk"
     },
     {
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - dwt",
       "server": "213.183.63.60",
-      "server_port": 9064,
+      "server_port": 9049,
       "method": "aes-256-cfb",
-      "password": "cp8pRSUAyLhTfVWH"
+      "password": "PRBf4BS2HvJqtWxY"
     },
     {
       "type": "shadowsocks",
@@ -39,29 +39,21 @@
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 05 - dwt",
       "server": "213.183.63.60",
-      "server_port": 9029,
+      "server_port": 9064,
       "method": "aes-256-cfb",
-      "password": "dU3DSNS8wYPXzEKw"
+      "password": "cp8pRSUAyLhTfVWH"
     },
     {
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 06 - dwt",
       "server": "213.183.63.60",
-      "server_port": 9098,
+      "server_port": 9061,
       "method": "aes-256-cfb",
-      "password": "aLpQtfEZe445QyHk"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 07 - dwt",
-      "server": "213.183.63.60",
-      "server_port": 9028,
-      "method": "aes-256-cfb",
-      "password": "9eeJ2fwnZA5Fxgz8"
+      "password": "4R3hUfZ2FHhDmNcP"
     },
     {
       "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 08 - dwt",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 07 - dwt",
       "server": "131.123.43.103",
       "server_port": 443,
       "uuid": "3f5e89d5-591f-4ac9-b071-b05680b573c3",
@@ -71,7 +63,7 @@
         "server_name": "bg2.gacvpn.site",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": ""
         },
         "reality": {
           "enabled": true,
@@ -82,7 +74,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 09 - dwt",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 08 - dwt",
       "server": "195.123.226.21",
       "server_port": 443,
       "uuid": "6589c320-db68-43cd-a273-b46299bab355",
@@ -98,6 +90,25 @@
           "enabled": true,
           "public_key": "rabtI-ymNXBUvYYRwAw8DiR-1pdP7U0WPIaCBHEkgzo",
           "short_id": "77bb0d07bddbc832"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 09 - dwt",
+      "server": "191.44.112.170.sslip.io",
+      "server_port": 443,
+      "password": "46d221fa-e9b4-748c-4eae-019a88e42991",
+      "tls": {
+        "enabled": true,
+        "server_name": "orbylume.my.to",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tvpn-trojan/bg",
+        "headers": {
+          "Host": "orbylume.my.to"
         }
       }
     },

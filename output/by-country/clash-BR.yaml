@@ -16,13 +16,18 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇧🇷 巴西 (Brazil) 02 - dwt
-  server: 216.238.104.154
-  port: 443
+  server: 109.104.155.131
+  port: 2053
   udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: findtemporaryworkandfreelancerprojectsonlineplatform.com
-  skip-cert-verify: false
+  type: vless
+  uuid: bb3723d7-462e-442c-9472-496750476f45
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: MwJoFytMWCLdwCCt0cSTM8L6ZzYKxlZbFMML_3nnJms
+    short-id: 508118120e886b5a
+  servername: dir-br1.filesapp.org
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
