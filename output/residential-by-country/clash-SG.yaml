@@ -5,6 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇬 新加坡 (Singapore) 01 (家宽) - dwt
+  server: 116.88.224.217
+  port: 8080
+  udp: true
+  type: vmess
+  uuid: 6f4f0eb5-fe86-41ca-eccb-a6ca68f88d9b
+  alterId: 0
+  cipher: auto
+- name: 🇸🇬 新加坡 (Singapore) 02 (家宽) - dwt
   server: 195.133.135.238
   port: 10086
   udp: true
@@ -18,11 +26,13 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇸🇬 新加坡 (Singapore) 01 (家宽) - dwt
+  - 🇸🇬 新加坡 (Singapore) 02 (家宽) - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇸🇬 新加坡 (Singapore) 01 (家宽) - dwt
+  - 🇸🇬 新加坡 (Singapore) 02 (家宽) - dwt
 rules:
 - MATCH,PROXIES

@@ -26,17 +26,18 @@ proxies:
   type: trojan
   password: 5t6i121em5lkmsmk
   sni: mx001.zestapp778.com
-  skip-cert-verify: true
+  skip-cert-verify: false
 - name: 🇲🇽 墨西哥 (Mexico) 04 - dwt
-  server: 147.78.1.253
-  port: 443
+  server: 88.210.37.174
+  port: 10103
   udp: true
   type: vless
-  uuid: 39a390af-1f90-4c0e-89e4-4e2023732e4b
+  uuid: dbf3f074-3b18-43f3-b82a-debd8c879c69
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: TefL2KtNcNLPmUY8TKlu5pA7ffipqgmbBN6gpyzyklk
+    public-key: _ARuUG0vgXer4ywV6w9DEfFc9Bgq1zn2mi7YAW2-rAk
+    short-id: 2e70c4b2af549ea0
   servername: www.apple.com
   client-fingerprint: chrome
 proxy-groups:
