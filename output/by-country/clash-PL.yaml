@@ -5,19 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - dwt
-  server: 217.30.10.70
-  port: 9060
+  server: 217.30.10.44
+  port: 9006
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: ueLXVkvh4hckhErQ
+  password: FAdUvMJUq5vDgKEq
 - name: 🇵🇱 波兰 (Poland) 02 - dwt
   server: 217.30.10.44
-  port: 9095
+  port: 9099
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: N7j3pdTYkKmsy8CR
+  password: 7heRqkPG3hg4UnRm
 - name: 🇵🇱 波兰 (Poland) 03 - dwt
   server: 217.30.10.44
   port: 9052
@@ -27,93 +27,12 @@ proxies:
   password: jt2ekBNc9HuVtm2a
 - name: 🇵🇱 波兰 (Poland) 04 - dwt
   server: 217.30.10.44
-  port: 9071
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: mENfxTFQpRKKh4As
-- name: 🇵🇱 波兰 (Poland) 05 - dwt
-  server: 217.30.10.44
-  port: 9042
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: S7KwUu7yBy58S3Ga
-- name: 🇵🇱 波兰 (Poland) 06 - dwt
-  server: 217.30.10.44
-  port: 9076
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: S2zDyyPcmZN2h8EC
-- name: 🇵🇱 波兰 (Poland) 07 - dwt
-  server: 217.30.10.44
   port: 9062
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: tkhHVxxfM2QErBWe
-- name: 🇵🇱 波兰 (Poland) 08 - dwt
-  server: 217.30.10.44
-  port: 9006
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: FAdUvMJUq5vDgKEq
-- name: 🇵🇱 波兰 (Poland) 09 - dwt
-  server: 217.30.10.44
-  port: 9099
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 7heRqkPG3hg4UnRm
-- name: 🇵🇱 波兰 (Poland) 10 - dwt
-  server: 2.26.6.1
-  port: 2087
-  udp: true
-  type: vless
-  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
-  tls: true
-  servername: 2.26.6.1
-  skip-cert-verify: true
-  client-fingerprint: chrome
-- name: 🇵🇱 波兰 (Poland) 11 - dwt
-  server: 2.26.224.174
-  port: 8445
-  udp: true
-  type: vless
-  uuid: a4e5f910-23f4-470f-82a7-ed9d7be71dec
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: d6qmF8ibk_PxtDJPzSa7LKw9VUI_mZ59DrTvmW3RaFc
-    short-id: 10983e6c816181c2
-  servername: blog.ncknms.com
-  client-fingerprint: edge
-- name: 🇵🇱 波兰 (Poland) 12 - dwt
-  server: 201.58.189.105
-  port: 2083
-  udp: true
-  type: vless
-  uuid: d7ddade6-b7a0-4cab-a910-d5d5c378d98a
-  tls: true
-  reality-opts:
-    public-key: B7x5bYp-YhtLeH31zYcilpKFCkGTMe3jtSECSw-bMC4
-    short-id: 8bd80253
-  servername: dl.google.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: google.storage.v2.Storage
-- name: 🇵🇱 波兰 (Poland) 13 - dwt
-  server: 213.21.232.4
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 4b13c29ebe735e47
-  sni: mytubeproxy10.duckdns.org
-  skip-cert-verify: false
-- name: 🇵🇱 波兰 (Poland) 14 - dwt
+- name: 🇵🇱 波兰 (Poland) 05 - dwt
   server: 54.37.131.126
   port: 80
   udp: true
@@ -126,20 +45,7 @@ proxies:
     path: /
     headers:
       Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
-- name: 🇵🇱 波兰 (Poland) 15 - dwt
-  server: 2.26.224.174
-  port: 8443
-  udp: true
-  type: vless
-  uuid: a4e5f910-23f4-470f-82a7-ed9d7be71dec
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: d6qmF8ibk_PxtDJPzSa7LKw9VUI_mZ59DrTvmW3RaFc
-    short-id: 10983e6c816181c2
-  servername: teamdocs.su
-  client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 16 - dwt
+- name: 🇵🇱 波兰 (Poland) 06 - dwt
   server: 23.95.72.244
   port: 58749
   udp: true
@@ -152,7 +58,7 @@ proxies:
     short-id: d2e6c6c5
   servername: api.adidas.com
   client-fingerprint: firefox
-- name: 🇵🇱 波兰 (Poland) 17 - dwt
+- name: 🇵🇱 波兰 (Poland) 07 - dwt
   server: 201.58.139.66
   port: 443
   udp: true
@@ -176,16 +82,6 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 05 - dwt
   - 🇵🇱 波兰 (Poland) 06 - dwt
   - 🇵🇱 波兰 (Poland) 07 - dwt
-  - 🇵🇱 波兰 (Poland) 08 - dwt
-  - 🇵🇱 波兰 (Poland) 09 - dwt
-  - 🇵🇱 波兰 (Poland) 10 - dwt
-  - 🇵🇱 波兰 (Poland) 11 - dwt
-  - 🇵🇱 波兰 (Poland) 12 - dwt
-  - 🇵🇱 波兰 (Poland) 13 - dwt
-  - 🇵🇱 波兰 (Poland) 14 - dwt
-  - 🇵🇱 波兰 (Poland) 15 - dwt
-  - 🇵🇱 波兰 (Poland) 16 - dwt
-  - 🇵🇱 波兰 (Poland) 17 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -198,15 +94,5 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 05 - dwt
   - 🇵🇱 波兰 (Poland) 06 - dwt
   - 🇵🇱 波兰 (Poland) 07 - dwt
-  - 🇵🇱 波兰 (Poland) 08 - dwt
-  - 🇵🇱 波兰 (Poland) 09 - dwt
-  - 🇵🇱 波兰 (Poland) 10 - dwt
-  - 🇵🇱 波兰 (Poland) 11 - dwt
-  - 🇵🇱 波兰 (Poland) 12 - dwt
-  - 🇵🇱 波兰 (Poland) 13 - dwt
-  - 🇵🇱 波兰 (Poland) 14 - dwt
-  - 🇵🇱 波兰 (Poland) 15 - dwt
-  - 🇵🇱 波兰 (Poland) 16 - dwt
-  - 🇵🇱 波兰 (Poland) 17 - dwt
 rules:
 - MATCH,PROXIES

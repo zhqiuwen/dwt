@@ -4,18 +4,44 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇲🇾 马来西亚 (Malaysia) 01 - dwt",
-      "server": "47.250.84.25",
-      "server_port": 443,
-      "password": "5931134d1cde66bf83a54acdfebe7ab2",
+      "server": "23.95.72.244",
+      "server_port": 50174,
+      "uuid": "9a5e7b1c-bf39-4b1f-891f-ac87824ee38f",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "moltbot.doctoroyy.net",
-        "insecure": true,
+        "server_name": "api.adidas.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "tmlOT7vvbKwBuucRKRm33TqocfvHfgDAstvca5Yy-gU",
+          "short_id": "8b10495bdb"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇲🇾 马来西亚 (Malaysia) 02 - dwt",
+      "server": "23.95.72.244",
+      "server_port": 50684,
+      "uuid": "9a5e7b1c-bf39-4b1f-891f-ac87824ee38f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.adidas.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "F9djf8t16xjf7WRVmek0OWg_Q6OvmsZdI3rR9xiz2jI",
+          "short_id": "39c553a45e5649d9"
         }
       }
     },
@@ -24,14 +50,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇾 马来西亚 (Malaysia) 01 - dwt"
+        "🇲🇾 马来西亚 (Malaysia) 01 - dwt",
+        "🇲🇾 马来西亚 (Malaysia) 02 - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇾 马来西亚 (Malaysia) 01 - dwt"
+        "🇲🇾 马来西亚 (Malaysia) 01 - dwt",
+        "🇲🇾 马来西亚 (Malaysia) 02 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
