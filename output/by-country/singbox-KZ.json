@@ -27,17 +27,22 @@
     {
       "type": "vless",
       "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - dwt",
-      "server": "38.107.234.57",
-      "server_port": 8443,
-      "uuid": "2424febb-43cb-488d-bdd1-401e923c8e48",
+      "server": "176.120.21.23",
+      "server_port": 443,
+      "uuid": "83cc8226-1087-49ae-aac3-1f157ddc57b4",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "3h-kazakhstan1.09vpn.com",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless/"
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "OAU9917HKYqvTO59c9SvAL9BBh8v85tfJhw5PMg-2iU",
+          "short_id": "c4d4cf50489d51"
+        }
       }
     },
     {

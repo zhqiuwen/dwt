@@ -19,20 +19,56 @@
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "t.me",
+        "server_name": "https://t.me/wangcai2",
         "insecure": true
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇹🇼 中国台湾 (Taiwan) 03 - dwt",
-      "server": "160.187.100.109",
+      "server": "vpn-tw-002.fastervpn.world",
       "server_port": 443,
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "127.0.0.1",
+        "server_name": "css.rbxcdn.com",
         "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 04 - dwt",
+      "server": "83.147.13.74",
+      "server_port": 8443,
+      "uuid": "eb8c97f7-a154-4442-91b0-54c0d055ad0b",
+      "tls": {
+        "enabled": true,
+        "server_name": "github.githubassets.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA",
+          "short_id": "4ad2e4e660550e43"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 05 - dwt",
+      "server": "161.114.15.215",
+      "server_port": 30502,
+      "password": "5KdDtpoJI58OTsoG0PwEYunqB0mkAEDm",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -42,7 +78,9 @@
         "auto",
         "🇹🇼 中国台湾 (Taiwan) 01 - dwt",
         "🇹🇼 中国台湾 (Taiwan) 02 - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 03 - dwt"
+        "🇹🇼 中国台湾 (Taiwan) 03 - dwt",
+        "🇹🇼 中国台湾 (Taiwan) 04 - dwt",
+        "🇹🇼 中国台湾 (Taiwan) 05 - dwt"
       ]
     },
     {
@@ -51,7 +89,9 @@
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 - dwt",
         "🇹🇼 中国台湾 (Taiwan) 02 - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 03 - dwt"
+        "🇹🇼 中国台湾 (Taiwan) 03 - dwt",
+        "🇹🇼 中国台湾 (Taiwan) 04 - dwt",
+        "🇹🇼 中国台湾 (Taiwan) 05 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

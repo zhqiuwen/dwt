@@ -18,17 +18,18 @@ proxies:
   servername: www.apple.com
   client-fingerprint: chrome
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - dwt
-  server: 38.107.234.57
-  port: 8443
+  server: 176.120.21.23
+  port: 443
   udp: true
   type: vless
-  uuid: 2424febb-43cb-488d-bdd1-401e923c8e48
+  uuid: 83cc8226-1087-49ae-aac3-1f157ddc57b4
+  flow: xtls-rprx-vision
   tls: true
-  servername: 3h-kazakhstan1.09vpn.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
+  reality-opts:
+    public-key: OAU9917HKYqvTO59c9SvAL9BBh8v85tfJhw5PMg-2iU
+    short-id: c4d4cf50489d51
+  servername: yahoo.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select

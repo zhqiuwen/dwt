@@ -7,17 +7,17 @@
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - dwt",
       "server": "213.183.63.60",
-      "server_port": 9064,
+      "server_port": 9054,
       "method": "aes-256-cfb",
-      "password": "cp8pRSUAyLhTfVWH"
+      "password": "VcFuyXvND2yQWSFY"
     },
     {
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - dwt",
       "server": "213.183.63.60",
-      "server_port": 9085,
+      "server_port": 9049,
       "method": "aes-256-cfb",
-      "password": "9ej82EKe2gq7gLAM"
+      "password": "PRBf4BS2HvJqtWxY"
     },
     {
       "type": "shadowsocks",
@@ -31,38 +31,25 @@
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 04 - dwt",
       "server": "213.183.63.60",
-      "server_port": 9049,
-      "method": "aes-256-cfb",
-      "password": "PRBf4BS2HvJqtWxY"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 05 - dwt",
-      "server": "213.183.63.60",
       "server_port": 9066,
       "method": "aes-256-cfb",
       "password": "2KUaE2a8NWTvuCZ3"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 05 - dwt",
+      "server": "213.183.63.60",
+      "server_port": 9085,
+      "method": "aes-256-cfb",
+      "password": "9ej82EKe2gq7gLAM"
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 06 - dwt",
-      "server": "195.123.226.21",
-      "server_port": 443,
-      "uuid": "6589c320-db68-43cd-a273-b46299bab355",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "gateway.icloud.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "rabtI-ymNXBUvYYRwAw8DiR-1pdP7U0WPIaCBHEkgzo",
-          "short_id": "77bb0d07bddbc832"
-        }
-      }
+      "server": "213.183.63.60",
+      "server_port": 9064,
+      "method": "aes-256-cfb",
+      "password": "cp8pRSUAyLhTfVWH"
     },
     {
       "type": "vless",
@@ -90,23 +77,31 @@
     {
       "type": "vless",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 08 - dwt",
-      "server": "131.123.43.103",
+      "server": "195.123.226.21",
       "server_port": 443,
-      "uuid": "3f5e89d5-591f-4ac9-b071-b05680b573c3",
+      "uuid": "6589c320-db68-43cd-a273-b46299bab355",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "bg2.gacvpn.site",
+        "server_name": "gateway.icloud.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "SgFQg7srP1xgjWhnSU9lpUMDRlsoLIXlw6nX-mfOdlg",
-          "short_id": "1f8bab7ad81089f2"
+          "public_key": "rabtI-ymNXBUvYYRwAw8DiR-1pdP7U0WPIaCBHEkgzo",
+          "short_id": "77bb0d07bddbc832"
         }
       }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 09 - dwt",
+      "server": "c17b957c5a76ec76.lebufflonfermegroup.us",
+      "server_port": 35000,
+      "method": "aes-128-gcm",
+      "password": "3411b0af-589e-40f3-b8d5-d2e04ce19fa9"
     },
     {
       "type": "selector",
@@ -120,7 +115,8 @@
         "🇧🇬 保加利亚 (Bulgaria) 05 - dwt",
         "🇧🇬 保加利亚 (Bulgaria) 06 - dwt",
         "🇧🇬 保加利亚 (Bulgaria) 07 - dwt",
-        "🇧🇬 保加利亚 (Bulgaria) 08 - dwt"
+        "🇧🇬 保加利亚 (Bulgaria) 08 - dwt",
+        "🇧🇬 保加利亚 (Bulgaria) 09 - dwt"
       ]
     },
     {
@@ -134,7 +130,8 @@
         "🇧🇬 保加利亚 (Bulgaria) 05 - dwt",
         "🇧🇬 保加利亚 (Bulgaria) 06 - dwt",
         "🇧🇬 保加利亚 (Bulgaria) 07 - dwt",
-        "🇧🇬 保加利亚 (Bulgaria) 08 - dwt"
+        "🇧🇬 保加利亚 (Bulgaria) 08 - dwt",
+        "🇧🇬 保加利亚 (Bulgaria) 09 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
