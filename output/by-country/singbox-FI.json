@@ -15,7 +15,7 @@
         "server_name": "conf.emaar.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -32,57 +32,67 @@
       "password": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
       "tls": {
         "enabled": true,
-        "server_name": "94.183.164.119",
-        "insecure": true
+        "server_name": "lakes.blog-forme.ru",
+        "insecure": false
       }
     },
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 03 - dwt",
-      "server": "188.225.46.162",
-      "server_port": 443,
-      "uuid": "7d718630-7a1a-4af8-9332-aa0610634e8a",
-      "tls": {
-        "enabled": true,
-        "server_name": "filnex.baby",
-        "insecure": false,
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
+      "server": "45.144.234.157",
+      "server_port": 14430,
+      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
       "transport": {
-        "type": "grpc",
-        "service_name": "lalibobi.tw.de1.Connect"
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "45.144.234.157"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 04 - dwt",
-      "server": "72.35.246.39",
-      "server_port": 2053,
-      "uuid": "b6c29ae7-4748-4049-b642-b695c0d2c776",
-      "flow": "xtls-rprx-vision",
+      "server": "s1.berluno.ir",
+      "server_port": 1155,
+      "uuid": "3c999d74-d578-4deb-8683-b017bf6598f0",
       "tls": {
         "enabled": true,
-        "server_name": "vk.ru",
+        "server_name": "tgju.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
-          "public_key": "TSOm7XIZvGzYoCbh_lFFA9PTQJqI-JU5kKIAffGmUWg",
-          "short_id": "5e39e518bfac6392"
+          "public_key": "o6UTWdONnTOvDOWmhfxXUoeOEtlw7VUkoAWkmOk_FWI",
+          "short_id": "4e4aaad65cc07da8"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 05 - dwt",
+      "server": "95.216.27.15",
+      "server_port": 2053,
+      "uuid": "b79d736d-0f10-4169-b626-362059d18204",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "aiHdxKOzcFZDILKj3MIPrMsyT0XxMy_O6xoxnz6MIWs",
+          "short_id": "10351b07c712d2a2"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 06 - dwt",
       "server": "146.103.118.189",
       "server_port": 443,
       "uuid": "ce698f0c-a8ec-474a-b5d8-3be8032deeb8",
@@ -105,42 +115,22 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 06 - dwt",
-      "server": "65.109.208.183",
-      "server_port": 443,
-      "uuid": "5f07a2a1-82a5-494d-847b-b882e6903192",
-      "tls": {
-        "enabled": true,
-        "server_name": "free.for.member.iiproxy.com",
-        "insecure": false,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 07 - dwt",
-      "server": "66.bmi.ir.asopardaz.ir",
-      "server_port": 8443,
-      "uuid": "7c356ae5-3b11-4040-9e76-2d2b7b8ea2f4",
+      "server": "107.181.151.128",
+      "server_port": 443,
+      "uuid": "88742d38-3f5c-4b9c-b256-7df5db8257ec",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "timeline.www.cloudflare.com",
+        "server_name": "www.mozilla.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "JtA0d5K6Jnmg35oWP9SDOsc1ceuqaxOsNg33fiPHJQs",
-          "short_id": "e915"
+          "public_key": "zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s",
+          "short_id": "8f79726c5002"
         }
       }
     },

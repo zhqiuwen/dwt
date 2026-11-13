@@ -34,7 +34,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -60,27 +60,6 @@
     {
       "type": "vless",
       "tag": "🇮🇳 印度 (India) 04 - dwt",
-      "server": "103.172.116.201",
-      "server_port": 10303,
-      "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "mjWmmSvs0D3V3130FT7MVbRs94pPuWXR7ffaQ_3A4kU",
-          "short_id": "f96b3b17a0f5b1fe"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 05 - dwt",
       "server": "13.140.253.35",
       "server_port": 443,
       "uuid": "f1d3c8af-71c4-ef75-625f-cf446aa2c15b",
@@ -90,7 +69,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       },
       "transport": {
@@ -103,7 +82,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇮🇳 印度 (India) 06 - dwt",
+      "tag": "🇮🇳 印度 (India) 05 - dwt",
       "server": "152.67.8.205",
       "server_port": 80,
       "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
@@ -125,8 +104,7 @@
         "🇮🇳 印度 (India) 02 - dwt",
         "🇮🇳 印度 (India) 03 - dwt",
         "🇮🇳 印度 (India) 04 - dwt",
-        "🇮🇳 印度 (India) 05 - dwt",
-        "🇮🇳 印度 (India) 06 - dwt"
+        "🇮🇳 印度 (India) 05 - dwt"
       ]
     },
     {
@@ -137,8 +115,7 @@
         "🇮🇳 印度 (India) 02 - dwt",
         "🇮🇳 印度 (India) 03 - dwt",
         "🇮🇳 印度 (India) 04 - dwt",
-        "🇮🇳 印度 (India) 05 - dwt",
-        "🇮🇳 印度 (India) 06 - dwt"
+        "🇮🇳 印度 (India) 05 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

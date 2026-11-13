@@ -27,7 +27,7 @@ proxies:
     public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
     short-id: 9980e0609b0d3891
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇮🇳 印度 (India) 03 - dwt
   server: 13.140.56.100
   port: 14430
@@ -40,19 +40,6 @@ proxies:
     headers:
       Host: 13.140.56.100
 - name: 🇮🇳 印度 (India) 04 - dwt
-  server: 103.172.116.201
-  port: 10303
-  udp: true
-  type: vless
-  uuid: dbf3f074-3b18-43f3-b82a-debd8c879c69
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: mjWmmSvs0D3V3130FT7MVbRs94pPuWXR7ffaQ_3A4kU
-    short-id: f96b3b17a0f5b1fe
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇮🇳 印度 (India) 05 - dwt
   server: 13.140.253.35
   port: 443
   udp: true
@@ -61,13 +48,13 @@ proxies:
   tls: true
   servername: xray-h0urp9tx-rapid-summit-2.cloady.io
   skip-cert-verify: false
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   network: ws
   ws-opts:
     path: /050334203cc522a3
     headers:
       Host: xray-h0urp9tx-rapid-summit-2.cloady.io
-- name: 🇮🇳 印度 (India) 06 - dwt
+- name: 🇮🇳 印度 (India) 05 - dwt
   server: 152.67.8.205
   port: 80
   udp: true
@@ -90,7 +77,6 @@ proxy-groups:
   - 🇮🇳 印度 (India) 03 - dwt
   - 🇮🇳 印度 (India) 04 - dwt
   - 🇮🇳 印度 (India) 05 - dwt
-  - 🇮🇳 印度 (India) 06 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -101,6 +87,5 @@ proxy-groups:
   - 🇮🇳 印度 (India) 03 - dwt
   - 🇮🇳 印度 (India) 04 - dwt
   - 🇮🇳 印度 (India) 05 - dwt
-  - 🇮🇳 印度 (India) 06 - dwt
 rules:
 - MATCH,PROXIES

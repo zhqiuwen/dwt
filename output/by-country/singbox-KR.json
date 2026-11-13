@@ -6,14 +6,22 @@
     {
       "type": "vmess",
       "tag": "🇰🇷 韩国 (South Korea) 01 - dwt",
-      "server": "140.238.2.250",
-      "server_port": 443,
-      "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
+      "server": "129.154.61.196",
+      "server_port": 800,
+      "uuid": "a915b1d6-cf28-4dc8-e4b4-e09c48c37ec0",
+      "security": "auto"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇰🇷 韩国 (South Korea) 02 - dwt",
+      "server": "146.56.112.110",
+      "server_port": 8888,
+      "uuid": "e7c302f3-90d6-42dd-9d7d-94a3683a3707",
       "security": "auto"
     },
     {
       "type": "hysteria2",
-      "tag": "🇰🇷 韩国 (South Korea) 02 - dwt",
+      "tag": "🇰🇷 韩国 (South Korea) 03 - dwt",
       "server": "132.226.226.189",
       "server_port": 50160,
       "password": "1671a252e2a97dc2bda4e515475931da",
@@ -24,72 +32,20 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇰🇷 韩国 (South Korea) 03 - dwt",
-      "server": "152.70.237.123",
-      "server_port": 2053,
-      "password": "maintell",
-      "tls": {
-        "enabled": true,
-        "server_name": "152.70.237.123",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇰🇷 韩国 (South Korea) 04 - dwt",
-      "server": "43.155.182.152",
-      "server_port": 443,
-      "uuid": "3567660e-d2a7-4a8a-b379-2ff61e7f52ba",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "live.douyin.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1HazPAvhO7sdmIloNjQEDXtjVP8i-Gn59doTSRVuiGY",
-          "short_id": "a905935ed2d659fe"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇰🇷 韩国 (South Korea) 05 - dwt",
-      "server": "129.154.61.196",
-      "server_port": 800,
-      "uuid": "a915b1d6-cf28-4dc8-e4b4-e09c48c37ec0",
-      "security": "auto"
-    },
-    {
       "type": "trojan",
-      "tag": "🇰🇷 韩国 (South Korea) 06 - dwt",
+      "tag": "🇰🇷 韩国 (South Korea) 04 - dwt",
       "server": "158.247.253.243",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
         "server_name": "connectgraduateswithjobopeningsandgrowprofessionally.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇰🇷 韩国 (South Korea) 07 - dwt",
-      "server": "152.69.226.63",
-      "server_port": 25555,
-      "uuid": "27c5483f-17f4-48ae-9a04-def53d88440d",
-      "transport": {
-        "type": "ws",
-        "path": "/"
+        "insecure": false
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇰🇷 韩国 (South Korea) 08 - dwt",
+      "tag": "🇰🇷 韩国 (South Korea) 05 - dwt",
       "server": "152.69.231.175",
       "server_port": 50160,
       "password": "1beb216e3f60aea9555dae60d219a5ca",
@@ -100,20 +56,62 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇰🇷 韩国 (South Korea) 06 - dwt",
+      "server": "152.69.226.63",
+      "server_port": 25555,
+      "uuid": "27c5483f-17f4-48ae-9a04-def53d88440d",
+      "transport": {
+        "type": "ws"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇰🇷 韩国 (South Korea) 07 - dwt",
+      "server": "211.178.105.134",
+      "server_port": 6123,
+      "method": "aes-256-cfb",
+      "password": "qwerREWQ@@"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇰🇷 韩国 (South Korea) 08 - dwt",
+      "server": "150-230-252-217.liao.kdns.fr",
+      "server_port": 50160,
+      "password": "9cfc9458e48c028ec03ff86ebc71c744",
+      "tls": {
+        "enabled": true,
+        "server_name": "127.0.0.1",
+        "insecure": true
+      }
+    },
+    {
       "type": "hysteria2",
       "tag": "🇰🇷 韩国 (South Korea) 09 - dwt",
+      "server": "152.70.237.123",
+      "server_port": 2053,
+      "password": "maintell",
+      "tls": {
+        "enabled": true,
+        "server_name": "152.70.237.123",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇰🇷 韩国 (South Korea) 10 - dwt",
       "server": "152.67.200.82",
       "server_port": 50160,
       "password": "3d7634af8cb2c6cb4bac1c0efad8b43d",
       "tls": {
         "enabled": true,
-        "server_name": "off",
+        "server_name": "css.rbxcdn.com",
         "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇰🇷 韩国 (South Korea) 10 - dwt",
+      "tag": "🇰🇷 韩国 (South Korea) 11 - dwt",
       "server": "151.245.106.49",
       "server_port": 2053,
       "uuid": "a2de9567-9646-45a9-a410-7303a43bdb6c",
@@ -122,7 +120,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -130,6 +128,14 @@
           "short_id": "429499c03d4cc8a0"
         }
       }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇰🇷 韩国 (South Korea) 12 - dwt",
+      "server": "140.238.2.250",
+      "server_port": 443,
+      "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
+      "security": "auto"
     },
     {
       "type": "selector",
@@ -145,7 +151,9 @@
         "🇰🇷 韩国 (South Korea) 07 - dwt",
         "🇰🇷 韩国 (South Korea) 08 - dwt",
         "🇰🇷 韩国 (South Korea) 09 - dwt",
-        "🇰🇷 韩国 (South Korea) 10 - dwt"
+        "🇰🇷 韩国 (South Korea) 10 - dwt",
+        "🇰🇷 韩国 (South Korea) 11 - dwt",
+        "🇰🇷 韩国 (South Korea) 12 - dwt"
       ]
     },
     {
@@ -161,7 +169,9 @@
         "🇰🇷 韩国 (South Korea) 07 - dwt",
         "🇰🇷 韩国 (South Korea) 08 - dwt",
         "🇰🇷 韩国 (South Korea) 09 - dwt",
-        "🇰🇷 韩国 (South Korea) 10 - dwt"
+        "🇰🇷 韩国 (South Korea) 10 - dwt",
+        "🇰🇷 韩国 (South Korea) 11 - dwt",
+        "🇰🇷 韩国 (South Korea) 12 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

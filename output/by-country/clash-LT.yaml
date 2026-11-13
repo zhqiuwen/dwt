@@ -13,18 +13,31 @@ proxies:
   password: xaupMUvhptwxdDUg
 - name: 🇱🇹 立陶宛 (Lithuania) 02 - dwt
   server: 195.238.126.20
-  port: 9008
+  port: 9011
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: y9VURyNzJWNRYEGQ
+  password: M3t2ZEQcMGRWBjRa
 - name: 🇱🇹 立陶宛 (Lithuania) 03 - dwt
   server: 195.238.126.20
-  port: 9002
+  port: 9068
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: b8KkNDjEd5QqFyRm
+  password: mwgRg9hRq3b4Qnwb
+- name: 🇱🇹 立陶宛 (Lithuania) 04 - dwt
+  server: 84.32.51.250
+  port: 443
+  udp: true
+  type: vless
+  uuid: a94d8907-6bbb-4570-80d3-dfdc314c1e7a
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: awc2TGvraH8xMqfsAnNQ7JMQ_uUF8gW5auvU2gQfjR0
+    short-id: b31de5bead2ebf3c
+  servername: lt.t1n2.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -33,6 +46,7 @@ proxy-groups:
   - 🇱🇹 立陶宛 (Lithuania) 01 - dwt
   - 🇱🇹 立陶宛 (Lithuania) 02 - dwt
   - 🇱🇹 立陶宛 (Lithuania) 03 - dwt
+  - 🇱🇹 立陶宛 (Lithuania) 04 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -41,5 +55,6 @@ proxy-groups:
   - 🇱🇹 立陶宛 (Lithuania) 01 - dwt
   - 🇱🇹 立陶宛 (Lithuania) 02 - dwt
   - 🇱🇹 立陶宛 (Lithuania) 03 - dwt
+  - 🇱🇹 立陶宛 (Lithuania) 04 - dwt
 rules:
 - MATCH,PROXIES

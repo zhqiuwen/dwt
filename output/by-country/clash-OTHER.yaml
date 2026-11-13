@@ -4,33 +4,33 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇩 印尼 (Indonesia) 01 - dwt
-  server: 13.249.231.85
-  port: 443
+- name: 🌐 其他地区 (Other) 01 - dwt
+  server: 104.21.91.53
+  port: 8443
   udp: true
   type: vmess
-  uuid: a84c132a-3151-40fe-947b-4dd9a7d2122c
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   alterId: 0
   cipher: auto
   tls: true
-  servername: d7pu5mzr9c4b0.cloudfront.net
+  servername: v2ray1.dozapp.xyz
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vmess
+    path: /lMnsZUN4/
     headers:
-      Host: d7pu5mzr9c4b0.cloudfront.net
+      Host: v2ray1.dozapp.xyz
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇩 印尼 (Indonesia) 01 - dwt
+  - 🌐 其他地区 (Other) 01 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇩 印尼 (Indonesia) 01 - dwt
+  - 🌐 其他地区 (Other) 01 - dwt
 rules:
 - MATCH,PROXIES
