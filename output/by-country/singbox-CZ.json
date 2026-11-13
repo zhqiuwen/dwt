@@ -6,27 +6,6 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - dwt",
-      "server": "153.52.69.249",
-      "server_port": 443,
-      "uuid": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cache-78.topp-con.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "WVfpQqoeOrTtCq052_IOxvMv7RCWfLlAOxEfsH1aa2U",
-          "short_id": "d5492c7a39515c65"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 02 - dwt",
       "server": "212.102.38.25",
       "server_port": 443,
       "uuid": "b34a52cb-cd52-49a8-9362-b8e97c151d49",
@@ -36,7 +15,7 @@
         "server_name": "udemy.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
@@ -47,22 +26,22 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 03 - dwt",
-      "server": "94.183.234.245",
+      "tag": "🇨🇿 捷克 (Czech) 02 - dwt",
+      "server": "153.52.69.249",
       "server_port": 443,
-      "uuid": "5de0c218-0138-45d8-94d2-c2c3f37a1a6d",
+      "uuid": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
+        "server_name": "cache-78.topp-con.xyz",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc",
-          "short_id": "7f1e29593aa94ad1"
+          "public_key": "WVfpQqoeOrTtCq052_IOxvMv7RCWfLlAOxEfsH1aa2U",
+          "short_id": "d5492c7a39515c65"
         }
       }
     },
@@ -72,8 +51,7 @@
       "outbounds": [
         "auto",
         "🇨🇿 捷克 (Czech) 01 - dwt",
-        "🇨🇿 捷克 (Czech) 02 - dwt",
-        "🇨🇿 捷克 (Czech) 03 - dwt"
+        "🇨🇿 捷克 (Czech) 02 - dwt"
       ]
     },
     {
@@ -81,8 +59,7 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇿 捷克 (Czech) 01 - dwt",
-        "🇨🇿 捷克 (Czech) 02 - dwt",
-        "🇨🇿 捷克 (Czech) 03 - dwt"
+        "🇨🇿 捷克 (Czech) 02 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

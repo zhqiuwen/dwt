@@ -16,7 +16,7 @@ proxies:
     public-key: ZxCwJxbsZWJYYCPzeWj7_fxJMVhwh4XGfpvjmEIQjHY
     short-id: 6172ba9cffe9c22f
   servername: conf.emaar.ru
-  client-fingerprint: chrome
+  client-fingerprint: edge
 - name: 🇫🇮 芬兰 (Finland) 02 - dwt
   server: 94.183.164.119
   port: 24433
@@ -26,27 +26,19 @@ proxies:
   sni: 94.183.164.119
   skip-cert-verify: true
 - name: 🇫🇮 芬兰 (Finland) 03 - dwt
-  server: 65.109.208.183
+  server: 188.225.46.162
   port: 443
   udp: true
   type: vless
-  uuid: 5f07a2a1-82a5-494d-847b-b882e6903192
+  uuid: 7d718630-7a1a-4af8-9332-aa0610634e8a
   tls: true
-  servername: free.for.member.iiproxy.com
+  servername: filnex.baby
   skip-cert-verify: false
-  client-fingerprint: chrome
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: lalibobi.tw.de1.Connect
 - name: 🇫🇮 芬兰 (Finland) 04 - dwt
-  server: 45.144.234.157
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 45.144.234.157
-- name: 🇫🇮 芬兰 (Finland) 05 - dwt
   server: 72.35.246.39
   port: 2053
   udp: true
@@ -59,6 +51,44 @@ proxies:
     short-id: 5e39e518bfac6392
   servername: vk.ru
   client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 05 - dwt
+  server: 146.103.118.189
+  port: 443
+  udp: true
+  type: vless
+  uuid: ce698f0c-a8ec-474a-b5d8-3be8032deeb8
+  tls: true
+  servername: nl2.574ck.xyz
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /574ck-finland
+    headers:
+      Host: nl2.574ck.xyz
+- name: 🇫🇮 芬兰 (Finland) 06 - dwt
+  server: 65.109.208.183
+  port: 443
+  udp: true
+  type: vless
+  uuid: 5f07a2a1-82a5-494d-847b-b882e6903192
+  tls: true
+  servername: free.for.member.iiproxy.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 07 - dwt
+  server: 66.bmi.ir.asopardaz.ir
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 7c356ae5-3b11-4040-9e76-2d2b7b8ea2f4
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JtA0d5K6Jnmg35oWP9SDOsc1ceuqaxOsNg33fiPHJQs
+    short-id: e915
+  servername: timeline.www.cloudflare.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -69,6 +99,8 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 03 - dwt
   - 🇫🇮 芬兰 (Finland) 04 - dwt
   - 🇫🇮 芬兰 (Finland) 05 - dwt
+  - 🇫🇮 芬兰 (Finland) 06 - dwt
+  - 🇫🇮 芬兰 (Finland) 07 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -79,5 +111,7 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 03 - dwt
   - 🇫🇮 芬兰 (Finland) 04 - dwt
   - 🇫🇮 芬兰 (Finland) 05 - dwt
+  - 🇫🇮 芬兰 (Finland) 06 - dwt
+  - 🇫🇮 芬兰 (Finland) 07 - dwt
 rules:
 - MATCH,PROXIES
