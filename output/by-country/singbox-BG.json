@@ -7,21 +7,13 @@
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - dwt",
       "server": "213.183.63.60",
-      "server_port": 9098,
+      "server_port": 9054,
       "method": "aes-256-cfb",
-      "password": "aLpQtfEZe445QyHk"
+      "password": "VcFuyXvND2yQWSFY"
     },
     {
       "type": "shadowsocks",
       "tag": "🇧🇬 保加利亚 (Bulgaria) 02 - dwt",
-      "server": "213.183.63.60",
-      "server_port": 9061,
-      "method": "aes-256-cfb",
-      "password": "4R3hUfZ2FHhDmNcP"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - dwt",
       "server": "213.183.63.60",
       "server_port": 9049,
       "method": "aes-256-cfb",
@@ -29,15 +21,15 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 04 - dwt",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 03 - dwt",
       "server": "213.183.63.60",
-      "server_port": 9054,
+      "server_port": 9061,
       "method": "aes-256-cfb",
-      "password": "VcFuyXvND2yQWSFY"
+      "password": "4R3hUfZ2FHhDmNcP"
     },
     {
       "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 05 - dwt",
+      "tag": "🇧🇬 保加利亚 (Bulgaria) 04 - dwt",
       "server": "195.123.226.21",
       "server_port": 443,
       "uuid": "6589c320-db68-43cd-a273-b46299bab355",
@@ -57,26 +49,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 06 - dwt",
-      "server": "p1real5.greewebservices.ir",
-      "server_port": 1270,
-      "uuid": "b0511969-f769-460b-963b-70c6b84b6967",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.googleapis.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
-          "short_id": "9b60d3"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -84,9 +56,7 @@
         "🇧🇬 保加利亚 (Bulgaria) 01 - dwt",
         "🇧🇬 保加利亚 (Bulgaria) 02 - dwt",
         "🇧🇬 保加利亚 (Bulgaria) 03 - dwt",
-        "🇧🇬 保加利亚 (Bulgaria) 04 - dwt",
-        "🇧🇬 保加利亚 (Bulgaria) 05 - dwt",
-        "🇧🇬 保加利亚 (Bulgaria) 06 - dwt"
+        "🇧🇬 保加利亚 (Bulgaria) 04 - dwt"
       ]
     },
     {
@@ -96,9 +66,7 @@
         "🇧🇬 保加利亚 (Bulgaria) 01 - dwt",
         "🇧🇬 保加利亚 (Bulgaria) 02 - dwt",
         "🇧🇬 保加利亚 (Bulgaria) 03 - dwt",
-        "🇧🇬 保加利亚 (Bulgaria) 04 - dwt",
-        "🇧🇬 保加利亚 (Bulgaria) 05 - dwt",
-        "🇧🇬 保加利亚 (Bulgaria) 06 - dwt"
+        "🇧🇬 保加利亚 (Bulgaria) 04 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

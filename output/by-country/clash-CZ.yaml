@@ -18,17 +18,14 @@ proxies:
   servername: cache-78.topp-con.xyz
   client-fingerprint: chrome
 - name: 🇨🇿 捷克 (Czech) 02 - dwt
-  server: 212.102.38.25
+  server: 194.87.109.106
   port: 443
   udp: true
   type: vless
-  uuid: b34a52cb-cd52-49a8-9362-b8e97c151d49
-  flow: xtls-rprx-vision
+  uuid: d9274255-edf4-4944-bc62-6ef35cd2de40
   tls: true
-  reality-opts:
-    public-key: 23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE
-    short-id: e90360ec7cc61b20
-  servername: udemy.com
+  servername: currant.asynchronous.site
+  skip-cert-verify: false
   client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES

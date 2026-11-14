@@ -5,6 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - dwt
+  server: 130.49.189.158
+  port: 43558
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: yZiPrr484OdSYcivDUv+UIygwvyW+HQYytKsIgTw9tU=
+- name: 🇷🇺 俄罗斯 (Russia) 02 - dwt
+  server: 185.22.153.117
+  port: 18443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
+- name: 🇷🇺 俄罗斯 (Russia) 03 - dwt
   server: 200.102.183.50
   port: 443
   udp: true
@@ -17,22 +31,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: qi8ws15c7jv5q2fa
-- name: 🇷🇺 俄罗斯 (Russia) 02 - dwt
-  server: 193.228.128.230
-  port: 443
-  udp: true
-  type: vless
-  uuid: de404269-a97c-4f49-9efb-43509c2afa09
-  tls: true
-  reality-opts:
-    public-key: rS6r3PZQHZp31tnOmJAuCme4xJgsak_JsZ5hTPwpuiY
-    short-id: 8b8dd8a1c0c468d3
-  servername: ch.primarymaster.online
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ''
-- name: 🇷🇺 俄罗斯 (Russia) 03 - dwt
+- name: 🇷🇺 俄罗斯 (Russia) 04 - dwt
   server: 200.102.183.57
   port: 80
   udp: true
@@ -45,13 +44,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: qi8ws15c7jv5q2fa
-- name: 🇷🇺 俄罗斯 (Russia) 04 - dwt
-  server: 185.22.153.117
-  port: 18443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
 - name: 🇷🇺 俄罗斯 (Russia) 05 - dwt
   server: 201.24.121.243
   port: 443

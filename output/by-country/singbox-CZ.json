@@ -27,21 +27,20 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 02 - dwt",
-      "server": "212.102.38.25",
+      "server": "194.87.109.106",
       "server_port": 443,
-      "uuid": "b34a52cb-cd52-49a8-9362-b8e97c151d49",
-      "flow": "xtls-rprx-vision",
+      "uuid": "d9274255-edf4-4944-bc62-6ef35cd2de40",
       "tls": {
         "enabled": true,
-        "server_name": "udemy.com",
+        "server_name": "currant.asynchronous.site",
+        "insecure": false,
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE",
-          "short_id": "e90360ec7cc61b20"
         }
       }
     },

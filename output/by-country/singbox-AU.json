@@ -4,11 +4,23 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇦🇺 澳大利亚 (Australia) 01 - dwt",
-      "server": "50.6.54.163",
+      "server": "45.63.30.142",
       "server_port": 443,
-      "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "connectwithemployerstohireyouridealteam.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇺 澳大利亚 (Australia) 02 - dwt",
+      "server": "v1au.mateflora.com",
+      "server_port": 443,
+      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -19,37 +31,30 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "2vd1kmOeZpjjDpgN75FMhwFRzPjNfzvLoUM5LlLrm2U",
-          "short_id": "26b26357bfcd59a1"
+          "public_key": "7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo",
+          "short_id": "54cca3c1c1c7"
         }
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇦🇺 澳大利亚 (Australia) 02 - dwt",
-      "server": "152.67.115.203",
-      "server_port": 443,
-      "password": "633bc3be486b646190661ac2387c150a",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "850a3fb1cd33a28f12d837578ae1a2e7"
-      }
-    },
-    {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇦🇺 澳大利亚 (Australia) 03 - dwt",
-      "server": "45.63.30.142",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "server": "zfapi.zalolink.com",
+      "server_port": 54528,
+      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "connectwithemployerstohireyouridealteam.com",
-        "insecure": true
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo",
+          "short_id": "54cca3c1c1c7"
+        }
       }
     },
     {

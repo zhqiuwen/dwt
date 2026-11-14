@@ -4,8 +4,24 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - dwt",
+      "server": "130.49.189.158",
+      "server_port": 43558,
+      "method": "chacha20-ietf-poly1305",
+      "password": "yZiPrr484OdSYcivDUv+UIygwvyW+HQYytKsIgTw9tU="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - dwt",
+      "server": "185.22.153.117",
+      "server_port": 18443,
+      "method": "aes-256-gcm",
+      "password": "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - dwt",
       "server": "200.102.183.50",
       "server_port": 443,
       "uuid": "664f65f4-33b3-43a3-b9e5-68192d1d428e",
@@ -28,30 +44,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - dwt",
-      "server": "193.228.128.230",
-      "server_port": 443,
-      "uuid": "de404269-a97c-4f49-9efb-43509c2afa09",
-      "tls": {
-        "enabled": true,
-        "server_name": "ch.primarymaster.online",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "rS6r3PZQHZp31tnOmJAuCme4xJgsak_JsZ5hTPwpuiY",
-          "short_id": "8b8dd8a1c0c468d3"
-        }
-      },
-      "transport": {
-        "type": "grpc"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - dwt",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - dwt",
       "server": "200.102.183.57",
       "server_port": 80,
       "uuid": "664f65f4-33b3-43a3-b9e5-68192d1d428e",
@@ -68,14 +61,6 @@
         "type": "grpc",
         "service_name": "qi8ws15c7jv5q2fa"
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - dwt",
-      "server": "185.22.153.117",
-      "server_port": 18443,
-      "method": "aes-256-gcm",
-      "password": "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
     },
     {
       "type": "vless",

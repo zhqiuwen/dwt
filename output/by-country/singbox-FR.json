@@ -6,14 +6,6 @@
     {
       "type": "shadowsocks",
       "tag": "🇫🇷 法国 (France) 01 - dwt",
-      "server": "167.17.64.27",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇫🇷 法国 (France) 02 - dwt",
       "server": "167.17.64.22",
       "server_port": 19999,
       "method": "aes-256-gcm",
@@ -21,8 +13,16 @@
     },
     {
       "type": "shadowsocks",
+      "tag": "🇫🇷 法国 (France) 02 - dwt",
+      "server": "198.244.202.215",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇫🇷 法国 (France) 03 - dwt",
-      "server": "167.17.64.175",
+      "server": "167.17.64.27",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -30,7 +30,7 @@
     {
       "type": "shadowsocks",
       "tag": "🇫🇷 法国 (France) 04 - dwt",
-      "server": "38.109.228.110",
+      "server": "167.17.64.175",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -38,14 +38,6 @@
     {
       "type": "shadowsocks",
       "tag": "🇫🇷 法国 (France) 05 - dwt",
-      "server": "172.99.189.142",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇫🇷 法国 (France) 06 - dwt",
       "server": "57.129.76.233",
       "server_port": 19999,
       "method": "aes-256-gcm",
@@ -53,15 +45,55 @@
     },
     {
       "type": "shadowsocks",
+      "tag": "🇫🇷 法国 (France) 06 - dwt",
+      "server": "23.162.152.22",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇫🇷 法国 (France) 07 - dwt",
+      "server": "38.109.228.110",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇫🇷 法国 (France) 08 - dwt",
+      "server": "57.129.83.85",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇫🇷 法国 (France) 09 - dwt",
+      "server": "51.83.61.102",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "29irqk0paakcx19v"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇫🇷 法国 (France) 10 - dwt",
       "server": "54.36.174.140",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "eetk7pw"
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇫🇷 法国 (France) 11 - dwt",
+      "server": "57.131.4.13",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "mx81glqbtlwuhcjo"
+    },
+    {
       "type": "vless",
-      "tag": "🇫🇷 法国 (France) 08 - dwt",
+      "tag": "🇫🇷 法国 (France) 12 - dwt",
       "server": "138.124.70.41",
       "server_port": 14430,
       "uuid": "6cc745e3-4eb9-46c8-a4a1-85dee7b87edc",
@@ -74,156 +106,8 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇫🇷 法国 (France) 09 - dwt",
-      "server": "51.77.217.70",
-      "password": "capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "ChY5QQQT3ZtUdNT8"
-      },
-      "server_ports": [
-        "21000:21199",
-        "33000:33199"
-      ]
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇫🇷 法国 (France) 10 - dwt",
-      "server": "13.36.234.11",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "13.36.234.11",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇫🇷 法国 (France) 11 - dwt",
-      "server": "46.105.222.157",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇫🇷 法国 (France) 12 - dwt",
-      "server": "62.210.147.2",
-      "server_port": 43115,
-      "password": "github.com/Alvin9999-newpac/fanqiang",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
       "tag": "🇫🇷 法国 (France) 13 - dwt",
-      "server": "152.228.162.19",
-      "server_port": 80,
-      "uuid": "25f86cb1-2140-4085-abcb-c3a0ea7a4be0",
-      "transport": {
-        "type": "ws",
-        "path": "/vless/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇷 法国 (France) 14 - dwt",
-      "server": "20.19.83.143",
-      "server_port": 2083,
-      "uuid": "52a5a29f-c162-411a-8a37-a3f11b0dc537",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "WbgtxLlo2gmTzB4Wzxgh_U7G97d4ENTS10fYIoujET4",
-          "short_id": "0123456789abcdef"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇫🇷 法国 (France) 15 - dwt",
-      "server": "51.77.217.70",
-      "server_port": 8447,
-      "password": "capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "ChY5QQQT3ZtUdNT8"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇫🇷 法国 (France) 16 - dwt",
-      "server": "pl134.vpnbook.com",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "eetk7pw"
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇷 法国 (France) 17 - dwt",
-      "server": "152.228.139.33",
-      "server_port": 35108,
-      "uuid": "81dc0b61-f9fe-4ad6-8b4e-b8c067b73712",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.nvidia.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "X_lOw5Zz4SJBa1cRHV4dAq5msYE-ClY5-WNcBmBWRxg",
-          "short_id": "52add08b86a5ccea"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc-common3"
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇫🇷 法国 (France) 18 - dwt",
-      "server": "62.210.7.139",
-      "server_port": 60111,
-      "password": "github.com/Alvin9999-newpac/fanqiang",
-      "tls": {
-        "enabled": true,
-        "server_name": "bing.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇷 法国 (France) 19 - dwt",
       "server": "62.210.91.10",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -243,27 +127,33 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇫🇷 法国 (France) 20 - dwt",
-      "server": "51.77.217.70",
-      "server_port": 8446,
-      "password": "capadmbd5f18bd:jX4BuciLLIqLvzJZsHpoXtc2",
+      "type": "vless",
+      "tag": "🇫🇷 法国 (France) 14 - dwt",
+      "server": "62.210.91.2",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "ChY5QQQT3ZtUdNT8"
+        "server_name": "fuck.rkn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": ""
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
+        }
       }
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 法国 (France) 21 - dwt",
-      "server": "51.77.217.70",
-      "server_port": 2053,
-      "uuid": "bf16ee0c-8b3c-41e4-ab3a-8b48033c404e",
+      "tag": "🇫🇷 法国 (France) 15 - dwt",
+      "server": "20.19.83.143",
+      "server_port": 2083,
+      "uuid": "52a5a29f-c162-411a-8a37-a3f11b0dc537",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "www.apple.com",
@@ -273,14 +163,39 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w",
-          "short_id": "bfe58beb41f1d09f"
+          "public_key": "WbgtxLlo2gmTzB4Wzxgh_U7G97d4ENTS10fYIoujET4",
+          "short_id": "0123456789abcdef"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "🇫🇷 法国 (France) 22 - dwt",
+      "tag": "🇫🇷 法国 (France) 16 - dwt",
+      "server": "46.105.222.157",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇫🇷 法国 (France) 17 - dwt",
+      "server": "13.36.234.11",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "13.36.234.11",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇫🇷 法国 (France) 18 - dwt",
       "server": "46.105.222.155",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
@@ -292,86 +207,56 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇫🇷 法国 (France) 23 - dwt",
-      "server": "23.162.152.22",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇫🇷 法国 (France) 24 - dwt",
-      "server": "57.131.4.13",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "mx81glqbtlwuhcjo"
-    },
-    {
       "type": "vless",
-      "tag": "🇫🇷 法国 (France) 25 - dwt",
-      "server": "62.210.91.2",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇫🇷 法国 (France) 19 - dwt",
+      "server": "152.228.139.33",
+      "server_port": 35108,
+      "uuid": "81dc0b61-f9fe-4ad6-8b4e-b8c067b73712",
       "tls": {
         "enabled": true,
-        "server_name": "fuck.rkn",
+        "server_name": "www.nvidia.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "short_id": "01"
+          "public_key": "X_lOw5Zz4SJBa1cRHV4dAq5msYE-ClY5-WNcBmBWRxg",
+          "short_id": "52add08b86a5ccea"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-common3"
       }
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 法国 (France) 26 - dwt",
-      "server": "141.227.160.61",
-      "server_port": 8443,
-      "uuid": "f59fdac3-5842-449b-8c8d-d5ebcdbf1768",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇫🇷 法国 (France) 20 - dwt",
+      "server": "152.228.139.33",
+      "server_port": 51671,
+      "uuid": "75cc7568-abb0-46a8-88be-8137d3c647d4",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "www.sony.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "short_id": "6ba85179e30d4fc2"
+          "public_key": "-5PowNUY37Pi01YKO9fjRTrum1m_9n6XauaPDpmOJzU",
+          "short_id": "2fed44d8c59f7e71"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc_common3"
       }
     },
     {
       "type": "vless",
-      "tag": "🇫🇷 法国 (France) 27 - dwt",
-      "server": "ai.smrtai.top",
-      "server_port": 443,
-      "uuid": "086bf957-9cd0-4e55-8280-bbef10435b41",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc",
-          "short_id": "086bf957"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇷 法国 (France) 28 - dwt",
+      "tag": "🇫🇷 法国 (France) 21 - dwt",
       "server": "212.69.86.159",
       "server_port": 8447,
       "uuid": "52030136-eee3-4675-baae-a50f17b2bb8b",
@@ -394,8 +279,28 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇫🇷 法国 (France) 22 - dwt",
+      "server": "62.210.7.139",
+      "server_port": 60111,
+      "password": "github.com/Alvin9999-newpac/fanqiang",
+      "tls": {
+        "enabled": true,
+        "server_name": "62.210.7.139",
+        "insecure": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇫🇷 法国 (France) 23 - dwt",
+      "server": "pl134.vpnbook.com",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "eetk7pw"
+    },
+    {
       "type": "vmess",
-      "tag": "🇫🇷 法国 (France) 29 - dwt",
+      "tag": "🇫🇷 法国 (France) 24 - dwt",
       "server": "162.19.82.57",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
@@ -408,17 +313,112 @@
     },
     {
       "type": "vless",
+      "tag": "🇫🇷 法国 (France) 25 - dwt",
+      "server": "161.97.66.16",
+      "server_port": 443,
+      "uuid": "086bf957-9cd0-4e55-8280-bbef10435b41",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "R-w7BpNgtryZRBMyRoHx81OnjzAwrKhVtV1EUKLFJzc",
+          "short_id": "086bf957"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 法国 (France) 26 - dwt",
+      "server": "51.77.217.70",
+      "server_port": 2053,
+      "uuid": "bf16ee0c-8b3c-41e4-ab3a-8b48033c404e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w",
+          "short_id": "bfe58beb41f1d09f"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 法国 (France) 27 - dwt",
+      "server": "141.227.160.61",
+      "server_port": 8443,
+      "uuid": "f59fdac3-5842-449b-8c8d-d5ebcdbf1768",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 法国 (France) 28 - dwt",
+      "server": "152.228.162.19",
+      "server_port": 80,
+      "uuid": "f5c47e9c-914a-4a91-a81e-a5a77bc10fc1",
+      "transport": {
+        "type": "ws",
+        "path": "/vless/"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 法国 (France) 29 - dwt",
+      "server": "3.168.219.0",
+      "server_port": 443,
+      "uuid": "ad9a885d-93bb-48e3-9937-57f1116b64e3",
+      "tls": {
+        "enabled": true,
+        "server_name": "d1aedflfr97jes.cloudfront.net",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "d1aedflfr97jes.cloudfront.net"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇫🇷 法国 (France) 30 - dwt",
-      "server": "3.168.217.190",
+      "server": "3.168.217.188",
       "server_port": 443,
       "uuid": "67cd3349-f789-4cbb-8b91-4b6b1654ce7c",
       "tls": {
         "enabled": true,
         "server_name": "d2ex4nxd2e01ub.cloudfront.net",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ]
+        "insecure": false
       },
       "transport": {
         "type": "ws",
@@ -429,8 +429,37 @@
       }
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇫🇷 法国 (France) 31 - dwt",
+      "server": "161.97.160.224",
+      "server_port": 443,
+      "uuid": "b81b4d1b-7f20-48f1-82dc-d24bef898cab",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "passport.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": ""
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "33zaT3jHXjtynSQ0Ucw9bK92-XH2zolJmuIeZ1XyZB0",
+          "short_id": "e6"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇫🇷 法国 (France) 32 - dwt",
+      "server": "198.244.201.129",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "vmess",
+      "tag": "🇫🇷 法国 (France) 33 - dwt",
       "server": "145.239.55.210",
       "server_port": 80,
       "uuid": "2bc80e77-9590-4ded-a48b-0eda493f611b",
@@ -444,8 +473,32 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇫🇷 法国 (France) 34 - dwt",
+      "server": "54.37.240.40",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "8nrpt2il04ptci2j"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇫🇷 法国 (France) 35 - dwt",
+      "server": "172.99.189.142",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇫🇷 法国 (France) 36 - dwt",
+      "server": "79.137.99.183",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
       "type": "vmess",
-      "tag": "🇫🇷 法国 (France) 32 - dwt",
+      "tag": "🇫🇷 法国 (France) 37 - dwt",
       "server": "79.137.99.183",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
@@ -455,30 +508,6 @@
         "server_name": "xmfhlpy.com",
         "insecure": false
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇫🇷 法国 (France) 33 - dwt",
-      "server": "198.244.202.215",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇫🇷 法国 (France) 34 - dwt",
-      "server": "51.77.144.182",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "x19py0a8ipglqkbe"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇫🇷 法国 (France) 35 - dwt",
-      "server": "57.129.138.142",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "fwxkzn0tmurzsvrw"
     },
     {
       "type": "selector",
@@ -519,7 +548,9 @@
         "🇫🇷 法国 (France) 32 - dwt",
         "🇫🇷 法国 (France) 33 - dwt",
         "🇫🇷 法国 (France) 34 - dwt",
-        "🇫🇷 法国 (France) 35 - dwt"
+        "🇫🇷 法国 (France) 35 - dwt",
+        "🇫🇷 法国 (France) 36 - dwt",
+        "🇫🇷 法国 (France) 37 - dwt"
       ]
     },
     {
@@ -560,7 +591,9 @@
         "🇫🇷 法国 (France) 32 - dwt",
         "🇫🇷 法国 (France) 33 - dwt",
         "🇫🇷 法国 (France) 34 - dwt",
-        "🇫🇷 法国 (France) 35 - dwt"
+        "🇫🇷 法国 (France) 35 - dwt",
+        "🇫🇷 法国 (France) 36 - dwt",
+        "🇫🇷 法国 (France) 37 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
