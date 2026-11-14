@@ -5,21 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 - dwt
-  server: 168.138.205.100
-  port: 53758
-  udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: Bwlqh7GcFB
-- name: 🇯🇵 日本 (Japan) 02 - dwt
-  server: 84.247.155.196
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-- name: 🇯🇵 日本 (Japan) 03 - dwt
-  server: 31.76.91.70
+  server: 31.76.91.98
   port: 443
   udp: true
   type: vless
@@ -30,53 +16,60 @@ proxies:
     public-key: ejx56dFtS4LK_Th6HSLFFdm7v7zqRpv8KfjrWAw4Sjg
     short-id: bd6f67b6b2152b45
   servername: fuji.etherhub.cc
-  client-fingerprint: firefox
-- name: 🇯🇵 日本 (Japan) 04 - dwt
-  server: 103.75.118.228
-  port: 11452
-  udp: true
-  type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  servername: www.apple.com
   client-fingerprint: chrome
+- name: 🇯🇵 日本 (Japan) 02 - dwt
+  server: 43.130.234.128
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: Yuike2026cat
+  sni: 43-130-234-128.sslip.io
+  skip-cert-verify: false
+- name: 🇯🇵 日本 (Japan) 03 - dwt
+  server: 168.110.63.247
+  port: 8081
+  udp: true
+  type: vmess
+  uuid: c3bde296-8e44-4b8c-a325-577d5b3cc7c8
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /vless
+- name: 🇯🇵 日本 (Japan) 04 - dwt
+  server: 84.247.155.196
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
 - name: 🇯🇵 日本 (Japan) 05 - dwt
+  server: 84.247.155.196
+  port: 80
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+- name: 🇯🇵 日本 (Japan) 06 - dwt
   server: 138.3.208.26
   port: 50160
   udp: true
   type: hysteria2
   password: 184cdec28da5a09450803c8debcd2cc9
-  sni: 138.3.208.26
+  sni: 'off'
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 06 - dwt
-  server: 158.101.151.157
-  port: 443
-  udp: true
-  type: vless
-  uuid: 66171cbe-0b4b-4b24-99f6-d5a822f4dc9a
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 99eQkMBHqOEKororOWKFlmH8M0o9VaVpV9w1vQIxhz8
-    short-id: 684c7531e599dec0
-  servername: www.microsoft.com
-  client-fingerprint: chrome
 - name: 🇯🇵 日本 (Japan) 07 - dwt
-  server: jp.yi-yi.xyz
-  port: 8443
+  server: zfapi.zalolink.com
+  port: 43149
   udp: true
   type: vless
-  uuid: 36c06e11-028b-40a1-a91f-c8f38f03e829
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: g3T4dVyrbNixv7HvSMlh91cYBa5kEsZCEInB7Xc_AEY
-    short-id: 956d8072a694ff37
-  servername: www.cloudflare.com
+    public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
+    short-id: 15aa0ad4
+  servername: psstatic.cdn.bcebos.com
   client-fingerprint: chrome
 - name: 🇯🇵 日本 (Japan) 08 - dwt
   server: 8.211.175.236
@@ -87,80 +80,27 @@ proxies:
   sni: 8.211.175.236
   skip-cert-verify: true
 - name: 🇯🇵 日本 (Japan) 09 - dwt
-  server: 168.138.43.75
-  port: 80
+  server: 168.107.36.135
+  port: 443
   udp: true
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /cctv13.m3u8
+    path: /tyxyws
     headers:
-      Host: jp01.a0a.xyz
+      Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 10 - dwt
-  server: 84.247.155.196
-  port: 80
+  server: jpa.123069.xyz
+  port: 53758
   udp: true
   type: ss
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-- name: 🇯🇵 日本 (Japan) 11 - dwt
-  server: 13.140.248.125
-  port: 443
-  udp: true
-  type: vless
-  uuid: 4f82d72b-9644-c39a-ac6b-abbf15a862aa
-  tls: true
-  servername: xray-p1vi234h-lunar-forest-6.cloady.io
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /e3e2aa65089989f0
-    headers:
-      Host: xray-p1vi234h-lunar-forest-6.cloady.io
-- name: 🇯🇵 日本 (Japan) 12 - dwt
-  server: 154.31.114.162
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 13 - dwt
-  server: 104.21.0.87
-  port: 443
-  udp: true
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 14 - dwt
-  server: 155.248.175.201
-  port: 23169
-  udp: true
-  type: vless
-  uuid: 7318caa1-93d1-4a9d-c481-504599902700
-  flow: xtls-rprx-vision
-  tls: true
-  servername: djj.zjlo.top
-  skip-cert-verify: true
-  client-fingerprint: firefox
+  cipher: aes-128-gcm
+  password: Bwlqh7GcFB
 proxy-groups:
 - name: PROXIES
   type: select
@@ -176,10 +116,6 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 08 - dwt
   - 🇯🇵 日本 (Japan) 09 - dwt
   - 🇯🇵 日本 (Japan) 10 - dwt
-  - 🇯🇵 日本 (Japan) 11 - dwt
-  - 🇯🇵 日本 (Japan) 12 - dwt
-  - 🇯🇵 日本 (Japan) 13 - dwt
-  - 🇯🇵 日本 (Japan) 14 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -195,9 +131,5 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 08 - dwt
   - 🇯🇵 日本 (Japan) 09 - dwt
   - 🇯🇵 日本 (Japan) 10 - dwt
-  - 🇯🇵 日本 (Japan) 11 - dwt
-  - 🇯🇵 日本 (Japan) 12 - dwt
-  - 🇯🇵 日本 (Japan) 13 - dwt
-  - 🇯🇵 日本 (Japan) 14 - dwt
 rules:
 - MATCH,PROXIES

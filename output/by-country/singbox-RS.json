@@ -4,23 +4,22 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 01 - dwt",
-      "server": "46.28.67.55",
-      "server_port": 443,
-      "uuid": "d1a6a033-fdbd-46a6-a177-3370ba042b9f",
-      "flow": "xtls-rprx-vision",
+      "type": "trojan",
+      "tag": "🇷🇸 塞尔维亚 (Serbia) 01 - dwt",
+      "server": "38.180.101.235",
+      "server_port": 5443,
+      "password": "X00HagvwL8gQXNDAnsxsN8dv1_VdneEo",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "rs.nebulaguard.org",
+        "insecure": false,
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU",
-          "short_id": "d06d78e974491b6e"
         }
       }
     },
@@ -29,14 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇴 罗马尼亚 (Romania) 01 - dwt"
+        "🇷🇸 塞尔维亚 (Serbia) 01 - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇴 罗马尼亚 (Romania) 01 - dwt"
+        "🇷🇸 塞尔维亚 (Serbia) 01 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

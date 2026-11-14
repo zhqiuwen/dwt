@@ -12,16 +12,12 @@
       "password": "b7I6g7l7fJhBaMInJ+zkzw=="
     },
     {
-      "type": "hysteria2",
+      "type": "vmess",
       "tag": "🇹🇼 中国台湾 (Taiwan) 02 - dwt",
-      "server": "103.115.109.49",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "https%3a%2f%2ft.me%2foneclickvpnkeys",
-        "insecure": true
-      }
+      "server": "103.160.180.26",
+      "server_port": 22222,
+      "uuid": "a5206a55-d5bd-41b9-92a5-bd27a90355ff",
+      "security": "auto"
     },
     {
       "type": "hysteria2",
@@ -31,7 +27,19 @@
       "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
       "tls": {
         "enabled": true,
-        "server_name": "127.0.0.1",
+        "server_name": "off",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 04 - dwt",
+      "server": "103.115.109.49",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https://t.me/oneclickvpnkeys",
         "insecure": true
       }
     },
@@ -42,7 +50,8 @@
         "auto",
         "🇹🇼 中国台湾 (Taiwan) 01 - dwt",
         "🇹🇼 中国台湾 (Taiwan) 02 - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 03 - dwt"
+        "🇹🇼 中国台湾 (Taiwan) 03 - dwt",
+        "🇹🇼 中国台湾 (Taiwan) 04 - dwt"
       ]
     },
     {
@@ -51,7 +60,8 @@
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 - dwt",
         "🇹🇼 中国台湾 (Taiwan) 02 - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 03 - dwt"
+        "🇹🇼 中国台湾 (Taiwan) 03 - dwt",
+        "🇹🇼 中国台湾 (Taiwan) 04 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

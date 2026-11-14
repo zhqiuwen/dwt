@@ -12,20 +12,28 @@ proxies:
   cipher: 2022-blake3-aes-128-gcm
   password: b7I6g7l7fJhBaMInJ+zkzw==
 - name: 🇹🇼 中国台湾 (Taiwan) 02 - dwt
-  server: 103.115.109.49
-  port: 443
+  server: 103.160.180.26
+  port: 22222
   udp: true
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https%3a%2f%2ft.me%2foneclickvpnkeys
-  skip-cert-verify: true
+  type: vmess
+  uuid: a5206a55-d5bd-41b9-92a5-bd27a90355ff
+  alterId: 0
+  cipher: auto
 - name: 🇹🇼 中国台湾 (Taiwan) 03 - dwt
   server: 160.187.100.109
   port: 443
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 127.0.0.1
+  sni: 'off'
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 04 - dwt
+  server: 103.115.109.49
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/oneclickvpnkeys
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
@@ -35,6 +43,7 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 - dwt
   - 🇹🇼 中国台湾 (Taiwan) 02 - dwt
   - 🇹🇼 中国台湾 (Taiwan) 03 - dwt
+  - 🇹🇼 中国台湾 (Taiwan) 04 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -43,5 +52,6 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 01 - dwt
   - 🇹🇼 中国台湾 (Taiwan) 02 - dwt
   - 🇹🇼 中国台湾 (Taiwan) 03 - dwt
+  - 🇹🇼 中国台湾 (Taiwan) 04 - dwt
 rules:
 - MATCH,PROXIES
