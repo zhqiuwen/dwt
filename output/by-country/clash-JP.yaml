@@ -5,7 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 - dwt
-  server: 31.76.91.98
+  server: 168.138.205.100
+  port: 53758
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: Bwlqh7GcFB
+- name: 🇯🇵 日本 (Japan) 02 - dwt
+  server: 31.76.91.70
   port: 443
   udp: true
   type: vless
@@ -16,8 +23,40 @@ proxies:
     public-key: ejx56dFtS4LK_Th6HSLFFdm7v7zqRpv8KfjrWAw4Sjg
     short-id: bd6f67b6b2152b45
   servername: fuji.etherhub.cc
+  client-fingerprint: firefox
+- name: 🇯🇵 日本 (Japan) 03 - dwt
+  server: 43.130.234.128
+  port: 443
+  udp: true
+  type: vless
+  uuid: a2d4ddd8-4d3f-49f5-b78b-bdb3eebab9a6
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: DLYP4CSy4Ey15aYSzcYdwfW4XIuiw3_DuKunNLEDgS4
+  servername: www.microsoft.com
+  client-fingerprint: firefox
+- name: 🇯🇵 日本 (Japan) 04 - dwt
+  server: 158.101.151.157
+  port: 443
+  udp: true
+  type: vless
+  uuid: 66171cbe-0b4b-4b24-99f6-d5a822f4dc9a
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 99eQkMBHqOEKororOWKFlmH8M0o9VaVpV9w1vQIxhz8
+    short-id: 684c7531e599dec0
+  servername: www.microsoft.com
   client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 02 - dwt
+- name: 🇯🇵 日本 (Japan) 05 - dwt
+  server: 84.247.155.196
+  port: 80
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+- name: 🇯🇵 日本 (Japan) 06 - dwt
   server: 43.130.234.128
   port: 8443
   udp: true
@@ -25,7 +64,22 @@ proxies:
   password: Yuike2026cat
   sni: 43-130-234-128.sslip.io
   skip-cert-verify: false
-- name: 🇯🇵 日本 (Japan) 03 - dwt
+- name: 🇯🇵 日本 (Japan) 07 - dwt
+  server: 138.3.208.26
+  port: 50160
+  udp: true
+  type: hysteria2
+  password: 184cdec28da5a09450803c8debcd2cc9
+  sni: 138.3.208.26
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 08 - dwt
+  server: 84.247.155.196
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+- name: 🇯🇵 日本 (Japan) 09 - dwt
   server: 168.110.63.247
   port: 8081
   udp: true
@@ -36,51 +90,8 @@ proxies:
   network: ws
   ws-opts:
     path: /vless
-- name: 🇯🇵 日本 (Japan) 04 - dwt
-  server: 84.247.155.196
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-- name: 🇯🇵 日本 (Japan) 05 - dwt
-  server: 84.247.155.196
-  port: 80
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-- name: 🇯🇵 日本 (Japan) 06 - dwt
-  server: 138.3.208.26
-  port: 50160
-  udp: true
-  type: hysteria2
-  password: 184cdec28da5a09450803c8debcd2cc9
-  sni: 'off'
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 07 - dwt
-  server: zfapi.zalolink.com
-  port: 43149
-  udp: true
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
-    short-id: 15aa0ad4
-  servername: psstatic.cdn.bcebos.com
-  client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 08 - dwt
-  server: 8.211.175.236
-  port: 8443
-  udp: true
-  type: hysteria2
-  password: u63SxILNwtrQZ7Y1ZrFaZfsA
-  sni: 8.211.175.236
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 09 - dwt
-  server: 168.107.36.135
+- name: 🇯🇵 日本 (Japan) 10 - dwt
+  server: 104.19.33.25
   port: 443
   udp: true
   type: vless
@@ -88,19 +99,11 @@ proxies:
   tls: true
   servername: jp3.yohototo.top
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 10 - dwt
-  server: jpa.123069.xyz
-  port: 53758
-  udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: Bwlqh7GcFB
 proxy-groups:
 - name: PROXIES
   type: select
