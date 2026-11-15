@@ -12,8 +12,16 @@
       "password": "1234!@#$"
     },
     {
+      "type": "vmess",
+      "tag": "🇸🇬 新加坡 (Singapore) 02 (家宽) - dwt",
+      "server": "195.133.135.238",
+      "server_port": 10086,
+      "uuid": "b831381d-6324-4d53-ad4f-8cda48b30811",
+      "security": "auto"
+    },
+    {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - dwt",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - dwt",
       "server": "60.248.219.78",
       "server_port": 443,
       "uuid": "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f",
@@ -36,7 +44,8 @@
       "outbounds": [
         "auto",
         "🇰🇷 韩国 (South Korea) 01 (家宽) - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - dwt"
+        "🇸🇬 新加坡 (Singapore) 02 (家宽) - dwt",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - dwt"
       ]
     },
     {
@@ -44,7 +53,8 @@
       "tag": "auto",
       "outbounds": [
         "🇰🇷 韩国 (South Korea) 01 (家宽) - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - dwt"
+        "🇸🇬 新加坡 (Singapore) 02 (家宽) - dwt",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

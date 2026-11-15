@@ -20,18 +20,18 @@ proxies:
   grpc-opts:
     grpc-service-name: ''
 - name: 🇷🇺 俄罗斯 (Russia) 02 - dwt
-  server: 201.24.121.243
+  server: 87.232.116.20
   port: 443
   udp: true
   type: vless
-  uuid: 32b5ca9b-3f81-4031-965d-e8b074216e8d
+  uuid: d86e6fda-e519-46ab-98eb-9ff9a9da5984
   tls: true
-  servername: kk-ru24a1.testkknegr.online
+  servername: fafeqdhlett2p5la6d.cdn.cachefleet.com
   skip-cert-verify: false
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   network: grpc
   grpc-opts:
-    grpc-service-name: vlgrpc
+    grpc-service-name: 67h2o3erm0t9imsj
 - name: 🇷🇺 俄罗斯 (Russia) 03 - dwt
   server: 45.151.70.116
   port: 443
@@ -45,12 +45,38 @@ proxies:
   servername: www.amd.com
   client-fingerprint: firefox
 - name: 🇷🇺 俄罗斯 (Russia) 04 - dwt
-  server: 130.49.189.158
-  port: 43558
+  server: 201.24.121.243
+  port: 443
+  udp: true
+  type: vless
+  uuid: 32b5ca9b-3f81-4031-965d-e8b074216e8d
+  tls: true
+  servername: kk-ru24a1.testkknegr.online
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vlgrpc
+- name: 🇷🇺 俄罗斯 (Russia) 05 - dwt
+  server: 185.22.153.117
+  port: 18443
   udp: true
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog=
+  cipher: aes-256-gcm
+  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
+- name: 🇷🇺 俄罗斯 (Russia) 06 - dwt
+  server: 185.39.204.117
+  port: 10002
+  udp: true
+  type: vless
+  uuid: facb802c-de2e-11f1-9a22-a3404e852f3b
+  tls: true
+  servername: tr2.vpnjantit.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /vpnjantit
 proxy-groups:
 - name: PROXIES
   type: select
@@ -60,6 +86,8 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - dwt
   - 🇷🇺 俄罗斯 (Russia) 03 - dwt
   - 🇷🇺 俄罗斯 (Russia) 04 - dwt
+  - 🇷🇺 俄罗斯 (Russia) 05 - dwt
+  - 🇷🇺 俄罗斯 (Russia) 06 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -69,5 +97,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - dwt
   - 🇷🇺 俄罗斯 (Russia) 03 - dwt
   - 🇷🇺 俄罗斯 (Russia) 04 - dwt
+  - 🇷🇺 俄罗斯 (Russia) 05 - dwt
+  - 🇷🇺 俄罗斯 (Russia) 06 - dwt
 rules:
 - MATCH,PROXIES

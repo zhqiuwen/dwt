@@ -29,24 +29,21 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - dwt",
-      "server": "201.24.121.243",
+      "server": "87.232.116.20",
       "server_port": 443,
-      "uuid": "32b5ca9b-3f81-4031-965d-e8b074216e8d",
+      "uuid": "d86e6fda-e519-46ab-98eb-9ff9a9da5984",
       "tls": {
         "enabled": true,
-        "server_name": "kk-ru24a1.testkknegr.online",
+        "server_name": "fafeqdhlett2p5la6d.cdn.cachefleet.com",
         "insecure": false,
-        "alpn": [
-          "h2"
-        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       },
       "transport": {
         "type": "grpc",
-        "service_name": "vlgrpc"
+        "service_name": "67h2o3erm0t9imsj"
       }
     },
     {
@@ -70,12 +67,55 @@
       }
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 04 - dwt",
-      "server": "130.49.189.158",
-      "server_port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog="
+      "server": "201.24.121.243",
+      "server_port": 443,
+      "uuid": "32b5ca9b-3f81-4031-965d-e8b074216e8d",
+      "tls": {
+        "enabled": true,
+        "server_name": "kk-ru24a1.testkknegr.online",
+        "insecure": false,
+        "alpn": [
+          "h2"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "vlgrpc"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - dwt",
+      "server": "185.22.153.117",
+      "server_port": 18443,
+      "method": "aes-256-gcm",
+      "password": "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 06 - dwt",
+      "server": "185.39.204.117",
+      "server_port": 10002,
+      "uuid": "facb802c-de2e-11f1-9a22-a3404e852f3b",
+      "tls": {
+        "enabled": true,
+        "server_name": "tr2.vpnjantit.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vpnjantit"
+      }
     },
     {
       "type": "selector",
@@ -85,7 +125,9 @@
         "🇷🇺 俄罗斯 (Russia) 01 - dwt",
         "🇷🇺 俄罗斯 (Russia) 02 - dwt",
         "🇷🇺 俄罗斯 (Russia) 03 - dwt",
-        "🇷🇺 俄罗斯 (Russia) 04 - dwt"
+        "🇷🇺 俄罗斯 (Russia) 04 - dwt",
+        "🇷🇺 俄罗斯 (Russia) 05 - dwt",
+        "🇷🇺 俄罗斯 (Russia) 06 - dwt"
       ]
     },
     {
@@ -95,7 +137,9 @@
         "🇷🇺 俄罗斯 (Russia) 01 - dwt",
         "🇷🇺 俄罗斯 (Russia) 02 - dwt",
         "🇷🇺 俄罗斯 (Russia) 03 - dwt",
-        "🇷🇺 俄罗斯 (Russia) 04 - dwt"
+        "🇷🇺 俄罗斯 (Russia) 04 - dwt",
+        "🇷🇺 俄罗斯 (Russia) 05 - dwt",
+        "🇷🇺 俄罗斯 (Russia) 06 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
