@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇳 印度 (India) 01 - dwt
-  server: in.smrtai.top
+  server: 178.212.35.198
   port: 443
   udp: true
   type: vless
@@ -15,20 +15,19 @@ proxies:
     public-key: 3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q
     short-id: 6bdc8320
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇮🇳 印度 (India) 02 - dwt
-  server: 152.67.8.205
-  port: 80
+  server: 194.61.31.126
+  port: 2053
   udp: true
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 152.67.8.205
+  type: vless
+  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
+  tls: true
+  reality-opts:
+    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
+    short-id: 9980e0609b0d3891
+  servername: www.apple.com
+  client-fingerprint: chrome
 - name: 🇮🇳 印度 (India) 03 - dwt
   server: 13.140.56.100
   port: 14430
@@ -41,32 +40,7 @@ proxies:
     headers:
       Host: 13.140.56.100
 - name: 🇮🇳 印度 (India) 04 - dwt
-  server: 103.111.114.136
-  port: 443
-  udp: true
-  type: vless
-  uuid: 555b35c4-30f9-40c6-a61a-7f53ab1bea45
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
-    short-id: 1a2b3c4d
-  servername: videos.porsche.com
-  client-fingerprint: firefox
-- name: 🇮🇳 印度 (India) 05 - dwt
-  server: 194.61.31.126
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
-  tls: true
-  reality-opts:
-    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
-    short-id: 9980e0609b0d3891
-  servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇮🇳 印度 (India) 06 - dwt
-  server: xray-dmr3b3hy-calm-maple-7.cloady.io
+  server: 13.140.253.35
   port: 443
   udp: true
   type: vless
@@ -89,8 +63,6 @@ proxy-groups:
   - 🇮🇳 印度 (India) 02 - dwt
   - 🇮🇳 印度 (India) 03 - dwt
   - 🇮🇳 印度 (India) 04 - dwt
-  - 🇮🇳 印度 (India) 05 - dwt
-  - 🇮🇳 印度 (India) 06 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -100,7 +72,5 @@ proxy-groups:
   - 🇮🇳 印度 (India) 02 - dwt
   - 🇮🇳 印度 (India) 03 - dwt
   - 🇮🇳 印度 (India) 04 - dwt
-  - 🇮🇳 印度 (India) 05 - dwt
-  - 🇮🇳 印度 (India) 06 - dwt
 rules:
 - MATCH,PROXIES
