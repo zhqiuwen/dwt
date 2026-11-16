@@ -5,22 +5,26 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇸🇰 斯洛伐克 (Slovakia) 01 - dwt",
-      "server": "196.245.153.112",
+      "tag": "🇦🇲 亚美尼亚 (Armenia) 01 - dwt",
+      "server": "153.56.228.244",
       "server_port": 443,
-      "uuid": "474638a5-dc58-4453-9e40-70bcaa4ef74c",
+      "uuid": "88edfb30-a34b-41e1-a08f-985a93e3bc36",
       "tls": {
         "enabled": true,
-        "server_name": "b998f03d.de-p2.h1clayd.click",
+        "server_name": "49930ag.es8.h1clayd.click",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "RjoTK5x2_y3hb4nsOUnjii7IAu6gy5GrC-VN-H_AIh0",
-          "short_id": "c10f4100fa3a8d47"
+          "public_key": "H_sPS4IJjHa4Wd7WLAtp_eamROtKBAj-G0UcMBHLHQw",
+          "short_id": "2437eeeb791b6d80"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "61c20be08f4f"
       }
     },
     {
@@ -28,14 +32,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇰 斯洛伐克 (Slovakia) 01 - dwt"
+        "🇦🇲 亚美尼亚 (Armenia) 01 - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇰 斯洛伐克 (Slovakia) 01 - dwt"
+        "🇦🇲 亚美尼亚 (Armenia) 01 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

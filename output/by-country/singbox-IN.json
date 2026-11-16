@@ -6,7 +6,41 @@
     {
       "type": "vless",
       "tag": "🇮🇳 印度 (India) 01 - dwt",
-      "server": "178.212.35.198",
+      "server": "188.114.99.137",
+      "server_port": 443,
+      "uuid": "c1208c5a-2350-0003-affd-fc41b4319286",
+      "tls": {
+        "enabled": true,
+        "server_name": "decdn-28.nome-rkp.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/media/ws/",
+        "headers": {
+          "Host": "decdn-28.nome-rkp.net"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇳 印度 (India) 02 - dwt",
+      "server": "13.140.56.100",
+      "server_port": 14430,
+      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
+      "transport": {
+        "type": "ws",
+        "path": "/vless"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇳 印度 (India) 03 - dwt",
+      "server": "in.smrtai.top",
       "server_port": 443,
       "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
       "tls": {
@@ -14,7 +48,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -25,41 +59,30 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇳 印度 (India) 02 - dwt",
-      "server": "194.61.31.126",
-      "server_port": 2053,
-      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
+      "tag": "🇮🇳 印度 (India) 04 - dwt",
+      "server": "decdn-28.nome-rkp.net",
+      "server_port": 443,
+      "uuid": "c1208c5a-2350-0003-affd-fc41b4319286",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "decdn-28.nome-rkp.net",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
-          "short_id": "9980e0609b0d3891"
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 03 - dwt",
-      "server": "13.140.56.100",
-      "server_port": 14430,
-      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
+      },
       "transport": {
         "type": "ws",
-        "path": "/vless",
+        "path": "/media/ws/",
         "headers": {
-          "Host": "13.140.56.100"
+          "Host": "decdn-28.nome-rkp.net"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇮🇳 印度 (India) 04 - dwt",
+      "tag": "🇮🇳 印度 (India) 05 - dwt",
       "server": "13.140.253.35",
       "server_port": 443,
       "uuid": "06a5afa1-2bbc-a5d1-1770-becd1089c636",
@@ -88,7 +111,8 @@
         "🇮🇳 印度 (India) 01 - dwt",
         "🇮🇳 印度 (India) 02 - dwt",
         "🇮🇳 印度 (India) 03 - dwt",
-        "🇮🇳 印度 (India) 04 - dwt"
+        "🇮🇳 印度 (India) 04 - dwt",
+        "🇮🇳 印度 (India) 05 - dwt"
       ]
     },
     {
@@ -98,7 +122,8 @@
         "🇮🇳 印度 (India) 01 - dwt",
         "🇮🇳 印度 (India) 02 - dwt",
         "🇮🇳 印度 (India) 03 - dwt",
-        "🇮🇳 印度 (India) 04 - dwt"
+        "🇮🇳 印度 (India) 04 - dwt",
+        "🇮🇳 印度 (India) 05 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
