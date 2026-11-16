@@ -17,26 +17,17 @@ proxies:
     short-id: f68db13f
   servername: eg1.gofizz.in
   client-fingerprint: firefox
-- name: 🇪🇬 埃及 (Egypt) 02 - dwt
-  server: dlc.deltapc.digital
-  port: 11133
-  udp: true
-  type: ss
-  cipher: xchacha20-ietf-poly1305
-  password: mDLpXyVaIwCQ5GjuekgBxYMtVT9Z/nkb3K2SXpwHCLU=
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇪🇬 埃及 (Egypt) 01 - dwt
-  - 🇪🇬 埃及 (Egypt) 02 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇪🇬 埃及 (Egypt) 01 - dwt
-  - 🇪🇬 埃及 (Egypt) 02 - dwt
 rules:
 - MATCH,PROXIES

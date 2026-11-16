@@ -25,28 +25,18 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇪🇬 埃及 (Egypt) 02 - dwt",
-      "server": "dlc.deltapc.digital",
-      "server_port": 11133,
-      "method": "xchacha20-ietf-poly1305",
-      "password": "mDLpXyVaIwCQ5GjuekgBxYMtVT9Z/nkb3K2SXpwHCLU="
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇬 埃及 (Egypt) 01 - dwt",
-        "🇪🇬 埃及 (Egypt) 02 - dwt"
+        "🇪🇬 埃及 (Egypt) 01 - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇬 埃及 (Egypt) 01 - dwt",
-        "🇪🇬 埃及 (Egypt) 02 - dwt"
+        "🇪🇬 埃及 (Egypt) 01 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
