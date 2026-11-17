@@ -15,7 +15,7 @@
         "server_name": "ee1.gofizzin.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -25,18 +25,43 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 02 - dwt",
+      "server": "557e58g.pl8.h1clayd.click",
+      "server_port": 443,
+      "uuid": "2208b003-78b1-453c-b5ca-ce847ff0efd6",
+      "tls": {
+        "enabled": true,
+        "server_name": "557e58g.pl8.h1clayd.click",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ms5yeTlBCbAEEeWIbn_bV72Q9SQfpcJz6_VqNgF7ABY",
+          "short_id": "43a5ba8f49a5e91a"
+        }
+      },
+      "transport": {
+        "type": "grpc"
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇪 爱沙尼亚 (Estonia) 01 - dwt"
+        "🇪🇪 爱沙尼亚 (Estonia) 01 - dwt",
+        "🇪🇪 爱沙尼亚 (Estonia) 02 - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇪 爱沙尼亚 (Estonia) 01 - dwt"
+        "🇪🇪 爱沙尼亚 (Estonia) 01 - dwt",
+        "🇪🇪 爱沙尼亚 (Estonia) 02 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

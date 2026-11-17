@@ -16,18 +16,35 @@ proxies:
     public-key: z46-GwLD2TvzK2o95okMP7IMNPUfwYHmqt2JV6nJ03I
     short-id: 8c9f899dba63f6c7
   servername: ee1.gofizzin.com
+  client-fingerprint: chrome
+- name: 🇪🇪 爱沙尼亚 (Estonia) 02 - dwt
+  server: 557e58g.pl8.h1clayd.click
+  port: 443
+  udp: true
+  type: vless
+  uuid: 2208b003-78b1-453c-b5ca-ce847ff0efd6
+  tls: true
+  reality-opts:
+    public-key: ms5yeTlBCbAEEeWIbn_bV72Q9SQfpcJz6_VqNgF7ABY
+    short-id: 43a5ba8f49a5e91a
+  servername: 557e58g.pl8.h1clayd.click
   client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: ''
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇪🇪 爱沙尼亚 (Estonia) 01 - dwt
+  - 🇪🇪 爱沙尼亚 (Estonia) 02 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇪🇪 爱沙尼亚 (Estonia) 01 - dwt
+  - 🇪🇪 爱沙尼亚 (Estonia) 02 - dwt
 rules:
 - MATCH,PROXIES
