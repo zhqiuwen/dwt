@@ -4,8 +4,8 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇵🇹 葡萄牙 (Portugal) 01 - dwt
-  server: 94.46.172.23
+- name: 🇵🇭 菲律宾 (Philippines) 01 - dwt
+  server: 120.89.61.213
   port: 443
   udp: true
   type: vless
@@ -13,21 +13,21 @@ proxies:
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: mrkbW8LrOMr_VqFXxdslDI-2VG38Xvd6iD-c0p48uXg
-    short-id: 522c2ea956
-  servername: pt1.gofizzin.com
-  client-fingerprint: firefox
+    public-key: wAh4gvnTR3NRk0SFrkBRkX3tNeybFNodcmg7piumxiM
+    short-id: 87395f88
+  servername: ph1.gofizz.in
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇵🇹 葡萄牙 (Portugal) 01 - dwt
+  - 🇵🇭 菲律宾 (Philippines) 01 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇵🇹 葡萄牙 (Portugal) 01 - dwt
+  - 🇵🇭 菲律宾 (Philippines) 01 - dwt
 rules:
 - MATCH,PROXIES

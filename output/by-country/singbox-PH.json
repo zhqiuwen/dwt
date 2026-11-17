@@ -5,21 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - dwt",
-      "server": "9e5f5c4b-tomdc0-tpolhi-1rgxu.hk2.hyhuawei.com",
+      "tag": "🇵🇭 菲律宾 (Philippines) 01 - dwt",
+      "server": "120.89.61.213",
       "server_port": 443,
-      "uuid": "ea93064c-176c-11f0-885d-f23c91cfbbc9",
+      "uuid": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "download.windowsupdate.com",
+        "server_name": "ph1.gofizz.in",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo",
-          "short_id": ""
+          "public_key": "wAh4gvnTR3NRk0SFrkBRkX3tNeybFNodcmg7piumxiM",
+          "short_id": "87395f88"
         }
       }
     },
@@ -28,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - dwt"
+        "🇵🇭 菲律宾 (Philippines) 01 - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - dwt"
+        "🇵🇭 菲律宾 (Philippines) 01 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

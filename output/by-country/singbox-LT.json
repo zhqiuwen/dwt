@@ -7,35 +7,63 @@
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 01 - dwt",
       "server": "195.238.126.20",
-      "server_port": 9011,
-      "method": "aes-256-cfb",
-      "password": "M3t2ZEQcMGRWBjRa"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 02 - dwt",
-      "server": "195.238.126.20",
       "server_port": 9045,
       "method": "aes-256-cfb",
       "password": "Lp27rqyJq72bZsqX"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 03 - dwt",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 02 - dwt",
       "server": "195.238.126.20",
       "server_port": 9012,
       "method": "aes-256-cfb",
       "password": "xaupMUvhptwxdDUg"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 03 - dwt",
+      "server": "195.238.126.20",
+      "server_port": 9011,
+      "method": "aes-256-cfb",
+      "password": "M3t2ZEQcMGRWBjRa"
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 04 - dwt",
+      "server": "195.238.126.20",
+      "server_port": 9001,
+      "method": "aes-256-cfb",
+      "password": "UkXRsXvR6buDMG2Y"
+    },
+    {
+      "type": "vless",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 05 - dwt",
       "server": "84.32.83.197",
       "server_port": 443,
       "uuid": "a30903dc-1bf0-4be5-8b1b-603a3a56211c",
       "tls": {
         "enabled": true,
         "server_name": "api-dns-gw.galioncc.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
+          "short_id": "a7d309e4c16b825f"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 06 - dwt",
+      "server": "84.32.248.124",
+      "server_port": 443,
+      "uuid": "a30903dc-1bf0-4be5-8b1b-603a3a56211c",
+      "tls": {
+        "enabled": true,
+        "server_name": "net-io-api.galioncc.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -55,7 +83,9 @@
         "🇱🇹 立陶宛 (Lithuania) 01 - dwt",
         "🇱🇹 立陶宛 (Lithuania) 02 - dwt",
         "🇱🇹 立陶宛 (Lithuania) 03 - dwt",
-        "🇱🇹 立陶宛 (Lithuania) 04 - dwt"
+        "🇱🇹 立陶宛 (Lithuania) 04 - dwt",
+        "🇱🇹 立陶宛 (Lithuania) 05 - dwt",
+        "🇱🇹 立陶宛 (Lithuania) 06 - dwt"
       ]
     },
     {
@@ -65,7 +95,9 @@
         "🇱🇹 立陶宛 (Lithuania) 01 - dwt",
         "🇱🇹 立陶宛 (Lithuania) 02 - dwt",
         "🇱🇹 立陶宛 (Lithuania) 03 - dwt",
-        "🇱🇹 立陶宛 (Lithuania) 04 - dwt"
+        "🇱🇹 立陶宛 (Lithuania) 04 - dwt",
+        "🇱🇹 立陶宛 (Lithuania) 05 - dwt",
+        "🇱🇹 立陶宛 (Lithuania) 06 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
