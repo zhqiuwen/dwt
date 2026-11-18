@@ -12,17 +12,42 @@ proxies:
   cipher: aes-128-gcm
   password: Bwlqh7GcFB
 - name: 🇯🇵 日本 (Japan) 02 - dwt
-  server: 168.110.63.247
-  port: 8081
+  server: 84.247.155.196
+  port: 80
   udp: true
-  type: vmess
-  uuid: c3bde296-8e44-4b8c-a325-577d5b3cc7c8
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vless
+  type: ss
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
 - name: 🇯🇵 日本 (Japan) 03 - dwt
+  server: 8.211.175.236
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: u63SxILNwtrQZ7Y1ZrFaZfsA
+  sni: 8.211.175.236
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 04 - dwt
+  server: 103.75.118.228
+  port: 11452
+  udp: true
+  type: vless
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇯🇵 日本 (Japan) 05 - dwt
+  server: 8.209.247.109
+  port: 443
+  udp: true
+  type: hysteria2
+  password: usqmqUKJFIlCmvkCNSY64L3k
+  sni: bing.com
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 06 - dwt
   server: 158.101.151.157
   port: 443
   udp: true
@@ -35,7 +60,26 @@ proxies:
     short-id: 684c7531e599dec0
   servername: www.microsoft.com
   client-fingerprint: firefox
-- name: 🇯🇵 日本 (Japan) 04 - dwt
+- name: 🇯🇵 日本 (Japan) 07 - dwt
+  server: 168.110.63.247
+  port: 8081
+  udp: true
+  type: vmess
+  uuid: c3bde296-8e44-4b8c-a325-577d5b3cc7c8
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /vless
+- name: 🇯🇵 日本 (Japan) 08 - dwt
+  server: 138.3.208.26
+  port: 50160
+  udp: true
+  type: hysteria2
+  password: 184cdec28da5a09450803c8debcd2cc9
+  sni: 138.3.208.26
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 09 - dwt
   server: 168.138.43.75
   port: 80
   udp: true
@@ -47,46 +91,17 @@ proxies:
   ws-opts:
     path: /cctv13.m3u8
     headers:
-      Host: 168.138.43.75
-- name: 🇯🇵 日本 (Japan) 05 - dwt
-  server: 138.3.208.26
-  port: 50160
-  udp: true
-  type: hysteria2
-  password: 184cdec28da5a09450803c8debcd2cc9
-  sni: 138.3.208.26
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 06 - dwt
-  server: 8.211.175.236
-  port: 8443
-  udp: true
-  type: hysteria2
-  password: u63SxILNwtrQZ7Y1ZrFaZfsA
-  sni: 8.211.175.236
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 07 - dwt
-  server: zfapi.zalolink.com
-  port: 43149
-  udp: true
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
-    short-id: 15aa0ad4
-  servername: psstatic.cdn.bcebos.com
-  client-fingerprint: firefox
-- name: 🇯🇵 日本 (Japan) 08 - dwt
-  server: 45.76.106.69
+      Host: none
+- name: 🇯🇵 日本 (Japan) 10 - dwt
+  server: 45.76.222.108
   port: 443
   udp: true
   type: vless
-  uuid: db102c51-5f7f-4283-b9c1-942c5c6e2616
+  uuid: bd95a04e-e3e1-460e-b89d-e9a693d393e0
   tls: true
   reality-opts:
-    public-key: nZzY--8K_-mm8x4JDzkUFt1be1SQzriGIOmYkbpq1C8
-    short-id: 034f5d5a
+    public-key: -_YzpVlKrn08il_kQdHxHTvJyWYAdetWN_IFRtvPgmE
+    short-id: b5c85d2d
   servername: itunes.apple.com
   client-fingerprint: chrome
   network: ws
@@ -94,7 +109,22 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 🇯🇵 日本 (Japan) 09 - dwt
+- name: 🇯🇵 日本 (Japan) 11 - dwt
+  server: 172.105.216.21
+  port: 443
+  udp: true
+  type: vless
+  uuid: 76f1ce49-bcea-4680-b9ef-16592269445b
+  tls: true
+  reality-opts:
+    public-key: Mjv5qe_CrvfHdVwgtyqYbqPesZ-1oko2XYg3dguzvxg
+    short-id: c29f9af4
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+- name: 🇯🇵 日本 (Japan) 12 - dwt
   server: 45.77.8.233
   port: 443
   udp: true
@@ -111,17 +141,83 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 🇯🇵 日本 (Japan) 10 - dwt
-  server: 155.248.175.201
-  port: 23169
+- name: 🇯🇵 日本 (Japan) 13 - dwt
+  server: 139.162.91.239
+  port: 443
   udp: true
   type: vless
-  uuid: 3eb053cb-d6f8-4b31-8180-222e1cc6f8ff
-  flow: xtls-rprx-vision
+  uuid: b0dc852a-97ec-4d4e-9179-f0e5c2ef1489
   tls: true
-  servername: djj.zjlo.top
+  reality-opts:
+    public-key: 7PBmAR6CGAh2naIi09rlP_PtmLmqhlXF_toZEdAHmRo
+    short-id: 7c6d6833
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+- name: 🇯🇵 日本 (Japan) 14 - dwt
+  server: 45.76.106.69
+  port: 443
+  udp: true
+  type: vless
+  uuid: db102c51-5f7f-4283-b9c1-942c5c6e2616
+  tls: true
+  reality-opts:
+    public-key: nZzY--8K_-mm8x4JDzkUFt1be1SQzriGIOmYkbpq1C8
+    short-id: 034f5d5a
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 🇯🇵 日本 (Japan) 15 - dwt
+  server: 139.162.91.224
+  port: 443
+  udp: true
+  type: vless
+  uuid: ff3038b1-a2f5-428f-89cd-5d5e4efba8e7
+  tls: true
+  reality-opts:
+    public-key: wmbc3kcjbG9-A9Fi7zaHuRVPH7A7UQkKNNvqyqJtMEk
+    short-id: e5b03494
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 🇯🇵 日本 (Japan) 16 - dwt
+  server: 168.110.21.56
+  port: 18453
+  udp: true
+  type: vless
+  uuid: 1751bebc-1bf1-420c-8b9d-97157aad179b
+- name: 🇯🇵 日本 (Japan) 17 - dwt
+  server: 84.247.155.196
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+- name: 🇯🇵 日本 (Japan) 18 - dwt
+  server: 104.16.10.104
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
   skip-cert-verify: false
-  client-fingerprint: firefox
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 proxy-groups:
 - name: PROXIES
   type: select
@@ -137,6 +233,14 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 08 - dwt
   - 🇯🇵 日本 (Japan) 09 - dwt
   - 🇯🇵 日本 (Japan) 10 - dwt
+  - 🇯🇵 日本 (Japan) 11 - dwt
+  - 🇯🇵 日本 (Japan) 12 - dwt
+  - 🇯🇵 日本 (Japan) 13 - dwt
+  - 🇯🇵 日本 (Japan) 14 - dwt
+  - 🇯🇵 日本 (Japan) 15 - dwt
+  - 🇯🇵 日本 (Japan) 16 - dwt
+  - 🇯🇵 日本 (Japan) 17 - dwt
+  - 🇯🇵 日本 (Japan) 18 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -152,5 +256,13 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 08 - dwt
   - 🇯🇵 日本 (Japan) 09 - dwt
   - 🇯🇵 日本 (Japan) 10 - dwt
+  - 🇯🇵 日本 (Japan) 11 - dwt
+  - 🇯🇵 日本 (Japan) 12 - dwt
+  - 🇯🇵 日本 (Japan) 13 - dwt
+  - 🇯🇵 日本 (Japan) 14 - dwt
+  - 🇯🇵 日本 (Japan) 15 - dwt
+  - 🇯🇵 日本 (Japan) 16 - dwt
+  - 🇯🇵 日本 (Japan) 17 - dwt
+  - 🇯🇵 日本 (Japan) 18 - dwt
 rules:
 - MATCH,PROXIES
