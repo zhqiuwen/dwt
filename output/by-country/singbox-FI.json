@@ -29,7 +29,7 @@
         "server_name": "apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": ""
         },
         "reality": {
           "enabled": true,
@@ -72,27 +72,12 @@
       }
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇫🇮 芬兰 (Finland) 05 - dwt",
-      "server": "198.202.24.142",
-      "server_port": 2083,
-      "uuid": "a6ad7987-f17e-41fa-a752-72db9a725eb2",
-      "tls": {
-        "enabled": true,
-        "server_name": "vipfree.dr-ping.ir",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vipfree.dr-ping.ir"
-        }
-      }
+      "server": "fn1s.sublinkplas.ir",
+      "server_port": 53731,
+      "method": "chacha20-ietf-poly1305",
+      "password": "6VxfNRMfOHIXLlOz_l46Efr0zIZoH2-K"
     },
     {
       "type": "selector",

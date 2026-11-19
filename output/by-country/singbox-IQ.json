@@ -5,20 +5,21 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇩 印尼 (Indonesia) 01 - dwt",
-      "server": "104.17.3.81",
+      "tag": "🇮🇶 IQ 01 - dwt",
+      "server": "79.182.70.232",
       "server_port": 443,
-      "uuid": "12d67d2b-ae5c-4d56-9f14-d71d96f7826f",
+      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
       "tls": {
         "enabled": true,
-        "server_name": "natan.srpcom.cloud",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vlessws",
-        "headers": {
-          "Host": "natan.srpcom.cloud"
+        "server_name": "5d0319t.nl7.h1clayd.click",
+        "utls": {
+          "enabled": true,
+          "fingerprint": ""
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs",
+          "short_id": "361d0dd59c70516f"
         }
       }
     },
@@ -27,14 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇩 印尼 (Indonesia) 01 - dwt"
+        "🇮🇶 IQ 01 - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇩 印尼 (Indonesia) 01 - dwt"
+        "🇮🇶 IQ 01 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

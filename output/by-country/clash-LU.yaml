@@ -4,31 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇩 印尼 (Indonesia) 01 - dwt
-  server: 104.17.3.81
-  port: 443
+- name: 🇱🇺 卢森堡 (Luxembourg) 01 - dwt
+  server: 193.57.88.100
+  port: 16200
   udp: true
-  type: vless
-  uuid: 12d67d2b-ae5c-4d56-9f14-d71d96f7826f
-  tls: true
-  servername: natan.srpcom.cloud
+  type: trojan
+  password: 4mq9w5ckqw3ewbdg
+  sni: staticxfastline.taymaztest.ir
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vlessws
-    headers:
-      Host: natan.srpcom.cloud
+    path: /biyasd
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇩 印尼 (Indonesia) 01 - dwt
+  - 🇱🇺 卢森堡 (Luxembourg) 01 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇩 印尼 (Indonesia) 01 - dwt
+  - 🇱🇺 卢森堡 (Luxembourg) 01 - dwt
 rules:
 - MATCH,PROXIES

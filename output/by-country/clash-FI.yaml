@@ -27,7 +27,7 @@ proxies:
     public-key: bBVqro8tG6swTNoAkjwUzcu4Ew4N4VcyDHzADcGviCs
     short-id: 81959fce
   servername: apple.com
-  client-fingerprint: chrome
+  client-fingerprint: ''
 - name: 🇫🇮 芬兰 (Finland) 03 - dwt
   server: 138.124.80.29
   port: 443
@@ -49,20 +49,12 @@ proxies:
   sni: lakes.blog-forme.ru
   skip-cert-verify: false
 - name: 🇫🇮 芬兰 (Finland) 05 - dwt
-  server: 198.202.24.142
-  port: 2083
+  server: fn1s.sublinkplas.ir
+  port: 53731
   udp: true
-  type: vless
-  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
-  tls: true
-  servername: vipfree.dr-ping.ir
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vipfree.dr-ping.ir
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6VxfNRMfOHIXLlOz_l46Efr0zIZoH2-K
 proxy-groups:
 - name: PROXIES
   type: select
