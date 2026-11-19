@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇵🇭 菲律宾 (Philippines) 01 - dwt
-  server: 120.89.61.213
+- name: 🇪🇪 爱沙尼亚 (Estonia) 01 - dwt
+  server: 5.129.202.80
   port: 443
   udp: true
   type: vless
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: wAh4gvnTR3NRk0SFrkBRkX3tNeybFNodcmg7piumxiM
-    short-id: 87395f88
-  servername: ph1.gofizz.in
+    public-key: NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8
+    short-id: 2ef2b10d5143d798
+  servername: mirror-50.topp-con.xyz
   client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇵🇭 菲律宾 (Philippines) 01 - dwt
+  - 🇪🇪 爱沙尼亚 (Estonia) 01 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇵🇭 菲律宾 (Philippines) 01 - dwt
+  - 🇪🇪 爱沙尼亚 (Estonia) 01 - dwt
 rules:
 - MATCH,PROXIES

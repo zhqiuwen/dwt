@@ -5,22 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇵🇭 菲律宾 (Philippines) 01 - dwt",
-      "server": "120.89.61.213",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - dwt",
+      "server": "5.129.202.80",
       "server_port": 443,
-      "uuid": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
+      "uuid": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ph1.gofizz.in",
+        "server_name": "mirror-50.topp-con.xyz",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "wAh4gvnTR3NRk0SFrkBRkX3tNeybFNodcmg7piumxiM",
-          "short_id": "87395f88"
+          "public_key": "NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8",
+          "short_id": "2ef2b10d5143d798"
         }
       }
     },
@@ -29,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇭 菲律宾 (Philippines) 01 - dwt"
+        "🇪🇪 爱沙尼亚 (Estonia) 01 - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇭 菲律宾 (Philippines) 01 - dwt"
+        "🇪🇪 爱沙尼亚 (Estonia) 01 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

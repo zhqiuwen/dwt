@@ -5,48 +5,54 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 - dwt
-  server: 149.22.87.241
-  port: 443
-  udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-- name: 🇯🇵 日本 (Japan) 02 - dwt
   server: 149.22.87.204
   port: 443
   udp: true
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇯🇵 日本 (Japan) 03 - dwt
-  server: 149.22.87.240
+- name: 🇯🇵 日本 (Japan) 02 - dwt
+  server: 149.22.87.241
   port: 443
   udp: true
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
-- name: 🇯🇵 日本 (Japan) 04 - dwt
-  server: 168.138.205.100
-  port: 53758
-  udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: Bwlqh7GcFB
-- name: 🇯🇵 日本 (Japan) 05 - dwt
+- name: 🇯🇵 日本 (Japan) 03 - dwt
   server: 64.176.57.251
   port: 8388
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: YKwDz3mFpT9vGcL8nBs5dHrA2sxM
-- name: 🇯🇵 日本 (Japan) 06 - dwt
-  server: 141.11.139.102
-  port: 32515
+- name: 🇯🇵 日本 (Japan) 04 - dwt
+  server: 149.22.87.240
+  port: 443
   udp: true
-  type: vmess
-  uuid: 081dbf5a-d8b6-40c8-96f8-3c4ca9f50442
-  alterId: 0
-  cipher: auto
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇯🇵 日本 (Japan) 05 - dwt
+  server: 8.209.247.109
+  port: 443
+  udp: true
+  type: hysteria2
+  password: usqmqUKJFIlCmvkCNSY64L3k
+  sni: bing.com
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 06 - dwt
+  server: 158.101.151.157
+  port: 443
+  udp: true
+  type: vless
+  uuid: 66171cbe-0b4b-4b24-99f6-d5a822f4dc9a
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 99eQkMBHqOEKororOWKFlmH8M0o9VaVpV9w1vQIxhz8
+    short-id: 684c7531e599dec0
+  servername: www.microsoft.com
+  client-fingerprint: firefox
 - name: 🇯🇵 日本 (Japan) 07 - dwt
   server: 168.110.63.247
   port: 8081
@@ -64,38 +70,22 @@ proxies:
   udp: true
   type: hysteria2
   password: 184cdec28da5a09450803c8debcd2cc9
-  sni: 138.3.208.26
+  sni: '1'
   skip-cert-verify: true
 - name: 🇯🇵 日本 (Japan) 09 - dwt
-  server: 8.209.247.109
-  port: 443
+  server: 168.138.43.75
+  port: 80
   udp: true
-  type: hysteria2
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  sni: bing.com
-  skip-cert-verify: true
+  type: vmess
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: None
 - name: 🇯🇵 日本 (Japan) 10 - dwt
-  server: 158.101.151.157
-  port: 443
-  udp: true
-  type: vless
-  uuid: 66171cbe-0b4b-4b24-99f6-d5a822f4dc9a
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 99eQkMBHqOEKororOWKFlmH8M0o9VaVpV9w1vQIxhz8
-    short-id: 684c7531e599dec0
-  servername: www.microsoft.com
-  client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 11 - dwt
-  server: 8.211.175.236
-  port: 8443
-  udp: true
-  type: hysteria2
-  password: u63SxILNwtrQZ7Y1ZrFaZfsA
-  sni: 8.211.175.236
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 12 - dwt
   server: 139.162.91.239
   port: 443
   udp: true
@@ -110,7 +100,9 @@ proxies:
   network: ws
   ws-opts:
     path: /ws
-- name: 🇯🇵 日本 (Japan) 13 - dwt
+    headers:
+      Host: itunes.apple.com
+- name: 🇯🇵 日本 (Japan) 11 - dwt
   server: 172.104.86.181
   port: 443
   udp: true
@@ -127,14 +119,41 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 🇯🇵 日本 (Japan) 14 - dwt
-  server: 84.247.155.196
+- name: 🇯🇵 日本 (Japan) 12 - dwt
+  server: 172.105.203.15
   port: 443
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-- name: 🇯🇵 日本 (Japan) 15 - dwt
+  type: vless
+  uuid: c8c9b995-b4b9-4915-9c7d-dee94aa733ba
+  tls: true
+  reality-opts:
+    public-key: HyAx05nhCz5mXxVxWXU1TrWRKdpYE0MHF4-V-LtyhTA
+    short-id: 0784b134
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 🇯🇵 日本 (Japan) 13 - dwt
+  server: 139.162.125.126
+  port: 443
+  udp: true
+  type: vless
+  uuid: eb6cf336-03bd-4dac-9f2a-3e456389279e
+  tls: true
+  reality-opts:
+    public-key: mMLchVbQzhQ2bGV6wkg1LP5Q7eqL2hCVHHMT0B03dwg
+    short-id: bd6e3e70
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 🇯🇵 日本 (Japan) 14 - dwt
   server: 45.76.222.108
   port: 443
   udp: true
@@ -151,19 +170,66 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
+- name: 🇯🇵 日本 (Japan) 15 - dwt
+  server: 8.211.175.236
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: u63SxILNwtrQZ7Y1ZrFaZfsA
+  sni: 8.211.175.236
+  skip-cert-verify: true
 - name: 🇯🇵 日本 (Japan) 16 - dwt
-  server: zfapi.zalolink.com
-  port: 43149
+  server: 104.24.0.1
+  port: 443
   udp: true
   type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  flow: xtls-rprx-vision
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   tls: true
-  reality-opts:
-    public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
-    short-id: 15aa0ad4
-  servername: psstatic.cdn.bcebos.com
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
   client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 17 - dwt
+  server: 84.247.155.196
+  port: 80
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+- name: 🇯🇵 日本 (Japan) 18 - dwt
+  server: 84.247.155.196
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+- name: 🇯🇵 日本 (Japan) 19 - dwt
+  server: 193.123.160.109
+  port: 8443
+  udp: true
+  type: trojan
+  password: F3NzMNuYnG7akU2mSlBY
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 20 - dwt
+  server: 154.31.114.162
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 proxy-groups:
 - name: PROXIES
   type: select
@@ -185,6 +251,10 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 14 - dwt
   - 🇯🇵 日本 (Japan) 15 - dwt
   - 🇯🇵 日本 (Japan) 16 - dwt
+  - 🇯🇵 日本 (Japan) 17 - dwt
+  - 🇯🇵 日本 (Japan) 18 - dwt
+  - 🇯🇵 日本 (Japan) 19 - dwt
+  - 🇯🇵 日本 (Japan) 20 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -206,5 +276,9 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 14 - dwt
   - 🇯🇵 日本 (Japan) 15 - dwt
   - 🇯🇵 日本 (Japan) 16 - dwt
+  - 🇯🇵 日本 (Japan) 17 - dwt
+  - 🇯🇵 日本 (Japan) 18 - dwt
+  - 🇯🇵 日本 (Japan) 19 - dwt
+  - 🇯🇵 日本 (Japan) 20 - dwt
 rules:
 - MATCH,PROXIES
