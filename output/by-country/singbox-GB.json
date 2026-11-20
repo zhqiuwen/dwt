@@ -6,14 +6,32 @@
     {
       "type": "shadowsocks",
       "tag": "🇬🇧 英国 (United Kingdom) 01 - dwt",
-      "server": "185.176.206.9",
+      "server": "158.173.24.73",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 英国 (United Kingdom) 02 - dwt",
+      "server": "161.35.37.106",
+      "server_port": 443,
+      "uuid": "40992c2a-513e-4837-9594-23411fd42afd",
+      "transport": {
+        "type": "http"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 英国 (United Kingdom) 03 - dwt",
+      "server": "142.202.51.22",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 英国 (United Kingdom) 02 - dwt",
+      "tag": "🇬🇧 英国 (United Kingdom) 04 - dwt",
       "server": "38.114.120.221",
       "server_port": 19999,
       "method": "aes-256-gcm",
@@ -21,23 +39,23 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 英国 (United Kingdom) 03 - dwt",
-      "server": "158.173.24.73",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
+      "tag": "🇬🇧 英国 (United Kingdom) 05 - dwt",
+      "server": "185.176.206.9",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "shadowsocks",
-      "tag": "🇬🇧 英国 (United Kingdom) 04 - dwt",
-      "server": "141.98.101.181",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
+      "tag": "🇬🇧 英国 (United Kingdom) 06 - dwt",
+      "server": "146.70.61.37",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 英国 (United Kingdom) 05 - dwt",
+      "tag": "🇬🇧 英国 (United Kingdom) 07 - dwt",
       "server": "57.129.132.223",
       "server_port": 80,
       "uuid": "9e20b04d-5a81-4e16-b421-01e502f0aac6",
@@ -50,29 +68,8 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇬🇧 英国 (United Kingdom) 06 - dwt",
-      "server": "136.176.68.34",
-      "server_port": 443,
-      "uuid": "dbf3f074-3b18-43f3-b82a-debd8c879c69",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Jcm0TjP_kw-KmJoiG5EGyY5sQ9RGeqlX9Ajd3ZCnSAo",
-          "short_id": "a6040129ad7f4b74"
-        }
-      }
-    },
-    {
       "type": "vmess",
-      "tag": "🇬🇧 英国 (United Kingdom) 07 - dwt",
+      "tag": "🇬🇧 英国 (United Kingdom) 08 - dwt",
       "server": "149.7.16.228",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
@@ -85,73 +82,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 英国 (United Kingdom) 08 - dwt",
-      "server": "51.38.71.147",
-      "server_port": 8443,
-      "uuid": "c08f0056-7a6d-4931-813b-aaa3cdd00aed",
-      "tls": {
-        "enabled": true,
-        "server_name": "node-uk.connectsuite.org",
-        "insecure": true,
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇬🇧 英国 (United Kingdom) 09 - dwt",
-      "server": "146.70.61.37",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 英国 (United Kingdom) 10 - dwt",
-      "server": "98.98.207.163",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 英国 (United Kingdom) 11 - dwt",
-      "server": "98.98.142.161",
-      "server_port": 8080,
-      "method": "rc4-md5",
-      "password": "14fFPrbezE3HDZzsMOr6"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 英国 (United Kingdom) 12 - dwt",
-      "server": "142.202.51.22",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 英国 (United Kingdom) 13 - dwt",
-      "server": "193.188.21.253",
-      "server_port": 14430,
-      "uuid": "57f7772d-f5d6-4d8f-992d-5fa5e0d6da55",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "193.188.21.253"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 英国 (United Kingdom) 14 - dwt",
       "server": "138.124.125.193",
       "server_port": 10444,
       "uuid": "e57ce64d-5a1a-4a90-96df-9e1bd3ad26e4",
@@ -172,28 +103,37 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 英国 (United Kingdom) 15 - dwt",
+      "tag": "🇬🇧 英国 (United Kingdom) 10 - dwt",
       "server": "193.188.21.253",
-      "server_port": 10444,
+      "server_port": 14430,
       "uuid": "57f7772d-f5d6-4d8f-992d-5fa5e0d6da55",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "video.yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo",
-          "short_id": "8debcf36f1cc69ff"
+      "transport": {
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "193.188.21.253"
         }
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 英国 (United Kingdom) 11 - dwt",
+      "server": "57.129.138.142",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "fwxkzn0tmurzsvrw"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 英国 (United Kingdom) 12 - dwt",
+      "server": "98.98.142.161",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
+    },
+    {
       "type": "vless",
-      "tag": "🇬🇧 英国 (United Kingdom) 16 - dwt",
+      "tag": "🇬🇧 英国 (United Kingdom) 13 - dwt",
       "server": "193.163.203.170",
       "server_port": 443,
       "uuid": "11aabba0-5fd1-4f15-8068-74c1a466cefc",
@@ -213,27 +153,6 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 英国 (United Kingdom) 17 - dwt",
-      "server": "94.156.250.148",
-      "server_port": 7001,
-      "method": "aes-256-gcm",
-      "password": "RexnBgU7EV5ADxG"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇬🇧 英国 (United Kingdom) 18 - dwt",
-      "server": "142.202.51.42",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -250,12 +169,7 @@
         "🇬🇧 英国 (United Kingdom) 10 - dwt",
         "🇬🇧 英国 (United Kingdom) 11 - dwt",
         "🇬🇧 英国 (United Kingdom) 12 - dwt",
-        "🇬🇧 英国 (United Kingdom) 13 - dwt",
-        "🇬🇧 英国 (United Kingdom) 14 - dwt",
-        "🇬🇧 英国 (United Kingdom) 15 - dwt",
-        "🇬🇧 英国 (United Kingdom) 16 - dwt",
-        "🇬🇧 英国 (United Kingdom) 17 - dwt",
-        "🇬🇧 英国 (United Kingdom) 18 - dwt"
+        "🇬🇧 英国 (United Kingdom) 13 - dwt"
       ]
     },
     {
@@ -274,12 +188,7 @@
         "🇬🇧 英国 (United Kingdom) 10 - dwt",
         "🇬🇧 英国 (United Kingdom) 11 - dwt",
         "🇬🇧 英国 (United Kingdom) 12 - dwt",
-        "🇬🇧 英国 (United Kingdom) 13 - dwt",
-        "🇬🇧 英国 (United Kingdom) 14 - dwt",
-        "🇬🇧 英国 (United Kingdom) 15 - dwt",
-        "🇬🇧 英国 (United Kingdom) 16 - dwt",
-        "🇬🇧 英国 (United Kingdom) 17 - dwt",
-        "🇬🇧 英国 (United Kingdom) 18 - dwt"
+        "🇬🇧 英国 (United Kingdom) 13 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

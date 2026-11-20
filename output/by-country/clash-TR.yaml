@@ -35,13 +35,6 @@ proxies:
     short-id: 6859f5b59e55aa30
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 04 - dwt
-  server: tr.subscriptionservice.ir
-  port: 2089
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: a6FPx9bj7gel0PGZtGIYILG1XiXVnQ37
 proxy-groups:
 - name: PROXIES
   type: select
@@ -50,7 +43,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - dwt
   - 🇹🇷 土耳其 (Turkey) 02 - dwt
   - 🇹🇷 土耳其 (Turkey) 03 - dwt
-  - 🇹🇷 土耳其 (Turkey) 04 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -59,6 +51,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - dwt
   - 🇹🇷 土耳其 (Turkey) 02 - dwt
   - 🇹🇷 土耳其 (Turkey) 03 - dwt
-  - 🇹🇷 土耳其 (Turkey) 04 - dwt
 rules:
 - MATCH,PROXIES

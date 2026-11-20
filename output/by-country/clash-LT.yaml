@@ -13,37 +13,18 @@ proxies:
   password: JCJpbRbQZNw9XFZG
 - name: 🇱🇹 立陶宛 (Lithuania) 02 - dwt
   server: 195.238.126.20
-  port: 9068
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: mwgRg9hRq3b4Qnwb
-- name: 🇱🇹 立陶宛 (Lithuania) 03 - dwt
-  server: 195.238.126.20
   port: 9001
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: UkXRsXvR6buDMG2Y
-- name: 🇱🇹 立陶宛 (Lithuania) 04 - dwt
+- name: 🇱🇹 立陶宛 (Lithuania) 03 - dwt
   server: 195.238.126.20
-  port: 9011
+  port: 9068
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: M3t2ZEQcMGRWBjRa
-- name: 🇱🇹 立陶宛 (Lithuania) 05 - dwt
-  server: 84.32.83.197
-  port: 443
-  udp: true
-  type: vless
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  tls: true
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: a7d309e4c16b825f
-  servername: api-dns-gw.galioncc.com
-  client-fingerprint: ''
+  password: mwgRg9hRq3b4Qnwb
 proxy-groups:
 - name: PROXIES
   type: select
@@ -52,8 +33,6 @@ proxy-groups:
   - 🇱🇹 立陶宛 (Lithuania) 01 - dwt
   - 🇱🇹 立陶宛 (Lithuania) 02 - dwt
   - 🇱🇹 立陶宛 (Lithuania) 03 - dwt
-  - 🇱🇹 立陶宛 (Lithuania) 04 - dwt
-  - 🇱🇹 立陶宛 (Lithuania) 05 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -62,7 +41,5 @@ proxy-groups:
   - 🇱🇹 立陶宛 (Lithuania) 01 - dwt
   - 🇱🇹 立陶宛 (Lithuania) 02 - dwt
   - 🇱🇹 立陶宛 (Lithuania) 03 - dwt
-  - 🇱🇹 立陶宛 (Lithuania) 04 - dwt
-  - 🇱🇹 立陶宛 (Lithuania) 05 - dwt
 rules:
 - MATCH,PROXIES

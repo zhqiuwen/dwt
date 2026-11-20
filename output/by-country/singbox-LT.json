@@ -15,45 +15,17 @@
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 02 - dwt",
       "server": "195.238.126.20",
-      "server_port": 9068,
-      "method": "aes-256-cfb",
-      "password": "mwgRg9hRq3b4Qnwb"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 03 - dwt",
-      "server": "195.238.126.20",
       "server_port": 9001,
       "method": "aes-256-cfb",
       "password": "UkXRsXvR6buDMG2Y"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 04 - dwt",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 03 - dwt",
       "server": "195.238.126.20",
-      "server_port": 9011,
+      "server_port": 9068,
       "method": "aes-256-cfb",
-      "password": "M3t2ZEQcMGRWBjRa"
-    },
-    {
-      "type": "vless",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 05 - dwt",
-      "server": "84.32.83.197",
-      "server_port": 443,
-      "uuid": "a30903dc-1bf0-4be5-8b1b-603a3a56211c",
-      "tls": {
-        "enabled": true,
-        "server_name": "api-dns-gw.galioncc.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": ""
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
-          "short_id": "a7d309e4c16b825f"
-        }
-      }
+      "password": "mwgRg9hRq3b4Qnwb"
     },
     {
       "type": "selector",
@@ -62,9 +34,7 @@
         "auto",
         "🇱🇹 立陶宛 (Lithuania) 01 - dwt",
         "🇱🇹 立陶宛 (Lithuania) 02 - dwt",
-        "🇱🇹 立陶宛 (Lithuania) 03 - dwt",
-        "🇱🇹 立陶宛 (Lithuania) 04 - dwt",
-        "🇱🇹 立陶宛 (Lithuania) 05 - dwt"
+        "🇱🇹 立陶宛 (Lithuania) 03 - dwt"
       ]
     },
     {
@@ -73,9 +43,7 @@
       "outbounds": [
         "🇱🇹 立陶宛 (Lithuania) 01 - dwt",
         "🇱🇹 立陶宛 (Lithuania) 02 - dwt",
-        "🇱🇹 立陶宛 (Lithuania) 03 - dwt",
-        "🇱🇹 立陶宛 (Lithuania) 04 - dwt",
-        "🇱🇹 立陶宛 (Lithuania) 05 - dwt"
+        "🇱🇹 立陶宛 (Lithuania) 03 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
