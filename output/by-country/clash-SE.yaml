@@ -24,16 +24,16 @@ proxies:
   servername: api-svc-mgr.galioncc.com
   client-fingerprint: chrome
 - name: 🇸🇪 瑞典 (Sweden) 03 - dwt
-  server: 5.178.109.174
-  port: 14430
+  server: 62.93.166.184
+  port: 1270
   udp: true
-  type: vless
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 5.178.109.174
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 04 - dwt
   server: 138.199.55.230
   port: 1270
@@ -46,6 +46,17 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 05 - dwt
+  server: 5.178.109.174
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 5.178.109.174
+- name: 🇸🇪 瑞典 (Sweden) 06 - dwt
   server: 138.124.86.230
   port: 48115
   udp: true
@@ -54,28 +65,29 @@ proxies:
   tls: true
   servername: 138-124-86-230.sslip.io
   skip-cert-verify: false
+  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: 138-124-86-230-sslip-io
-- name: 🇸🇪 瑞典 (Sweden) 06 - dwt
-  server: 62.93.166.184
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 07 - dwt
-  server: 95.143.196.32
+  server: 81.90.21.163
+  port: 2053
+  udp: true
+  type: vless
+  uuid: fbe22815-0718-4eae-816f-e91c67d15b54
+  flow: xtls-rprx-vision
+  tls: true
+  servername: 81.90.21.163
+  skip-cert-verify: false
+  client-fingerprint: firefox
+- name: 🇸🇪 瑞典 (Sweden) 08 - dwt
+  server: 95.143.196.97
   port: 443
   udp: true
   type: trojan
   password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
   sni: connect-se.mimowhat.online
-  skip-cert-verify: true
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
@@ -88,6 +100,7 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 05 - dwt
   - 🇸🇪 瑞典 (Sweden) 06 - dwt
   - 🇸🇪 瑞典 (Sweden) 07 - dwt
+  - 🇸🇪 瑞典 (Sweden) 08 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -100,5 +113,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 05 - dwt
   - 🇸🇪 瑞典 (Sweden) 06 - dwt
   - 🇸🇪 瑞典 (Sweden) 07 - dwt
+  - 🇸🇪 瑞典 (Sweden) 08 - dwt
 rules:
 - MATCH,PROXIES

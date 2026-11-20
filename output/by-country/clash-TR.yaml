@@ -11,30 +11,19 @@ proxies:
   type: vless
   uuid: c34a41b6-598f-46ac-bea3-8b39a906f922
 - name: 🇹🇷 土耳其 (Turkey) 02 - dwt
-  server: 77.83.245.79
-  port: 443
+  server: 31.210.78.66
+  port: 1080
   udp: true
-  type: vless
-  uuid: a346c521-7a7f-452b-9356-a4893feb5982
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
-  servername: tr1-r.bankai.party
-  client-fingerprint: chrome
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: o3-9Eg79umh4CaY8sWC7b3
 - name: 🇹🇷 土耳其 (Turkey) 03 - dwt
-  server: 185.246.155.91
-  port: 10103
+  server: tr.subscriptionservice.ir
+  port: 2089
   udp: true
-  type: vless
-  uuid: dbf3f074-3b18-43f3-b82a-debd8c879c69
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: obQkp5VlQpnlt1hRLQ3VfHISYiiISZJyJZAMaIdjCko
-    short-id: 6859f5b59e55aa30
-  servername: www.apple.com
-  client-fingerprint: chrome
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: lZZzfo1mqH7PqnloAogdi2XBhlgiofMy
 proxy-groups:
 - name: PROXIES
   type: select
