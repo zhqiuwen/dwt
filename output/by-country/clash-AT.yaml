@@ -36,13 +36,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: vless-grpc-reality
-- name: 🇦🇹 奥地利 (Austria) 04 - dwt
-  server: 152.53.1.57
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
 proxy-groups:
 - name: PROXIES
   type: select
@@ -51,7 +44,6 @@ proxy-groups:
   - 🇦🇹 奥地利 (Austria) 01 - dwt
   - 🇦🇹 奥地利 (Austria) 02 - dwt
   - 🇦🇹 奥地利 (Austria) 03 - dwt
-  - 🇦🇹 奥地利 (Austria) 04 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -60,6 +52,5 @@ proxy-groups:
   - 🇦🇹 奥地利 (Austria) 01 - dwt
   - 🇦🇹 奥地利 (Austria) 02 - dwt
   - 🇦🇹 奥地利 (Austria) 03 - dwt
-  - 🇦🇹 奥地利 (Austria) 04 - dwt
 rules:
 - MATCH,PROXIES

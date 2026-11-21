@@ -5,19 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - dwt
-  server: 169.40.34.53
-  port: 443
-  udp: true
-  type: vless
-  uuid: bc93a03d-13b5-000b-8ee7-d50c11459dab
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
-    short-id: 1c3e8241a8743df9
-  servername: brointelengence.com
-  client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 02 - dwt
   server: 157.180.98.124
   port: 49659
   udp: true
@@ -30,6 +17,17 @@ proxies:
     short-id: 81959fce
   servername: apple.com
   client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 02 - dwt
+  server: 45.144.234.157
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 45.144.234.157
 - name: 🇫🇮 芬兰 (Finland) 03 - dwt
   server: 94.183.164.119
   port: 24433
