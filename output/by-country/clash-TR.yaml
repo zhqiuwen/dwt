@@ -11,13 +11,6 @@ proxies:
   type: vless
   uuid: c34a41b6-598f-46ac-bea3-8b39a906f922
 - name: 🇹🇷 土耳其 (Turkey) 02 - dwt
-  server: 31.210.78.66
-  port: 1080
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: o3-9Eg79umh4CaY8sWC7b3
-- name: 🇹🇷 土耳其 (Turkey) 03 - dwt
   server: tr.subscriptionservice.ir
   port: 2089
   udp: true
@@ -31,7 +24,6 @@ proxy-groups:
   - AUTO
   - 🇹🇷 土耳其 (Turkey) 01 - dwt
   - 🇹🇷 土耳其 (Turkey) 02 - dwt
-  - 🇹🇷 土耳其 (Turkey) 03 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -39,6 +31,5 @@ proxy-groups:
   proxies:
   - 🇹🇷 土耳其 (Turkey) 01 - dwt
   - 🇹🇷 土耳其 (Turkey) 02 - dwt
-  - 🇹🇷 土耳其 (Turkey) 03 - dwt
 rules:
 - MATCH,PROXIES
