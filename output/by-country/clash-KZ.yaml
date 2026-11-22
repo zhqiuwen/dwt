@@ -31,7 +31,7 @@ proxies:
   servername: www.apple.com
   client-fingerprint: ''
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - dwt
-  server: 3h-kazakhstan1.09vpn.com
+  server: 38.107.234.57
   port: 80
   udp: true
   type: vmess
@@ -42,19 +42,7 @@ proxies:
   ws-opts:
     path: /vmess/
     headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - dwt
-  server: 38.107.234.57
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 2424febb-43cb-488d-bdd1-401e923c8e48
-  tls: true
-  servername: 3h-kazakhstan1.09vpn.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
+      Host: 38.107.234.57
 proxy-groups:
 - name: PROXIES
   type: select
@@ -63,7 +51,6 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - dwt
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - dwt
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - dwt
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -72,6 +59,5 @@ proxy-groups:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - dwt
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - dwt
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - dwt
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 04 - dwt
 rules:
 - MATCH,PROXIES

@@ -7,21 +7,29 @@
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 01 - dwt",
       "server": "217.30.10.44",
-      "server_port": 9071,
+      "server_port": 9099,
       "method": "aes-256-cfb",
-      "password": "mENfxTFQpRKKh4As"
+      "password": "7heRqkPG3hg4UnRm"
     },
     {
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 02 - dwt",
-      "server": "217.30.10.44",
-      "server_port": 9052,
+      "server": "217.30.10.70",
+      "server_port": 9045,
       "method": "aes-256-cfb",
-      "password": "jt2ekBNc9HuVtm2a"
+      "password": "Lp27rqyJq72bZsqX"
     },
     {
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 03 - dwt",
+      "server": "217.30.10.70",
+      "server_port": 9059,
+      "method": "aes-256-cfb",
+      "password": "9XwYyZsK8SNzQDtY"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 04 - dwt",
       "server": "217.30.10.44",
       "server_port": 9095,
       "method": "aes-256-cfb",
@@ -29,19 +37,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 04 - dwt",
-      "server": "217.30.10.44",
-      "server_port": 9076,
-      "method": "aes-256-cfb",
-      "password": "S2zDyyPcmZN2h8EC"
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 05 - dwt",
       "server": "217.30.10.44",
-      "server_port": 9063,
+      "server_port": 9006,
       "method": "aes-256-cfb",
-      "password": "aQqJbtwFGcCCaeL3"
+      "password": "FAdUvMJUq5vDgKEq"
     },
     {
       "type": "shadowsocks",
@@ -55,78 +55,109 @@
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 07 - dwt",
       "server": "217.30.10.44",
-      "server_port": 9099,
+      "server_port": 9052,
       "method": "aes-256-cfb",
-      "password": "7heRqkPG3hg4UnRm"
+      "password": "jt2ekBNc9HuVtm2a"
     },
     {
       "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 08 - dwt",
-      "server": "217.30.10.44",
-      "server_port": 9006,
+      "server": "217.30.10.70",
+      "server_port": 9015,
       "method": "aes-256-cfb",
-      "password": "FAdUvMJUq5vDgKEq"
+      "password": "ZpNDDKRu9MagNvaf"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 09 - dwt",
-      "server": "45.194.66.177",
-      "server_port": 443,
-      "uuid": "352a250d-080b-47b5-b7db-f9f8fa31c551",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "31tawwo0.virtual-network.lol",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "217.30.10.70",
+      "server_port": 9040,
+      "method": "aes-256-cfb",
+      "password": "p9z5BVADH2YFs3MN"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 10 - dwt",
-      "server": "144.31.4.18",
-      "server_port": 443,
-      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
-      "tls": {
-        "enabled": true,
-        "server_name": "marginbirch.cleanfoodshop.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/media/ws/"
-      }
+      "server": "217.30.10.70",
+      "server_port": 9084,
+      "method": "aes-256-cfb",
+      "password": "c3NtHJ5ujV2tGDfj"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 11 - dwt",
-      "server": "144.31.3.89",
-      "server_port": 443,
-      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
-      "tls": {
-        "enabled": true,
-        "server_name": "clearingmatch.melodramaonline.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/media/ws/"
-      }
+      "server": "217.30.10.44",
+      "server_port": 9071,
+      "method": "aes-256-cfb",
+      "password": "mENfxTFQpRKKh4As"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 12 - dwt",
+      "server": "217.30.10.70",
+      "server_port": 9098,
+      "method": "aes-256-cfb",
+      "password": "aLpQtfEZe445QyHk"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 13 - dwt",
+      "server": "217.30.10.70",
+      "server_port": 9044,
+      "method": "aes-256-cfb",
+      "password": "KBGjZYcy4SyRShmA"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 14 - dwt",
+      "server": "217.30.10.44",
+      "server_port": 9063,
+      "method": "aes-256-cfb",
+      "password": "aQqJbtwFGcCCaeL3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 15 - dwt",
+      "server": "217.30.10.70",
+      "server_port": 9027,
+      "method": "aes-256-cfb",
+      "password": "EXN3S3eQpjE7EJu8"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 16 - dwt",
+      "server": "217.30.10.44",
+      "server_port": 9042,
+      "method": "aes-256-cfb",
+      "password": "S7KwUu7yBy58S3Ga"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 17 - dwt",
+      "server": "217.30.10.70",
+      "server_port": 9011,
+      "method": "aes-256-cfb",
+      "password": "M3t2ZEQcMGRWBjRa"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 18 - dwt",
+      "server": "217.30.10.44",
+      "server_port": 9076,
+      "method": "aes-256-cfb",
+      "password": "S2zDyyPcmZN2h8EC"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 19 - dwt",
+      "server": "217.30.10.70",
+      "server_port": 9018,
+      "method": "aes-256-cfb",
+      "password": "fG2artUmHfNT2cX7"
     },
     {
       "type": "vmess",
-      "tag": "🇵🇱 波兰 (Poland) 12 - dwt",
+      "tag": "🇵🇱 波兰 (Poland) 20 - dwt",
       "server": "54.37.131.126",
       "server_port": 80,
       "uuid": "1e55beca-3c69-4fa7-fb1f-15c1b767435f",
@@ -137,6 +168,42 @@
         "headers": {
           "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
         }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 21 - dwt",
+      "server": "217.30.10.70",
+      "server_port": 9057,
+      "method": "aes-256-cfb",
+      "password": "wjTugX3ZtHMB9c3Z"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇵🇱 波兰 (Poland) 22 - dwt",
+      "server": "217.30.10.70",
+      "server_port": 9020,
+      "method": "aes-256-cfb",
+      "password": "BNmAXXxAHYpTRdzu"
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 23 - dwt",
+      "server": "144.31.3.89",
+      "server_port": 443,
+      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
+      "tls": {
+        "enabled": true,
+        "server_name": "clearingmatch.melodramaonline.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/media/ws/"
       }
     },
     {
@@ -155,7 +222,18 @@
         "🇵🇱 波兰 (Poland) 09 - dwt",
         "🇵🇱 波兰 (Poland) 10 - dwt",
         "🇵🇱 波兰 (Poland) 11 - dwt",
-        "🇵🇱 波兰 (Poland) 12 - dwt"
+        "🇵🇱 波兰 (Poland) 12 - dwt",
+        "🇵🇱 波兰 (Poland) 13 - dwt",
+        "🇵🇱 波兰 (Poland) 14 - dwt",
+        "🇵🇱 波兰 (Poland) 15 - dwt",
+        "🇵🇱 波兰 (Poland) 16 - dwt",
+        "🇵🇱 波兰 (Poland) 17 - dwt",
+        "🇵🇱 波兰 (Poland) 18 - dwt",
+        "🇵🇱 波兰 (Poland) 19 - dwt",
+        "🇵🇱 波兰 (Poland) 20 - dwt",
+        "🇵🇱 波兰 (Poland) 21 - dwt",
+        "🇵🇱 波兰 (Poland) 22 - dwt",
+        "🇵🇱 波兰 (Poland) 23 - dwt"
       ]
     },
     {
@@ -173,7 +251,18 @@
         "🇵🇱 波兰 (Poland) 09 - dwt",
         "🇵🇱 波兰 (Poland) 10 - dwt",
         "🇵🇱 波兰 (Poland) 11 - dwt",
-        "🇵🇱 波兰 (Poland) 12 - dwt"
+        "🇵🇱 波兰 (Poland) 12 - dwt",
+        "🇵🇱 波兰 (Poland) 13 - dwt",
+        "🇵🇱 波兰 (Poland) 14 - dwt",
+        "🇵🇱 波兰 (Poland) 15 - dwt",
+        "🇵🇱 波兰 (Poland) 16 - dwt",
+        "🇵🇱 波兰 (Poland) 17 - dwt",
+        "🇵🇱 波兰 (Poland) 18 - dwt",
+        "🇵🇱 波兰 (Poland) 19 - dwt",
+        "🇵🇱 波兰 (Poland) 20 - dwt",
+        "🇵🇱 波兰 (Poland) 21 - dwt",
+        "🇵🇱 波兰 (Poland) 22 - dwt",
+        "🇵🇱 波兰 (Poland) 23 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
