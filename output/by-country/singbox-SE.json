@@ -12,29 +12,8 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 02 - dwt",
-      "server": "158.179.203.218",
-      "server_port": 64346,
-      "uuid": "ce4bcb13-0fff-4c50-a05e-3e75e59ac9b1",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "U7t4RFE9MSMtC-o1DoJ8pYzKMfgVpTg6ZhTTknBrVkU",
-          "short_id": "1f2519bb96e5589c"
-        }
-      }
-    },
-    {
       "type": "vmess",
-      "tag": "🇸🇪 瑞典 (Sweden) 03 - dwt",
+      "tag": "🇸🇪 瑞典 (Sweden) 02 - dwt",
       "server": "62.93.166.184",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
@@ -47,34 +26,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 04 - dwt",
-      "server": "5.178.109.174",
-      "server_port": 14430,
-      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "5.178.109.174"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇸🇪 瑞典 (Sweden) 05 - dwt",
-      "server": "138.199.55.230",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 06 - dwt",
+      "tag": "🇸🇪 瑞典 (Sweden) 03 - dwt",
       "server": "138.124.86.230",
       "server_port": 48115,
       "uuid": "b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b",
@@ -93,28 +45,47 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 07 - dwt",
-      "server": "77.232.143.142",
-      "server_port": 443,
-      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
+      "type": "vmess",
+      "tag": "🇸🇪 瑞典 (Sweden) 04 - dwt",
+      "server": "138.199.55.230",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "volumestyle.komediyatorg.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/media/ws/"
+        "server_name": "xmfhlpy.com",
+        "insecure": false
       }
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 08 - dwt",
+      "tag": "🇸🇪 瑞典 (Sweden) 05 - dwt",
+      "server": "subgift.gcorecdn.com",
+      "server_port": 443,
+      "uuid": "63242a2a-7bdb-4775-bc3f-65c2f260f224",
+      "tls": {
+        "enabled": true,
+        "server_name": "subgift.gcorecdn.com",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/t.me-SubGift",
+        "headers": {
+          "Host": "subgift.gcorecdn.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 06 - dwt",
       "server": "185.117.88.9",
       "server_port": 8443,
       "uuid": "9a597d68-6688-4046-bf24-a5a541e115e0",
@@ -124,12 +95,26 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": ""
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
           "public_key": "6FI4VM9WlQEGVjyCvLDQLz1jOkrzzhtfGl9eQTBn6HU",
           "short_id": "f8d0271b4b5f9efc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 07 - dwt",
+      "server": "5.178.109.174",
+      "server_port": 14430,
+      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
+      "transport": {
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "5.178.109.174"
         }
       }
     },
@@ -144,8 +129,7 @@
         "🇸🇪 瑞典 (Sweden) 04 - dwt",
         "🇸🇪 瑞典 (Sweden) 05 - dwt",
         "🇸🇪 瑞典 (Sweden) 06 - dwt",
-        "🇸🇪 瑞典 (Sweden) 07 - dwt",
-        "🇸🇪 瑞典 (Sweden) 08 - dwt"
+        "🇸🇪 瑞典 (Sweden) 07 - dwt"
       ]
     },
     {
@@ -158,8 +142,7 @@
         "🇸🇪 瑞典 (Sweden) 04 - dwt",
         "🇸🇪 瑞典 (Sweden) 05 - dwt",
         "🇸🇪 瑞典 (Sweden) 06 - dwt",
-        "🇸🇪 瑞典 (Sweden) 07 - dwt",
-        "🇸🇪 瑞典 (Sweden) 08 - dwt"
+        "🇸🇪 瑞典 (Sweden) 07 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

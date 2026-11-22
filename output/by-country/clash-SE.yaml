@@ -12,19 +12,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇸🇪 瑞典 (Sweden) 02 - dwt
-  server: 158.179.203.218
-  port: 64346
-  udp: true
-  type: vless
-  uuid: ce4bcb13-0fff-4c50-a05e-3e75e59ac9b1
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: U7t4RFE9MSMtC-o1DoJ8pYzKMfgVpTg6ZhTTknBrVkU
-    short-id: 1f2519bb96e5589c
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇸🇪 瑞典 (Sweden) 03 - dwt
   server: 62.93.166.184
   port: 1270
   udp: true
@@ -35,29 +22,7 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 04 - dwt
-  server: 5.178.109.174
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 5.178.109.174
-- name: 🇸🇪 瑞典 (Sweden) 05 - dwt
-  server: 138.199.55.230
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 06 - dwt
+- name: 🇸🇪 瑞典 (Sweden) 03 - dwt
   server: 138.124.86.230
   port: 48115
   udp: true
@@ -70,20 +35,33 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: 138-124-86-230-sslip-io
-- name: 🇸🇪 瑞典 (Sweden) 07 - dwt
-  server: 77.232.143.142
+- name: 🇸🇪 瑞典 (Sweden) 04 - dwt
+  server: 138.199.55.230
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇸🇪 瑞典 (Sweden) 05 - dwt
+  server: subgift.gcorecdn.com
   port: 443
   udp: true
   type: vless
-  uuid: 58e22afd-bf74-4736-984d-63a8ca03d7f0
+  uuid: 63242a2a-7bdb-4775-bc3f-65c2f260f224
   tls: true
-  servername: volumestyle.komediyatorg.net
+  servername: subgift.gcorecdn.com
   skip-cert-verify: false
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /media/ws/
-- name: 🇸🇪 瑞典 (Sweden) 08 - dwt
+    path: /t.me-SubGift
+    headers:
+      Host: subgift.gcorecdn.com
+- name: 🇸🇪 瑞典 (Sweden) 06 - dwt
   server: 185.117.88.9
   port: 8443
   udp: true
@@ -95,7 +73,18 @@ proxies:
     public-key: 6FI4VM9WlQEGVjyCvLDQLz1jOkrzzhtfGl9eQTBn6HU
     short-id: f8d0271b4b5f9efc
   servername: www.apple.com
-  client-fingerprint: ''
+  client-fingerprint: chrome
+- name: 🇸🇪 瑞典 (Sweden) 07 - dwt
+  server: 5.178.109.174
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 5.178.109.174
 proxy-groups:
 - name: PROXIES
   type: select
@@ -108,7 +97,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 05 - dwt
   - 🇸🇪 瑞典 (Sweden) 06 - dwt
   - 🇸🇪 瑞典 (Sweden) 07 - dwt
-  - 🇸🇪 瑞典 (Sweden) 08 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -121,6 +109,5 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 05 - dwt
   - 🇸🇪 瑞典 (Sweden) 06 - dwt
   - 🇸🇪 瑞典 (Sweden) 07 - dwt
-  - 🇸🇪 瑞典 (Sweden) 08 - dwt
 rules:
 - MATCH,PROXIES
