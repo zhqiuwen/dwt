@@ -5,6 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇾 塞浦路斯 (Cyprus) 01 - dwt
+  server: 45.86.60.174
+  port: 16443
+  udp: true
+  type: vless
+  uuid: 13e541f3-d09d-4633-89df-8513db0ced20
+- name: 🇨🇾 塞浦路斯 (Cyprus) 02 - dwt
   server: 132.243.242.244
   port: 9543
   udp: true
@@ -17,8 +23,8 @@ proxies:
     short-id: 123abcdf
   servername: storage.yandexcloud.net
   client-fingerprint: firefox
-- name: 🇨🇾 塞浦路斯 (Cyprus) 02 - dwt
-  server: 132.243.242.40
+- name: 🇨🇾 塞浦路斯 (Cyprus) 03 - dwt
+  server: 132.243.242.115
   port: 9543
   udp: true
   type: vless
@@ -29,7 +35,7 @@ proxies:
     public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
     short-id: 123abcdf
   servername: storage.yandexcloud.net
-  client-fingerprint: chrome
+  client-fingerprint: ios
 proxy-groups:
 - name: PROXIES
   type: select
@@ -37,6 +43,7 @@ proxy-groups:
   - AUTO
   - 🇨🇾 塞浦路斯 (Cyprus) 01 - dwt
   - 🇨🇾 塞浦路斯 (Cyprus) 02 - dwt
+  - 🇨🇾 塞浦路斯 (Cyprus) 03 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -44,5 +51,6 @@ proxy-groups:
   proxies:
   - 🇨🇾 塞浦路斯 (Cyprus) 01 - dwt
   - 🇨🇾 塞浦路斯 (Cyprus) 02 - dwt
+  - 🇨🇾 塞浦路斯 (Cyprus) 03 - dwt
 rules:
 - MATCH,PROXIES
