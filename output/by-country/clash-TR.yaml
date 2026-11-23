@@ -5,48 +5,33 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - dwt
-  server: cadrin.wtf
+  server: 172.64.155.209
   port: 443
   udp: true
   type: vless
-  uuid: a4740bee-81ad-4a58-99c9-eca576ecb6e6
+  uuid: 14eccb4f-ca88-4732-b191-d8daacf63448
   tls: true
-  servername: cadrin.wtf
+  servername: sinavm3.soft10.ir
   skip-cert-verify: false
-  client-fingerprint: edge
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM
+    headers:
+      Host: sinavm3.soft10.ir
+- name: 🇹🇷 土耳其 (Turkey) 02 - dwt
+  server: 188.225.36.219
+  port: 443
+  udp: true
+  type: vless
+  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
+  tls: true
+  servername: olvento.space
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: grpc
   grpc-opts:
-    grpc-service-name: cache.sync.v1
-- name: 🇹🇷 土耳其 (Turkey) 02 - dwt
-  server: chatgpt.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: c2425034-91ef-44bf-9fd4-f2be9c1e989a
-  tls: true
-  servername: sinavm3.soft10.ir
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM
-    headers:
-      Host: sinavm3.soft10.ir
-- name: 🇹🇷 土耳其 (Turkey) 03 - dwt
-  server: 104.18.32.47
-  port: 443
-  udp: true
-  type: vless
-  uuid: c2425034-91ef-44bf-9fd4-f2be9c1e989a
-  tls: true
-  servername: sinavm3.soft10.ir
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM
-    headers:
-      Host: sinavm3.soft10.ir
+    grpc-service-name: olvento.sync.v1
 proxy-groups:
 - name: PROXIES
   type: select
@@ -54,7 +39,6 @@ proxy-groups:
   - AUTO
   - 🇹🇷 土耳其 (Turkey) 01 - dwt
   - 🇹🇷 土耳其 (Turkey) 02 - dwt
-  - 🇹🇷 土耳其 (Turkey) 03 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -62,6 +46,5 @@ proxy-groups:
   proxies:
   - 🇹🇷 土耳其 (Turkey) 01 - dwt
   - 🇹🇷 土耳其 (Turkey) 02 - dwt
-  - 🇹🇷 土耳其 (Turkey) 03 - dwt
 rules:
 - MATCH,PROXIES
