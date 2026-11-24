@@ -44,13 +44,30 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "🇦🇺 澳大利亚 (Australia) 04 - dwt",
+      "server": "159.13.55.48",
+      "server_port": 20000,
+      "password": "b42d90fa667942aebc734d60",
+      "tls": {
+        "enabled": true,
+        "server_name": "hy2-au2.whuiy.xyz",
+        "insecure": false
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "b42d90fa667942aebc734d60"
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇦🇺 澳大利亚 (Australia) 01 - dwt",
         "🇦🇺 澳大利亚 (Australia) 02 - dwt",
-        "🇦🇺 澳大利亚 (Australia) 03 - dwt"
+        "🇦🇺 澳大利亚 (Australia) 03 - dwt",
+        "🇦🇺 澳大利亚 (Australia) 04 - dwt"
       ]
     },
     {
@@ -59,7 +76,8 @@
       "outbounds": [
         "🇦🇺 澳大利亚 (Australia) 01 - dwt",
         "🇦🇺 澳大利亚 (Australia) 02 - dwt",
-        "🇦🇺 澳大利亚 (Australia) 03 - dwt"
+        "🇦🇺 澳大利亚 (Australia) 03 - dwt",
+        "🇦🇺 澳大利亚 (Australia) 04 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

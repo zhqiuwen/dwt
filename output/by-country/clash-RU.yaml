@@ -5,15 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - dwt
-  server: 103.88.243.142
-  port: 11592
+  server: 147.45.221.225
+  port: 443
   udp: true
-  type: hysteria2
-  password: 41edb44c8e
-  sni: srv-17e124
-  skip-cert-verify: true
+  type: vless
+  uuid: 58e22afd-bf74-4736-984d-63a8ca03d7f0
+  tls: true
+  servername: nl.lucheeebezlimitnoekino.stream
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /media/ws/
 - name: 🇷🇺 俄罗斯 (Russia) 02 - dwt
-  server: 201.51.12.98
+  server: 200.169.179.233
   port: 443
   udp: true
   type: vless
@@ -21,7 +25,7 @@ proxies:
   tls: true
   servername: vps3.nemnogogo.com
   skip-cert-verify: false
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   network: grpc
   grpc-opts:
     grpc-service-name: mobile.api.Event
@@ -42,34 +46,40 @@ proxies:
   type: vless
   uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   tls: true
-  servername: xsru1.ddnsfree.com
+  servername: xssite.webredirect.org
   skip-cert-verify: false
   client-fingerprint: random
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-ru
 - name: 🇷🇺 俄罗斯 (Russia) 05 - dwt
-  server: 185.178.208.167
+  server: 147.45.175.81
   port: 443
   udp: true
   type: vless
-  uuid: c2b17066-5386-0001-803b-5e652c0528f9
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   tls: true
-  servername: trx.tools
+  servername: xsru2.freeddns.org
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /session
+    path: wsru
     headers:
-      Host: api.14887277.xyz
+      Host: xsru2.freeddns.org
 - name: 🇷🇺 俄罗斯 (Russia) 06 - dwt
-  server: 130.49.189.158
-  port: 43558
+  server: xssite.webredirect.org
+  port: 443
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog=
+  type: vless
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  tls: true
+  servername: xssite.webredirect.org
+  skip-cert-verify: false
+  client-fingerprint: random
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-ru
 proxy-groups:
 - name: PROXIES
   type: select

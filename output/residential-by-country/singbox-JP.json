@@ -5,21 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 01 - dwt",
-      "server": "31.222.235.81",
+      "tag": "🇯🇵 日本 (Japan) 01 (移动家宽) - dwt",
+      "server": "64.204.49.143",
       "server_port": 443,
-      "uuid": "d8b58872-cc25-4bb2-badb-b86399c075fa",
+      "uuid": "4204c3de-2973-465f-b5ed-f055a81e27ae",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk",
-          "short_id": "d8b58872"
+          "public_key": "4PW0sZKIFw76TlA6TZsa58SO_0RTvn7cBUF1Nsia-iU",
+          "short_id": "33f3df46f280bd1a"
         }
       }
     },
@@ -28,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇦 乌克兰 (Ukraine) 01 - dwt"
+        "🇯🇵 日本 (Japan) 01 (移动家宽) - dwt"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇦 乌克兰 (Ukraine) 01 - dwt"
+        "🇯🇵 日本 (Japan) 01 (移动家宽) - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
