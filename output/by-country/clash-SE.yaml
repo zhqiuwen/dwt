@@ -35,20 +35,7 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 04 - dwt
-  server: 138.124.86.230
-  port: 48115
-  udp: true
-  type: vless
-  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
-  tls: true
-  servername: 138-124-86-230.sslip.io
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 138-124-86-230-sslip-io
-- name: 🇸🇪 瑞典 (Sweden) 05 - dwt
-  server: 62.93.166.184
+  server: leviko-se4660.shopingggg.ir
   port: 1270
   udp: true
   type: vmess
@@ -58,18 +45,20 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 06 - dwt
-  server: 188.225.46.6
-  port: 443
+- name: 🇸🇪 瑞典 (Sweden) 05 - dwt
+  server: 138.124.86.230
+  port: 48115
   udp: true
   type: vless
-  uuid: a077dc9a-712f-48ea-b75c-d94af64011ec
-  flow: xtls-rprx-vision
+  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
   tls: true
-  servername: spb.b2ai.top
+  servername: 138-124-86-230.sslip.io
   skip-cert-verify: false
-  client-fingerprint: firefox
-- name: 🇸🇪 瑞典 (Sweden) 07 - dwt
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 138-124-86-230-sslip-io
+- name: 🇸🇪 瑞典 (Sweden) 06 - dwt
   server: 5.178.109.174
   port: 14430
   udp: true
@@ -91,7 +80,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 04 - dwt
   - 🇸🇪 瑞典 (Sweden) 05 - dwt
   - 🇸🇪 瑞典 (Sweden) 06 - dwt
-  - 🇸🇪 瑞典 (Sweden) 07 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -103,6 +91,5 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 04 - dwt
   - 🇸🇪 瑞典 (Sweden) 05 - dwt
   - 🇸🇪 瑞典 (Sweden) 06 - dwt
-  - 🇸🇪 瑞典 (Sweden) 07 - dwt
 rules:
 - MATCH,PROXIES
