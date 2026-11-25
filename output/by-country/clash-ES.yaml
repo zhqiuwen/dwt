@@ -6,77 +6,124 @@ log-level: info
 proxies:
 - name: 🇪🇸 西班牙 (Spain) 01 - dwt
   server: 5.188.181.201
-  port: 9029
+  port: 9005
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: dU3DSNS8wYPXzEKw
+  password: ZET59LF6DvCC8KVt
 - name: 🇪🇸 西班牙 (Spain) 02 - dwt
   server: 5.188.181.201
-  port: 9020
+  port: 9014
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: BNmAXXxAHYpTRdzu
+  password: KnJGad3FqTvjqbaX
 - name: 🇪🇸 西班牙 (Spain) 03 - dwt
-  server: 5.188.181.201
-  port: 9003
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: JdmRK9gMEqFgs8nP
-- name: 🇪🇸 西班牙 (Spain) 04 - dwt
   server: 5.188.181.201
   port: 9042
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: S7KwUu7yBy58S3Ga
+- name: 🇪🇸 西班牙 (Spain) 04 - dwt
+  server: 5.188.181.201
+  port: 9019
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: GA9KzeEgvfxNrgmM
 - name: 🇪🇸 西班牙 (Spain) 05 - dwt
+  server: 5.188.181.201
+  port: 9020
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: BNmAXXxAHYpTRdzu
+- name: 🇪🇸 西班牙 (Spain) 06 - dwt
+  server: 5.188.181.201
+  port: 9001
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: UkXRsXvR6buDMG2Y
+- name: 🇪🇸 西班牙 (Spain) 07 - dwt
+  server: 5.188.181.201
+  port: 9054
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: VcFuyXvND2yQWSFY
+- name: 🇪🇸 西班牙 (Spain) 08 - dwt
+  server: 5.188.181.201
+  port: 9040
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: p9z5BVADH2YFs3MN
+- name: 🇪🇸 西班牙 (Spain) 09 - dwt
+  server: 5.188.181.201
+  port: 9003
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: JdmRK9gMEqFgs8nP
+- name: 🇪🇸 西班牙 (Spain) 10 - dwt
   server: 62.93.179.117
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇪🇸 西班牙 (Spain) 06 - dwt
+- name: 🇪🇸 西班牙 (Spain) 11 - dwt
   server: 79.127.139.242
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇪🇸 西班牙 (Spain) 07 - dwt
+- name: 🇪🇸 西班牙 (Spain) 12 - dwt
   server: 62.93.179.97
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇪🇸 西班牙 (Spain) 08 - dwt
-  server: 66.163.118.115
+- name: 🇪🇸 西班牙 (Spain) 13 - dwt
+  server: 83.147.18.3
+  port: 443
+  udp: true
+  type: vless
+  uuid: 9f61cdf4-810d-4052-bbc7-2da0c8e20104
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA
+    short-id: fd8cf7e1173f0edb
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇪🇸 西班牙 (Spain) 14 - dwt
+  server: 66.163.118.251
   port: 443
   udp: true
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: discovergreatjobsandadvanceyourcareer.com
+  sni: resources.discovergreatjobsandadvanceyourcareer.com
   skip-cert-verify: false
-- name: 🇪🇸 西班牙 (Spain) 09 - dwt
-  server: 66.163.118.166
+- name: 🇪🇸 西班牙 (Spain) 15 - dwt
+  server: 132.243.67.190
   port: 443
   udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: learn.discovergreatjobsandadvanceyourcareer.com
-  skip-cert-verify: false
-- name: 🇪🇸 西班牙 (Spain) 10 - dwt
-  server: 66.163.118.62
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.discovergreatjobsandadvanceyourcareer.com
-  skip-cert-verify: false
+  type: vless
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  tls: true
+  reality-opts:
+    public-key: 7efBhLzPwoTtEC1GlukCdiTllobUfa2_XuAKNSLJx30
+    short-id: e7cffac9f8cfb434
+  servername: b3cd32g.es9.h1clayd.click
+  client-fingerprint: edge
+  network: grpc
+  grpc-opts:
+    grpc-service-name: ''
 proxy-groups:
 - name: PROXIES
   type: select
@@ -92,6 +139,11 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 08 - dwt
   - 🇪🇸 西班牙 (Spain) 09 - dwt
   - 🇪🇸 西班牙 (Spain) 10 - dwt
+  - 🇪🇸 西班牙 (Spain) 11 - dwt
+  - 🇪🇸 西班牙 (Spain) 12 - dwt
+  - 🇪🇸 西班牙 (Spain) 13 - dwt
+  - 🇪🇸 西班牙 (Spain) 14 - dwt
+  - 🇪🇸 西班牙 (Spain) 15 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -107,5 +159,10 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 08 - dwt
   - 🇪🇸 西班牙 (Spain) 09 - dwt
   - 🇪🇸 西班牙 (Spain) 10 - dwt
+  - 🇪🇸 西班牙 (Spain) 11 - dwt
+  - 🇪🇸 西班牙 (Spain) 12 - dwt
+  - 🇪🇸 西班牙 (Spain) 13 - dwt
+  - 🇪🇸 西班牙 (Spain) 14 - dwt
+  - 🇪🇸 西班牙 (Spain) 15 - dwt
 rules:
 - MATCH,PROXIES

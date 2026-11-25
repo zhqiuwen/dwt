@@ -5,13 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 罗马尼亚 (Romania) 01 - dwt
-  server: 185.156.44.99
-  port: 443
+  server: 82.152.132.211
+  port: 8044
   udp: true
-  type: hysteria2
-  password: gf1:gfhysteria2024
-  sni: www.amazon.com
-  skip-cert-verify: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: D9sdHZePCkGb9iBOjrta1z0_H4kknPZr
 - name: 🇷🇴 罗马尼亚 (Romania) 02 - dwt
   server: 46.28.67.55
   port: 443
@@ -25,6 +24,14 @@ proxies:
     short-id: d06d78e974491b6e
   servername: www.cloudflare.com
   client-fingerprint: firefox
+- name: 🇷🇴 罗马尼亚 (Romania) 03 - dwt
+  server: 185.156.44.99
+  port: 443
+  udp: true
+  type: hysteria2
+  password: gf1:gfhysteria2024
+  sni: www.amazon.com
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -32,6 +39,7 @@ proxy-groups:
   - AUTO
   - 🇷🇴 罗马尼亚 (Romania) 01 - dwt
   - 🇷🇴 罗马尼亚 (Romania) 02 - dwt
+  - 🇷🇴 罗马尼亚 (Romania) 03 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -39,5 +47,6 @@ proxy-groups:
   proxies:
   - 🇷🇴 罗马尼亚 (Romania) 01 - dwt
   - 🇷🇴 罗马尼亚 (Romania) 02 - dwt
+  - 🇷🇴 罗马尼亚 (Romania) 03 - dwt
 rules:
 - MATCH,PROXIES
