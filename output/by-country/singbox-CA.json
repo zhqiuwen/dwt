@@ -12,20 +12,20 @@
       "password": "shadowsocks"
     },
     {
-      "type": "shadowsocks",
+      "type": "vmess",
       "tag": "🇨🇦 加拿大 (Canada) 02 - dwt",
-      "server": "184.107.106.78",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "itzvpn@321"
+      "server": "134.195.196.211",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto"
     },
     {
-      "type": "shadowsocks",
+      "type": "vmess",
       "tag": "🇨🇦 加拿大 (Canada) 03 - dwt",
-      "server": "134.195.198.163",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "PmCqK98WqhSC"
+      "server": "23.162.200.198",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto"
     },
     {
       "type": "shadowsocks",
@@ -38,42 +38,118 @@
     {
       "type": "shadowsocks",
       "tag": "🇨🇦 加拿大 (Canada) 05 - dwt",
+      "server": "184.107.106.78",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "itzvpn@321"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 06 - dwt",
+      "server": "184.107.106.77",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "itzvpn@321"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 07 - dwt",
       "server": "192.99.151.230",
       "server_port": 8388,
       "method": "aes-256-gcm",
       "password": "itzvpn@321"
     },
     {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 06 - dwt",
-      "server": "66.163.113.9",
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 08 - dwt",
+      "server": "134.195.198.163",
       "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "method": "chacha20-ietf-poly1305",
+      "password": "PmCqK98WqhSC"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 09 - dwt",
+      "server": "51.222.141.125",
+      "server_port": 445,
+      "method": "aes-256-gcm",
+      "password": "zDNVedRFPQexG9v"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 10 - dwt",
+      "server": "51.222.12.127",
+      "server_port": 445,
+      "method": "aes-256-gcm",
+      "password": "zDNVedRFPQexG9v"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇦 加拿大 (Canada) 11 - dwt",
+      "server": "216.152.147.48",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "kuruish.org",
+        "server_name": "courses.connectingpeoplewithgreatjobs.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 12 - dwt",
+      "server": "138.197.141.58",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇦 加拿大 (Canada) 13 - dwt",
+      "server": "216.152.147.74",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.connectingpeoplewithgreatjobs.com",
         "insecure": false
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇨🇦 加拿大 (Canada) 07 - dwt",
-      "server": "23.162.200.198",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto"
+      "type": "trojan",
+      "tag": "🇨🇦 加拿大 (Canada) 14 - dwt",
+      "server": "216.152.147.201",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "resources.connectingpeoplewithgreatjobs.com",
+        "insecure": false
+      }
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 08 - dwt",
+      "tag": "🇨🇦 加拿大 (Canada) 15 - dwt",
       "server": "51.222.136.236",
       "server_port": 8882,
       "method": "aes-256-gcm",
       "password": "kDWvXYZoTBcGkC4"
     },
     {
+      "type": "trojan",
+      "tag": "🇨🇦 加拿大 (Canada) 16 - dwt",
+      "server": "216.152.147.79",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "blog.connectingpeoplewithgreatjobs.com",
+        "insecure": false
+      }
+    },
+    {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 09 - dwt",
+      "tag": "🇨🇦 加拿大 (Canada) 17 - dwt",
       "server": "209.200.246.148",
       "server_port": 443,
       "uuid": "ca52e2b6-fb9f-4dac-b6dc-49da9923f251",
@@ -83,7 +159,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -94,7 +170,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 10 - dwt",
+      "tag": "🇨🇦 加拿大 (Canada) 18 - dwt",
       "server": "148.113.196.75",
       "server_port": 8443,
       "uuid": "08f96221-9b7b-4e6f-8ffe-aee8b9c9b504",
@@ -109,64 +185,20 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 11 - dwt",
-      "server": "184.107.106.77",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "itzvpn@321"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 12 - dwt",
-      "server": "51.222.141.125",
-      "server_port": 445,
-      "method": "aes-256-gcm",
-      "password": "zDNVedRFPQexG9v"
-    },
-    {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 13 - dwt",
-      "server": "103.106.229.37",
-      "server_port": 21004,
-      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
+      "tag": "🇨🇦 加拿大 (Canada) 19 - dwt",
+      "server": "kuruish.org",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
-          "short_id": "2df2bd9d8366cef1"
-        }
+        "server_name": "kuruish.org",
+        "insecure": false
       }
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 14 - dwt",
-      "server": "103.106.229.177",
-      "server_port": 21003,
-      "uuid": "67952583-8572-42e1-943d-0602794f885b",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": ""
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA",
-          "short_id": "f3602a3a1cf928b7"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 15 - dwt",
+      "tag": "🇨🇦 加拿大 (Canada) 20 - dwt",
       "server": "103.106.229.37",
       "server_port": 21001,
       "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
@@ -186,8 +218,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 16 - dwt",
-      "server": "103.106.229.37",
+      "tag": "🇨🇦 加拿大 (Canada) 21 - dwt",
+      "server": "511.150333.xyz",
       "server_port": 21003,
       "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
       "tls": {
@@ -195,7 +227,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -205,16 +237,48 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 17 - dwt",
-      "server": "51.222.155.113",
-      "server_port": 5601,
-      "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 22 - dwt",
+      "server": "103.106.229.37",
+      "server_port": 21004,
+      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
+          "short_id": "2df2bd9d8366cef1"
+        }
+      }
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 18 - dwt",
+      "tag": "🇨🇦 加拿大 (Canada) 23 - dwt",
+      "server": "103.106.229.177",
+      "server_port": 21003,
+      "uuid": "67952583-8572-42e1-943d-0602794f885b",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": ""
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA",
+          "short_id": "f3602a3a1cf928b7"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 24 - dwt",
       "server": "510.150333.xyz",
       "server_port": 21001,
       "uuid": "67952583-8572-42e1-943d-0602794f885b",
@@ -233,8 +297,36 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 25 - dwt",
+      "server": "51.79.49.116",
+      "server_port": 8882,
+      "method": "aes-256-gcm",
+      "password": "kDWvXYZoTBcGkC4"
+    },
+    {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 19 - dwt",
+      "tag": "🇨🇦 加拿大 (Canada) 26 - dwt",
+      "server": "510.150333.xyz",
+      "server_port": 21004,
+      "uuid": "67952583-8572-42e1-943d-0602794f885b",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA",
+          "short_id": "4e0418d648f86141"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇦 加拿大 (Canada) 27 - dwt",
       "server": "511.150333.xyz",
       "server_port": 21002,
       "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
@@ -254,7 +346,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 20 - dwt",
+      "tag": "🇨🇦 加拿大 (Canada) 28 - dwt",
       "server": "510.150333.xyz",
       "server_port": 21002,
       "uuid": "67952583-8572-42e1-943d-0602794f885b",
@@ -273,77 +365,28 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 21 - dwt",
-      "server": "92.246.138.161",
-      "server_port": 443,
-      "uuid": "42c83523-9f96-41b2-82d6-2edb71a4ac19",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "q88k7v7gi0pg.img-assets.world",
-        "utls": {
-          "enabled": true,
-          "fingerprint": ""
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "jFqwGpIrZSPqlvF4XglDWhsuHxljBLeiaMtESLsZsVk",
-          "short_id": ""
-        }
-      }
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 29 - dwt",
+      "server": "51.222.200.165",
+      "server_port": 5000,
+      "method": "aes-256-gcm",
+      "password": "Y6R9pAtvxxzmGC"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇦 加拿大 (Canada) 22 - dwt",
-      "server": "51.222.12.127",
-      "server_port": 445,
+      "tag": "🇨🇦 加拿大 (Canada) 30 - dwt",
+      "server": "51.79.85.185",
+      "server_port": 8118,
       "method": "aes-256-gcm",
-      "password": "zDNVedRFPQexG9v"
+      "password": "cdBIDV42DCwnfIN"
     },
     {
-      "type": "vmess",
-      "tag": "🇨🇦 加拿大 (Canada) 23 - dwt",
-      "server": "134.195.196.211",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇦 加拿大 (Canada) 24 - dwt",
-      "server": "510.150333.xyz",
-      "server_port": 21004,
-      "uuid": "67952583-8572-42e1-943d-0602794f885b",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "IRaSB0ImgMO7fsrIbh9i3Pz-bgo5F1jKeC51Fpfs9AA",
-          "short_id": "4e0418d648f86141"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇨🇦 加拿大 (Canada) 25 - dwt",
-      "server": "216.152.147.201",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "resources.connectingpeoplewithgreatjobs.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "type": "shadowsocks",
+      "tag": "🇨🇦 加拿大 (Canada) 31 - dwt",
+      "server": "51.222.155.113",
+      "server_port": 5601,
+      "method": "aes-256-gcm",
+      "password": "Y6R9pAtvxxzmGC"
     },
     {
       "type": "selector",
@@ -374,7 +417,13 @@
         "🇨🇦 加拿大 (Canada) 22 - dwt",
         "🇨🇦 加拿大 (Canada) 23 - dwt",
         "🇨🇦 加拿大 (Canada) 24 - dwt",
-        "🇨🇦 加拿大 (Canada) 25 - dwt"
+        "🇨🇦 加拿大 (Canada) 25 - dwt",
+        "🇨🇦 加拿大 (Canada) 26 - dwt",
+        "🇨🇦 加拿大 (Canada) 27 - dwt",
+        "🇨🇦 加拿大 (Canada) 28 - dwt",
+        "🇨🇦 加拿大 (Canada) 29 - dwt",
+        "🇨🇦 加拿大 (Canada) 30 - dwt",
+        "🇨🇦 加拿大 (Canada) 31 - dwt"
       ]
     },
     {
@@ -405,7 +454,13 @@
         "🇨🇦 加拿大 (Canada) 22 - dwt",
         "🇨🇦 加拿大 (Canada) 23 - dwt",
         "🇨🇦 加拿大 (Canada) 24 - dwt",
-        "🇨🇦 加拿大 (Canada) 25 - dwt"
+        "🇨🇦 加拿大 (Canada) 25 - dwt",
+        "🇨🇦 加拿大 (Canada) 26 - dwt",
+        "🇨🇦 加拿大 (Canada) 27 - dwt",
+        "🇨🇦 加拿大 (Canada) 28 - dwt",
+        "🇨🇦 加拿大 (Canada) 29 - dwt",
+        "🇨🇦 加拿大 (Canada) 30 - dwt",
+        "🇨🇦 加拿大 (Canada) 31 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

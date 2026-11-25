@@ -6,11 +6,11 @@ log-level: info
 proxies:
 - name: 🇱🇹 立陶宛 (Lithuania) 01 - dwt
   server: 195.238.126.20
-  port: 9086
+  port: 9011
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: 37Z4TFCYhfxcpc9Q
+  password: M3t2ZEQcMGRWBjRa
 - name: 🇱🇹 立陶宛 (Lithuania) 02 - dwt
   server: 195.238.126.20
   port: 9008
@@ -27,33 +27,31 @@ proxies:
   password: JCJpbRbQZNw9XFZG
 - name: 🇱🇹 立陶宛 (Lithuania) 04 - dwt
   server: 195.238.126.20
-  port: 9011
+  port: 9086
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: M3t2ZEQcMGRWBjRa
+  password: 37Z4TFCYhfxcpc9Q
 - name: 🇱🇹 立陶宛 (Lithuania) 05 - dwt
   server: 195.238.126.20
-  port: 9012
+  port: 9002
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: xaupMUvhptwxdDUg
+  password: b8KkNDjEd5QqFyRm
 - name: 🇱🇹 立陶宛 (Lithuania) 06 - dwt
-  server: 195.238.126.20
-  port: 9045
+  server: 84.32.83.197
+  port: 443
   udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: Lp27rqyJq72bZsqX
+  type: vless
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  tls: true
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: a7d309e4c16b825f
+  servername: api-dns-gw.galioncc.com
+  client-fingerprint: ''
 - name: 🇱🇹 立陶宛 (Lithuania) 07 - dwt
-  server: 195.238.126.20
-  port: 9068
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: mwgRg9hRq3b4Qnwb
-- name: 🇱🇹 立陶宛 (Lithuania) 08 - dwt
   server: 84.32.209.54
   port: 443
   udp: true
@@ -66,18 +64,13 @@ proxies:
     short-id: 868419504747f6de
   servername: lt.memepn.com
   client-fingerprint: firefox
-- name: 🇱🇹 立陶宛 (Lithuania) 09 - dwt
-  server: 84.32.209.118
-  port: 443
+- name: 🇱🇹 立陶宛 (Lithuania) 08 - dwt
+  server: 195.238.126.84
+  port: 9039
   udp: true
-  type: vless
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
-  tls: true
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: a7d309e4c16b825f
-  servername: api-dns-gw.galioncc.com
-  client-fingerprint: chrome
+  type: ss
+  cipher: aes-256-cfb
+  password: qYEN5HX4JKeVCdEC
 proxy-groups:
 - name: PROXIES
   type: select
@@ -91,7 +84,6 @@ proxy-groups:
   - 🇱🇹 立陶宛 (Lithuania) 06 - dwt
   - 🇱🇹 立陶宛 (Lithuania) 07 - dwt
   - 🇱🇹 立陶宛 (Lithuania) 08 - dwt
-  - 🇱🇹 立陶宛 (Lithuania) 09 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -105,6 +97,5 @@ proxy-groups:
   - 🇱🇹 立陶宛 (Lithuania) 06 - dwt
   - 🇱🇹 立陶宛 (Lithuania) 07 - dwt
   - 🇱🇹 立陶宛 (Lithuania) 08 - dwt
-  - 🇱🇹 立陶宛 (Lithuania) 09 - dwt
 rules:
 - MATCH,PROXIES

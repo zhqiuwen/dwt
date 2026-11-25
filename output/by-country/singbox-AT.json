@@ -33,35 +33,13 @@
       "password": "AdawffFMHymlasRb0VOP3HFf7sTG5sJx"
     },
     {
-      "type": "vless",
-      "tag": "🇦🇹 奥地利 (Austria) 04 - dwt",
-      "server": "212.118.56.133",
-      "server_port": 443,
-      "uuid": "9df9ee1a-0671-4c6c-93c7-65598fb946f7",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ruastriamicro1.gangplatform.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "woALl3tJ66hfoRmufkkINfiVyiw30EGB3lBixC9axV4",
-          "short_id": "b74ad1d666c50539"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇦🇹 奥地利 (Austria) 01 - dwt",
         "🇦🇹 奥地利 (Austria) 02 - dwt",
-        "🇦🇹 奥地利 (Austria) 03 - dwt",
-        "🇦🇹 奥地利 (Austria) 04 - dwt"
+        "🇦🇹 奥地利 (Austria) 03 - dwt"
       ]
     },
     {
@@ -70,8 +48,7 @@
       "outbounds": [
         "🇦🇹 奥地利 (Austria) 01 - dwt",
         "🇦🇹 奥地利 (Austria) 02 - dwt",
-        "🇦🇹 奥地利 (Austria) 03 - dwt",
-        "🇦🇹 奥地利 (Austria) 04 - dwt"
+        "🇦🇹 奥地利 (Austria) 03 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

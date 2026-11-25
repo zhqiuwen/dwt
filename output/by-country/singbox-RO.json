@@ -4,12 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "hysteria2",
       "tag": "🇷🇴 罗马尼亚 (Romania) 01 - dwt",
-      "server": "82.152.132.211",
-      "server_port": 8044,
-      "method": "chacha20-ietf-poly1305",
-      "password": "D9sdHZePCkGb9iBOjrta1z0_H4kknPZr"
+      "server": "185.156.44.99",
+      "server_port": 443,
+      "password": "gf1:gfhysteria2024",
+      "tls": {
+        "enabled": true,
+        "server_name": "whatsapp.com",
+        "insecure": true
+      }
     },
     {
       "type": "vless",
@@ -33,25 +37,12 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇷🇴 罗马尼亚 (Romania) 03 - dwt",
-      "server": "185.156.44.99",
-      "server_port": 443,
-      "password": "gf1:gfhysteria2024",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amazon.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇷🇴 罗马尼亚 (Romania) 01 - dwt",
-        "🇷🇴 罗马尼亚 (Romania) 02 - dwt",
-        "🇷🇴 罗马尼亚 (Romania) 03 - dwt"
+        "🇷🇴 罗马尼亚 (Romania) 02 - dwt"
       ]
     },
     {
@@ -59,8 +50,7 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇴 罗马尼亚 (Romania) 01 - dwt",
-        "🇷🇴 罗马尼亚 (Romania) 02 - dwt",
-        "🇷🇴 罗马尼亚 (Romania) 03 - dwt"
+        "🇷🇴 罗马尼亚 (Romania) 02 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

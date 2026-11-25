@@ -12,6 +12,30 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇸🇪 瑞典 (Sweden) 02 - dwt
+  server: leviko-se6979.shopingggg.ir
+  port: 48115
+  udp: true
+  type: vless
+  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
+  tls: true
+  servername: 138-124-86-230.sslip.io
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 138-124-86-230-sslip-io
+- name: 🇸🇪 瑞典 (Sweden) 03 - dwt
+  server: 5.178.109.174
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 5.178.109.174
+- name: 🇸🇪 瑞典 (Sweden) 04 - dwt
   server: 138.199.55.230
   port: 1270
   udp: true
@@ -22,7 +46,7 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 03 - dwt
+- name: 🇸🇪 瑞典 (Sweden) 05 - dwt
   server: 62.93.166.184
   port: 1270
   udp: true
@@ -33,20 +57,7 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 04 - dwt
-  server: 138.124.86.230
-  port: 48115
-  udp: true
-  type: vless
-  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
-  tls: true
-  servername: 138-124-86-230.sslip.io
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 138-124-86-230-sslip-io
-- name: 🇸🇪 瑞典 (Sweden) 05 - dwt
+- name: 🇸🇪 瑞典 (Sweden) 06 - dwt
   server: 88.216.60.73
   port: 443
   udp: true
@@ -58,39 +69,6 @@ proxies:
     short-id: a7c92e4b10d6f835
   servername: ns-api-gw.galioncc.com
   client-fingerprint: ''
-- name: 🇸🇪 瑞典 (Sweden) 06 - dwt
-  server: 92.63.189.39
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 7aa77858-f235-0003-9434-7ab060848b17
-  flow: xtls-rprx-vision
-  tls: true
-  servername: avelon.onl
-  skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 07 - dwt
-  server: 5.178.109.174
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 5.178.109.174
-- name: 🇸🇪 瑞典 (Sweden) 08 - dwt
-  server: 136.148.216.115
-  port: 443
-  udp: true
-  type: vless
-  uuid: 57a3fb3c-5788-4777-933e-882dd22f5b82
-  tls: true
-  reality-opts:
-    public-key: _c33IsYcvvy4t95zq8ydgtQ3pXpOK7eLdQqK3O7c2Ao
-    short-id: b684dc4aaba4a911
-  servername: ba0648t.se1.h1clayd.click
-  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -102,8 +80,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 04 - dwt
   - 🇸🇪 瑞典 (Sweden) 05 - dwt
   - 🇸🇪 瑞典 (Sweden) 06 - dwt
-  - 🇸🇪 瑞典 (Sweden) 07 - dwt
-  - 🇸🇪 瑞典 (Sweden) 08 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -115,7 +91,5 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 04 - dwt
   - 🇸🇪 瑞典 (Sweden) 05 - dwt
   - 🇸🇪 瑞典 (Sweden) 06 - dwt
-  - 🇸🇪 瑞典 (Sweden) 07 - dwt
-  - 🇸🇪 瑞典 (Sweden) 08 - dwt
 rules:
 - MATCH,PROXIES

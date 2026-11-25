@@ -1,0 +1,36 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇹🇷 土耳其 (Turkey) 01 - dwt
+  server: 38.180.104.37
+  port: 19084
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: ff4d354078394558933d699be149ad69
+- name: 🇹🇷 土耳其 (Turkey) 02 - dwt
+  server: tr.subscriptionservice.ir
+  port: 2089
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: lZZzfo1mqH7PqnloAogdi2XBhlgiofMy
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇹🇷 土耳其 (Turkey) 01 - dwt
+  - 🇹🇷 土耳其 (Turkey) 02 - dwt
+- name: AUTO
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🇹🇷 土耳其 (Turkey) 01 - dwt
+  - 🇹🇷 土耳其 (Turkey) 02 - dwt
+rules:
+- MATCH,PROXIES
