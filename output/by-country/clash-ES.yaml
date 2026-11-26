@@ -5,174 +5,170 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇪🇸 西班牙 (Spain) 01 - dwt
-  server: 5.188.181.201
-  port: 9020
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: BNmAXXxAHYpTRdzu
-- name: 🇪🇸 西班牙 (Spain) 02 - dwt
-  server: 5.188.181.201
-  port: 9014
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: KnJGad3FqTvjqbaX
-- name: 🇪🇸 西班牙 (Spain) 03 - dwt
-  server: 5.188.181.201
-  port: 9042
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: S7KwUu7yBy58S3Ga
-- name: 🇪🇸 西班牙 (Spain) 04 - dwt
-  server: 5.188.181.201
-  port: 9027
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: EXN3S3eQpjE7EJu8
-- name: 🇪🇸 西班牙 (Spain) 05 - dwt
-  server: 5.188.181.201
-  port: 9011
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: M3t2ZEQcMGRWBjRa
-- name: 🇪🇸 西班牙 (Spain) 06 - dwt
-  server: 5.188.181.201
-  port: 9000
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: a3GFYt36Sm82Vys9
-- name: 🇪🇸 西班牙 (Spain) 07 - dwt
-  server: 5.188.181.201
-  port: 9041
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: U6qnYRhfyDmn8sgn
-- name: 🇪🇸 西班牙 (Spain) 08 - dwt
-  server: 5.188.181.201
-  port: 9001
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: UkXRsXvR6buDMG2Y
-- name: 🇪🇸 西班牙 (Spain) 09 - dwt
-  server: 5.188.181.201
-  port: 9040
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: p9z5BVADH2YFs3MN
-- name: 🇪🇸 西班牙 (Spain) 10 - dwt
   server: 79.127.139.242
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇪🇸 西班牙 (Spain) 11 - dwt
+- name: 🇪🇸 西班牙 (Spain) 02 - dwt
   server: 62.93.179.97
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇪🇸 西班牙 (Spain) 12 - dwt
-  server: 62.93.179.117
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇪🇸 西班牙 (Spain) 13 - dwt
-  server: 193.148.19.211
-  port: 12795
-  udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: 6bcb8a610a7140576823fdec5604e0c0
-- name: 🇪🇸 西班牙 (Spain) 14 - dwt
-  server: 108.181.121.170
-  port: 443
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: qItG8SueYQcP
-- name: 🇪🇸 西班牙 (Spain) 15 - dwt
+- name: 🇪🇸 西班牙 (Spain) 03 - dwt
   server: 108.181.121.178
   port: 443
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: WSyL4XTwNsdv
-- name: 🇪🇸 西班牙 (Spain) 16 - dwt
+- name: 🇪🇸 西班牙 (Spain) 04 - dwt
+  server: 62.93.179.117
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇪🇸 西班牙 (Spain) 05 - dwt
+  server: 108.181.121.170
+  port: 443
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: qItG8SueYQcP
+- name: 🇪🇸 西班牙 (Spain) 06 - dwt
   server: 5.188.181.201
   port: 9054
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: VcFuyXvND2yQWSFY
+- name: 🇪🇸 西班牙 (Spain) 07 - dwt
+  server: 5.188.181.201
+  port: 9005
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: ZET59LF6DvCC8KVt
+- name: 🇪🇸 西班牙 (Spain) 08 - dwt
+  server: 5.188.181.201
+  port: 9011
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: M3t2ZEQcMGRWBjRa
+- name: 🇪🇸 西班牙 (Spain) 09 - dwt
+  server: 5.188.181.201
+  port: 9027
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: EXN3S3eQpjE7EJu8
+- name: 🇪🇸 西班牙 (Spain) 10 - dwt
+  server: 5.188.181.201
+  port: 9019
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: GA9KzeEgvfxNrgmM
+- name: 🇪🇸 西班牙 (Spain) 11 - dwt
+  server: 5.188.181.201
+  port: 9041
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: U6qnYRhfyDmn8sgn
+- name: 🇪🇸 西班牙 (Spain) 12 - dwt
+  server: 5.188.181.201
+  port: 9040
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: p9z5BVADH2YFs3MN
+- name: 🇪🇸 西班牙 (Spain) 13 - dwt
+  server: 5.188.181.201
+  port: 9025
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: XPtzA9sCug3SPR4c
+- name: 🇪🇸 西班牙 (Spain) 14 - dwt
+  server: 5.188.181.201
+  port: 9000
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: a3GFYt36Sm82Vys9
+- name: 🇪🇸 西班牙 (Spain) 15 - dwt
+  server: 5.188.181.201
+  port: 9037
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: TN2YqghxeFDKZfLU
+- name: 🇪🇸 西班牙 (Spain) 16 - dwt
+  server: 66.163.118.166
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: learn.discovergreatjobsandadvanceyourcareer.com
+  skip-cert-verify: false
 - name: 🇪🇸 西班牙 (Spain) 17 - dwt
-  server: 13.143.239.66
+  server: 66.163.118.203
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: blog.discovergreatjobsandadvanceyourcareer.com
+  skip-cert-verify: false
+- name: 🇪🇸 西班牙 (Spain) 18 - dwt
+  server: 5.188.181.201
+  port: 9020
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: BNmAXXxAHYpTRdzu
+- name: 🇪🇸 西班牙 (Spain) 19 - dwt
+  server: 66.163.118.251
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: resources.discovergreatjobsandadvanceyourcareer.com
+  skip-cert-verify: false
+- name: 🇪🇸 西班牙 (Spain) 20 - dwt
+  server: 196.196.149.81
   port: 443
   udp: true
   type: vless
   uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 7efBhLzPwoTtEC1GlukCdiTllobUfa2_XuAKNSLJx30
-    short-id: e7cffac9f8cfb434
-  servername: b3cd32g.es9.h1clayd.click
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: 42426c882c5fcd41
+  servername: 7aa271t.es1.h1clayd.click
   client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ''
-- name: 🇪🇸 西班牙 (Spain) 18 - dwt
+- name: 🇪🇸 西班牙 (Spain) 21 - dwt
   server: 66.163.118.244
   port: 443
   udp: true
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: 66.163.118.244
-  skip-cert-verify: true
-- name: 🇪🇸 西班牙 (Spain) 19 - dwt
-  server: 66.163.118.40
+  sni: api.discovergreatjobsandadvanceyourcareer.com
+  skip-cert-verify: false
+- name: 🇪🇸 西班牙 (Spain) 22 - dwt
+  server: 66.163.118.62
   port: 443
   udp: true
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: cdn.discovergreatjobsandadvanceyourcareer.com
+  sni: courses.discovergreatjobsandadvanceyourcareer.com
   skip-cert-verify: false
-- name: 🇪🇸 西班牙 (Spain) 20 - dwt
-  server: 46.28.71.247
-  port: 443
-  udp: true
-  type: vless
-  uuid: 12c53e32-e589-47d6-b857-e4132294f767
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE
-    short-id: 0dfc23fe80778c00
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇪🇸 西班牙 (Spain) 21 - dwt
-  server: 83.147.18.3
-  port: 443
-  udp: true
-  type: vless
-  uuid: 9f61cdf4-810d-4052-bbc7-2da0c8e20104
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA
-    short-id: fd8cf7e1173f0edb
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -199,6 +195,7 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 19 - dwt
   - 🇪🇸 西班牙 (Spain) 20 - dwt
   - 🇪🇸 西班牙 (Spain) 21 - dwt
+  - 🇪🇸 西班牙 (Spain) 22 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -225,5 +222,6 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 19 - dwt
   - 🇪🇸 西班牙 (Spain) 20 - dwt
   - 🇪🇸 西班牙 (Spain) 21 - dwt
+  - 🇪🇸 西班牙 (Spain) 22 - dwt
 rules:
 - MATCH,PROXIES

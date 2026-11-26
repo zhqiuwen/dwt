@@ -27,7 +27,7 @@
         "server_name": "www.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -37,12 +37,58 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 03 - dwt",
+      "server": "2.27.203.38",
+      "server_port": 443,
+      "uuid": "e894c08a-fecc-46f5-bf03-c95d0274c79d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": ""
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Xuy5y3WGJjkxyUtkhiY87dwndv4fuD45gO64TWnlThI",
+          "short_id": "fd0cc2b3ac52deb8"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 04 - dwt",
+      "server": "ifi1.modemjibi.com",
+      "server_port": 993,
+      "uuid": "17ead557-8407-42ae-b9a1-f11a869f99c6",
+      "tls": {
+        "enabled": true,
+        "server_name": "ifi1.modemjibi.com.",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇫🇮 芬兰 (Finland) 01 - dwt",
-        "🇫🇮 芬兰 (Finland) 02 - dwt"
+        "🇫🇮 芬兰 (Finland) 02 - dwt",
+        "🇫🇮 芬兰 (Finland) 03 - dwt",
+        "🇫🇮 芬兰 (Finland) 04 - dwt"
       ]
     },
     {
@@ -50,7 +96,9 @@
       "tag": "auto",
       "outbounds": [
         "🇫🇮 芬兰 (Finland) 01 - dwt",
-        "🇫🇮 芬兰 (Finland) 02 - dwt"
+        "🇫🇮 芬兰 (Finland) 02 - dwt",
+        "🇫🇮 芬兰 (Finland) 03 - dwt",
+        "🇫🇮 芬兰 (Finland) 04 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

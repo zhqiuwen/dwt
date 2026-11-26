@@ -4,24 +4,28 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇲🇽 墨西哥 (Mexico) 01 - dwt
-  server: 147.78.1.35
-  port: 16671
+- name: 🇨🇳 CN 01 - dwt
+  server: 120.48.133.162
+  port: 10086
   udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: e738ee417a833b000920bb869cbde400
+  type: vmess
+  uuid: c89f8a9e-a2c4-480e-b9af-debc1998b725
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇲🇽 墨西哥 (Mexico) 01 - dwt
+  - 🇨🇳 CN 01 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇲🇽 墨西哥 (Mexico) 01 - dwt
+  - 🇨🇳 CN 01 - dwt
 rules:
 - MATCH,PROXIES

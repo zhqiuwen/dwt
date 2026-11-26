@@ -4,45 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - dwt",
-      "server": "147.45.221.225",
-      "server_port": 443,
-      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl.lucheeebezlimitnoekino.stream",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/media/ws/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - dwt",
-      "server": "45.150.238.201",
-      "server_port": 20443,
-      "uuid": "67a31bdf-5846-409d-8b49-3d795e1a2a4f",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "dc.insidenet.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": ""
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "xE2CNenfDgtu28WQ23Bq2KfdkEj3XN42P_ZVou1YRC4",
-          "short_id": "f847646adc2b82fe"
-        }
-      }
+      "server": "185.22.152.168",
+      "server_port": 18443,
+      "method": "aes-256-gcm",
+      "password": "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - dwt",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - dwt",
       "server": "91.206.92.158",
       "server_port": 18443,
       "method": "aes-256-gcm",
@@ -50,20 +21,17 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - dwt",
-      "server": "201.51.12.98",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - dwt",
+      "server": "200.169.179.233",
       "server_port": 443,
       "uuid": "38308ff1-5aa9-494f-a25a-0f2870d56b3e",
       "tls": {
         "enabled": true,
         "server_name": "vps3.nemnogogo.com",
         "insecure": false,
-        "alpn": [
-          "h2"
-        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
@@ -73,18 +41,38 @@
     },
     {
       "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - dwt",
+      "server": "78.159.246.83",
+      "server_port": 445,
+      "uuid": "37af0181-5598-4aad-a040-d926bcb65757",
+      "tls": {
+        "enabled": true,
+        "server_name": "passport.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "VHWmCkZwC5XE-ctv0p8BinjoIx4SWgJUIsZPrhNf6TA",
+          "short_id": ""
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
+      }
+    },
+    {
+      "type": "hysteria2",
       "tag": "🇷🇺 俄罗斯 (Russia) 05 - dwt",
       "server": "136.148.83.69",
       "server_port": 443,
-      "uuid": "7dff1be7-b930-0001-a8ad-dc7850168215",
+      "password": "87bb2ac4-b7a1-0001-b11d-2107709ea6cb",
       "tls": {
         "enabled": true,
         "server_name": "szqbx-ru-77dc.my-fade.cloud",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "insecure": true
       }
     },
     {
@@ -130,7 +118,7 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 08 - dwt",
-      "server": "196.245.52.178",
+      "server": "79.182.39.135",
       "server_port": 443,
       "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
       "tls": {
@@ -138,7 +126,7 @@
         "server_name": "15b171g.nl7.h1clayd.click",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -154,54 +142,79 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 09 - dwt",
-      "server": "136.148.83.70",
+      "server": "leviko-al2006.shopingggg.ir",
       "server_port": 443,
-      "uuid": "00000000-0000-0001-0000-000000000000",
+      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
       "tls": {
         "enabled": true,
-        "server_name": "aszbk-ru-78dc.my-fade.cloud",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        }
+        "server_name": "nl.lucheeebezlimitnoekino.stream",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/media/ws/"
       }
     },
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 10 - dwt",
-      "server": "136.148.83.70",
-      "server_port": 443,
-      "uuid": "00000000-0000-0001-0000-000000000000",
+      "server": "45.158.197.237",
+      "server_port": 8443,
+      "uuid": "18baf01c-99b2-4675-997c-1ec73e3eadff",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "aszbk-ru-78dc.my-fade.cloud",
-        "insecure": false
+        "server_name": "apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": "6ba85179e30d4fc2"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 11 - dwt",
-      "server": "smartcdn.top",
+      "server": "145.249.109.248",
       "server_port": 443,
-      "uuid": "37af0181-5598-4aad-a040-d926bcb65757",
+      "uuid": "5dd4822d-b8dc-49dd-84b6-c3ea44ef42f7",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "smartcdn.top",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
+        "server_name": "mcsp.67resserv67.info",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "gM_rANbedeIHB3Y1ltLG60xS1i2TuYt0PKgAgC1TzR4",
+          "short_id": "29455a3a790acbd0"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 12 - dwt",
+      "server": "201.51.11.65",
+      "server_port": 443,
+      "uuid": "1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "absolute-disaster.org",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/useraction/collect/8a64b355ef0c/",
-        "headers": {
-          "Host": "smartcdn.top"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GiDgVRVYrTkv1mZJeFVWkr736Iey2kqLM6L0eUbffV8",
+          "short_id": ""
         }
       }
     },
@@ -220,7 +233,8 @@
         "🇷🇺 俄罗斯 (Russia) 08 - dwt",
         "🇷🇺 俄罗斯 (Russia) 09 - dwt",
         "🇷🇺 俄罗斯 (Russia) 10 - dwt",
-        "🇷🇺 俄罗斯 (Russia) 11 - dwt"
+        "🇷🇺 俄罗斯 (Russia) 11 - dwt",
+        "🇷🇺 俄罗斯 (Russia) 12 - dwt"
       ]
     },
     {
@@ -237,7 +251,8 @@
         "🇷🇺 俄罗斯 (Russia) 08 - dwt",
         "🇷🇺 俄罗斯 (Russia) 09 - dwt",
         "🇷🇺 俄罗斯 (Russia) 10 - dwt",
-        "🇷🇺 俄罗斯 (Russia) 11 - dwt"
+        "🇷🇺 俄罗斯 (Russia) 11 - dwt",
+        "🇷🇺 俄罗斯 (Russia) 12 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

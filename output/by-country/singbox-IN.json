@@ -4,40 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇮🇳 印度 (India) 01 - dwt",
-      "server": "152.67.8.205",
-      "server_port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 02 - dwt",
-      "server": "in.smrtai.top",
-      "server_port": 443,
-      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
-          "short_id": "6bdc8320"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 03 - dwt",
       "server": "13.140.253.35",
       "server_port": 443,
       "uuid": "06a5afa1-2bbc-a5d1-1770-becd1089c636",
@@ -59,13 +27,32 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇮🇳 印度 (India) 02 - dwt",
+      "server": "178.212.35.198",
+      "server_port": 443,
+      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
+          "short_id": "6bdc8320"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇮🇳 印度 (India) 01 - dwt",
-        "🇮🇳 印度 (India) 02 - dwt",
-        "🇮🇳 印度 (India) 03 - dwt"
+        "🇮🇳 印度 (India) 02 - dwt"
       ]
     },
     {
@@ -73,8 +60,7 @@
       "tag": "auto",
       "outbounds": [
         "🇮🇳 印度 (India) 01 - dwt",
-        "🇮🇳 印度 (India) 02 - dwt",
-        "🇮🇳 印度 (India) 03 - dwt"
+        "🇮🇳 印度 (India) 02 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
