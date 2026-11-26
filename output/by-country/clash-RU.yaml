@@ -5,13 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - dwt
-  server: 194.87.69.12
-  port: 18443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe
-- name: 🇷🇺 俄罗斯 (Russia) 02 - dwt
   server: 147.45.221.225
   port: 443
   udp: true
@@ -23,36 +16,8 @@ proxies:
   network: ws
   ws-opts:
     path: /media/ws/
-- name: 🇷🇺 俄罗斯 (Russia) 03 - dwt
-  server: 136.148.83.69
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 87bb2ac4-b7a1-0001-b11d-2107709ea6cb
-  sni: szqbx-ru-77dc.my-fade.cloud
-  skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 (Russia) 04 - dwt
-  server: 91.206.92.158
-  port: 18443
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
-- name: 🇷🇺 俄罗斯 (Russia) 05 - dwt
-  server: 200.169.179.233
-  port: 443
-  udp: true
-  type: vless
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-  tls: true
-  servername: vps3.nemnogogo.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: mobile.api.Event
-- name: 🇷🇺 俄罗斯 (Russia) 06 - dwt
-  server: dc.insidenet.ru
+- name: 🇷🇺 俄罗斯 (Russia) 02 - dwt
+  server: 45.150.238.201
   port: 20443
   udp: true
   type: vless
@@ -64,7 +29,37 @@ proxies:
     short-id: f847646adc2b82fe
   servername: dc.insidenet.ru
   client-fingerprint: ''
-- name: 🇷🇺 俄罗斯 (Russia) 07 - dwt
+- name: 🇷🇺 俄罗斯 (Russia) 03 - dwt
+  server: 91.206.92.158
+  port: 18443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+- name: 🇷🇺 俄罗斯 (Russia) 04 - dwt
+  server: 201.51.12.98
+  port: 443
+  udp: true
+  type: vless
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  tls: true
+  servername: vps3.nemnogogo.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: mobile.api.Event
+- name: 🇷🇺 俄罗斯 (Russia) 05 - dwt
+  server: 136.148.83.69
+  port: 443
+  udp: true
+  type: vless
+  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
+  tls: true
+  servername: szqbx-ru-77dc.my-fade.cloud
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- name: 🇷🇺 俄罗斯 (Russia) 06 - dwt
   server: 147.45.175.81
   port: 443
   udp: true
@@ -77,22 +72,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-ru
-- name: 🇷🇺 俄罗斯 (Russia) 08 - dwt
-  server: 147.45.175.81
-  port: 443
-  udp: true
-  type: vless
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-  tls: true
-  servername: xsru2.freeddns.org
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: wsru
-    headers:
-      Host: xsru2.freeddns.org
-- name: 🇷🇺 俄罗斯 (Russia) 09 - dwt
+- name: 🇷🇺 俄罗斯 (Russia) 07 - dwt
   server: xssite.webredirect.org
   port: 443
   udp: true
@@ -105,18 +85,55 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-ru
-- name: 🇷🇺 俄罗斯 (Russia) 10 - dwt
-  server: 195.206.235.232
+- name: 🇷🇺 俄罗斯 (Russia) 08 - dwt
+  server: 196.245.52.178
   port: 443
   udp: true
   type: vless
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   tls: true
   reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: 361d0dd59c70516f
-  servername: 5d0319t.nl7.h1clayd.click
+    public-key: zbz--PMjcIC4Ggr3j-ibDf0fzXRTj0lM_HzjPJyMkVE
+    short-id: 50a749f0eccb628c
+  servername: 15b171g.nl7.h1clayd.click
   client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 5b79e8a94241
+- name: 🇷🇺 俄罗斯 (Russia) 09 - dwt
+  server: 136.148.83.70
+  port: 443
+  udp: true
+  type: vless
+  uuid: 00000000-0000-0001-0000-000000000000
+  tls: true
+  servername: aszbk-ru-78dc.my-fade.cloud
+  skip-cert-verify: false
+  client-fingerprint: qq
+- name: 🇷🇺 俄罗斯 (Russia) 10 - dwt
+  server: 136.148.83.70
+  port: 443
+  udp: true
+  type: vless
+  uuid: 00000000-0000-0001-0000-000000000000
+  tls: true
+  servername: aszbk-ru-78dc.my-fade.cloud
+  skip-cert-verify: false
+- name: 🇷🇺 俄罗斯 (Russia) 11 - dwt
+  server: smartcdn.top
+  port: 443
+  udp: true
+  type: vless
+  uuid: 37af0181-5598-4aad-a040-d926bcb65757
+  tls: true
+  servername: smartcdn.top
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /useraction/collect/8a64b355ef0c/
+    headers:
+      Host: smartcdn.top
 proxy-groups:
 - name: PROXIES
   type: select
@@ -132,6 +149,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 08 - dwt
   - 🇷🇺 俄罗斯 (Russia) 09 - dwt
   - 🇷🇺 俄罗斯 (Russia) 10 - dwt
+  - 🇷🇺 俄罗斯 (Russia) 11 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -147,5 +165,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 08 - dwt
   - 🇷🇺 俄罗斯 (Russia) 09 - dwt
   - 🇷🇺 俄罗斯 (Russia) 10 - dwt
+  - 🇷🇺 俄罗斯 (Russia) 11 - dwt
 rules:
 - MATCH,PROXIES

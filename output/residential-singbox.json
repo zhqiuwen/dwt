@@ -12,36 +12,8 @@
       "password": "1234!@#$"
     },
     {
-      "type": "vmess",
-      "tag": "🇨🇳 CN 02 (移动家宽) - dwt",
-      "server": "dog-hk.kunlun01dns.com",
-      "server_port": 21019,
-      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
-      "security": "auto"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - dwt",
-      "server": "dog-tw.kunlun01dns.com",
-      "server_port": 21036,
-      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
-      "security": "auto"
-    },
-    {
       "type": "anytls",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - dwt",
-      "server": "a54ge.df6h451rh.xin",
-      "server_port": 443,
-      "password": "0324fbc29561",
-      "tls": {
-        "enabled": true,
-        "server_name": "docs.microsoft.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "anytls",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - dwt",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - dwt",
       "server": "ibsdsf.df6h451rh.xin",
       "server_port": 443,
       "password": "2902c46c8493",
@@ -52,43 +24,12 @@
       }
     },
     {
-      "type": "anytls",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 (家宽) - dwt",
-      "server": "5641sdds.df6h451rh.xin",
-      "server_port": 443,
-      "password": "0324fbc29561",
-      "tls": {
-        "enabled": true,
-        "server_name": "images.ctfassets.net",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 土耳其 (Turkey) 07 (移动家宽) - dwt",
-      "server": "v2new.nimbaha9.ir",
-      "server_port": 8080,
-      "uuid": "308230a0-0097-4158-98d7-8f09bf339d60",
-      "transport": {
-        "type": "ws",
-        "path": "/XDS45",
-        "headers": {
-          "Host": "v2new.nimbaha9.ir"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇰🇷 韩国 (South Korea) 01 (家宽) - dwt",
-        "🇨🇳 CN 02 (移动家宽) - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - dwt",
-        "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - dwt",
-        "🇭🇰 中国香港 (Hong Kong) 06 (家宽) - dwt",
-        "🇹🇷 土耳其 (Turkey) 07 (移动家宽) - dwt"
+        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - dwt"
       ]
     },
     {
@@ -96,12 +37,7 @@
       "tag": "auto",
       "outbounds": [
         "🇰🇷 韩国 (South Korea) 01 (家宽) - dwt",
-        "🇨🇳 CN 02 (移动家宽) - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - dwt",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - dwt",
-        "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - dwt",
-        "🇭🇰 中国香港 (Hong Kong) 06 (家宽) - dwt",
-        "🇹🇷 土耳其 (Turkey) 07 (移动家宽) - dwt"
+        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

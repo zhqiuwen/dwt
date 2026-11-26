@@ -6,14 +6,6 @@
     {
       "type": "vmess",
       "tag": "🇹🇭 泰国 (Thailand) 01 - dwt",
-      "server": "8.213.211.160",
-      "server_port": 18565,
-      "uuid": "853a251f-de85-40cc-84a6-ab8748c7258c",
-      "security": "auto"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇹🇭 泰国 (Thailand) 02 - dwt",
       "server": "119.46.51.45",
       "server_port": 37515,
       "uuid": "9b76bc31-17a5-4454-934a-8d5fb602cd70",
@@ -21,7 +13,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇹🇭 泰国 (Thailand) 03 - dwt",
+      "tag": "🇹🇭 泰国 (Thailand) 02 - dwt",
       "server": "47.87.64.133",
       "server_port": 18565,
       "uuid": "853a251f-de85-40cc-84a6-ab8748c7258c",
@@ -33,8 +25,7 @@
       "outbounds": [
         "auto",
         "🇹🇭 泰国 (Thailand) 01 - dwt",
-        "🇹🇭 泰国 (Thailand) 02 - dwt",
-        "🇹🇭 泰国 (Thailand) 03 - dwt"
+        "🇹🇭 泰国 (Thailand) 02 - dwt"
       ]
     },
     {
@@ -42,8 +33,7 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇭 泰国 (Thailand) 01 - dwt",
-        "🇹🇭 泰国 (Thailand) 02 - dwt",
-        "🇹🇭 泰国 (Thailand) 03 - dwt"
+        "🇹🇭 泰国 (Thailand) 02 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

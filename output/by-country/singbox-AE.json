@@ -6,7 +6,7 @@
     {
       "type": "shadowsocks",
       "tag": "🇦🇪 阿联酋 (UAE) 01 - dwt",
-      "server": "151.241.19.36",
+      "server": "151.241.19.29",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -14,7 +14,7 @@
     {
       "type": "shadowsocks",
       "tag": "🇦🇪 阿联酋 (UAE) 02 - dwt",
-      "server": "151.241.19.29",
+      "server": "151.241.19.36",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -22,16 +22,14 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 03 - dwt",
-      "server": "94.183.167.172",
-      "server_port": 443,
-      "uuid": "d7121b33-e335-4921-bb00-4c0b157e7fc1",
-      "tls": {
-        "enabled": true,
-        "server_name": "s8k4.scan-cdn.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+      "server": "95.174.68.188",
+      "server_port": 14430,
+      "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
+      "transport": {
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "95.174.68.188"
         }
       }
     },
@@ -71,26 +69,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 06 - dwt",
-      "server": "213.183.41.31",
-      "server_port": 8459,
-      "uuid": "eb62cabf-5901-403a-aa0c-b1d9ed1b346d",
-      "tls": {
-        "enabled": true,
-        "server_name": "photos.plumstatic.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws"
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -99,8 +77,7 @@
         "🇦🇪 阿联酋 (UAE) 02 - dwt",
         "🇦🇪 阿联酋 (UAE) 03 - dwt",
         "🇦🇪 阿联酋 (UAE) 04 - dwt",
-        "🇦🇪 阿联酋 (UAE) 05 - dwt",
-        "🇦🇪 阿联酋 (UAE) 06 - dwt"
+        "🇦🇪 阿联酋 (UAE) 05 - dwt"
       ]
     },
     {
@@ -111,8 +88,7 @@
         "🇦🇪 阿联酋 (UAE) 02 - dwt",
         "🇦🇪 阿联酋 (UAE) 03 - dwt",
         "🇦🇪 阿联酋 (UAE) 04 - dwt",
-        "🇦🇪 阿联酋 (UAE) 05 - dwt",
-        "🇦🇪 阿联酋 (UAE) 06 - dwt"
+        "🇦🇪 阿联酋 (UAE) 05 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

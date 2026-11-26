@@ -12,12 +12,24 @@
       "password": "ff4d354078394558933d699be149ad69"
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 02 - dwt",
-      "server": "tr.subscriptionservice.ir",
-      "server_port": 2089,
-      "method": "chacha20-ietf-poly1305",
-      "password": "lZZzfo1mqH7PqnloAogdi2XBhlgiofMy"
+      "server": "143.246.136.128",
+      "server_port": 50738,
+      "uuid": "56665684-5ac0-4ba9-9d49-8b258fb57974",
+      "tls": {
+        "enabled": true,
+        "server_name": "turkey-ip1.mmdaqaorg.xyz",
+        "insecure": false,
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "type": "selector",

@@ -11,31 +11,7 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: 1234!@#$
-- name: 🇨🇳 CN 02 (移动家宽) - dwt
-  server: dog-hk.kunlun01dns.com
-  port: 21019
-  udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
-- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - dwt
-  server: dog-tw.kunlun01dns.com
-  port: 21036
-  udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - dwt
-  server: a54ge.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: 0324fbc29561
-  sni: docs.microsoft.com
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - dwt
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - dwt
   server: ibsdsf.df6h451rh.xin
   port: 443
   udp: true
@@ -43,48 +19,19 @@ proxies:
   password: 2902c46c8493
   sni: docs.microsoft.com
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - dwt
-  server: 5641sdds.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: 0324fbc29561
-  sni: images.ctfassets.net
-  skip-cert-verify: true
-- name: 🇹🇷 土耳其 (Turkey) 07 (移动家宽) - dwt
-  server: v2new.nimbaha9.ir
-  port: 8080
-  udp: true
-  type: vless
-  uuid: 308230a0-0097-4158-98d7-8f09bf339d60
-  network: ws
-  ws-opts:
-    path: /XDS45
-    headers:
-      Host: v2new.nimbaha9.ir
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - dwt
-  - 🇨🇳 CN 02 (移动家宽) - dwt
-  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - dwt
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - dwt
-  - 🇹🇷 土耳其 (Turkey) 07 (移动家宽) - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - dwt
-  - 🇨🇳 CN 02 (移动家宽) - dwt
-  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - dwt
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - dwt
-  - 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - dwt
-  - 🇹🇷 土耳其 (Turkey) 07 (移动家宽) - dwt
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - dwt
 rules:
 - MATCH,PROXIES

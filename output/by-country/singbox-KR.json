@@ -14,18 +14,18 @@
     {
       "type": "vmess",
       "tag": "🇰🇷 韩国 (South Korea) 02 - dwt",
+      "server": "146.56.112.110",
+      "server_port": 8888,
+      "uuid": "e7c302f3-90d6-42dd-9d7d-94a3683a3707",
+      "security": "auto"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇰🇷 韩国 (South Korea) 03 - dwt",
       "server": "129.154.61.196",
       "server_port": 800,
       "uuid": "a915b1d6-cf28-4dc8-e4b4-e09c48c37ec0",
       "security": "auto"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 03 - dwt",
-      "server": "211.178.105.134",
-      "server_port": 6123,
-      "method": "aes-256-cfb",
-      "password": "qwerREWQ@@"
     },
     {
       "type": "hysteria2",
@@ -35,7 +35,7 @@
       "password": "maintell",
       "tls": {
         "enabled": true,
-        "server_name": "bing.com",
+        "server_name": "152.70.237.123",
         "insecure": true
       }
     },
@@ -52,20 +52,8 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇰🇷 韩国 (South Korea) 06 - dwt",
-      "server": "152.69.231.175",
-      "server_port": 50160,
-      "password": "1beb216e3f60aea9555dae60d219a5ca",
-      "tls": {
-        "enabled": true,
-        "server_name": "152.69.231.175",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇰🇷 韩国 (South Korea) 07 - dwt",
+      "tag": "🇰🇷 韩国 (South Korea) 06 - dwt",
       "server": "152.69.226.63",
       "server_port": 25555,
       "uuid": "27c5483f-17f4-48ae-9a04-def53d88440d",
@@ -76,7 +64,7 @@
     },
     {
       "type": "trojan",
-      "tag": "🇰🇷 韩国 (South Korea) 08 - dwt",
+      "tag": "🇰🇷 韩国 (South Korea) 07 - dwt",
       "server": "168.107.51.32",
       "server_port": 20045,
       "password": "463f7453753f4d47",
@@ -92,13 +80,25 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇰🇷 韩国 (South Korea) 09 - dwt",
+      "tag": "🇰🇷 韩国 (South Korea) 08 - dwt",
       "server": "152.67.200.82",
       "server_port": 50160,
       "password": "3d7634af8cb2c6cb4bac1c0efad8b43d",
       "tls": {
         "enabled": true,
         "server_name": "css.rbxcdn.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇰🇷 韩国 (South Korea) 09 - dwt",
+      "server": "152.69.231.175",
+      "server_port": 50160,
+      "password": "1beb216e3f60aea9555dae60d219a5ca",
+      "tls": {
+        "enabled": true,
+        "server_name": "152.69.231.175",
         "insecure": true
       }
     },
@@ -135,42 +135,12 @@
       }
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇰🇷 韩国 (South Korea) 12 - dwt",
-      "server": "104.25.128.15",
-      "server_port": 443,
-      "uuid": "db906786-8c49-4b17-9182-cea680ef954d",
-      "tls": {
-        "enabled": true,
-        "server_name": "krc.80782636.xyz",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/kw7x2mq9",
-        "headers": {
-          "Host": "krc.80782636.xyz"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇰🇷 韩国 (South Korea) 13 - dwt",
-      "server": "132.145.80.230",
-      "server_port": 80,
-      "uuid": "5155860e-d07d-46c3-9128-3afbd84626c7",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/cctv13.m3u8",
-        "headers": {
-          "Host": "null"
-        }
-      }
+      "server": "218.237.185.234",
+      "server_port": 4652,
+      "method": "aes-256-cfb",
+      "password": "qwerREWQ@@"
     },
     {
       "type": "selector",
@@ -188,8 +158,7 @@
         "🇰🇷 韩国 (South Korea) 09 - dwt",
         "🇰🇷 韩国 (South Korea) 10 - dwt",
         "🇰🇷 韩国 (South Korea) 11 - dwt",
-        "🇰🇷 韩国 (South Korea) 12 - dwt",
-        "🇰🇷 韩国 (South Korea) 13 - dwt"
+        "🇰🇷 韩国 (South Korea) 12 - dwt"
       ]
     },
     {
@@ -207,8 +176,7 @@
         "🇰🇷 韩国 (South Korea) 09 - dwt",
         "🇰🇷 韩国 (South Korea) 10 - dwt",
         "🇰🇷 韩国 (South Korea) 11 - dwt",
-        "🇰🇷 韩国 (South Korea) 12 - dwt",
-        "🇰🇷 韩国 (South Korea) 13 - dwt"
+        "🇰🇷 韩国 (South Korea) 12 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
