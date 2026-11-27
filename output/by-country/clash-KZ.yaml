@@ -1,0 +1,42 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - dwt
+  server: 194.87.224.137
+  port: 15443
+  udp: true
+  type: hysteria2
+  password: lvu_3390f238bef4e3058ac47c87473755cf_07cd5acf7265adf5c1210040ca46facf:np2.1.HJjJucZ0-OZZUq5Njkl48v1gYx7ol9rXjxYXZUxrQdM
+  sni: n9.neproxy.net
+  skip-cert-verify: false
+- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - dwt
+  server: 109.248.170.119
+  port: 13447
+  udp: true
+  type: vless
+  uuid: b573cefb-7bc7-4a42-b407-b8b534e66773
+  tls: true
+  reality-opts:
+    public-key: _0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE
+    short-id: '83'
+  servername: yahoo.com
+  client-fingerprint: chrome
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - dwt
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - dwt
+- name: AUTO
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - dwt
+  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - dwt
+rules:
+- MATCH,PROXIES

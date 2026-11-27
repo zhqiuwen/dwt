@@ -19,89 +19,53 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
 - name: 🇯🇵 日本 (Japan) 03 - dwt
-  server: 8.216.17.86
-  port: 6666
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: '123456'
-- name: 🇯🇵 日本 (Japan) 04 - dwt
   server: 149.22.87.240
   port: 443
   udp: true
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
+- name: 🇯🇵 日本 (Japan) 04 - dwt
+  server: 8.216.4.158
+  port: 5555
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: '123456'
 - name: 🇯🇵 日本 (Japan) 05 - dwt
-  server: 8.216.6.223
+  server: 8.209.221.90
   port: 5555
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: '123456'
 - name: 🇯🇵 日本 (Japan) 06 - dwt
-  server: 8.209.196.11
-  port: 5555
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: '123456'
-- name: 🇯🇵 日本 (Japan) 07 - dwt
-  server: 47.91.2.13
-  port: 5555
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: '123456'
-- name: 🇯🇵 日本 (Japan) 08 - dwt
-  server: 8.216.17.189
-  port: 5555
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: '123456'
-- name: 🇯🇵 日本 (Japan) 09 - dwt
-  server: 8.216.17.19
-  port: 5555
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: '123456'
-- name: 🇯🇵 日本 (Japan) 10 - dwt
-  server: 47.74.24.29
-  port: 5555
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: '123456'
-- name: 🇯🇵 日本 (Japan) 11 - dwt
-  server: 8.216.17.52
-  port: 5555
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: '123456'
-- name: 🇯🇵 日本 (Japan) 12 - dwt
-  server: jpa.123069.xyz
+  server: 168.138.205.100
   port: 53758
   udp: true
   type: ss
   cipher: aes-128-gcm
   password: Bwlqh7GcFB
-- name: 🇯🇵 日本 (Japan) 13 - dwt
-  server: 168.138.43.75
-  port: 80
+- name: 🇯🇵 日本 (Japan) 07 - dwt
+  server: 168.110.63.247
+  port: 8081
   udp: true
   type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  uuid: c3bde296-8e44-4b8c-a325-577d5b3cc7c8
   alterId: 0
   cipher: auto
   network: ws
   ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: 168.138.43.75
-- name: 🇯🇵 日本 (Japan) 14 - dwt
+    path: /vless
+- name: 🇯🇵 日本 (Japan) 08 - dwt
+  server: 8.211.175.236
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: u63SxILNwtrQZ7Y1ZrFaZfsA
+  sni: 8.211.175.236
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 09 - dwt
   server: 158.101.151.157
   port: 443
   udp: true
@@ -114,26 +78,28 @@ proxies:
     short-id: 684c7531e599dec0
   servername: www.microsoft.com
   client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 15 - dwt
-  server: 168.110.63.247
-  port: 8081
+- name: 🇯🇵 日本 (Japan) 10 - dwt
+  server: 161.33.20.255
+  port: 8880
   udp: true
   type: vmess
-  uuid: c3bde296-8e44-4b8c-a325-577d5b3cc7c8
+  uuid: e0856508-d693-450a-a099-455091dc4f25
   alterId: 0
   cipher: auto
   network: ws
   ws-opts:
-    path: /vless
-- name: 🇯🇵 日本 (Japan) 16 - dwt
-  server: 8.211.175.236
-  port: 8443
+    path: /e0856508-d693-450a-a099-455091dc4f25-vm
+- name: 🇯🇵 日本 (Japan) 11 - dwt
+  server: 50.7.159.242
+  port: 443
   udp: true
-  type: hysteria2
-  password: u63SxILNwtrQZ7Y1ZrFaZfsA
-  sni: 8.211.175.236
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 17 - dwt
+  type: vless
+  uuid: 8840fac2-5361-4cb6-b887-cd1b95092394
+  tls: true
+  servername: jp.reddotcorp.org
+  skip-cert-verify: false
+  client-fingerprint: firefox
+- name: 🇯🇵 日本 (Japan) 12 - dwt
   server: 129.225.181.46
   port: 8443
   udp: true
@@ -141,7 +107,7 @@ proxies:
   password: oracle_hy2_pass_2026
   sni: bing.com
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 18 - dwt
+- name: 🇯🇵 日本 (Japan) 13 - dwt
   server: 213.183.41.31
   port: 8463
   udp: true
@@ -154,35 +120,19 @@ proxies:
   network: ws
   ws-opts:
     path: /ws
-- name: 🇯🇵 日本 (Japan) 19 - dwt
-  server: 43.170.8.95
-  port: 443
+- name: 🇯🇵 日本 (Japan) 14 - dwt
+  server: 168.138.43.75
+  port: 80
   udp: true
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
+  type: vmess
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /cctv13.m3u8
     headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 20 - dwt
-  server: 193.123.160.109
-  port: 8443
-  udp: true
-  type: trojan
-  password: F3NzMNuYnG7akU2mSlBY
-  sni: www.microsoft.com
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 21 - dwt
-  server: 103.115.18.249
-  port: 8388
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: DYQ0Uf96MwnEGKIH
+      Host: jp01.a0a.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -202,13 +152,6 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 12 - dwt
   - 🇯🇵 日本 (Japan) 13 - dwt
   - 🇯🇵 日本 (Japan) 14 - dwt
-  - 🇯🇵 日本 (Japan) 15 - dwt
-  - 🇯🇵 日本 (Japan) 16 - dwt
-  - 🇯🇵 日本 (Japan) 17 - dwt
-  - 🇯🇵 日本 (Japan) 18 - dwt
-  - 🇯🇵 日本 (Japan) 19 - dwt
-  - 🇯🇵 日本 (Japan) 20 - dwt
-  - 🇯🇵 日本 (Japan) 21 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -228,12 +171,5 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 12 - dwt
   - 🇯🇵 日本 (Japan) 13 - dwt
   - 🇯🇵 日本 (Japan) 14 - dwt
-  - 🇯🇵 日本 (Japan) 15 - dwt
-  - 🇯🇵 日本 (Japan) 16 - dwt
-  - 🇯🇵 日本 (Japan) 17 - dwt
-  - 🇯🇵 日本 (Japan) 18 - dwt
-  - 🇯🇵 日本 (Japan) 19 - dwt
-  - 🇯🇵 日本 (Japan) 20 - dwt
-  - 🇯🇵 日本 (Japan) 21 - dwt
 rules:
 - MATCH,PROXIES

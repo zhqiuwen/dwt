@@ -5,14 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇺 澳大利亚 (Australia) 01 - dwt
-  server: 3.106.35.101
-  port: 36712
-  udp: true
-  type: hysteria2
-  password: linlin-2026
-  sni: 3.106.35.101
-  skip-cert-verify: true
-- name: 🇦🇺 澳大利亚 (Australia) 02 - dwt
   server: 13.55.52.44
   port: 36712
   udp: true
@@ -20,13 +12,21 @@ proxies:
   password: linlin-2026
   sni: 13.55.52.44
   skip-cert-verify: true
-- name: 🇦🇺 澳大利亚 (Australia) 03 - dwt
+- name: 🇦🇺 澳大利亚 (Australia) 02 - dwt
   server: 13.237.192.121
   port: 36712
   udp: true
   type: hysteria2
   password: linlin-2026
   sni: 13.237.192.121
+  skip-cert-verify: true
+- name: 🇦🇺 澳大利亚 (Australia) 03 - dwt
+  server: 3.106.35.101
+  port: 36712
+  udp: true
+  type: hysteria2
+  password: linlin-2026
+  sni: 3.106.35.101
   skip-cert-verify: true
 - name: 🇦🇺 澳大利亚 (Australia) 04 - dwt
   server: 159.13.55.48

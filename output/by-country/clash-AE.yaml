@@ -5,20 +5,29 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - dwt
-  server: 151.241.19.29
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇦🇪 阿联酋 (UAE) 02 - dwt
   server: 151.241.19.36
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇦🇪 阿联酋 (UAE) 02 - dwt
+  server: 151.241.19.29
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇦🇪 阿联酋 (UAE) 03 - dwt
+  server: 95.174.68.188
+  port: 14430
+  udp: true
+  type: vless
+  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
+  network: ws
+  ws-opts:
+    path: /vless
+- name: 🇦🇪 阿联酋 (UAE) 04 - dwt
   server: 213.183.41.31
   port: 8459
   udp: true
@@ -27,11 +36,10 @@ proxies:
   tls: true
   servername: photos.plumstatic.com
   skip-cert-verify: false
-  client-fingerprint: firefox
   network: ws
   ws-opts:
     path: /ws
-- name: 🇦🇪 阿联酋 (UAE) 04 - dwt
+- name: 🇦🇪 阿联酋 (UAE) 05 - dwt
   server: uae.unixzone.us
   port: 22573
   udp: true
@@ -49,6 +57,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - dwt
   - 🇦🇪 阿联酋 (UAE) 03 - dwt
   - 🇦🇪 阿联酋 (UAE) 04 - dwt
+  - 🇦🇪 阿联酋 (UAE) 05 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -58,5 +67,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 02 - dwt
   - 🇦🇪 阿联酋 (UAE) 03 - dwt
   - 🇦🇪 阿联酋 (UAE) 04 - dwt
+  - 🇦🇪 阿联酋 (UAE) 05 - dwt
 rules:
 - MATCH,PROXIES

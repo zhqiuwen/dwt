@@ -22,14 +22,6 @@
     {
       "type": "shadowsocks",
       "tag": "🇯🇵 日本 (Japan) 03 - dwt",
-      "server": "8.216.17.86",
-      "server_port": 6666,
-      "method": "aes-256-gcm",
-      "password": "123456"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇯🇵 日本 (Japan) 04 - dwt",
       "server": "149.22.87.240",
       "server_port": 443,
       "method": "aes-128-gcm",
@@ -37,8 +29,16 @@
     },
     {
       "type": "shadowsocks",
+      "tag": "🇯🇵 日本 (Japan) 04 - dwt",
+      "server": "8.216.4.158",
+      "server_port": 5555,
+      "method": "aes-256-gcm",
+      "password": "123456"
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇯🇵 日本 (Japan) 05 - dwt",
-      "server": "8.216.6.223",
+      "server": "8.209.221.90",
       "server_port": 5555,
       "method": "aes-256-gcm",
       "password": "123456"
@@ -46,77 +46,38 @@
     {
       "type": "shadowsocks",
       "tag": "🇯🇵 日本 (Japan) 06 - dwt",
-      "server": "8.209.196.11",
-      "server_port": 5555,
-      "method": "aes-256-gcm",
-      "password": "123456"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇯🇵 日本 (Japan) 07 - dwt",
-      "server": "47.91.2.13",
-      "server_port": 5555,
-      "method": "aes-256-gcm",
-      "password": "123456"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇯🇵 日本 (Japan) 08 - dwt",
-      "server": "8.216.17.189",
-      "server_port": 5555,
-      "method": "aes-256-gcm",
-      "password": "123456"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇯🇵 日本 (Japan) 09 - dwt",
-      "server": "8.216.17.19",
-      "server_port": 5555,
-      "method": "aes-256-gcm",
-      "password": "123456"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇯🇵 日本 (Japan) 10 - dwt",
-      "server": "47.74.24.29",
-      "server_port": 5555,
-      "method": "aes-256-gcm",
-      "password": "123456"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇯🇵 日本 (Japan) 11 - dwt",
-      "server": "8.216.17.52",
-      "server_port": 5555,
-      "method": "aes-256-gcm",
-      "password": "123456"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇯🇵 日本 (Japan) 12 - dwt",
-      "server": "jpa.123069.xyz",
+      "server": "168.138.205.100",
       "server_port": 53758,
       "method": "aes-128-gcm",
       "password": "Bwlqh7GcFB"
     },
     {
       "type": "vmess",
-      "tag": "🇯🇵 日本 (Japan) 13 - dwt",
-      "server": "168.138.43.75",
-      "server_port": 80,
-      "uuid": "11c3627f-31e8-4695-dfbd-34076e2f1f5d",
+      "tag": "🇯🇵 日本 (Japan) 07 - dwt",
+      "server": "168.110.63.247",
+      "server_port": 8081,
+      "uuid": "c3bde296-8e44-4b8c-a325-577d5b3cc7c8",
       "security": "auto",
       "transport": {
         "type": "ws",
-        "path": "/cctv13.m3u8",
-        "headers": {
-          "Host": "168.138.43.75"
-        }
+        "path": "/vless"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇯🇵 日本 (Japan) 08 - dwt",
+      "server": "8.211.175.236",
+      "server_port": 8443,
+      "password": "u63SxILNwtrQZ7Y1ZrFaZfsA",
+      "tls": {
+        "enabled": true,
+        "server_name": "8.211.175.236",
+        "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 14 - dwt",
+      "tag": "🇯🇵 日本 (Japan) 09 - dwt",
       "server": "158.101.151.157",
       "server_port": 443,
       "uuid": "66171cbe-0b4b-4b24-99f6-d5a822f4dc9a",
@@ -137,31 +98,35 @@
     },
     {
       "type": "vmess",
-      "tag": "🇯🇵 日本 (Japan) 15 - dwt",
-      "server": "168.110.63.247",
-      "server_port": 8081,
-      "uuid": "c3bde296-8e44-4b8c-a325-577d5b3cc7c8",
+      "tag": "🇯🇵 日本 (Japan) 10 - dwt",
+      "server": "161.33.20.255",
+      "server_port": 8880,
+      "uuid": "e0856508-d693-450a-a099-455091dc4f25",
       "security": "auto",
       "transport": {
         "type": "ws",
-        "path": "/vless"
+        "path": "/e0856508-d693-450a-a099-455091dc4f25-vm"
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇯🇵 日本 (Japan) 16 - dwt",
-      "server": "8.211.175.236",
-      "server_port": 8443,
-      "password": "u63SxILNwtrQZ7Y1ZrFaZfsA",
+      "type": "vless",
+      "tag": "🇯🇵 日本 (Japan) 11 - dwt",
+      "server": "50.7.159.242",
+      "server_port": 443,
+      "uuid": "8840fac2-5361-4cb6-b887-cd1b95092394",
       "tls": {
         "enabled": true,
-        "server_name": "8.211.175.236",
-        "insecure": true
+        "server_name": "jp.reddotcorp.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
       }
     },
     {
       "type": "hysteria2",
-      "tag": "🇯🇵 日本 (Japan) 17 - dwt",
+      "tag": "🇯🇵 日本 (Japan) 12 - dwt",
       "server": "129.225.181.46",
       "server_port": 8443,
       "password": "oracle_hy2_pass_2026",
@@ -173,7 +138,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 18 - dwt",
+      "tag": "🇯🇵 日本 (Japan) 13 - dwt",
       "server": "213.183.41.31",
       "server_port": 8463,
       "uuid": "eb62cabf-5901-403a-aa0c-b1d9ed1b346d",
@@ -192,43 +157,19 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 19 - dwt",
-      "server": "43.170.8.95",
-      "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": false
-      },
+      "type": "vmess",
+      "tag": "🇯🇵 日本 (Japan) 14 - dwt",
+      "server": "168.138.43.75",
+      "server_port": 80,
+      "uuid": "11c3627f-31e8-4695-dfbd-34076e2f1f5d",
+      "security": "auto",
       "transport": {
         "type": "ws",
-        "path": "/tyxyws",
+        "path": "/cctv13.m3u8",
         "headers": {
-          "Host": "jp3.yohototo.top"
+          "Host": "jp01.a0a.xyz"
         }
       }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇯🇵 日本 (Japan) 20 - dwt",
-      "server": "193.123.160.109",
-      "server_port": 8443,
-      "password": "F3NzMNuYnG7akU2mSlBY",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇯🇵 日本 (Japan) 21 - dwt",
-      "server": "103.115.18.249",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "DYQ0Uf96MwnEGKIH"
     },
     {
       "type": "selector",
@@ -248,14 +189,7 @@
         "🇯🇵 日本 (Japan) 11 - dwt",
         "🇯🇵 日本 (Japan) 12 - dwt",
         "🇯🇵 日本 (Japan) 13 - dwt",
-        "🇯🇵 日本 (Japan) 14 - dwt",
-        "🇯🇵 日本 (Japan) 15 - dwt",
-        "🇯🇵 日本 (Japan) 16 - dwt",
-        "🇯🇵 日本 (Japan) 17 - dwt",
-        "🇯🇵 日本 (Japan) 18 - dwt",
-        "🇯🇵 日本 (Japan) 19 - dwt",
-        "🇯🇵 日本 (Japan) 20 - dwt",
-        "🇯🇵 日本 (Japan) 21 - dwt"
+        "🇯🇵 日本 (Japan) 14 - dwt"
       ]
     },
     {
@@ -275,14 +209,7 @@
         "🇯🇵 日本 (Japan) 11 - dwt",
         "🇯🇵 日本 (Japan) 12 - dwt",
         "🇯🇵 日本 (Japan) 13 - dwt",
-        "🇯🇵 日本 (Japan) 14 - dwt",
-        "🇯🇵 日本 (Japan) 15 - dwt",
-        "🇯🇵 日本 (Japan) 16 - dwt",
-        "🇯🇵 日本 (Japan) 17 - dwt",
-        "🇯🇵 日本 (Japan) 18 - dwt",
-        "🇯🇵 日本 (Japan) 19 - dwt",
-        "🇯🇵 日本 (Japan) 20 - dwt",
-        "🇯🇵 日本 (Japan) 21 - dwt"
+        "🇯🇵 日本 (Japan) 14 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
