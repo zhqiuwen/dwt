@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - dwt
-  server: mail1.besttotaldns.com
+  server: 65.109.171.194
   port: 443
   udp: true
   type: vless
@@ -16,6 +16,19 @@ proxies:
   skip-cert-verify: false
   client-fingerprint: chrome
 - name: 🇫🇮 芬兰 (Finland) 02 - dwt
+  server: 2.27.122.255
+  port: 443
+  udp: true
+  type: vless
+  uuid: e307f400-d65e-4afd-bfe2-9a54deca5678
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Uig-31Ux76EreEvx8Ntb0BwS1TkUGbu0LcsQsiAH6wg
+    short-id: d52d3ecf49447c2a
+  servername: sun9-37.userapi.com
+  client-fingerprint: qq
+- name: 🇫🇮 芬兰 (Finland) 03 - dwt
   server: 94.183.164.119
   port: 24433
   udp: true
@@ -23,14 +36,6 @@ proxies:
   password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
   sni: 94.183.164.119
   skip-cert-verify: true
-- name: 🇫🇮 芬兰 (Finland) 03 - dwt
-  server: 4f070970.con.metricdraft.tech
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 030e421e-9317-4cb8-8fbe-a07a565ad3db
-  sni: 4f070970.con.metricdraft.tech
-  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select

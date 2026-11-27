@@ -25,8 +25,20 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇮🇱 以色列 (Israel) 02 - dwt",
+      "server": "129.159.156.109",
+      "server_port": 50160,
+      "password": "f25f19f29ce3fb53a35bf1b35b452a43",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇱 以色列 (Israel) 03 - dwt",
       "server": "164.37.224.238",
       "server_port": 443,
       "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
@@ -45,46 +57,13 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇮🇱 以色列 (Israel) 03 - dwt",
-      "server": "129.159.156.109",
-      "server_port": 50160,
-      "password": "f25f19f29ce3fb53a35bf1b35b452a43",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇱 以色列 (Israel) 04 - dwt",
-      "server": "195.206.235.72",
-      "server_port": 443,
-      "uuid": "26843758-24de-4f76-b5d0-624038e353c4",
-      "tls": {
-        "enabled": true,
-        "server_name": "71b840t.de7.h1clayd.click",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE",
-          "short_id": "e572b6579ea525d4"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇮🇱 以色列 (Israel) 01 - dwt",
         "🇮🇱 以色列 (Israel) 02 - dwt",
-        "🇮🇱 以色列 (Israel) 03 - dwt",
-        "🇮🇱 以色列 (Israel) 04 - dwt"
+        "🇮🇱 以色列 (Israel) 03 - dwt"
       ]
     },
     {
@@ -93,8 +72,7 @@
       "outbounds": [
         "🇮🇱 以色列 (Israel) 01 - dwt",
         "🇮🇱 以色列 (Israel) 02 - dwt",
-        "🇮🇱 以色列 (Israel) 03 - dwt",
-        "🇮🇱 以色列 (Israel) 04 - dwt"
+        "🇮🇱 以色列 (Israel) 03 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
