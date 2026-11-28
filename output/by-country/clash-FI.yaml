@@ -29,6 +29,69 @@ proxies:
   servername: sun9-37.userapi.com
   client-fingerprint: qq
 - name: 🇫🇮 芬兰 (Finland) 03 - dwt
+  server: 31.76.8.195
+  port: 443
+  udp: true
+  type: vless
+  uuid: e894c08a-fecc-46f5-bf03-c95d0274c79d
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: pFmgbfd2eUSmge-8f0dF7Yjo8OFaZWuZ3UWC7EXjwmg
+    short-id: ae3cdc4eca7374a8
+  servername: lesson12.schoolpizorbz.xyz
+  client-fingerprint: firefox
+- name: 🇫🇮 芬兰 (Finland) 04 - dwt
+  server: 48.102.138.212
+  port: 443
+  udp: true
+  type: vless
+  uuid: e894c08a-fecc-46f5-bf03-c95d0274c79d
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: luf3doVXhkblZF7R3E5m1hc_e6dYmEn2rrgoGBvQaEU
+    short-id: 68bf8009e520f8da
+  servername: lesson13.schoolpizorbz.xyz
+  client-fingerprint: firefox
+- name: 🇫🇮 芬兰 (Finland) 05 - dwt
+  server: 201.58.176.19
+  port: 443
+  udp: true
+  type: vless
+  uuid: e894c08a-fecc-46f5-bf03-c95d0274c79d
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: LkXRut71yrHguNpmKfCrLITrAxk7amJiI2npZ4jRYx8
+    short-id: 06df4d3e93672c24
+  servername: lesson9.schoolpizorbz.xyz
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 06 - dwt
+  server: 31.76.21.252
+  port: 443
+  udp: true
+  type: vless
+  uuid: e894c08a-fecc-46f5-bf03-c95d0274c79d
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: hkbj7k2VDqVjrwQLXhoWIgjUwGOKFJ9Y1gdCv2YGQik
+    short-id: 190004e1840538bf
+  servername: lesson5.schoolpizorbz.xyz
+  client-fingerprint: firefox
+- name: 🇫🇮 芬兰 (Finland) 07 - dwt
+  server: 85.8.201.186
+  port: 443
+  udp: true
+  type: vless
+  uuid: 7aa77858-f235-000c-9434-7ab060848b17
+  flow: xtls-rprx-vision
+  tls: true
+  servername: cdn.mornismp.ru
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 08 - dwt
   server: 94.183.164.119
   port: 24433
   udp: true
@@ -44,6 +107,11 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 01 - dwt
   - 🇫🇮 芬兰 (Finland) 02 - dwt
   - 🇫🇮 芬兰 (Finland) 03 - dwt
+  - 🇫🇮 芬兰 (Finland) 04 - dwt
+  - 🇫🇮 芬兰 (Finland) 05 - dwt
+  - 🇫🇮 芬兰 (Finland) 06 - dwt
+  - 🇫🇮 芬兰 (Finland) 07 - dwt
+  - 🇫🇮 芬兰 (Finland) 08 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -52,5 +120,10 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 01 - dwt
   - 🇫🇮 芬兰 (Finland) 02 - dwt
   - 🇫🇮 芬兰 (Finland) 03 - dwt
+  - 🇫🇮 芬兰 (Finland) 04 - dwt
+  - 🇫🇮 芬兰 (Finland) 05 - dwt
+  - 🇫🇮 芬兰 (Finland) 06 - dwt
+  - 🇫🇮 芬兰 (Finland) 07 - dwt
+  - 🇫🇮 芬兰 (Finland) 08 - dwt
 rules:
 - MATCH,PROXIES

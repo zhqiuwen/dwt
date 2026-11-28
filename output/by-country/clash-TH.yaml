@@ -13,6 +13,17 @@ proxies:
   alterId: 0
   cipher: auto
 - name: 🇹🇭 泰国 (Thailand) 02 - dwt
+  server: 108.138.26.63
+  port: 80
+  udp: true
+  type: vless
+  uuid: 05f53797-bd04-4006-8a78-41c071e67837
+  network: ws
+  ws-opts:
+    path: /tikvpn2/
+    headers:
+      Host: d27g7kjkk3cw22.cloudfront.net
+- name: 🇹🇭 泰国 (Thailand) 03 - dwt
   server: 195.58.46.231
   port: 443
   udp: true
@@ -34,6 +45,7 @@ proxy-groups:
   - AUTO
   - 🇹🇭 泰国 (Thailand) 01 - dwt
   - 🇹🇭 泰国 (Thailand) 02 - dwt
+  - 🇹🇭 泰国 (Thailand) 03 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -41,5 +53,6 @@ proxy-groups:
   proxies:
   - 🇹🇭 泰国 (Thailand) 01 - dwt
   - 🇹🇭 泰国 (Thailand) 02 - dwt
+  - 🇹🇭 泰国 (Thailand) 03 - dwt
 rules:
 - MATCH,PROXIES

@@ -6,54 +6,134 @@ log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - dwt
   server: 217.30.10.44
-  port: 9006
+  port: 9099
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: FAdUvMJUq5vDgKEq
+  password: 7heRqkPG3hg4UnRm
 - name: 🇵🇱 波兰 (Poland) 02 - dwt
+  server: 217.30.10.44
+  port: 9052
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: jt2ekBNc9HuVtm2a
+- name: 🇵🇱 波兰 (Poland) 03 - dwt
+  server: 217.30.10.44
+  port: 9095
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: N7j3pdTYkKmsy8CR
+- name: 🇵🇱 波兰 (Poland) 04 - dwt
   server: 217.30.10.44
   port: 9076
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: S2zDyyPcmZN2h8EC
-- name: 🇵🇱 波兰 (Poland) 03 - dwt
-  server: 194.87.224.137
-  port: 9443
+- name: 🇵🇱 波兰 (Poland) 05 - dwt
+  server: 217.30.10.44
+  port: 9006
   udp: true
-  type: hysteria2
-  password: lvu_3390f238bef4e3058ac47c87473755cf_07cd5acf7265adf5c1210040ca46facf:np2.1.HJjJucZ0-OZZUq5Njkl48v1gYx7ol9rXjxYXZUxrQdM
-  sni: n34.neproxy.net
-  skip-cert-verify: false
-- name: 🇵🇱 波兰 (Poland) 04 - dwt
-  server: 150.251.113.34
+  type: ss
+  cipher: aes-256-cfb
+  password: FAdUvMJUq5vDgKEq
+- name: 🇵🇱 波兰 (Poland) 06 - dwt
+  server: 201.58.178.197
   port: 443
   udp: true
   type: vless
-  uuid: d7d724b5-17ce-4f3c-877d-dfbf0f07afa1
+  uuid: e894c08a-fecc-46f5-bf03-c95d0274c79d
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: 8yMLSTbkpJFfbgTjNzotzz7U8OT6AERrclgKdKrXXW8
-    short-id: 150a627d15154cf2
-  servername: www.cloudflare.com
+    public-key: EUuZAVtneL8O7MgjETmHvOyInaxqJu2RD6hiFQdDPwk
+    short-id: 0df067145606c0b0
+  servername: lesson4.schoolpizorbz.xyz
   client-fingerprint: chrome
-- name: 🇵🇱 波兰 (Poland) 05 - dwt
-  server: 188.225.56.100
+- name: 🇵🇱 波兰 (Poland) 07 - dwt
+  server: 177.202.76.30
   port: 443
   udp: true
   type: vless
-  uuid: b432a23a-acff-425c-bf69-70480cd6ed09
+  uuid: e894c08a-fecc-46f5-bf03-c95d0274c79d
+  flow: xtls-rprx-vision
   tls: true
-  servername: e2.cdnwh.icu
+  reality-opts:
+    public-key: G465rpA3czwxSTrjkcl0KK6HohO5G8do2MxjcRbULSA
+    short-id: d52f9a703c9bf2d9
+  servername: lesson14.schoolpizorbz.xyz
+  client-fingerprint: firefox
+- name: 🇵🇱 波兰 (Poland) 08 - dwt
+  server: 45.194.66.177
+  port: 443
+  udp: true
+  type: vless
+  uuid: 352a250d-080b-47b5-b7db-f9f8fa31c551
+  flow: xtls-rprx-vision
+  tls: true
+  servername: 31tawwo0.virtual-network.lol
   skip-cert-verify: false
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /stream/segment/3078a41dd7eb/
-    headers:
-      Host: e2.cdnwh.icu
+  client-fingerprint: firefox
+- name: 🇵🇱 波兰 (Poland) 09 - dwt
+  server: 150.241.87.52
+  port: 443
+  udp: true
+  type: vless
+  uuid: ecc0e60a-f2cc-4266-8353-b228df89730a
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GBO_paFyK9FihgPMH8r_vHa4IKMkSGfvAQ2fhPK_1H4
+  servername: pl.galacticworld.online
+  client-fingerprint: chrome
+- name: 🇵🇱 波兰 (Poland) 10 - dwt
+  server: 201.58.178.207
+  port: 443
+  udp: true
+  type: vless
+  uuid: e894c08a-fecc-46f5-bf03-c95d0274c79d
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: S8sWDQftwzUiNredawkRmbDxar70w2uX3y1EJISvQBo
+    short-id: fd417540c0fab072
+  servername: lesson2.schoolpizorbz.xyz
+  client-fingerprint: firefox
+- name: 🇵🇱 波兰 (Poland) 11 - dwt
+  server: 48.102.174.147
+  port: 443
+  udp: true
+  type: vless
+  uuid: e894c08a-fecc-46f5-bf03-c95d0274c79d
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Wpmzv6fsZD7Lgbxtad3Of-XEl6T2qnjq_GDLCh6eOAg
+    short-id: 4e1a1a1c3d18869e
+  servername: lesson15.schoolpizorbz.xyz
+  client-fingerprint: firefox
+- name: 🇵🇱 波兰 (Poland) 12 - dwt
+  server: 201.58.178.236
+  port: 443
+  udp: true
+  type: vless
+  uuid: e894c08a-fecc-46f5-bf03-c95d0274c79d
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: AdOl7XVxVk4Yb_tBxjrG-FP5elV_V2MeI_6WVC4H41s
+    short-id: d14566fcec627162
+  servername: lesson1.schoolpizorbz.xyz
+  client-fingerprint: firefox
+- name: 🇵🇱 波兰 (Poland) 13 - dwt
+  server: 217.30.10.44
+  port: 9063
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: aQqJbtwFGcCCaeL3
 proxy-groups:
 - name: PROXIES
   type: select
@@ -64,6 +144,14 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 03 - dwt
   - 🇵🇱 波兰 (Poland) 04 - dwt
   - 🇵🇱 波兰 (Poland) 05 - dwt
+  - 🇵🇱 波兰 (Poland) 06 - dwt
+  - 🇵🇱 波兰 (Poland) 07 - dwt
+  - 🇵🇱 波兰 (Poland) 08 - dwt
+  - 🇵🇱 波兰 (Poland) 09 - dwt
+  - 🇵🇱 波兰 (Poland) 10 - dwt
+  - 🇵🇱 波兰 (Poland) 11 - dwt
+  - 🇵🇱 波兰 (Poland) 12 - dwt
+  - 🇵🇱 波兰 (Poland) 13 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -74,5 +162,13 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 03 - dwt
   - 🇵🇱 波兰 (Poland) 04 - dwt
   - 🇵🇱 波兰 (Poland) 05 - dwt
+  - 🇵🇱 波兰 (Poland) 06 - dwt
+  - 🇵🇱 波兰 (Poland) 07 - dwt
+  - 🇵🇱 波兰 (Poland) 08 - dwt
+  - 🇵🇱 波兰 (Poland) 09 - dwt
+  - 🇵🇱 波兰 (Poland) 10 - dwt
+  - 🇵🇱 波兰 (Poland) 11 - dwt
+  - 🇵🇱 波兰 (Poland) 12 - dwt
+  - 🇵🇱 波兰 (Poland) 13 - dwt
 rules:
 - MATCH,PROXIES

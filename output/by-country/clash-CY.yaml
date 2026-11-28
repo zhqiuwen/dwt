@@ -4,24 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇪 爱尔兰 (Ireland) 01 - dwt
-  server: 146.70.90.195
-  port: 17453
+- name: 🇨🇾 塞浦路斯 (Cyprus) 01 - dwt
+  server: 45.15.168.192
+  port: 53844
   udp: true
   type: ss
-  cipher: aes-128-gcm
-  password: cVCf+5/dBI353UY4YcN3nS05znsJYtLF
+  cipher: aes-256-gcm
+  password: YlRC1gM26W2b9DrNGuW7Ol+6D3yZkF2uMLfT1DTGPiM=
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇪 爱尔兰 (Ireland) 01 - dwt
+  - 🇨🇾 塞浦路斯 (Cyprus) 01 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇪 爱尔兰 (Ireland) 01 - dwt
+  - 🇨🇾 塞浦路斯 (Cyprus) 01 - dwt
 rules:
 - MATCH,PROXIES

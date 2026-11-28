@@ -4,12 +4,23 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "hysteria2",
       "tag": "🇦🇺 澳大利亚 (Australia) 01 - dwt",
-      "server": "38.91.107.49",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto"
+      "server": "159.13.55.48",
+      "password": "b42d90fa667942aebc734d60",
+      "tls": {
+        "enabled": true,
+        "server_name": "hy2-au2.whuiy.xyz",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "b42d90fa667942aebc734d60"
+      },
+      "server_ports": [
+        "20000:30000",
+        "20000:20000"
+      ]
     },
     {
       "type": "hysteria2",
@@ -28,27 +39,8 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇦🇺 澳大利亚 (Australia) 03 - dwt",
-      "server": "159.13.55.48",
-      "password": "b42d90fa667942aebc734d60",
-      "tls": {
-        "enabled": true,
-        "server_name": "hy2-au2.whuiy.xyz",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "b42d90fa667942aebc734d60"
-      },
-      "server_ports": [
-        "20000:30000",
-        "20000:20000"
-      ]
-    },
-    {
       "type": "vless",
-      "tag": "🇦🇺 澳大利亚 (Australia) 04 - dwt",
+      "tag": "🇦🇺 澳大利亚 (Australia) 03 - dwt",
       "server": "46.250.246.11",
       "server_port": 8443,
       "uuid": "591e7de6-f2dd-4ff9-ae21-8e00d5affa2a",
@@ -76,8 +68,7 @@
         "auto",
         "🇦🇺 澳大利亚 (Australia) 01 - dwt",
         "🇦🇺 澳大利亚 (Australia) 02 - dwt",
-        "🇦🇺 澳大利亚 (Australia) 03 - dwt",
-        "🇦🇺 澳大利亚 (Australia) 04 - dwt"
+        "🇦🇺 澳大利亚 (Australia) 03 - dwt"
       ]
     },
     {
@@ -86,8 +77,7 @@
       "outbounds": [
         "🇦🇺 澳大利亚 (Australia) 01 - dwt",
         "🇦🇺 澳大利亚 (Australia) 02 - dwt",
-        "🇦🇺 澳大利亚 (Australia) 03 - dwt",
-        "🇦🇺 澳大利亚 (Australia) 04 - dwt"
+        "🇦🇺 澳大利亚 (Australia) 03 - dwt"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

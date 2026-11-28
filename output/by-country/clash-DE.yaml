@@ -19,48 +19,70 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇩🇪 德国 (Germany) 03 - dwt
-  server: 91.107.153.158
-  port: 43160
-  udp: true
-  type: vmess
-  uuid: 90274ec6-5781-49db-8ae2-d011d5763b83
-  alterId: 0
-  cipher: auto
-- name: 🇩🇪 德国 (Germany) 04 - dwt
-  server: 91.107.153.158
-  port: 41452
-  udp: true
-  type: vless
-  uuid: 90274ec6-5781-49db-8ae2-d011d5763b83
-- name: 🇩🇪 德国 (Germany) 05 - dwt
-  server: 213.202.208.199
-  port: 5000
+  server: 18.135.5.220
+  port: 443
   udp: true
   type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-- name: 🇩🇪 德国 (Germany) 06 - dwt
+  cipher: 2022-blake3-chacha20-poly1305
+  password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
+- name: 🇩🇪 德国 (Germany) 04 - dwt
   server: 45.15.166.254
   port: 1080
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 2ZO4D8H-lPk6RW5s68bQqGloK8iDpaQm
+- name: 🇩🇪 德国 (Germany) 05 - dwt
+  server: 146.70.20.147
+  port: 8080
+  udp: true
+  type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇩🇪 德国 (Germany) 06 - dwt
+  server: 9.247.23.209
+  port: 443
+  udp: true
+  type: vless
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: mother-earth.fyi
+  client-fingerprint: chrome
 - name: 🇩🇪 德国 (Germany) 07 - dwt
-  server: 213.202.208.199
-  port: 7001
+  server: 9.247.23.209
+  port: 443
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
+  type: vless
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: mother-earth.fyi
+  client-fingerprint: chrome
 - name: 🇩🇪 德国 (Germany) 08 - dwt
-  server: 185.226.172.8
-  port: 8008
+  server: 9.247.23.209
+  port: 443
+  udp: true
+  type: vless
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: mother-earth.fyi
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 09 - dwt
+  server: 169.150.210.233
+  port: 8080
   udp: true
   type: ss
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-- name: 🇩🇪 德国 (Germany) 09 - dwt
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+- name: 🇩🇪 德国 (Germany) 10 - dwt
   server: 78.17.215.141
   port: 443
   udp: true
@@ -73,15 +95,8 @@ proxies:
     short-id: 457fab2ac885dbe0
   servername: de15-r.bankai.party
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 10 - dwt
-  server: 146.70.20.147
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
 - name: 🇩🇪 德国 (Germany) 11 - dwt
-  server: 9.247.23.209
+  server: 163.245.42.56
   port: 443
   udp: true
   type: vless
@@ -93,29 +108,23 @@ proxies:
   servername: mother-earth.fyi
   client-fingerprint: chrome
 - name: 🇩🇪 德国 (Germany) 12 - dwt
-  server: 9.247.23.209
-  port: 443
+  server: 185.226.172.8
+  port: 8008
   udp: true
-  type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  servername: mother-earth.fyi
-  client-fingerprint: chrome
+  type: ss
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
 - name: 🇩🇪 德国 (Germany) 13 - dwt
-  server: 9.247.23.209
-  port: 443
+  server: 193.108.119.87
+  port: 1270
   udp: true
-  type: vless
-  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
-  flow: xtls-rprx-vision
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   tls: true
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  servername: mother-earth.fyi
-  client-fingerprint: chrome
+  servername: xmfhlpy.com
+  skip-cert-verify: false
 - name: 🇩🇪 德国 (Germany) 14 - dwt
   server: 185.177.229.95
   port: 1270
@@ -128,16 +137,37 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇩🇪 德国 (Germany) 15 - dwt
-  server: 179.61.138.145
-  port: 36264
+  server: 94.130.237.57
+  port: 27154
   udp: true
-  type: hysteria2
-  password: vpNJEy
-  sni: de2.jey.cc.cd
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: Telegram@vpnjey
+  type: vless
+  uuid: d9d02f3e-c877-4a1f-990e-f2418777f745
+  network: httpupgrade
+  httpupgrade-opts:
+    path: /Telegram=@AmyraxVPN
+    headers:
+      Host: 94.130.237.57
 - name: 🇩🇪 德国 (Germany) 16 - dwt
+  server: 193.108.117.61
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇩🇪 德国 (Germany) 17 - dwt
+  server: 91.107.169.224
+  port: 80
+  udp: true
+  type: vmess
+  uuid: 014f8bf6-9221-4f99-838f-4c16ca90334f
+  alterId: 0
+  cipher: auto
+  network: httpupgrade
+- name: 🇩🇪 德国 (Germany) 18 - dwt
   server: 91.107.185.86
   port: 16893
   udp: true
@@ -149,67 +179,45 @@ proxies:
     short-id: 849711f2b99d1176
   servername: play.google.com
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 17 - dwt
-  server: 169.150.210.233
-  port: 8080
-  udp: true
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-- name: 🇩🇪 德国 (Germany) 18 - dwt
-  server: 147.45.63.72
-  port: 443
-  udp: true
-  type: vless
-  uuid: 61c9aca3-c23b-4410-a85d-85fda46a76cc
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: HOcF5cfoTxZdRezSs2oSr0y9Zt9xFfS8oIsIplh5_hk
-    short-id: 14bc9cf52a8fd11c
-  servername: dhgpp.kramiliantha.sbs
-  client-fingerprint: firefox
 - name: 🇩🇪 德国 (Germany) 19 - dwt
-  server: 91.107.169.224
+  server: ov-germany1.09vpn.com
   port: 80
   udp: true
-  type: vmess
-  uuid: 014f8bf6-9221-4f99-838f-4c16ca90334f
-  alterId: 0
-  cipher: auto
-  network: httpupgrade
+  type: vless
+  uuid: 7d90f043-ed7f-40c9-ac2f-352987904958
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: OV-Germany1.09vpn.com
 - name: 🇩🇪 德国 (Germany) 20 - dwt
-  server: 193.108.119.87
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇩🇪 德国 (Germany) 21 - dwt
-  server: 191.217.215.186
-  port: 2053
+  server: 172.64.150.43
+  port: 2052
   udp: true
   type: vless
-  uuid: fbe22815-0718-4eae-816f-e91c67d15b54
-  flow: xtls-rprx-vision
-  tls: true
-  servername: ekb.eg
-  skip-cert-verify: true
-  client-fingerprint: firefox
-- name: 🇩🇪 德国 (Germany) 22 - dwt
-  server: 193.108.117.61
-  port: 1270
+  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+  network: ws
+  ws-opts:
+    path: /rain1226
+    headers:
+      Host: eu02.123450908.xyz
+- name: 🇩🇪 德国 (Germany) 21 - dwt
+  server: 179.61.138.145
+  port: 36264
   udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
+  type: hysteria2
+  password: vpNJEy
+  sni: de2.jey.cc.cd
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+- name: 🇩🇪 德国 (Germany) 22 - dwt
+  server: 135.126.21.106
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 6ac6d17d-040c-4fab-940e-8f5d72c3fed6
+  sni: de1-balance.rezproffx.ru
   skip-cert-verify: false
 - name: 🇩🇪 德国 (Germany) 23 - dwt
   server: 82.39.171.12
@@ -225,7 +233,21 @@ proxies:
   servername: yahoo.com
   client-fingerprint: chrome
 - name: 🇩🇪 德国 (Germany) 24 - dwt
-  server: ifi1.modemjibi.com
+  server: 178.162.254.38
+  port: 8388
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: itzvpn@321
+- name: 🇩🇪 德国 (Germany) 25 - dwt
+  server: 57.129.113.16
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: NcAXc0UZI6yQJE1p8QmOv8
+- name: 🇩🇪 德国 (Germany) 26 - dwt
+  server: 89.167.2.185
   port: 993
   udp: true
   type: vless
@@ -237,39 +259,19 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇩🇪 德国 (Germany) 25 - dwt
-  server: 104.27.97.42
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 3692de53-42e6-4aed-a522-40ec355dcd2f
-  tls: true
-  servername: free.sahanwickramasinghe.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.com
-- name: 🇩🇪 德国 (Germany) 26 - dwt
-  server: 57.129.113.16
-  port: 8388
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: NcAXc0UZI6yQJE1p8QmOv8
 - name: 🇩🇪 德国 (Germany) 27 - dwt
-  server: 176.98.176.60
+  server: leviko-de9982.shopingggg.ir
   port: 443
   udp: true
   type: vless
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+  uuid: a346c521-7a7f-452b-9356-a4893feb5982
   flow: xtls-rprx-vision
   tls: true
-  servername: mosaic.topp-con.xyz
-  skip-cert-verify: false
-  client-fingerprint: firefox
+  reality-opts:
+    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+    short-id: 457fab2ac885dbe0
+  servername: ee1-r.bankai.party
+  client-fingerprint: chrome
 - name: 🇩🇪 德国 (Germany) 28 - dwt
   server: 72.56.238.135
   port: 443
@@ -286,20 +288,58 @@ proxies:
     headers:
       Host: bookend.filnex.baby
 - name: 🇩🇪 德国 (Germany) 29 - dwt
-  server: 47.254.167.157
+  server: 104.17.70.206
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 3692de53-42e6-4aed-a522-40ec355dcd2f
+  tls: true
+  servername: free.sahanwickramasinghe.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.com
+- name: 🇩🇪 德国 (Germany) 30 - dwt
+  server: Ir.wbzo.ir
+  port: 2080
+  udp: true
+  type: vmess
+  uuid: b7e3e8af-d1ca-45da-a95f-8b9ad77398b1
+  alterId: 0
+  cipher: auto
+- name: 🇩🇪 德国 (Germany) 31 - dwt
+  server: 93.123.101.198
   port: 443
   udp: true
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-- name: 🇩🇪 德国 (Germany) 30 - dwt
-  server: 178.162.254.38
-  port: 8388
+  type: vless
+  uuid: a346c521-7a7f-452b-9356-a4893feb5982
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+  servername: de14-r.bankai.party
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 32 - dwt
+  server: 213.202.208.199
+  port: 5000
   udp: true
   type: ss
   cipher: aes-256-gcm
-  password: itzvpn@321
-- name: 🇩🇪 德国 (Germany) 31 - dwt
+  password: Y6R9pAtvxxzmGC
+- name: 🇩🇪 德国 (Germany) 33 - dwt
+  server: 191.217.215.228
+  port: 2053
+  udp: true
+  type: vless
+  uuid: fbe22815-0718-4eae-816f-e91c67d15b54
+  flow: xtls-rprx-vision
+  tls: true
+  servername: 191.217.215.228
+  skip-cert-verify: false
+  client-fingerprint: firefox
+- name: 🇩🇪 德国 (Germany) 34 - dwt
   server: 191.217.215.228
   port: 2096
   udp: true
@@ -308,12 +348,31 @@ proxies:
   tls: true
   servername: st3b6e5.rumedia-cdn.com
   skip-cert-verify: false
-  client-fingerprint: firefox
   network: ws
   ws-opts:
     path: /cdn/v3/live
     headers:
       Host: st3b6e5.rumedia-cdn.com
+- name: 🇩🇪 德国 (Germany) 35 - dwt
+  server: 196.196.148.177
+  port: 443
+  udp: true
+  type: vless
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw
+    short-id: 6976d670818644cc
+  servername: 4935e4t.de25.h1clayd.click
+  client-fingerprint: firefox
+- name: 🇩🇪 德国 (Germany) 36 - dwt
+  server: 47.254.167.157
+  port: 443
+  udp: true
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
 proxy-groups:
 - name: PROXIES
   type: select
@@ -350,6 +409,11 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 29 - dwt
   - 🇩🇪 德国 (Germany) 30 - dwt
   - 🇩🇪 德国 (Germany) 31 - dwt
+  - 🇩🇪 德国 (Germany) 32 - dwt
+  - 🇩🇪 德国 (Germany) 33 - dwt
+  - 🇩🇪 德国 (Germany) 34 - dwt
+  - 🇩🇪 德国 (Germany) 35 - dwt
+  - 🇩🇪 德国 (Germany) 36 - dwt
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -386,5 +450,10 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 29 - dwt
   - 🇩🇪 德国 (Germany) 30 - dwt
   - 🇩🇪 德国 (Germany) 31 - dwt
+  - 🇩🇪 德国 (Germany) 32 - dwt
+  - 🇩🇪 德国 (Germany) 33 - dwt
+  - 🇩🇪 德国 (Germany) 34 - dwt
+  - 🇩🇪 德国 (Germany) 35 - dwt
+  - 🇩🇪 德国 (Germany) 36 - dwt
 rules:
 - MATCH,PROXIES
